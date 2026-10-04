@@ -1,6 +1,6 @@
 {
   "version": "2.1.0-build02",
-  "status": "CI_PENDING",
+  "status": "PASS",
   "gates": [
     {
       "id": "RE-01",
@@ -63,5 +63,18 @@
       "evidence": "identical structured cases return identical output"
     }
   ],
-  "closure_rule": "Reasoning Engine may become PRESENT only after Build 02 CI success and a final validation-state commit."
+  "closure_rule": "Reasoning Engine may become PRESENT only after Build 02 CI success and a final validation-state commit.",
+  "validated_commit": "4bc8ac5e8e4c8fe4be7946ef80591026fa9791d7",
+  "ci": {
+    "status": "success",
+    "workflow": "Test Reasoning Engine",
+    "run_id": 37243506316
+  },
+  "result": "VALIDATED_FOR_QUALITATIVE_CANONICAL_REASONING",
+  "limitations": [
+    "No calibrated effect magnitudes or runtime coefficients yet.",
+    "Raw platform metrics are intentionally rejected until Measurement/Calibration maps them.",
+    "Qualitative path priority is retrieval ordering, not scientific effect strength.",
+    "Scientific knowledge updates require explicit research/version-control workflow; account feedback remains operational-only."
+  ]
 }

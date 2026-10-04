@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 16,
+  "revision": 17,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -246,7 +246,7 @@
     {
       "id": "O5",
       "name": "Validated reasoning system",
-      "state": "IN_PROGRESS"
+      "state": "PRESENT"
     },
     {
       "id": "O6",
@@ -265,28 +265,23 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Validate Reasoning Engine v2 Build 02 in CI. If green, write the final reasoning validation audit, mark O5 PRESENT, and proceed to Measurement/Calibration.",
+  "next_action": "Begin Measurement/Calibration v2. Audit legacy proxy mappings, define measurement objects and validity classes, prevent platform metrics from being treated as latent states, and add a calibration layer that can learn account-local operational parameters without mutating scientific evidence.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
-      "REASONING_ENGINE"
+      "MEASUREMENT",
+      "EMPIRICAL_CALIBRATION"
     ],
-    "cycle": "REASONING_V2_BUILD_02",
-    "status": "HARDENED_RUNTIME_CI_PENDING",
-    "reasoning_features": [
-      "qualitative typed-edge traversal",
-      "accepted/provisional/system semantic separation",
-      "causal-language ceilings",
-      "opposing evidence propagation",
-      "user-hypothesis evidence cap",
-      "context qualification without numeric multiplier",
-      "provenance-rich trace",
-      "competing-path tension preservation",
-      "system opportunity gating",
-      "account-local feedback isolation"
-    ],
-    "no_uncalibrated_runtime_weights": true,
-    "next": "Pass CI then perform final reasoning-engine validation closure."
+    "cycle": "MEASUREMENT_CALIBRATION_BUILD_01",
+    "status": "REASONING_ENGINE_VALIDATED_MEASUREMENT_NEXT",
+    "reasoning_engine": {
+      "status": "PRESENT",
+      "version": "v2.1 qualitative canonical runtime",
+      "validated_commit": "4bc8ac5e8e4c8fe4be7946ef80591026fa9791d7",
+      "ci_run_id": 37243506316,
+      "no_uncalibrated_runtime_weights": true
+    },
+    "next": "Build Measurement/Calibration v2: raw observables -> measurement objects -> bounded latent evidence, with construct-validity warnings, baseline handling, uncertainty, and account-local calibration separated from scientific evidence."
   }
 }
