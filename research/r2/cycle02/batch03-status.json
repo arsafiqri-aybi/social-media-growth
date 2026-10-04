@@ -1,0 +1,187 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_03",
+  "total_l2": 116,
+  "starting_candidate": 76,
+  "starting_provisional": 40,
+  "sources_added": 21,
+  "claims_added": 21,
+  "nodes_promoted": 42,
+  "status_counts": {
+    "provisional": 82,
+    "candidate": 34
+  },
+  "accepted_nodes": 0,
+  "remaining_candidate_nodes": [
+    {
+      "id": "ATT-N03",
+      "core": "attention",
+      "label": "Orienting response"
+    },
+    {
+      "id": "ATT-N11",
+      "core": "attention",
+      "label": "Attentional lapse"
+    },
+    {
+      "id": "ATT-N13",
+      "core": "attention",
+      "label": "Attentional disengagement"
+    },
+    {
+      "id": "ATT-N14",
+      "core": "attention",
+      "label": "Selection competition"
+    },
+    {
+      "id": "CUR-N04",
+      "core": "curiosity",
+      "label": "Knowledge-gap representation"
+    },
+    {
+      "id": "CUR-N08",
+      "core": "curiosity",
+      "label": "Competence-seeking"
+    },
+    {
+      "id": "VE-N02",
+      "core": "valuation_emotion",
+      "label": "Personal relevance valuation"
+    },
+    {
+      "id": "VE-N03",
+      "core": "valuation_emotion",
+      "label": "Subjective cost"
+    },
+    {
+      "id": "VE-N04",
+      "core": "valuation_emotion",
+      "label": "Expected outcome value"
+    },
+    {
+      "id": "VE-N05",
+      "core": "valuation_emotion",
+      "label": "Experienced outcome value"
+    },
+    {
+      "id": "VE-N06",
+      "core": "valuation_emotion",
+      "label": "Loss / punishment valuation"
+    },
+    {
+      "id": "VE-N13",
+      "core": "valuation_emotion",
+      "label": "Action activation"
+    },
+    {
+      "id": "VE-N14",
+      "core": "valuation_emotion",
+      "label": "Differentiated positive emotion"
+    },
+    {
+      "id": "VE-N15",
+      "core": "valuation_emotion",
+      "label": "Differentiated negative emotion"
+    },
+    {
+      "id": "VE-N16",
+      "core": "valuation_emotion",
+      "label": "Mixed emotion"
+    },
+    {
+      "id": "VE-N19",
+      "core": "valuation_emotion",
+      "label": "Confrontation / mobilization tendency"
+    },
+    {
+      "id": "ID-N01",
+      "core": "identity",
+      "label": "Personal self-concept"
+    },
+    {
+      "id": "ID-N12",
+      "core": "identity",
+      "label": "Intergroup boundary maintenance"
+    },
+    {
+      "id": "TR-N07",
+      "core": "trust",
+      "label": "Perceived motive authenticity"
+    },
+    {
+      "id": "TR-N08",
+      "core": "trust",
+      "label": "Behavioral consistency"
+    },
+    {
+      "id": "TR-N09",
+      "core": "trust",
+      "label": "Reliability track record"
+    },
+    {
+      "id": "CON-N02",
+      "core": "connection",
+      "label": "Parasocial cognitive engagement"
+    },
+    {
+      "id": "CON-N03",
+      "core": "connection",
+      "label": "Parasocial affective response"
+    },
+    {
+      "id": "CON-N05",
+      "core": "connection",
+      "label": "Parasocial relationship maintenance"
+    },
+    {
+      "id": "CON-N08",
+      "core": "connection",
+      "label": "Exposure history representation"
+    },
+    {
+      "id": "CON-N09",
+      "core": "connection",
+      "label": "Perceived relational closeness"
+    },
+    {
+      "id": "CON-N11",
+      "core": "connection",
+      "label": "Affective attachment"
+    },
+    {
+      "id": "CON-N12",
+      "core": "connection",
+      "label": "Separation / loss sensitivity"
+    },
+    {
+      "id": "ST-N09",
+      "core": "social_transmission",
+      "label": "Affective-expression motive"
+    },
+    {
+      "id": "ST-N13",
+      "core": "social_transmission",
+      "label": "Audience-inhibition signal"
+    },
+    {
+      "id": "RH-N03",
+      "core": "reinforcement_habit",
+      "label": "Reinforcement sensitivity"
+    },
+    {
+      "id": "RH-N08",
+      "core": "reinforcement_habit",
+      "label": "Habitual control strength"
+    },
+    {
+      "id": "RH-N11",
+      "core": "reinforcement_habit",
+      "label": "Habit–goal arbitration"
+    },
+    {
+      "id": "RH-N17",
+      "core": "reinforcement_habit",
+      "label": "Habit suppression / override"
+    }
+  ],
+  "next": "R2 Cycle 02 Batch 04 should target the remaining candidate nodes and decide promote/refine/merge/reject, followed by node-level acceptance and saturation audit."
+}

@@ -1,0 +1,471 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_03",
+  "decisions": [
+    {
+      "node_id": "ATT-N01",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "validated visual-attention salience manipulation/task",
+      "boundary": "Perceptual salience biases priority but does not guarantee capture.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ATT-N02",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "capture paradigm with task-goal conflict and latency/selection outcome",
+      "boundary": "Capture requires evidence of involuntary priority, not mere noticing.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ATT-N04",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "goal-relevance manipulation tied to an active task/goal",
+      "boundary": "Relevance is state- and task-dependent.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ATT-N05",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "target-template/attentional-set manipulation in selective-attention task",
+      "boundary": "A target template is an active control representation, not a stable preference.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ATT-N06",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "executive-control/competition-resolution task",
+      "boundary": "Executive control is broader than one difference score or platform metric.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ATT-N07",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ATT-C02"
+      ],
+      "measurement_route": "value-driven attentional-capture paradigm with prior reward association",
+      "boundary": "Reward-history effects are method-sensitive and should not receive a universal effect coefficient.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ATT-N08",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "selection-history manipulation controlling current goals and salience",
+      "boundary": "Prior selection must be separated from current goal and stimulus-driven effects.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "CUR-N01",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-CUR-C01"
+      ],
+      "measurement_route": "novelty manipulation plus curiosity/information-seeking response",
+      "boundary": "Novelty can trigger exploration but is neither necessary nor sufficient for curiosity.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "CUR-N02",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-CUR-C01"
+      ],
+      "measurement_route": "expectancy-violation/surprise manipulation plus information-seeking response",
+      "boundary": "Surprise is a prediction mismatch, not curiosity itself.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "CUR-N03",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-CUR-C01"
+      ],
+      "measurement_route": "subjective uncertainty/confidence estimate paired with seeking choice",
+      "boundary": "Uncertainty can increase curiosity, avoidance, or neither depending on value and threat.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "CUR-N09",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-CUR-C02"
+      ],
+      "measurement_route": "directed exploration choice explicitly linked to uncertainty reduction/information value",
+      "boundary": "Directed exploration may serve instrumental goals unrelated to curiosity.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "CUR-N10",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-CUR-C01"
+      ],
+      "measurement_route": "observed information-seeking/exploration choice",
+      "boundary": "Seeking behavior is multiply determined and cannot diagnose curiosity alone.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "VE-N01",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-VE-C01"
+      ],
+      "measurement_route": "choice, rating, willingness-to-pay, or fitted subjective-value model matched to decision context",
+      "boundary": "Do not substitute valence, arousal, likes, or watch time for subjective utility.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "VE-N11",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-VE-C02"
+      ],
+      "measurement_route": "validated valence self-report/dimensional affect measure",
+      "boundary": "Valence alone does not identify a discrete emotion.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "VE-N12",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-VE-C02"
+      ],
+      "measurement_route": "validated arousal self-report/physiological measure with construct-specific interpretation",
+      "boundary": "Arousal alone does not identify emotional meaning or transmission motive.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ID-N02",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ID-C03"
+      ],
+      "measurement_route": "self-relevance manipulation/appraisal tied to a defined self-aspect",
+      "boundary": "Self-relevance is not generic liking or familiarity.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ID-N03",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ID-C01"
+      ],
+      "measurement_route": "identity-centrality component within a validated identification scale",
+      "boundary": "Centrality should be identity-specific rather than a global trait.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ID-N04",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ID-C02"
+      ],
+      "measurement_route": "salient self-categorization manipulation/measure",
+      "boundary": "Group membership does not prove that the category is psychologically active.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ID-N05",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ID-C01"
+      ],
+      "measurement_route": "validated in-group identification measure",
+      "boundary": "Identification is multidimensional and should not be reduced to membership.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ID-N06",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ID-C01"
+      ],
+      "measurement_route": "validated self-definition components such as self-stereotyping/in-group homogeneity",
+      "boundary": "Self-definition is not generic interpersonal similarity.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ID-N07",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ID-C01"
+      ],
+      "measurement_route": "validated self-investment components such as solidarity/satisfaction/centrality",
+      "boundary": "Self-investment should not be inferred from public group signaling alone.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "TR-N01",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-TR-C01"
+      ],
+      "measurement_route": "validated integrity dimension of epistemic/source trust",
+      "boundary": "Perceived integrity is subjective and not proof of factual accuracy.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "TR-N02",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-TR-C01"
+      ],
+      "measurement_route": "validated benevolence/good-intentions dimension",
+      "boundary": "Benevolence is distinct from competence/expertise.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "TR-N03",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-TR-C02"
+      ],
+      "measurement_route": "validated trustworthiness/source-trust measure matched to domain",
+      "boundary": "Trustworthiness is not equivalent to credibility or objective truth.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "TR-N04",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-TR-C01",
+        "R2H3-TR-C02"
+      ],
+      "measurement_route": "validated perceived-expertise dimension or experimentally manipulated credentials",
+      "boundary": "Perceived expertise is domain-specific and can be miscalibrated.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "TR-N05",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-TR-C01"
+      ],
+      "measurement_route": "validated competence dimension",
+      "boundary": "Competence is ability-related and distinct from integrity/benevolence.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "TR-N10",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-TR-C03",
+        "R2H3-TR-C04"
+      ],
+      "measurement_route": "experimental source-cue manipulation with perceived-credibility outcome",
+      "boundary": "Source cue use does not prove source quality.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "TR-N11",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-TR-C03",
+        "R2H3-TR-C04"
+      ],
+      "measurement_route": "experimental social-cue manipulation with perceived-credibility outcome",
+      "boundary": "Popularity/consensus cues can alter credibility perception without verifying truth.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "CON-N07",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-CON-C01"
+      ],
+      "measurement_route": "recognition/familiarity measure tied to repeated exposure history",
+      "boundary": "Familiarity is not closeness, trust, intimacy, or attachment.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ST-N01",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "logged/observed share or forward action",
+      "boundary": "Behavior identifies transmission, not motive.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ST-N02",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ST-C02"
+      ],
+      "measurement_route": "sharing-intention/willingness measure labeled explicitly as intention",
+      "boundary": "Intention must not be treated as observed behavior.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ST-N03",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "observed endorsement/recommendation action",
+      "boundary": "Recommendation is stronger/evaluative transmission and should not be merged with neutral forwarding.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ST-N04",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "coded or self-reported evaluative word-of-mouth content",
+      "boundary": "WOM valence/evaluation is not identical to recommendation action.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ST-N07",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "identity-expression/signaling motive measure tied to transmission choice",
+      "boundary": "The motive cannot be inferred solely from identity-relevant content.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "ST-N15",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "relationship-maintenance motive measure tied to sender-recipient relationship",
+      "boundary": "Relationship-maintenance sharing is distinct from parasocial connection to the creator.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "RH-N01",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-RH-C01"
+      ],
+      "measurement_route": "reinforcement-learning model fit with prediction-error construct and task feedback",
+      "boundary": "Model-derived RPE is an estimate, not a direct psychological observation.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "RH-N02",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-RH-C01"
+      ],
+      "measurement_route": "trial-level value update/learning model or outcome-learning task",
+      "boundary": "Value updating should not be equated with habit formation.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "RH-N04",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-RH-C02"
+      ],
+      "measurement_route": "objective or validated context-response association measure",
+      "boundary": "Return frequency alone does not establish association strength.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "RH-N05",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-RH-C02"
+      ],
+      "measurement_route": "cue-triggered response/action-slip task",
+      "boundary": "Cue-triggering is context-specific and can coexist with deliberate control.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "RH-N06",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-RH-C02"
+      ],
+      "measurement_route": "SRBAI/automaticity measure or objective automatic-response task",
+      "boundary": "Automaticity is an important habit component but not the entire habit construct.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "RH-N07",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-RH-C03",
+        "R2H3-RH-C04"
+      ],
+      "measurement_route": "validated outcome-devaluation/revaluation paradigm with manipulation check",
+      "boundary": "Apparent devaluation insensitivity can be artifactual and does not imply global persistence.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    },
+    {
+      "node_id": "RH-N16",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H3-RH-C03"
+      ],
+      "measurement_route": "outcome-revaluation or contingency-change paradigm",
+      "boundary": "Revaluation is a manipulation/test condition, not itself a stable trait.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_03"
+    }
+  ]
+}

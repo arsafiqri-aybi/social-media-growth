@@ -1,0 +1,223 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_03",
+  "sources": [
+    {
+      "id": "R2H3-ATT-S01",
+      "core": [
+        "attention"
+      ],
+      "title": "Attentional Capture and Control",
+      "year": 2025,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-011624-025340"
+    },
+    {
+      "id": "R2H3-ATT-S02",
+      "core": [
+        "attention",
+        "reinforcement_habit"
+      ],
+      "title": "Systematic review of the value-driven attentional capture paradigm in visual attention studies: Evidence from 52 experiments",
+      "year": 2025,
+      "type": "systematic_review",
+      "doi": "10.1016/j.actpsy.2025.105060",
+      "experiments": 52
+    },
+    {
+      "id": "R2H3-CUR-S01",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Curiosity and the dynamics of optimal exploration",
+      "year": 2024,
+      "type": "review",
+      "doi": "10.1016/j.tics.2024.02.001"
+    },
+    {
+      "id": "R2H3-CUR-S02",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Curiosity-driven exploration: foundations in neuroscience and computational modeling",
+      "year": 2024,
+      "type": "review",
+      "doi": "10.1016/j.tins.2023.11.002"
+    },
+    {
+      "id": "R2H3-VE-S01",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Subjective Values in Decision-Making Under Uncertainty: A Systematic Review",
+      "year": 2026,
+      "type": "systematic_review",
+      "doi": "10.3390/bs16091494"
+    },
+    {
+      "id": "R2H3-VE-S02",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Measuring emotion: The Self-Assessment Manikin and the Semantic Differential",
+      "year": 1994,
+      "type": "measurement_validation",
+      "doi": "10.1016/0005-7916(94)90063-9"
+    },
+    {
+      "id": "R2H3-ID-S01",
+      "core": [
+        "identity"
+      ],
+      "title": "Group-level self-definition and self-investment: A hierarchical (multicomponent) model of in-group identification",
+      "year": 2008,
+      "type": "multistudy_construct_validation",
+      "doi": "10.1037/0022-3514.95.1.144"
+    },
+    {
+      "id": "R2H3-ID-S02",
+      "core": [
+        "identity"
+      ],
+      "title": "Social Influence and Group Identity",
+      "year": 2021,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-070620-111818"
+    },
+    {
+      "id": "R2H3-ID-S03",
+      "core": [
+        "identity",
+        "attention"
+      ],
+      "title": "Relevance to self: A brief review and framework of neural systems underlying appraisal",
+      "year": 2007,
+      "type": "review",
+      "doi": "10.1016/j.neubiorev.2006.12.003"
+    },
+    {
+      "id": "R2H3-ID-S04",
+      "core": [
+        "identity",
+        "attention"
+      ],
+      "title": "That's me in the spotlight: Self-relevance modulates attentional breadth",
+      "year": 2021,
+      "type": "human_experiment",
+      "doi": "10.3758/s13423-021-01964-3",
+      "n": 60
+    },
+    {
+      "id": "R2H3-TR-S01",
+      "core": [
+        "trust"
+      ],
+      "title": "Measuring Laypeople's Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI)",
+      "year": 2015,
+      "type": "scale_development_validation",
+      "doi": "10.1371/journal.pone.0139309"
+    },
+    {
+      "id": "R2H3-TR-S02",
+      "core": [
+        "trust"
+      ],
+      "title": "Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations",
+      "year": 2024,
+      "type": "meta_analysis",
+      "doi": "10.1002/mar.21927",
+      "studies": 53,
+      "effect_sizes": 250
+    },
+    {
+      "id": "R2H3-TR-S03",
+      "core": [
+        "trust"
+      ],
+      "title": "How Heuristic Credibility Cues Shape Perceived Credibility on Social Media: A Meta-Analysis of Experimental Research",
+      "year": 2026,
+      "type": "meta_analysis_experimental",
+      "doi": "10.3390/bs16071184"
+    },
+    {
+      "id": "R2H3-CON-S01",
+      "core": [
+        "connection"
+      ],
+      "title": "Characterising the Influence of Parasocial Experience on the Media Figures' Audiences: A Scoping Review",
+      "year": 2026,
+      "type": "scoping_review",
+      "pmid": "42193687",
+      "studies": 59
+    },
+    {
+      "id": "R2H3-ST-S01",
+      "core": [
+        "social_transmission"
+      ],
+      "title": "What Gets Shared, and Why? Interpersonal Communication and Word of Mouth",
+      "year": 2025,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-013024-031524"
+    },
+    {
+      "id": "R2H3-ST-S02",
+      "core": [
+        "social_transmission"
+      ],
+      "title": "Validating a willingness to share measure of a vignette experiment using real-world behavioral data",
+      "year": 2025,
+      "type": "prospective_behavioral_validation",
+      "doi": "10.1038/s41598-025-92349-2"
+    },
+    {
+      "id": "R2H3-RH-S01",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Reinforcement learning models and their neural correlates: An activation likelihood estimation meta-analysis",
+      "year": 2015,
+      "type": "neuroimaging_meta_analysis",
+      "doi": "10.3758/s13415-015-0338-7"
+    },
+    {
+      "id": "R2H3-RH-S02",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "The automatic component of habit in health behavior: habit as cue-contingent automaticity",
+      "year": 2010,
+      "type": "multi_study_human",
+      "doi": "10.1037/a0019596"
+    },
+    {
+      "id": "R2H3-RH-S03",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Towards parsimony in habit measurement: Testing the convergent and predictive validity of an automaticity subscale of the Self-Report Habit Index",
+      "year": 2012,
+      "type": "measurement_validation",
+      "doi": "10.1186/1479-5868-9-102"
+    },
+    {
+      "id": "R2H3-RH-S04",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Investigating habits in humans with a symmetrical outcome-revaluation task",
+      "year": 2022,
+      "type": "human_experimental_measurement",
+      "pmid": "35867208"
+    },
+    {
+      "id": "R2H3-RH-S05",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Habit and persistence",
+      "year": 2024,
+      "type": "selective_review",
+      "pmid": "38149526"
+    }
+  ]
+}

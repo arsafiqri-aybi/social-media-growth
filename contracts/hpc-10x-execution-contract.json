@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 8,
+  "revision": 9,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -265,23 +265,22 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Continue R2 evidence hardening for the remaining candidate nodes. Preserve contested mechanisms such as habit-goal arbitration as candidate until alternatives and measurement validity are resolved.",
+  "next_action": "Execute R2 Cycle 02 Batch 04 as a closure pass: for every remaining candidate choose promote/refine/merge/move/reject; then run node-level acceptance and saturation audit. Do not expand node count unless a split is required for construct validity.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
       "R2"
     ],
-    "cycle": "R2_CYCLE_02_BATCH_02",
-    "status": "SELECTIVE_EVIDENCE_HARDENING_IN_PROGRESS",
+    "cycle": "R2_CYCLE_02_BATCH_03",
+    "status": "CLOSURE_ORIENTED_HARDENING_IN_PROGRESS",
     "l1_modules": 45,
     "l2_total": 116,
-    "l2_provisional": 40,
-    "l2_candidate": 76,
+    "l2_provisional": 82,
+    "l2_candidate": 34,
     "l2_accepted": 0,
-    "batch02_sources": 20,
-    "batch02_claims": 17,
-    "all_eight_cores_hardened_in_batch": true,
-    "next": "Continue R2 hardening on remaining candidates; then run node-level saturation/acceptance audit before R3 cross-core edge synthesis."
+    "batch03_sources": 21,
+    "batch03_claims": 21,
+    "next": "R2 Cycle 02 Batch 04 closure pass on remaining candidates, then node-level acceptance/saturation audit."
   }
 }

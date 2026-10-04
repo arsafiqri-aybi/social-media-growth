@@ -1,0 +1,52 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_03",
+  "holds": [
+    {
+      "id": "HOLD-VE-01",
+      "nodes": [
+        "VE-N14",
+        "VE-N15",
+        "VE-N16"
+      ],
+      "reason": "Differentiated positive, differentiated negative, and mixed emotion are still too coarse as L2 labels; emotion-specific decomposition/measurement is required before promotion."
+    },
+    {
+      "id": "HOLD-ID-01",
+      "nodes": [
+        "ID-N12"
+      ],
+      "reason": "Intergroup boundary maintenance is plausible but still lacks a sufficiently precise, non-overlapping direct measurement route in the current evidence pass."
+    },
+    {
+      "id": "HOLD-TR-01",
+      "nodes": [
+        "TR-N07",
+        "TR-N08",
+        "TR-N09"
+      ],
+      "reason": "Motive authenticity, behavioral consistency, and reliability track record need stronger construct-specific evidence and separation from authenticity/familiarity/credibility."
+    },
+    {
+      "id": "HOLD-CON-01",
+      "nodes": [
+        "CON-N02",
+        "CON-N03",
+        "CON-N05",
+        "CON-N08",
+        "CON-N09",
+        "CON-N11",
+        "CON-N12"
+      ],
+      "reason": "Parasocial subcomponents remain vulnerable to measurement overlap; attachment is explicitly under-studied in recent review."
+    },
+    {
+      "id": "HOLD-RH-01",
+      "nodes": [
+        "RH-N08",
+        "RH-N11",
+        "RH-N17"
+      ],
+      "reason": "Global habitual-control strength, a discrete habit-goal arbiter, and override/suppression require stronger architecture-specific evidence before promotion."
+    }
+  ]
+}

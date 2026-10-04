@@ -1,0 +1,288 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_03",
+  "claims": [
+    {
+      "id": "R2H3-ATT-C01",
+      "target_ids": [
+        "ATT-N01",
+        "ATT-N02",
+        "ATT-N04",
+        "ATT-N05",
+        "ATT-N06",
+        "ATT-N08"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-ATT-S01"
+      ],
+      "statement": "Attentional priority reflects interacting bottom-up stimulus properties, active goals/target settings, executive control, and selection history; these components are related but non-identical."
+    },
+    {
+      "id": "R2H3-ATT-C02",
+      "target_ids": [
+        "ATT-N07"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-ATT-S02"
+      ],
+      "statement": "Previously reward-associated features can bias later attentional selection, but effect magnitude and robustness depend on paradigm and methodological conditions."
+    },
+    {
+      "id": "R2H3-CUR-C01",
+      "target_ids": [
+        "CUR-N01",
+        "CUR-N02",
+        "CUR-N03",
+        "CUR-N10"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-CUR-S01",
+        "R2H3-CUR-S02"
+      ],
+      "statement": "Novelty, surprise/expectancy violation, uncertainty, and information seeking are separable contributors or expressions within curiosity-driven exploration rather than interchangeable labels for curiosity."
+    },
+    {
+      "id": "R2H3-CUR-C02",
+      "target_ids": [
+        "CUR-N09"
+      ],
+      "claim_type": "boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H3-CUR-S01"
+      ],
+      "statement": "Directed exploration can be curiosity-guided when sampling is chosen to reduce uncertainty or improve learning, but directed exploration is broader than curiosity and can also serve instrumental goals."
+    },
+    {
+      "id": "R2H3-VE-C01",
+      "target_ids": [
+        "VE-N01"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-VE-S01"
+      ],
+      "statement": "Subjective value/utility is a context-sensitive decision variable rather than a direct synonym for affective valence or arousal."
+    },
+    {
+      "id": "R2H3-VE-C02",
+      "target_ids": [
+        "VE-N11",
+        "VE-N12"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-VE-S02"
+      ],
+      "statement": "Affective valence and arousal are empirically separable dimensions and can be measured separately; neither dimension alone identifies a discrete emotion or subjective utility."
+    },
+    {
+      "id": "R2H3-ID-C01",
+      "target_ids": [
+        "ID-N03",
+        "ID-N05",
+        "ID-N06",
+        "ID-N07"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-ID-S01"
+      ],
+      "statement": "In-group identification is multidimensional: self-definition and self-investment are higher-order dimensions, with centrality among the validated self-investment components."
+    },
+    {
+      "id": "R2H3-ID-C02",
+      "target_ids": [
+        "ID-N04"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-ID-S02"
+      ],
+      "statement": "Self-categorization into a salient group is a context-sensitive mechanism underlying identity-based social influence and should be distinguished from stable group membership."
+    },
+    {
+      "id": "R2H3-ID-C03",
+      "target_ids": [
+        "ID-N02"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-ID-S03",
+        "R2H3-ID-S04"
+      ],
+      "statement": "Self-relevance is a distinct appraisal/representation that can alter information processing and attentional allocation, but it does not guarantee automatic capture."
+    },
+    {
+      "id": "R2H3-TR-C01",
+      "target_ids": [
+        "TR-N01",
+        "TR-N02",
+        "TR-N04",
+        "TR-N05"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-TR-S01"
+      ],
+      "statement": "Epistemic trustworthiness judgments can be decomposed into expertise/competence, integrity, and benevolence/good intentions rather than represented as one undifferentiated score."
+    },
+    {
+      "id": "R2H3-TR-C02",
+      "target_ids": [
+        "TR-N03",
+        "TR-N04"
+      ],
+      "claim_type": "association",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-TR-S02"
+      ],
+      "statement": "Trustworthiness and perceived expertise are distinct source-credibility antecedents associated with attitudinal and behavioral outcomes in social-media influencer research, with contextual heterogeneity."
+    },
+    {
+      "id": "R2H3-TR-C03",
+      "target_ids": [
+        "TR-N10",
+        "TR-N11"
+      ],
+      "claim_type": "causal",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-TR-S03"
+      ],
+      "statement": "Experimentally manipulated source and social credibility cues can shift perceived credibility, with cue type and participant type moderating effects."
+    },
+    {
+      "id": "R2H3-TR-C04",
+      "target_ids": [
+        "TR-N10",
+        "TR-N11"
+      ],
+      "claim_type": "boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H3-TR-S03"
+      ],
+      "statement": "Credibility-cue effects concern perceived credibility and cannot establish factual accuracy, objective expertise, or calibrated trust by themselves."
+    },
+    {
+      "id": "R2H3-CON-C01",
+      "target_ids": [
+        "CON-N07"
+      ],
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-CON-S01"
+      ],
+      "statement": "Perceived familiarity is a recurring characteristic of parasocial experience, but familiarity is separable from intimacy, enduring parasocial relationship, and attachment."
+    },
+    {
+      "id": "R2H3-CON-C02",
+      "target_ids": [
+        "CON-N11",
+        "CON-N12"
+      ],
+      "claim_type": "gap",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H3-CON-S01"
+      ],
+      "statement": "Parasocial attachment and loss/separation-related responses remain substantially less studied than PSI/PSR, so attachment-level nodes should remain candidates rather than being promoted by analogy."
+    },
+    {
+      "id": "R2H3-ST-C01",
+      "target_ids": [
+        "ST-N01",
+        "ST-N03",
+        "ST-N04",
+        "ST-N07",
+        "ST-N15"
+      ],
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-ST-S01"
+      ],
+      "statement": "Sharing/forwarding, recommendation/word of mouth, identity expression, and relationship-maintenance functions are distinct components or motives within interpersonal transmission."
+    },
+    {
+      "id": "R2H3-ST-C02",
+      "target_ids": [
+        "ST-N02"
+      ],
+      "claim_type": "measurement",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H3-ST-S02"
+      ],
+      "statement": "Sharing intention/willingness is measurable but only an imperfect proxy for later observed sharing behavior; one prospective validation found moderate correspondence and different predictors."
+    },
+    {
+      "id": "R2H3-RH-C01",
+      "target_ids": [
+        "RH-N01",
+        "RH-N02"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-RH-S01"
+      ],
+      "statement": "Reward prediction error and expected-value representation are distinct computational quantities in reinforcement-learning accounts, with prediction error used to update expected values."
+    },
+    {
+      "id": "R2H3-RH-C02",
+      "target_ids": [
+        "RH-N04",
+        "RH-N05",
+        "RH-N06"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-RH-S02",
+        "R2H3-RH-S03"
+      ],
+      "statement": "Habitual responding can involve cue/context-response associations and cue-contingent automaticity; automaticity measures capture an important component but not the whole habit construct."
+    },
+    {
+      "id": "R2H3-RH-C03",
+      "target_ids": [
+        "RH-N07",
+        "RH-N16"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "R2H3-RH-S04",
+        "R2H3-RH-S05"
+      ],
+      "statement": "Outcome revaluation/devaluation sensitivity is useful for distinguishing goal-directed from habit-like control, but interpretation depends on validated manipulation and context."
+    },
+    {
+      "id": "R2H3-RH-C04",
+      "target_ids": [
+        "RH-N07"
+      ],
+      "claim_type": "boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H3-RH-S05"
+      ],
+      "statement": "Outcome insensitivity does not imply that a behavior is globally persistent or context-free; human habits can remain highly context specific."
+    }
+  ]
+}

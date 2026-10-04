@@ -1,0 +1,89 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_03",
+  "rules": [
+    {
+      "id": "OV3-ATT-01",
+      "a": "ATT-N01",
+      "b": "ATT-N02",
+      "relation": "cause_candidate_vs_behavioral_effect",
+      "rule": "Salience is a stimulus property/priority signal; attentional capture is an observed control failure/priority shift. Do not merge."
+    },
+    {
+      "id": "OV3-ATT-02",
+      "a": "ATT-N04/ATT-N05/ATT-N06",
+      "b": "goal_directed_attention",
+      "relation": "nested_but_separable",
+      "rule": "Goal relevance, target template, and executive control are related components of top-down selection but require distinct measurements."
+    },
+    {
+      "id": "OV3-CUR-01",
+      "a": "CUR-N01/CUR-N02/CUR-N03",
+      "b": "curiosity",
+      "relation": "drivers_not_aliases",
+      "rule": "Novelty, surprise, and uncertainty may contribute to curiosity but none should be encoded as curiosity itself."
+    },
+    {
+      "id": "OV3-VE-01",
+      "a": "VE-N01",
+      "b": "VE-N11/VE-N12",
+      "relation": "valuation_vs_affect",
+      "rule": "Subjective utility is distinct from affective valence and arousal."
+    },
+    {
+      "id": "OV3-ID-01",
+      "a": "ID-N05",
+      "b": "ID-N06/ID-N07",
+      "relation": "hierarchical_construct",
+      "rule": "In-group identification is a higher-order construct; self-definition and self-investment are separable dimensions and should remain queryable."
+    },
+    {
+      "id": "OV3-TR-01",
+      "a": "TR-N01/TR-N02/TR-N04/TR-N05",
+      "b": "TR-N03",
+      "relation": "components_vs_integrated_judgment",
+      "rule": "Integrity, benevolence, expertise, and competence can contribute to trustworthiness judgments but are not interchangeable with the integrated judgment."
+    },
+    {
+      "id": "OV3-TR-02",
+      "a": "TR-N10/TR-N11",
+      "b": "TR-N03",
+      "relation": "cue_vs_judgment",
+      "rule": "Credibility cues influence judgments; they are not themselves trustworthiness."
+    },
+    {
+      "id": "OV3-CON-01",
+      "a": "CON-N07",
+      "b": "CON-N10/CON-N11",
+      "relation": "familiarity_vs_relationship",
+      "rule": "Familiarity from exposure must not be upgraded to intimacy or attachment without direct relational evidence."
+    },
+    {
+      "id": "OV3-ST-01",
+      "a": "ST-N01",
+      "b": "ST-N02",
+      "relation": "behavior_vs_intention",
+      "rule": "Observed sharing action and sharing intention remain separate due to imperfect intention-behavior correspondence."
+    },
+    {
+      "id": "OV3-ST-02",
+      "a": "ST-N03",
+      "b": "ST-N04",
+      "relation": "action_vs_evaluative_content",
+      "rule": "Recommendation is an endorsement action; word-of-mouth evaluation is the valenced/evaluative communication content."
+    },
+    {
+      "id": "OV3-RH-01",
+      "a": "RH-N01",
+      "b": "RH-N02",
+      "relation": "teaching_signal_vs_state_update",
+      "rule": "Prediction error is a learning signal; outcome-value updating is the resulting change in learned value representation."
+    },
+    {
+      "id": "OV3-RH-02",
+      "a": "RH-N04/RH-N05/RH-N06",
+      "b": "habit",
+      "relation": "mechanisms_components_not_diagnosis",
+      "rule": "Context-response association, cue-triggering, and automaticity are evidence about habit mechanisms but no single one is a complete habit diagnosis."
+    }
+  ]
+}

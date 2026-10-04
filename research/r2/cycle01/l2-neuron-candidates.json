@@ -9,14 +9,19 @@
       "primary_core": "attention",
       "label": "Perceptual salience",
       "definition": "Relative sensory prominence created by feature contrast or conspicuity that biases competition for selection.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated visual-attention salience manipulation/task",
+      "boundary_conditions": [
+        "Perceptual salience biases priority but does not guarantee capture."
+      ]
     },
     {
       "id": "ATT-N02",
@@ -25,14 +30,19 @@
       "primary_core": "attention",
       "label": "Stimulus-driven capture",
       "definition": "Involuntary prioritization caused by stimulus properties despite competing goals.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "capture paradigm with task-goal conflict and latency/selection outcome",
+      "boundary_conditions": [
+        "Capture requires evidence of involuntary priority, not mere noticing."
+      ]
     },
     {
       "id": "ATT-N03",
@@ -57,14 +67,19 @@
       "primary_core": "attention",
       "label": "Goal relevance",
       "definition": "Match between information and an active goal/task that raises selection priority.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "goal-relevance manipulation tied to an active task/goal",
+      "boundary_conditions": [
+        "Relevance is state- and task-dependent."
+      ]
     },
     {
       "id": "ATT-N05",
@@ -73,14 +88,19 @@
       "primary_core": "attention",
       "label": "Attentional set / target template",
       "definition": "Active representation of sought-for features or categories that biases selection.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "target-template/attentional-set manipulation in selective-attention task",
+      "boundary_conditions": [
+        "A target template is an active control representation, not a stable preference."
+      ]
     },
     {
       "id": "ATT-N06",
@@ -89,14 +109,19 @@
       "primary_core": "attention",
       "label": "Executive attentional control",
       "definition": "Top-down resolution of competition in favor of task-relevant processing.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "executive-control/competition-resolution task",
+      "boundary_conditions": [
+        "Executive control is broader than one difference score or platform metric."
+      ]
     },
     {
       "id": "ATT-N07",
@@ -105,14 +130,19 @@
       "primary_core": "attention",
       "label": "Reward-associated attentional priority",
       "definition": "Learned attentional bias toward features previously associated with reward/value.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H3-ATT-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "value-driven attentional-capture paradigm with prior reward association",
+      "boundary_conditions": [
+        "Reward-history effects are method-sensitive and should not receive a universal effect coefficient."
+      ]
     },
     {
       "id": "ATT-N08",
@@ -121,14 +151,19 @@
       "primary_core": "attention",
       "label": "Prior-selection history",
       "definition": "Bias in current selection caused by prior selections independent of immediate goals.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "selection-history manipulation controlling current goals and salience",
+      "boundary_conditions": [
+        "Prior selection must be separated from current goal and stimulus-driven effects."
+      ]
     },
     {
       "id": "ATT-N09",
@@ -248,15 +283,20 @@
       "primary_core": "curiosity",
       "label": "Novelty appraisal",
       "definition": "Evaluation that information is new relative to current knowledge/history.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H3-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "novelty manipulation plus curiosity/information-seeking response",
+      "boundary_conditions": [
+        "Novelty can trigger exploration but is neither necessary nor sufficient for curiosity."
+      ]
     },
     {
       "id": "CUR-N02",
@@ -265,15 +305,20 @@
       "primary_core": "curiosity",
       "label": "Surprise / expectancy violation",
       "definition": "Detection that an observation deviates from expectation and may warrant model updating.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H3-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "expectancy-violation/surprise manipulation plus information-seeking response",
+      "boundary_conditions": [
+        "Surprise is a prediction mismatch, not curiosity itself."
+      ]
     },
     {
       "id": "CUR-N03",
@@ -282,15 +327,20 @@
       "primary_core": "curiosity",
       "label": "Subjective uncertainty",
       "definition": "Experienced lack of confidence or unresolved state about information/outcomes.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H3-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "subjective uncertainty/confidence estimate paired with seeking choice",
+      "boundary_conditions": [
+        "Uncertainty can increase curiosity, avoidance, or neither depending on value and threat."
+      ]
     },
     {
       "id": "CUR-N04",
@@ -399,15 +449,20 @@
       "primary_core": "curiosity",
       "label": "Directed exploration",
       "definition": "Targeted sampling chosen because a specific information gap is expected to be resolved.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H3-CUR-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "directed exploration choice explicitly linked to uncertainty reduction/information value",
+      "boundary_conditions": [
+        "Directed exploration may serve instrumental goals unrelated to curiosity."
+      ]
     },
     {
       "id": "CUR-N10",
@@ -416,15 +471,20 @@
       "primary_core": "curiosity",
       "label": "Exploratory information seeking",
       "definition": "Behavioral pursuit of additional information under uncertainty or novelty.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H3-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "observed information-seeking/exploration choice",
+      "boundary_conditions": [
+        "Seeking behavior is multiply determined and cannot diagnose curiosity alone."
+      ]
     },
     {
       "id": "CUR-N11",
@@ -499,15 +559,20 @@
       "primary_core": "valuation_emotion",
       "label": "Subjective utility",
       "definition": "Context- and goal-dependent worth assigned to an option, outcome, or piece of information.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2H3-VE-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "choice, rating, willingness-to-pay, or fitted subjective-value model matched to decision context",
+      "boundary_conditions": [
+        "Do not substitute valence, arousal, likes, or watch time for subjective utility."
+      ]
     },
     {
       "id": "VE-N02",
@@ -693,15 +758,20 @@
       "primary_core": "valuation_emotion",
       "label": "Affective valence",
       "definition": "Positive-versus-negative subjective quality of affective experience.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2H3-VE-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated valence self-report/dimensional affect measure",
+      "boundary_conditions": [
+        "Valence alone does not identify a discrete emotion."
+      ]
     },
     {
       "id": "VE-N12",
@@ -710,15 +780,20 @@
       "primary_core": "valuation_emotion",
       "label": "Affective arousal",
       "definition": "Level of affective activation or physiological/subjective intensity.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2H3-VE-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated arousal self-report/physiological measure with construct-specific interpretation",
+      "boundary_conditions": [
+        "Arousal alone does not identify emotional meaning or transmission motive."
+      ]
     },
     {
       "id": "VE-N13",
@@ -874,14 +949,19 @@
       "primary_core": "identity",
       "label": "Self-relevance",
       "definition": "Degree to which information is interpreted as bearing on an important aspect of the self.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H3-ID-C03"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "self-relevance manipulation/appraisal tied to a defined self-aspect",
+      "boundary_conditions": [
+        "Self-relevance is not generic liking or familiarity."
+      ]
     },
     {
       "id": "ID-N03",
@@ -890,14 +970,19 @@
       "primary_core": "identity",
       "label": "Identity centrality",
       "definition": "Importance of a particular identity component within the overall self-concept.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H3-ID-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "identity-centrality component within a validated identification scale",
+      "boundary_conditions": [
+        "Centrality should be identity-specific rather than a global trait."
+      ]
     },
     {
       "id": "ID-N04",
@@ -906,14 +991,19 @@
       "primary_core": "identity",
       "label": "Self-categorization",
       "definition": "Momentary categorization of self as a member of a social category/group.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H3-ID-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "salient self-categorization manipulation/measure",
+      "boundary_conditions": [
+        "Group membership does not prove that the category is psychologically active."
+      ]
     },
     {
       "id": "ID-N05",
@@ -922,14 +1012,19 @@
       "primary_core": "identity",
       "label": "In-group identification",
       "definition": "Psychological attachment/identification with a social group.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H3-ID-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated in-group identification measure",
+      "boundary_conditions": [
+        "Identification is multidimensional and should not be reduced to membership."
+      ]
     },
     {
       "id": "ID-N06",
@@ -938,14 +1033,19 @@
       "primary_core": "identity",
       "label": "Self-definition",
       "definition": "Perceived similarity/prototypicality and homogeneity that define the self in group terms.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H3-ID-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated self-definition components such as self-stereotyping/in-group homogeneity",
+      "boundary_conditions": [
+        "Self-definition is not generic interpersonal similarity."
+      ]
     },
     {
       "id": "ID-N07",
@@ -954,14 +1054,19 @@
       "primary_core": "identity",
       "label": "Self-investment",
       "definition": "Importance, satisfaction, and solidarity invested in group membership.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H3-ID-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated self-investment components such as solidarity/satisfaction/centrality",
+      "boundary_conditions": [
+        "Self-investment should not be inferred from public group signaling alone."
+      ]
     },
     {
       "id": "ID-N08",
@@ -1070,14 +1175,19 @@
       "primary_core": "trust",
       "label": "Perceived integrity",
       "definition": "Belief that a source adheres to acceptable principles and is honest/non-deceptive.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H3-TR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated integrity dimension of epistemic/source trust",
+      "boundary_conditions": [
+        "Perceived integrity is subjective and not proof of factual accuracy."
+      ]
     },
     {
       "id": "TR-N02",
@@ -1086,14 +1196,19 @@
       "primary_core": "trust",
       "label": "Perceived benevolence",
       "definition": "Belief that a source has goodwill and is not primarily seeking to exploit the audience.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H3-TR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated benevolence/good-intentions dimension",
+      "boundary_conditions": [
+        "Benevolence is distinct from competence/expertise."
+      ]
     },
     {
       "id": "TR-N03",
@@ -1102,14 +1217,19 @@
       "primary_core": "trust",
       "label": "Perceived trustworthiness",
       "definition": "Integrated judgment that a source can be relied on in the relevant relationship/domain.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H3-TR-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated trustworthiness/source-trust measure matched to domain",
+      "boundary_conditions": [
+        "Trustworthiness is not equivalent to credibility or objective truth."
+      ]
     },
     {
       "id": "TR-N04",
@@ -1118,14 +1238,20 @@
       "primary_core": "trust",
       "label": "Perceived expertise",
       "definition": "Judgment that a source possesses relevant knowledge or experience.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H3-TR-C01",
+        "R2H3-TR-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated perceived-expertise dimension or experimentally manipulated credentials",
+      "boundary_conditions": [
+        "Perceived expertise is domain-specific and can be miscalibrated."
+      ]
     },
     {
       "id": "TR-N05",
@@ -1134,14 +1260,19 @@
       "primary_core": "trust",
       "label": "Perceived competence",
       "definition": "Judgment that a source can perform/evaluate the relevant task accurately.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H3-TR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated competence dimension",
+      "boundary_conditions": [
+        "Competence is ability-related and distinct from integrity/benevolence."
+      ]
     },
     {
       "id": "TR-N06",
@@ -1220,14 +1351,20 @@
       "primary_core": "trust",
       "label": "Source credibility cue use",
       "definition": "Heuristic use of credentials, verification badges, presentation, or source markers in credibility judgment.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H3-TR-C03",
+        "R2H3-TR-C04"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "experimental source-cue manipulation with perceived-credibility outcome",
+      "boundary_conditions": [
+        "Source cue use does not prove source quality."
+      ]
     },
     {
       "id": "TR-N11",
@@ -1236,14 +1373,20 @@
       "primary_core": "trust",
       "label": "Social credibility cue use",
       "definition": "Heuristic use of likes, follower counts, consensus, endorsements, or similar social signals.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H3-TR-C03",
+        "R2H3-TR-C04"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "experimental social-cue manipulation with perceived-credibility outcome",
+      "boundary_conditions": [
+        "Popularity/consensus cues can alter credibility perception without verifying truth."
+      ]
     },
     {
       "id": "TR-N12",
@@ -1427,14 +1570,19 @@
       "primary_core": "connection",
       "label": "Creator familiarity",
       "definition": "Subjective recognition/knownness produced by repeated exposure to the same creator/source.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2H3-CON-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "recognition/familiarity measure tied to repeated exposure history",
+      "boundary_conditions": [
+        "Familiarity is not closeness, trust, intimacy, or attachment."
+      ]
     },
     {
       "id": "CON-N08",
@@ -1529,15 +1677,20 @@
       "primary_core": "social_transmission",
       "label": "Share / forward action",
       "definition": "Observed act of transmitting content to another person or audience.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H3-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "logged/observed share or forward action",
+      "boundary_conditions": [
+        "Behavior identifies transmission, not motive."
+      ]
     },
     {
       "id": "ST-N02",
@@ -1546,15 +1699,20 @@
       "primary_core": "social_transmission",
       "label": "Sharing intention",
       "definition": "Stated or latent willingness to share, explicitly separate from observed action.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H3-ST-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "sharing-intention/willingness measure labeled explicitly as intention",
+      "boundary_conditions": [
+        "Intention must not be treated as observed behavior."
+      ]
     },
     {
       "id": "ST-N03",
@@ -1563,15 +1721,20 @@
       "primary_core": "social_transmission",
       "label": "Recommendation action",
       "definition": "Observed endorsement/recommendation of content, source, product, or idea.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H3-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "observed endorsement/recommendation action",
+      "boundary_conditions": [
+        "Recommendation is stronger/evaluative transmission and should not be merged with neutral forwarding."
+      ]
     },
     {
       "id": "ST-N04",
@@ -1580,15 +1743,20 @@
       "primary_core": "social_transmission",
       "label": "Word-of-mouth evaluation",
       "definition": "Positive, negative, or mixed evaluative communication communicated to others.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H3-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "coded or self-reported evaluative word-of-mouth content",
+      "boundary_conditions": [
+        "WOM valence/evaluation is not identical to recommendation action."
+      ]
     },
     {
       "id": "ST-N05",
@@ -1641,15 +1809,20 @@
       "primary_core": "social_transmission",
       "label": "Identity-signaling motive",
       "definition": "Motivation to transmit content to communicate group membership, values, or self-definition.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H3-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "identity-expression/signaling motive measure tied to transmission choice",
+      "boundary_conditions": [
+        "The motive cannot be inferred solely from identity-relevant content."
+      ]
     },
     {
       "id": "ST-N08",
@@ -1802,15 +1975,20 @@
       "primary_core": "social_transmission",
       "label": "Relationship-maintenance motive",
       "definition": "Motivation to communicate/share to sustain an existing relationship over time.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H3-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "relationship-maintenance motive measure tied to sender-recipient relationship",
+      "boundary_conditions": [
+        "Relationship-maintenance sharing is distinct from parasocial connection to the creator."
+      ]
     },
     {
       "id": "RH-N01",
@@ -1819,15 +1997,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Reward prediction error",
       "definition": "Difference between expected and experienced outcome value used for learning/updating.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H3-RH-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "reinforcement-learning model fit with prediction-error construct and task feedback",
+      "boundary_conditions": [
+        "Model-derived RPE is an estimate, not a direct psychological observation."
+      ]
     },
     {
       "id": "RH-N02",
@@ -1836,15 +2019,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Outcome-value updating",
       "definition": "Revision of expected action/cue value from experienced outcomes.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H3-RH-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "trial-level value update/learning model or outcome-learning task",
+      "boundary_conditions": [
+        "Value updating should not be equated with habit formation."
+      ]
     },
     {
       "id": "RH-N03",
@@ -1870,15 +2058,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Context-response association strength",
       "definition": "Learned strength linking a recurring context/cue to a behavioral response.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H3-RH-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "objective or validated context-response association measure",
+      "boundary_conditions": [
+        "Return frequency alone does not establish association strength."
+      ]
     },
     {
       "id": "RH-N05",
@@ -1887,15 +2080,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Cue-triggered response tendency",
       "definition": "Tendency for a contextual cue to activate a learned response.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H3-RH-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "cue-triggered response/action-slip task",
+      "boundary_conditions": [
+        "Cue-triggering is context-specific and can coexist with deliberate control."
+      ]
     },
     {
       "id": "RH-N06",
@@ -1904,15 +2102,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Automaticity",
       "definition": "Degree to which a response is initiated/executed with reduced deliberation.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H3-RH-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "SRBAI/automaticity measure or objective automatic-response task",
+      "boundary_conditions": [
+        "Automaticity is an important habit component but not the entire habit construct."
+      ]
     },
     {
       "id": "RH-N07",
@@ -1921,15 +2124,21 @@
       "primary_core": "reinforcement_habit",
       "label": "Outcome insensitivity",
       "definition": "Persistence of a response despite reduced current value of the outcome, where demonstrated.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H3-RH-C03",
+        "R2H3-RH-C04"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated outcome-devaluation/revaluation paradigm with manipulation check",
+      "boundary_conditions": [
+        "Apparent devaluation insensitivity can be artifactual and does not imply global persistence."
+      ]
     },
     {
       "id": "RH-N08",
@@ -2105,15 +2314,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Contingency / outcome revaluation",
       "definition": "Change in consequences or action-outcome contingencies that can reveal or alter control mode.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H3-RH-C03"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "outcome-revaluation or contingency-change paradigm",
+      "boundary_conditions": [
+        "Revaluation is a manipulation/test condition, not itself a stable trait."
+      ]
     },
     {
       "id": "RH-N17",

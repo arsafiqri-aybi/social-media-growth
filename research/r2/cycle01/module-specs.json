@@ -11,9 +11,10 @@
         "selection_control"
       ],
       "claim_ids": [
-        "C2-ATT-001"
+        "C2-ATT-001",
+        "R2H3-ATT-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Do not equate perceptual salience with guaranteed capture."
       ],
@@ -31,9 +32,10 @@
         "selection_control"
       ],
       "claim_ids": [
-        "C2-ATT-001"
+        "C2-ATT-001",
+        "R2H3-ATT-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Goal relevance is state/context dependent, not a stable audience trait."
       ],
@@ -51,9 +53,11 @@
         "learning_adaptation"
       ],
       "claim_ids": [
-        "C2-ATT-001"
+        "C2-ATT-001",
+        "R2H3-ATT-C01",
+        "R2H3-ATT-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Traditional reward-capture effects are method-sensitive; magnitude cannot be universalized."
       ],
@@ -113,9 +117,10 @@
         "detection_representation"
       ],
       "claim_ids": [
-        "C2-CUR-001"
+        "C2-CUR-001",
+        "R2H3-CUR-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Novelty/surprise are neither necessary nor sufficient for curiosity."
       ],
@@ -134,9 +139,10 @@
       ],
       "claim_ids": [
         "C2-CUR-001",
-        "C2-CUR-002"
+        "C2-CUR-002",
+        "R2H3-CUR-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "More uncertainty can increase seeking or avoidance depending on cost/threat."
       ],
@@ -197,9 +203,11 @@
       ],
       "claim_ids": [
         "C2-CUR-001",
-        "C2-CUR-003"
+        "C2-CUR-003",
+        "R2H3-CUR-C01",
+        "R2H3-CUR-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Observed seeking is not pure curiosity; utility and threat can also drive it."
       ],
@@ -238,9 +246,10 @@
         "appraisal_valuation"
       ],
       "claim_ids": [
-        "C2-VE-001"
+        "C2-VE-001",
+        "R2H3-VE-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Subjective value is not interchangeable with affect."
       ],
@@ -300,9 +309,10 @@
         "detection_representation"
       ],
       "claim_ids": [
-        "C2-VE-003"
+        "C2-VE-003",
+        "R2H3-VE-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Valence, arousal, and subjective value are distinct."
       ],
@@ -364,9 +374,10 @@
         "self_identity"
       ],
       "claim_ids": [
-        "C2-ID-002"
+        "C2-ID-002",
+        "R2H3-ID-C03"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Self-relevance is not generic personal preference."
       ],
@@ -385,9 +396,11 @@
       ],
       "claim_ids": [
         "C2-ID-001",
-        "C2-ID-002"
+        "C2-ID-002",
+        "R2H3-ID-C01",
+        "R2H3-ID-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Identification is multidimensional; membership alone is insufficient."
       ],
@@ -450,9 +463,11 @@
       ],
       "claim_ids": [
         "C2-TR-001",
-        "C2-TR-002"
+        "C2-TR-002",
+        "R2H3-TR-C01",
+        "R2H3-TR-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Trustworthiness judgments are not factual accuracy."
       ],
@@ -470,9 +485,11 @@
         "appraisal_valuation"
       ],
       "claim_ids": [
-        "C2-TR-001"
+        "C2-TR-001",
+        "R2H3-TR-C01",
+        "R2H3-TR-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Expertise is domain-specific and not equivalent to benevolence."
       ],
@@ -534,9 +551,11 @@
       ],
       "claim_ids": [
         "C2-TR-001",
-        "C2-TR-002"
+        "C2-TR-002",
+        "R2H3-TR-C03",
+        "R2H3-TR-C04"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Heuristic credibility can be miscalibrated."
       ],
@@ -622,9 +641,11 @@
         "memory_history"
       ],
       "claim_ids": [
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2H3-CON-C01",
+        "R2H3-CON-C02"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Familiarity does not imply trust, closeness, or positive attachment."
       ],
@@ -684,9 +705,11 @@
       ],
       "claim_ids": [
         "C2-ST-001",
-        "C2-ST-002"
+        "C2-ST-002",
+        "R2H3-ST-C01",
+        "R2H3-ST-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Sharing intention is an imperfect proxy for behavior."
       ],
@@ -704,9 +727,10 @@
         "expression_action"
       ],
       "claim_ids": [
-        "C2-ST-001"
+        "C2-ST-001",
+        "R2H3-ST-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Recommendation can differ from neutral forwarding."
       ],
@@ -747,9 +771,10 @@
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-004",
-        "R2H-ST-C01"
+        "R2H-ST-C01",
+        "R2H3-ST-C01"
       ],
-      "evidence_state": "direct_review_or_primary_evidence_hardened",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Upstream identity activation belongs to Identity, not this module."
       ],
@@ -813,9 +838,10 @@
       ],
       "claim_ids": [
         "C2-ST-001",
-        "R2H-ST-C01"
+        "R2H-ST-C01",
+        "R2H3-ST-C01"
       ],
-      "evidence_state": "direct_review_or_primary_evidence_hardened",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Do not collapse into parasocial connection; this concerns sender-recipient function."
       ],
@@ -833,9 +859,10 @@
         "learning_adaptation"
       ],
       "claim_ids": [
-        "C2-RH-003"
+        "C2-RH-003",
+        "R2H3-RH-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Model-free/value learning is not habit by definition."
       ],
@@ -854,9 +881,10 @@
       ],
       "claim_ids": [
         "C2-RH-001",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H3-RH-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Requires evidence of context-response structure, not return frequency alone."
       ],
@@ -875,9 +903,12 @@
       ],
       "claim_ids": [
         "C2-RH-001",
-        "C2-RH-002"
+        "C2-RH-002",
+        "R2H3-RH-C02",
+        "R2H3-RH-C03",
+        "R2H3-RH-C04"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Automaticity is an important component but not the whole habit construct."
       ],
@@ -941,9 +972,10 @@
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-003",
-        "R2H-RH-C01"
+        "R2H-RH-C01",
+        "R2H3-RH-C03"
       ],
-      "evidence_state": "direct_review_or_primary_evidence_hardened",
+      "evidence_state": "direct_review_meta_analysis_or_validation_evidence_hardened",
       "boundary_conditions": [
         "Need direct evidence on discontinuity and extinction mechanisms."
       ],
