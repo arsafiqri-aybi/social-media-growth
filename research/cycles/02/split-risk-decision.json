@@ -1,0 +1,38 @@
+{
+  "cycle": "R0_R1_CYCLE_02",
+  "decision": "PRESERVE_8_L0_CORE_ANCHORS_WITH_COMPOSITE_SEMANTICS",
+  "rationale": [
+    "The L0 layer is defined as a broad functional family for organization and synthesis, not a unitary latent variable.",
+    "Valuation and Emotion are distinct but strongly interacting and can be represented cleanly as separate L1 modules inside one composite family.",
+    "Reinforcement learning/value updating and Habit are distinct, and model-free RL is not synonymous with habit; they therefore require separate L1 subsystems inside one composite family.",
+    "Splitting L0 now would add top-level count without improving reasoning if 10X inference is performed at L1/L2 and core rollups remain descriptive summaries.",
+    "A future split remains mandatory if R2/R3 reveals that shared L0 ownership causes retrieval ambiguity, invalid rollups, or benchmark reasoning failures."
+  ],
+  "core_semantics": {
+    "attention": "functional_family",
+    "curiosity": "functional_family",
+    "valuation_emotion": "composite_family_no_unitary_latent_score",
+    "identity": "functional_family",
+    "trust": "functional_family",
+    "connection": "functional_family",
+    "social_transmission": "behavioral_output_family_motives_separate",
+    "reinforcement_habit": "composite_family_no_unitary_latent_score"
+  },
+  "runtime_constraint": "No 10X conclusion may infer a unitary psychological state from an L0 aggregate alone. L1/L2 mechanisms and measurement provenance must drive reasoning.",
+  "high_risk_internal_separations": {
+    "valuation_emotion": [
+      "valuation subsystem",
+      "emotion/affect subsystem"
+    ],
+    "reinforcement_habit": [
+      "reinforcement/value-updating subsystem",
+      "habit/context-response subsystem"
+    ]
+  },
+  "replan_triggers": [
+    "L1/L2 reasoning repeatedly requires mutually incompatible semantics under one core.",
+    "Measurement objects cannot be assigned without core-level ambiguity.",
+    "Cross-core edges require contradictory directions solely because of composite ownership.",
+    "Benchmarks show that core aggregation loses causally relevant distinctions."
+  ]
+}

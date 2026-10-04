@@ -1,0 +1,58 @@
+{
+  "cycle": "R0_R1_CYCLE_02",
+  "input_module_count": 50,
+  "active_module_count_v2": 45,
+  "principle": "A module must represent a mechanism cluster owned primarily by one core. Upstream causes, generic context moderators, and cross-core connector constructs are not duplicated as modules.",
+  "dispositions": [
+    {
+      "id": "VE-M05",
+      "action": "merge_into",
+      "target": "VE-M04",
+      "reason": "Valence and arousal are separable dimensions but belong in one dimensional-affect mechanism cluster at L1; they can remain separate L2 neurons."
+    },
+    {
+      "id": "ID-M04",
+      "action": "move_primary_ownership",
+      "target": "ST-M04",
+      "reason": "Identity signaling/self-presentation is retained as a transmission motive; identity states connect to it through cross-core edges rather than duplicate modules."
+    },
+    {
+      "id": "ID-M05",
+      "action": "move_to_connector",
+      "target": "CTX-PERCEIVED-SIMILARITY",
+      "reason": "Homophily/similarity can influence identity, trust and connection but is not itself social identity."
+    },
+    {
+      "id": "CON-M06",
+      "action": "move_to_context_boundary",
+      "target": "CTX-RELATIONSHIP-RECIPROCITY",
+      "reason": "Reciprocity distinguishes parasocial from reciprocal relationships and is a relationship-topology context/boundary, not a connection module."
+    },
+    {
+      "id": "ST-M05",
+      "action": "refine",
+      "target": "ST-M05",
+      "new_label": "Emotion regulation & affective-expression motives",
+      "reason": "Keep only transmission-specific emotion-regulation motives; upstream arousal/emotion remains in Valuation & Emotion and connects via edges."
+    },
+    {
+      "id": "ST-M06",
+      "action": "move_to_context",
+      "target": "CTX-COMMUNICATION-MEDIUM",
+      "reason": "Audience, modality, channel and device are moderators/context dimensions, not psychological transmission mechanisms."
+    },
+    {
+      "id": "RH-M02",
+      "action": "merge_into",
+      "target": "RH-M01",
+      "reason": "Prediction error/value updating is a lower-level mechanism inside reinforcement/outcome learning rather than a separate L1 module."
+    },
+    {
+      "id": "ST-M08",
+      "action": "add",
+      "target": "ST-M08",
+      "reason": "Social bonding/relationship maintenance is a distinct transmission motive supported by the communication review and was missing in Cycle 01."
+    }
+  ],
+  "migration_rule": "Deprecated/moved module IDs remain in provenance and must never be silently reused for a different construct."
+}

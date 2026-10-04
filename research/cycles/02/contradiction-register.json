@@ -1,0 +1,96 @@
+{
+  "cycle": "R0_R1_CYCLE_02",
+  "records": [
+    {
+      "id": "C2-X-ATT-01",
+      "core": "attention",
+      "severity": "high",
+      "statement": "Reward-linked capture is supported but weak/method-sensitive in the traditional VDAC paradigm; ANT component reliability is uneven.",
+      "reasoning_rule": "Do not infer attention strength or mechanism from one task or reward history alone.",
+      "source_ids": [
+        "SRC2-ATT-002",
+        "SRC2-ATT-003"
+      ]
+    },
+    {
+      "id": "C2-X-CUR-01",
+      "core": "curiosity",
+      "severity": "high",
+      "statement": "Information avoidance can be active and motivated; seeking and avoidance are not opposite endpoints of one curiosity scale.",
+      "reasoning_rule": "Allow uncertainty/threat/cost to produce avoidance even when information value is high.",
+      "source_ids": [
+        "SRC2-CUR-001",
+        "SRC2-CUR-002"
+      ]
+    },
+    {
+      "id": "C2-X-VE-01",
+      "core": "valuation_emotion",
+      "severity": "high",
+      "statement": "Valuation and emotion interact but are not one latent construct and require distinct measurement.",
+      "reasoning_rule": "Never use an affect score as a direct subjective-value score or vice versa.",
+      "source_ids": [
+        "SRC2-VE-002",
+        "SRC2-VE-003",
+        "SRC2-VE-004",
+        "SRC2-VE-005"
+      ]
+    },
+    {
+      "id": "C2-X-ID-01",
+      "core": "identity",
+      "severity": "medium",
+      "statement": "Identity measures are multidimensional and not perfectly invariant across cultures.",
+      "reasoning_rule": "Require identity component and cultural/measurement context before comparing strength.",
+      "source_ids": [
+        "SRC2-ID-002",
+        "SRC2-ID-004"
+      ]
+    },
+    {
+      "id": "C2-X-TR-01",
+      "core": "trust",
+      "severity": "high",
+      "statement": "Heuristic credibility cues can increase perceived credibility without establishing message truth.",
+      "reasoning_rule": "Keep perceived credibility, source trust and factual accuracy as separate objects.",
+      "source_ids": [
+        "SRC2-TR-001",
+        "SRC2-TR-003"
+      ]
+    },
+    {
+      "id": "C2-X-CON-01",
+      "core": "connection",
+      "severity": "high",
+      "statement": "PSI and PSR differ and parasocial effects can relate to both adaptive and maladaptive outcomes.",
+      "reasoning_rule": "Do not infer a single beneficial connection score or collapse PSI into PSR.",
+      "source_ids": [
+        "SRC2-CON-002",
+        "SRC2-CON-003"
+      ]
+    },
+    {
+      "id": "C2-X-ST-01",
+      "core": "social_transmission",
+      "severity": "high",
+      "statement": "Sharing intention is not actual sharing, and incidental arousal has failed preregistered replication as a universal cause.",
+      "reasoning_rule": "Prefer observed behavior; treat motive and arousal paths as conditional.",
+      "source_ids": [
+        "SRC2-ST-002",
+        "SRC2-ST-003"
+      ]
+    },
+    {
+      "id": "C2-X-RH-01",
+      "core": "reinforcement_habit",
+      "severity": "high",
+      "statement": "Model-free RL, automaticity, repetition and habit are related but non-equivalent constructs.",
+      "reasoning_rule": "No habit diagnosis from return rate, repetition, SRBAI, or model-free index alone.",
+      "source_ids": [
+        "SRC2-RH-003",
+        "SRC2-RH-005",
+        "SRC2-RH-006"
+      ]
+    }
+  ]
+}

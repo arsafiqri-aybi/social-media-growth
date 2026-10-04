@@ -1,0 +1,199 @@
+{
+  "cycle": "R0_R1_CYCLE_02",
+  "status": "first_pass_validity_map",
+  "cores": [
+    {
+      "core": "attention",
+      "preferred_measurement_classes": [
+        "task_based_attention_measure",
+        "eye_tracking_when_question_is_overt_allocation",
+        "sustained_attention_task"
+      ],
+      "examples": [
+        "ANT/ANT variants for alerting-orienting-executive components",
+        "SART/PVT/CPT-family tasks for sustained attention questions"
+      ],
+      "validity_constraints": [
+        "ANT component difference scores have uneven reliability",
+        "overt gaze is not identical to covert attention",
+        "platform hold/dwell metrics are multiply determined"
+      ],
+      "platform_proxy_policy": "early hold, dwell, completion and stopping behavior are weak-to-moderate behavioral proxies and cannot establish a specific attention mechanism alone",
+      "source_ids": [
+        "SRC2-ATT-003"
+      ]
+    },
+    {
+      "core": "curiosity",
+      "preferred_measurement_classes": [
+        "validated_trait_scale",
+        "state information-seeking task",
+        "choice-based information-seeking behavior"
+      ],
+      "examples": [
+        "CEI-II",
+        "5DCR"
+      ],
+      "validity_constraints": [
+        "trait scales do not directly measure momentary content-evoked curiosity",
+        "different instruments operationalize different curiosity facets",
+        "information seeking and information avoidance are not exact opposites"
+      ],
+      "platform_proxy_policy": "profile visits, taps for more information, search actions and completion can contribute evidence but require competing explanations",
+      "source_ids": [
+        "SRC2-CUR-002",
+        "SRC2-CUR-003",
+        "SRC2-CUR-004"
+      ]
+    },
+    {
+      "core": "valuation_emotion",
+      "preferred_measurement_classes": [
+        "choice_or_willingness_to_pay_for_subjective_value",
+        "affect_self_report",
+        "appraisal_measure",
+        "physiological_measure_with_construct_specificity"
+      ],
+      "examples": [
+        "choice/WTP/value ratings for valuation",
+        "SAM for valence-arousal-dominance",
+        "PANAS for positive/negative affect"
+      ],
+      "validity_constraints": [
+        "no single valid unitary measure of 'valuation + emotion'",
+        "affective arousal is not subjective value",
+        "physiology alone does not identify emotion or motive",
+        "appraisals and emotions are many-to-many"
+      ],
+      "platform_proxy_policy": "likes, saves or watch time cannot identify value versus emotion without additional evidence",
+      "source_ids": [
+        "SRC2-VE-001",
+        "SRC2-VE-003",
+        "SRC2-VE-004",
+        "SRC2-VE-005"
+      ]
+    },
+    {
+      "core": "identity",
+      "preferred_measurement_classes": [
+        "multicomponent_social_identification_scale",
+        "collective_self_measure",
+        "identity-specific experimental manipulation"
+      ],
+      "examples": [
+        "Leach et al. multicomponent in-group identification model",
+        "Collective Self-Esteem Scale",
+        "AIQ-IV for broader identity orientation when appropriate"
+      ],
+      "validity_constraints": [
+        "identity is multidimensional",
+        "generic similarity/homophily is not identity",
+        "cross-cultural measurement invariance can be incomplete",
+        "global composite scores can obscure distinct components"
+      ],
+      "platform_proxy_policy": "identity language/classifier outputs require validated coding and cannot establish identification strength alone",
+      "source_ids": [
+        "SRC2-ID-002",
+        "SRC2-ID-003",
+        "SRC2-ID-004"
+      ]
+    },
+    {
+      "core": "trust",
+      "preferred_measurement_classes": [
+        "validated_source_credibility_scale",
+        "source_trust_scale",
+        "message_credibility_scale",
+        "behavioral_reliance_when_available"
+      ],
+      "examples": [
+        "McCroskey/Teven-type source credibility dimensions",
+        "Ohanian-type expertise/trustworthiness dimensions"
+      ],
+      "validity_constraints": [
+        "source trust, source credibility and message credibility are distinct",
+        "perceived credibility is not factual accuracy",
+        "heuristic cues can shift perceived credibility"
+      ],
+      "platform_proxy_policy": "engagement, following and repeat exposure must not be labeled trust without direct trust/credibility evidence",
+      "source_ids": [
+        "SRC2-TR-001",
+        "SRC2-TR-003"
+      ]
+    },
+    {
+      "core": "connection",
+      "preferred_measurement_classes": [
+        "PSI_scale_for_episodic_interaction",
+        "PSR_scale_for_enduring_relationship",
+        "relationship_closeness_or_attachment_measure_when_construct_matched"
+      ],
+      "examples": [
+        "modern online PSR multidimensional scale with intimacy, maintenance and real-life intention dimensions"
+      ],
+      "validity_constraints": [
+        "PSI ≠ PSR",
+        "familiarity ≠ closeness",
+        "parasocial ≠ reciprocal relationship",
+        "age and culture can moderate associations"
+      ],
+      "platform_proxy_policy": "repeat engagement and returning viewers are weak relational proxies and can reflect utility, controversy or habit",
+      "source_ids": [
+        "SRC2-CON-001",
+        "SRC2-CON-002",
+        "SRC2-CON-003"
+      ]
+    },
+    {
+      "core": "social_transmission",
+      "preferred_measurement_classes": [
+        "observed_share_forward_recommend_behavior",
+        "logged_behavior",
+        "behavioral_choice",
+        "intention_only_as_secondary_proxy"
+      ],
+      "examples": [
+        "actual share/forward events",
+        "behavioral recommendation choice",
+        "willingness-to-share only when direct behavior unavailable"
+      ],
+      "validity_constraints": [
+        "sharing behavior identifies transmission but not motive",
+        "stated willingness is not identical to later behavior",
+        "virality additionally depends on platform/network amplification"
+      ],
+      "platform_proxy_policy": "share counts are direct behavior at aggregate level; motives require separate inference",
+      "source_ids": [
+        "SRC2-ST-001",
+        "SRC2-ST-002"
+      ]
+    },
+    {
+      "core": "reinforcement_habit",
+      "preferred_measurement_classes": [
+        "context_response_association_task",
+        "devaluation_or_contingency_sensitivity_task",
+        "automaticity_scale_with_scope_warning",
+        "longitudinal_context_stability_measure"
+      ],
+      "examples": [
+        "objective context-response association paradigm",
+        "SRBAI as automaticity index",
+        "outcome devaluation/frequency-based habit paradigms"
+      ],
+      "validity_constraints": [
+        "returning behavior ≠ habit",
+        "SRBAI ≠ complete habit construct",
+        "model-free RL ≠ habit by definition",
+        "repetition frequency must be interpreted with context and outcome sensitivity"
+      ],
+      "platform_proxy_policy": "returning viewer rate and repeated engagement are weak recurrence outcomes, not habit diagnoses",
+      "source_ids": [
+        "SRC2-RH-002",
+        "SRC2-RH-003",
+        "SRC2-RH-005",
+        "SRC2-RH-006"
+      ]
+    }
+  ]
+}

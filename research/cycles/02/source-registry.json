@@ -1,0 +1,382 @@
+{
+  "cycle": "R0_R1_CYCLE_02",
+  "searched_on": "2026-10-05",
+  "scope": "split-risk ontology, measurement validity, deliberate disconfirmation, culture/individual differences, module non-redundancy",
+  "sources": [
+    {
+      "id": "SRC2-ATT-001",
+      "core": [
+        "attention"
+      ],
+      "title": "Attentional Capture and Control",
+      "year": 2025,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-011624-025340"
+    },
+    {
+      "id": "SRC2-ATT-002",
+      "core": [
+        "attention",
+        "reinforcement_habit"
+      ],
+      "title": "Systematic review of the value-driven attentional capture paradigm in visual attention studies: Evidence from 52 experiments",
+      "year": 2025,
+      "type": "systematic_review",
+      "doi": "10.1016/j.actpsy.2025.105060"
+    },
+    {
+      "id": "SRC2-ATT-003",
+      "core": [
+        "attention"
+      ],
+      "title": "Appraising the ANT: Psychometric and theoretical considerations of the Attention Network Test",
+      "year": 2010,
+      "type": "meta_analysis_psychometrics",
+      "doi": "10.1037/a0019803"
+    },
+    {
+      "id": "SRC2-ATT-004",
+      "core": [
+        "attention"
+      ],
+      "title": "Culture and attention: Recent empirical findings and new directions in cultural psychology",
+      "year": 2017,
+      "type": "review",
+      "doi": "10.1111/spc3.12363"
+    },
+    {
+      "id": "SRC2-CUR-001",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Curiosity and the dynamics of optimal exploration",
+      "year": 2024,
+      "type": "review",
+      "doi": "10.1016/j.tics.2024.02.001"
+    },
+    {
+      "id": "SRC2-CUR-002",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Information Avoidance: Past Perspectives and Future Directions",
+      "year": 2025,
+      "type": "review",
+      "doi": "10.1177/17456916231197668"
+    },
+    {
+      "id": "SRC2-CUR-003",
+      "core": [
+        "curiosity"
+      ],
+      "title": "The Curiosity and Exploration Inventory-II: Development, Factor Structure, and Psychometrics",
+      "year": 2009,
+      "type": "scale_development",
+      "doi": "10.1016/j.jrp.2009.04.011"
+    },
+    {
+      "id": "SRC2-CUR-004",
+      "core": [
+        "curiosity"
+      ],
+      "title": "The Five-Dimensional Curiosity Scale Revised (5DCR)",
+      "year": 2020,
+      "type": "scale_development",
+      "doi": "10.1016/j.paid.2020.109836"
+    },
+    {
+      "id": "SRC2-CUR-005",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Measuring Six Facets of Curiosity in Germany and the UK",
+      "year": 2022,
+      "type": "cross_cultural_validation",
+      "doi": "10.1080/00223891.2022.2057318"
+    },
+    {
+      "id": "SRC2-CUR-006",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Psychometric of the Curiosity and Exploration Inventory-II in Indonesia",
+      "year": 2020,
+      "type": "cross_cultural_validation",
+      "doi": "10.4081/jphr.2020.1745"
+    },
+    {
+      "id": "SRC2-VE-001",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Associations between cognitive appraisals and emotions: A meta-analytic review",
+      "year": 2024,
+      "type": "meta_analysis",
+      "doi": "10.1037/bul0000452"
+    },
+    {
+      "id": "SRC2-VE-002",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Emotion and Decision Making: Multiple Modulatory Neural Circuits",
+      "year": 2014,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-neuro-071013-014119"
+    },
+    {
+      "id": "SRC2-VE-003",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Subjective Values in Decision-Making Under Uncertainty: A Systematic Review",
+      "year": 2026,
+      "type": "systematic_review",
+      "doi": "10.3390/bs16091494"
+    },
+    {
+      "id": "SRC2-VE-004",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Measuring emotion: The Self-Assessment Manikin and the Semantic Differential",
+      "year": 1994,
+      "type": "measurement_validation",
+      "doi": "10.1016/0005-7916(94)90063-9"
+    },
+    {
+      "id": "SRC2-VE-005",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "The positive and negative affect schedule (PANAS): construct validity, measurement properties and normative data in a large non-clinical sample",
+      "year": 2004,
+      "type": "measurement_validation",
+      "doi": "10.1348/0144665031752934"
+    },
+    {
+      "id": "SRC2-VE-006",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Emotion and culture: A meta-analysis",
+      "year": 2007,
+      "type": "meta_analysis_cross_cultural",
+      "doi": "10.1080/02699930701339293"
+    },
+    {
+      "id": "SRC2-ID-001",
+      "core": [
+        "identity"
+      ],
+      "title": "Social Influence and Group Identity",
+      "year": 2021,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-070620-111818"
+    },
+    {
+      "id": "SRC2-ID-002",
+      "core": [
+        "identity"
+      ],
+      "title": "Group-level self-definition and self-investment: A hierarchical (multicomponent) model of in-group identification",
+      "year": 2008,
+      "type": "scale_and_model_validation",
+      "doi": "10.1037/0022-3514.95.1.144"
+    },
+    {
+      "id": "SRC2-ID-003",
+      "core": [
+        "identity"
+      ],
+      "title": "A Collective Self-Esteem Scale: Self-Evaluation of One's Social Identity",
+      "year": 1992,
+      "type": "scale_development",
+      "doi": "10.1177/0146167292183006"
+    },
+    {
+      "id": "SRC2-ID-004",
+      "core": [
+        "identity"
+      ],
+      "title": "Adolescent self-construal across cultures: Measurement invariance of the Aspects of Identity Questionnaire-IV in 30 countries",
+      "year": 2025,
+      "type": "cross_national_measurement_invariance",
+      "doi": "10.1111/jora.70017"
+    },
+    {
+      "id": "SRC2-TR-001",
+      "core": [
+        "trust"
+      ],
+      "title": "How Heuristic Credibility Cues Shape Perceived Credibility on Social Media: A Meta-Analysis of Experimental Research",
+      "year": 2026,
+      "type": "meta_analysis_experimental",
+      "doi": "10.3390/bs16071184"
+    },
+    {
+      "id": "SRC2-TR-002",
+      "core": [
+        "trust",
+        "identity",
+        "connection"
+      ],
+      "title": "Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations",
+      "year": 2024,
+      "type": "meta_analysis",
+      "doi": "10.1002/mar.21927"
+    },
+    {
+      "id": "SRC2-TR-003",
+      "core": [
+        "trust"
+      ],
+      "title": "Assessing the Credibility and Authenticity of Social Media Content for Applications in Health Communication: Scoping Review",
+      "year": 2020,
+      "type": "scoping_review",
+      "doi": "10.2196/17296"
+    },
+    {
+      "id": "SRC2-CON-001",
+      "core": [
+        "connection"
+      ],
+      "title": "Consumers’ parasocial interactions and relationships with online influencers: a systematic review",
+      "year": 2026,
+      "type": "systematic_review",
+      "doi": "10.1108/JCM-02-2024-6611"
+    },
+    {
+      "id": "SRC2-CON-002",
+      "core": [
+        "connection"
+      ],
+      "title": "Parasocial relationship: reconceptualization, scale development and validation",
+      "year": 2026,
+      "type": "scale_development",
+      "doi": "10.1016/j.jbusres.2026.116122"
+    },
+    {
+      "id": "SRC2-CON-003",
+      "core": [
+        "connection"
+      ],
+      "title": "Parasocial Engagement With Social Media Influencers and Mental Health Outcomes: Systematic Review and Meta-Analysis",
+      "year": 2026,
+      "type": "systematic_review_meta_analysis",
+      "doi": "10.2196/96331"
+    },
+    {
+      "id": "SRC2-CON-004",
+      "core": [
+        "connection"
+      ],
+      "title": "Unrequited love? A mixed-methods study of parasocial engagement with social media influencers",
+      "year": 2025,
+      "type": "meta_analysis_plus_qualitative",
+      "doi": "10.1016/j.ijinfomgt.2024.102845"
+    },
+    {
+      "id": "SRC2-ST-001",
+      "core": [
+        "social_transmission"
+      ],
+      "title": "What Gets Shared, and Why? Interpersonal Communication and Word of Mouth",
+      "year": 2025,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-013024-031524"
+    },
+    {
+      "id": "SRC2-ST-002",
+      "core": [
+        "social_transmission"
+      ],
+      "title": "Validating a willingness to share measure of a vignette experiment using real-world behavioral data",
+      "year": 2025,
+      "type": "behavioral_validation",
+      "doi": "10.1038/s41598-025-92349-2"
+    },
+    {
+      "id": "SRC2-ST-003",
+      "core": [
+        "social_transmission",
+        "valuation_emotion"
+      ],
+      "title": "Does Physiological Arousal Increase Social Transmission of Information? Two Replications of Berger (2011)",
+      "year": 2024,
+      "type": "preregistered_replications",
+      "doi": "10.1177/09567976241257255"
+    },
+    {
+      "id": "SRC2-ST-004",
+      "core": [
+        "social_transmission",
+        "identity"
+      ],
+      "title": "Cross-Cultural Communication on Social Media: Review From the Perspective of Cultural Psychology and Neuroscience",
+      "year": 2022,
+      "type": "review",
+      "doi": "10.3389/fpsyg.2022.858900"
+    },
+    {
+      "id": "SRC2-RH-001",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Psychology of Habit",
+      "year": 2016,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-122414-033417"
+    },
+    {
+      "id": "SRC2-RH-002",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Measuring context-response associations that drive habits",
+      "year": 2023,
+      "type": "experimental_measurement",
+      "doi": "10.1002/jeab.893"
+    },
+    {
+      "id": "SRC2-RH-003",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Towards parsimony in habit measurement: Testing the convergent and predictive validity of an automaticity subscale of the Self-Report Habit Index",
+      "year": 2012,
+      "type": "measurement_validation",
+      "doi": "10.1186/1479-5868-9-102"
+    },
+    {
+      "id": "SRC2-RH-004",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Learning, Reward, and Decision Making",
+      "year": 2017,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-010416-044216"
+    },
+    {
+      "id": "SRC2-RH-005",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Habits without values",
+      "year": 2019,
+      "type": "theoretical_review",
+      "doi": "10.1037/rev0000120"
+    },
+    {
+      "id": "SRC2-RH-006",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Characterizing Human Habits in the Lab",
+      "year": 2024,
+      "type": "registered_report",
+      "doi": "10.1525/collabra.92949"
+    }
+  ]
+}

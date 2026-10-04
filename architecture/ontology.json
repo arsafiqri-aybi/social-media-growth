@@ -1,7 +1,7 @@
 {
   "architecture_id": "SMG-HPC-10X-ARCH",
-  "version": "1.0.0",
-  "status": "accepted_for_research_program",
+  "version": "1.1.0",
+  "status": "accepted_for_R2_mechanism_decomposition",
   "principles": [
     "The eight core families are candidate anchors, not a linear funnel.",
     "Hierarchy is for retrieval and composition; causality and influence live in the graph.",
@@ -123,5 +123,26 @@
     "deprecated",
     "rejected"
   ],
-  "runtime_rule": "No empirical effect size becomes a runtime propagation weight unless a separate calibration artifact explicitly justifies the transformation."
+  "runtime_rule": "No empirical effect size becomes a runtime propagation weight unless a separate calibration artifact explicitly justifies the transformation.",
+  "core_semantics": {
+    "attention": "functional_family",
+    "curiosity": "functional_family",
+    "valuation_emotion": "composite_family_no_unitary_latent_score",
+    "identity": "functional_family",
+    "trust": "functional_family",
+    "connection": "functional_family",
+    "social_transmission": "behavioral_output_family_motives_separate",
+    "reinforcement_habit": "composite_family_no_unitary_latent_score"
+  },
+  "core_rollup_policy": "L0 values are descriptive family summaries only. They are not unitary latent psychological scores and cannot support a 10X conclusion without L1/L2 mechanism and measurement provenance.",
+  "composite_core_constraints": {
+    "valuation_emotion": [
+      "valuation subsystem",
+      "emotion/affect subsystem"
+    ],
+    "reinforcement_habit": [
+      "reinforcement/value-updating subsystem",
+      "habit/context-response subsystem"
+    ]
+  }
 }

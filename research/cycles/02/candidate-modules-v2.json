@@ -1,0 +1,244 @@
+{
+  "cycle": "R0_R1_CYCLE_02",
+  "version": "2.0.0-candidate",
+  "status": "candidate_after_nonredundancy_audit_not_yet_final",
+  "modules": [
+    {
+      "id": "ATT-M01",
+      "core": "attention",
+      "label": "Stimulus-driven capture & salience"
+    },
+    {
+      "id": "ATT-M02",
+      "core": "attention",
+      "label": "Goal-directed selection & control"
+    },
+    {
+      "id": "ATT-M03",
+      "core": "attention",
+      "label": "Selection history & learned priority"
+    },
+    {
+      "id": "ATT-M04",
+      "core": "attention",
+      "label": "Sustained attention & vigilance"
+    },
+    {
+      "id": "ATT-M05",
+      "core": "attention",
+      "label": "Suppression, disengagement & competition"
+    },
+    {
+      "id": "CUR-M01",
+      "core": "curiosity",
+      "label": "Novelty & surprise appraisal"
+    },
+    {
+      "id": "CUR-M02",
+      "core": "curiosity",
+      "label": "Uncertainty & knowledge gaps"
+    },
+    {
+      "id": "CUR-M03",
+      "core": "curiosity",
+      "label": "Epistemic information value & reward anticipation"
+    },
+    {
+      "id": "CUR-M04",
+      "core": "curiosity",
+      "label": "Learning progress & competence"
+    },
+    {
+      "id": "CUR-M05",
+      "core": "curiosity",
+      "label": "Exploration & information seeking"
+    },
+    {
+      "id": "CUR-M06",
+      "core": "curiosity",
+      "label": "Information avoidance, threat & cost"
+    },
+    {
+      "id": "VE-M01",
+      "core": "valuation_emotion",
+      "subsystem": "valuation",
+      "label": "Subjective valuation & utility"
+    },
+    {
+      "id": "VE-M02",
+      "core": "valuation_emotion",
+      "subsystem": "valuation",
+      "label": "Outcome, reward & punishment valuation"
+    },
+    {
+      "id": "VE-M03",
+      "core": "valuation_emotion",
+      "subsystem": "emotion",
+      "label": "Cognitive appraisal dimensions"
+    },
+    {
+      "id": "VE-M04",
+      "core": "valuation_emotion",
+      "subsystem": "emotion",
+      "label": "Dimensional affect: valence, arousal & activation"
+    },
+    {
+      "id": "VE-M06",
+      "core": "valuation_emotion",
+      "subsystem": "emotion",
+      "label": "Discrete emotion / differentiated affect"
+    },
+    {
+      "id": "VE-M07",
+      "core": "valuation_emotion",
+      "subsystem": "bridge",
+      "label": "Motivational action tendencies"
+    },
+    {
+      "id": "ID-M01",
+      "core": "identity",
+      "label": "Self-concept & self-relevance"
+    },
+    {
+      "id": "ID-M02",
+      "core": "identity",
+      "label": "Social categorization & group identification"
+    },
+    {
+      "id": "ID-M03",
+      "core": "identity",
+      "label": "Norm salience & prototypicality"
+    },
+    {
+      "id": "ID-M06",
+      "core": "identity",
+      "label": "Identity threat, defense & boundary maintenance"
+    },
+    {
+      "id": "TR-M01",
+      "core": "trust",
+      "label": "Trustworthiness, integrity & benevolence"
+    },
+    {
+      "id": "TR-M02",
+      "core": "trust",
+      "label": "Expertise & competence"
+    },
+    {
+      "id": "TR-M03",
+      "core": "trust",
+      "label": "Authenticity & genuineness"
+    },
+    {
+      "id": "TR-M04",
+      "core": "trust",
+      "label": "Consistency, reliability & track record"
+    },
+    {
+      "id": "TR-M05",
+      "core": "trust",
+      "label": "Credibility cues & heuristic evaluation"
+    },
+    {
+      "id": "TR-M06",
+      "core": "trust",
+      "label": "Verification, skepticism & trust calibration"
+    },
+    {
+      "id": "CON-M01",
+      "core": "connection",
+      "label": "Parasocial interaction (episodic)"
+    },
+    {
+      "id": "CON-M02",
+      "core": "connection",
+      "label": "Parasocial relationship (enduring)"
+    },
+    {
+      "id": "CON-M03",
+      "core": "connection",
+      "label": "Familiarity & repeated exposure"
+    },
+    {
+      "id": "CON-M04",
+      "core": "connection",
+      "label": "Perceived closeness & intimacy"
+    },
+    {
+      "id": "CON-M05",
+      "core": "connection",
+      "label": "Affective attachment"
+    },
+    {
+      "id": "ST-M01",
+      "core": "social_transmission",
+      "label": "Sharing / forwarding behavior"
+    },
+    {
+      "id": "ST-M02",
+      "core": "social_transmission",
+      "label": "Recommendation & word of mouth"
+    },
+    {
+      "id": "ST-M03",
+      "core": "social_transmission",
+      "label": "Practical / information-value motives"
+    },
+    {
+      "id": "ST-M04",
+      "core": "social_transmission",
+      "label": "Identity signaling & impression-management motives"
+    },
+    {
+      "id": "ST-M05",
+      "core": "social_transmission",
+      "label": "Emotion regulation & affective-expression motives"
+    },
+    {
+      "id": "ST-M07",
+      "core": "social_transmission",
+      "label": "Privacy, reputational cost & inhibition"
+    },
+    {
+      "id": "ST-M08",
+      "core": "social_transmission",
+      "label": "Social bonding & relationship-maintenance motives"
+    },
+    {
+      "id": "RH-M01",
+      "core": "reinforcement_habit",
+      "subsystem": "reinforcement_learning",
+      "label": "Outcome/reward learning & value updating"
+    },
+    {
+      "id": "RH-M03",
+      "core": "reinforcement_habit",
+      "subsystem": "habit",
+      "label": "Context-response association"
+    },
+    {
+      "id": "RH-M04",
+      "core": "reinforcement_habit",
+      "subsystem": "habit",
+      "label": "Automaticity & habitual control"
+    },
+    {
+      "id": "RH-M05",
+      "core": "reinforcement_habit",
+      "subsystem": "bridge",
+      "label": "Goal-directed control interface & arbitration"
+    },
+    {
+      "id": "RH-M06",
+      "core": "reinforcement_habit",
+      "subsystem": "habit_formation",
+      "label": "Repetition, context stability & habit formation"
+    },
+    {
+      "id": "RH-M07",
+      "core": "reinforcement_habit",
+      "subsystem": "habit_disruption",
+      "label": "Habit disruption & context change"
+    }
+  ]
+}

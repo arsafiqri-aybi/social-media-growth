@@ -1,0 +1,354 @@
+{
+  "cycle": "R0_R1_CYCLE_02",
+  "claims": [
+    {
+      "id": "C2-ATT-001",
+      "target_ids": [
+        "attention"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-ATT-001"
+      ],
+      "statement": "Attention is not a unitary salience response; top-down goals, bottom-up stimulus factors, and selection history interact and compete."
+    },
+    {
+      "id": "C2-ATT-002",
+      "target_ids": [
+        "attention"
+      ],
+      "claim_type": "measurement",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-ATT-003"
+      ],
+      "statement": "ANT network scores are not equally reliable; alerting and orienting difference scores have shown low split-half reliability relative to executive control, so ANT outputs cannot be treated as interchangeable high-precision trait measures."
+    },
+    {
+      "id": "C2-ATT-003",
+      "target_ids": [
+        "attention"
+      ],
+      "claim_type": "transport_generalization",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-ATT-004"
+      ],
+      "statement": "Cultural meaning systems can alter object-versus-context allocation of visual attention, so attention effects should not be assumed culturally invariant."
+    },
+    {
+      "id": "C2-CUR-001",
+      "target_ids": [
+        "curiosity"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-CUR-001"
+      ],
+      "statement": "Curiosity requires a multi-mechanism model including uncertainty, information gain, learning progress and exploration rather than a single information-gap rule."
+    },
+    {
+      "id": "C2-CUR-002",
+      "target_ids": [
+        "curiosity"
+      ],
+      "claim_type": "contradiction",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-CUR-002"
+      ],
+      "statement": "Information avoidance is distinct from simply low curiosity or absent seeking; threat, self-beliefs, social factors and situational factors can motivate active avoidance of available information."
+    },
+    {
+      "id": "C2-CUR-003",
+      "target_ids": [
+        "curiosity"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-CUR-003",
+        "SRC2-CUR-004"
+      ],
+      "statement": "Trait curiosity is measurably multidimensional; CEI-II and 5DCR operationalize different facet structures rather than supporting one scalar curiosity variable."
+    },
+    {
+      "id": "C2-CUR-004",
+      "target_ids": [
+        "curiosity"
+      ],
+      "claim_type": "transport_generalization",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-CUR-005",
+        "SRC2-CUR-006"
+      ],
+      "statement": "Curiosity instruments have shown cross-cultural portability in specific samples, including Germany/UK and an Indonesian CEI-II adaptation, but this is not evidence of global invariance."
+    },
+    {
+      "id": "C2-VE-001",
+      "target_ids": [
+        "valuation_emotion"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-VE-002",
+        "SRC2-VE-003"
+      ],
+      "statement": "Subjective valuation and emotion are interacting but non-identical processes: affect can modulate value computation, and value-based decisions can incorporate affective reactions."
+    },
+    {
+      "id": "C2-VE-002",
+      "target_ids": [
+        "valuation_emotion"
+      ],
+      "claim_type": "association",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-VE-001"
+      ],
+      "statement": "Appraisal-emotion relationships are differentiated across many appraisal dimensions and emotions rather than collapsing to one generic affective value signal."
+    },
+    {
+      "id": "C2-VE-003",
+      "target_ids": [
+        "valuation_emotion"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-VE-004",
+        "SRC2-VE-005"
+      ],
+      "statement": "Dimensional affect measures such as SAM and positive/negative affect instruments such as PANAS measure different affective representations and should not be used as a direct measurement of subjective value."
+    },
+    {
+      "id": "C2-VE-004",
+      "target_ids": [
+        "valuation_emotion"
+      ],
+      "claim_type": "transport_generalization",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-VE-006"
+      ],
+      "statement": "Cross-cultural emotion differences are partly substantive and partly methodological; culture and measurement method materially affect observed emotion differences."
+    },
+    {
+      "id": "C2-ID-001",
+      "target_ids": [
+        "identity"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-ID-001"
+      ],
+      "statement": "Identity-based influence depends on self-categorization, group norms, identification and context rather than generic similarity."
+    },
+    {
+      "id": "C2-ID-002",
+      "target_ids": [
+        "identity"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-ID-002",
+        "SRC2-ID-003"
+      ],
+      "statement": "Social identity and group identification are multidimensional; validated measures distinguish components such as self-definition, self-investment, membership esteem and importance to identity."
+    },
+    {
+      "id": "C2-ID-003",
+      "target_ids": [
+        "identity"
+      ],
+      "claim_type": "transport_generalization",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-ID-004"
+      ],
+      "statement": "Cross-national measurement invariance of identity measures is imperfect; a 30-country analysis found noninvariance in a meaningful subset of parameters, particularly for some collective-interdependent items."
+    },
+    {
+      "id": "C2-TR-001",
+      "target_ids": [
+        "trust"
+      ],
+      "claim_type": "causal",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-TR-001"
+      ],
+      "statement": "Experimental heuristic source/social cues produce a small-to-moderate average increase in perceived credibility, with source cues stronger than social cues and participant type acting as a moderator."
+    },
+    {
+      "id": "C2-TR-002",
+      "target_ids": [
+        "trust"
+      ],
+      "claim_type": "contradiction",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-TR-001",
+        "SRC2-TR-003"
+      ],
+      "statement": "Perceived credibility is not equivalent to factual accuracy or calibrated trust; social/source cues can shift credibility judgments without verifying message truth."
+    },
+    {
+      "id": "C2-TR-003",
+      "target_ids": [
+        "trust"
+      ],
+      "claim_type": "transport_generalization",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-TR-002"
+      ],
+      "statement": "Influencer credibility effects vary across methodological, geographic, platform, product and influencer contexts, so pooled effects are not universal runtime coefficients."
+    },
+    {
+      "id": "C2-CON-001",
+      "target_ids": [
+        "connection"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-CON-001",
+        "SRC2-CON-002"
+      ],
+      "statement": "Parasocial interaction and parasocial relationship require distinct representation; modern PSR measurement is multidimensional and older online/offline scales are not automatically interchangeable."
+    },
+    {
+      "id": "C2-CON-002",
+      "target_ids": [
+        "connection"
+      ],
+      "claim_type": "moderation",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-CON-003"
+      ],
+      "statement": "Parasocial outcome associations vary by parasocial construct, age and cultural region, requiring developmental and cultural context in reasoning."
+    },
+    {
+      "id": "C2-CON-003",
+      "target_ids": [
+        "connection"
+      ],
+      "claim_type": "contradiction",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-CON-003",
+        "SRC2-CON-004"
+      ],
+      "statement": "Parasocial engagement is not uniformly beneficial or harmful and its observed associations do not establish a universal causal connection-to-outcome pathway."
+    },
+    {
+      "id": "C2-ST-001",
+      "target_ids": [
+        "social_transmission"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-ST-001"
+      ],
+      "statement": "Social transmission has multiple drivers including impression management, accessibility, emotion regulation, information acquisition, social bonding and persuasion, while audience and communication medium moderate what is shared."
+    },
+    {
+      "id": "C2-ST-002",
+      "target_ids": [
+        "social_transmission"
+      ],
+      "claim_type": "measurement",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-ST-002"
+      ],
+      "statement": "Stated willingness to share is an imperfect proxy for later real behavior; one prospective validation found only moderate correspondence and different determinants of intentions versus actual sharing."
+    },
+    {
+      "id": "C2-ST-003",
+      "target_ids": [
+        "social_transmission",
+        "valuation_emotion"
+      ],
+      "claim_type": "null",
+      "stance": "contrasts",
+      "source_ids": [
+        "SRC2-ST-003"
+      ],
+      "statement": "Two preregistered replications found no effect of incidental physiological arousal on social-media sharing willingness, rejecting a universal arousal-to-sharing rule."
+    },
+    {
+      "id": "C2-ST-004",
+      "target_ids": [
+        "social_transmission"
+      ],
+      "claim_type": "transport_generalization",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-ST-004"
+      ],
+      "statement": "Culture and self-construal can shape communication and sharing behavior, while non-cultural platform and network factors also contribute."
+    },
+    {
+      "id": "C2-RH-001",
+      "target_ids": [
+        "reinforcement_habit"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-RH-001",
+        "SRC2-RH-002"
+      ],
+      "statement": "Habit involves learned context-response control/automaticity and must be distinguished from mere repetition, goal intention and return behavior."
+    },
+    {
+      "id": "C2-RH-002",
+      "target_ids": [
+        "reinforcement_habit"
+      ],
+      "claim_type": "measurement",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-RH-003"
+      ],
+      "statement": "SRBAI is best interpreted as an automaticity index rather than a complete habit measure; self-report cannot fully identify context-specific cue-response associations."
+    },
+    {
+      "id": "C2-RH-003",
+      "target_ids": [
+        "reinforcement_habit"
+      ],
+      "claim_type": "contradiction",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC2-RH-004",
+        "SRC2-RH-005",
+        "SRC2-RH-006"
+      ],
+      "statement": "Model-free reinforcement learning and habit are not interchangeable constructs; value-based learning can contribute to repeated control, but human habit can also be outcome-insensitive and frequency/context based."
+    },
+    {
+      "id": "C2-RH-004",
+      "target_ids": [
+        "reinforcement_habit"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "SRC2-RH-002",
+        "SRC2-RH-006"
+      ],
+      "statement": "Objective context-response and devaluation/frequency-based paradigms provide mechanistic information that self-report or returning-frequency metrics cannot supply."
+    }
+  ]
+}

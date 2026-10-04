@@ -1,0 +1,129 @@
+{
+  "cycle": "R0_R1_CYCLE_02",
+  "status": "coverage_map_not_saturation",
+  "cores": [
+    {
+      "core": "attention",
+      "culture": "Evidence supports culture-related differences in object-versus-context allocation, but effects can vary by task and sample.",
+      "individual_differences": [
+        "goal state",
+        "selection history",
+        "age/development",
+        "task demands"
+      ],
+      "source_ids": [
+        "SRC2-ATT-004"
+      ],
+      "gap": "Need more globally diverse and social-media-specific transport evidence."
+    },
+    {
+      "core": "curiosity",
+      "culture": "Specific curiosity instruments show cross-cultural portability in Germany/UK and an Indonesian adaptation, but not universal invariance.",
+      "individual_differences": [
+        "stress tolerance",
+        "social curiosity",
+        "thrill seeking",
+        "openness",
+        "coping resources"
+      ],
+      "source_ids": [
+        "SRC2-CUR-004",
+        "SRC2-CUR-005",
+        "SRC2-CUR-006"
+      ],
+      "gap": "Need broader non-WEIRD state-curiosity and information-avoidance evidence."
+    },
+    {
+      "core": "valuation_emotion",
+      "culture": "Emotion experience, ideal arousal and emotion measurement show cultural variation; method effects can inflate observed differences.",
+      "individual_differences": [
+        "risk preference",
+        "affect sensitivity",
+        "regulation strategy",
+        "current goals"
+      ],
+      "source_ids": [
+        "SRC2-VE-006"
+      ],
+      "gap": "Need direct cultural transport evidence for social-media valuation/appraisal processes."
+    },
+    {
+      "core": "identity",
+      "culture": "Identity constructs and measurement are culturally sensitive; cross-national measurement invariance is incomplete for some collective/interdependent components.",
+      "individual_differences": [
+        "identification strength",
+        "centrality",
+        "self-definition",
+        "self-investment",
+        "moral conviction"
+      ],
+      "source_ids": [
+        "SRC2-ID-001",
+        "SRC2-ID-004"
+      ],
+      "gap": "Need platform-specific identity salience and identity-switching evidence."
+    },
+    {
+      "core": "trust",
+      "culture": "Credibility/trust effects vary by geographical and methodological context; participant type also moderates heuristic-cue effects.",
+      "individual_differences": [
+        "digital literacy",
+        "prior beliefs",
+        "expertise",
+        "skepticism",
+        "student versus non-student status"
+      ],
+      "source_ids": [
+        "SRC2-TR-001",
+        "SRC2-TR-002"
+      ],
+      "gap": "Need validated cross-cultural source/message trust measurement invariance in social-media contexts."
+    },
+    {
+      "core": "connection",
+      "culture": "Parasocial associations differ by cultural region and age; construct type (PSI versus PSR) materially changes pooled associations.",
+      "individual_differences": [
+        "age",
+        "attachment-related tendencies",
+        "prior exposure",
+        "relationship history"
+      ],
+      "source_ids": [
+        "SRC2-CON-003"
+      ],
+      "gap": "Need longitudinal causal evidence across cultures, not only association."
+    },
+    {
+      "core": "social_transmission",
+      "culture": "Cross-cultural reviews indicate self-construal and cultural background can shape social-media communication/sharing, while audience and platform factors also matter.",
+      "individual_differences": [
+        "audience sensitivity",
+        "privacy concern",
+        "reputational concern",
+        "tie strength",
+        "device/channel context"
+      ],
+      "source_ids": [
+        "SRC2-ST-001",
+        "SRC2-ST-004"
+      ],
+      "gap": "Need stronger cross-cultural behavioral sharing datasets with common measurement."
+    },
+    {
+      "core": "reinforcement_habit",
+      "culture": "No strong cross-cultural measurement-invariance evidence was found in this cycle; culture remains an explicit transport uncertainty.",
+      "individual_differences": [
+        "context stability",
+        "working memory/cognitive load",
+        "goal strength",
+        "training history",
+        "automaticity"
+      ],
+      "source_ids": [
+        "SRC2-RH-001",
+        "SRC2-RH-002"
+      ],
+      "gap": "High-priority gap: cross-cultural habit measurement and platform-specific habit transport."
+    }
+  ]
+}
