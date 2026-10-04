@@ -1,0 +1,68 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_01",
+  "rules": [
+    {
+      "id": "OV-ATT-01",
+      "a": "ATT-N12",
+      "b": "ATT-N13",
+      "relation": "adjacent_not_equivalent",
+      "rule": "Suppression reduces distractor priority; disengagement releases current priority. Do not merge without evidence that a paradigm measures both."
+    },
+    {
+      "id": "OV-CUR-01",
+      "a": "CUR-N11/CUR-N12/CUR-N13",
+      "b": "low_curiosity",
+      "relation": "not_opposites",
+      "rule": "Active information avoidance must not be represented as simply low curiosity."
+    },
+    {
+      "id": "OV-VE-01",
+      "a": "VE-N17/VE-N18",
+      "b": "VE-N11",
+      "relation": "conditional_mapping",
+      "rule": "Approach/avoidance tendencies are not direct aliases for positive/negative valence; interpretation and task context moderate mapping."
+    },
+    {
+      "id": "OV-ID-01",
+      "a": "ID-N10",
+      "b": "negative_affect",
+      "relation": "requires_identity_appraisal",
+      "rule": "Identity threat requires perceived harm to a valued identity, not merely negative emotion."
+    },
+    {
+      "id": "OV-TR-01",
+      "a": "TR-N12",
+      "b": "generalized_distrust",
+      "relation": "distinct",
+      "rule": "Epistemic vigilance is selective evaluation/calibration, not indiscriminate mistrust."
+    },
+    {
+      "id": "OV-CON-01",
+      "a": "CON-N01",
+      "b": "CON-N04",
+      "relation": "distinct_timescale",
+      "rule": "PSI is episode-level; PSR is enduring across episodes. Measures are not interchangeable."
+    },
+    {
+      "id": "OV-ST-01",
+      "a": "ST-N08",
+      "b": "ST-N07",
+      "relation": "overlapping_motives",
+      "rule": "Impression management can involve identity signaling but can also manage reputation independent of salient identity; retain separate nodes with possible coactivation."
+    },
+    {
+      "id": "OV-RH-01",
+      "a": "RH-N12",
+      "b": "RH-N14",
+      "relation": "input_vs_process",
+      "rule": "Repetition is exposure/history; habit formation trajectory is change in automatic/context-driven control."
+    },
+    {
+      "id": "OV-RH-02",
+      "a": "RH-N15",
+      "b": "goal_directed_change",
+      "relation": "moderating_opportunity",
+      "rule": "Context discontinuity weakens old cue support but does not guarantee deliberate behavior change."
+    }
+  ]
+}

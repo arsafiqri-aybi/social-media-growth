@@ -185,14 +185,19 @@
       "primary_core": "attention",
       "label": "Distractor suppression",
       "definition": "Active or learned down-weighting of irrelevant competing information.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "task-based distractor-suppression paradigms",
+      "boundary_conditions": [
+        "Do not infer from low distraction alone; proactive and reactive suppression may need later split."
+      ]
     },
     {
       "id": "ATT-N13",
@@ -403,15 +408,20 @@
       "primary_core": "curiosity",
       "label": "Threat-based information avoidance",
       "definition": "Avoidance of available information because anticipated knowledge is threatening or aversive.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "information-avoidance choice/behavior plus threat appraisal",
+      "boundary_conditions": [
+        "Distinguish threat avoidance from simple lack of interest."
+      ]
     },
     {
       "id": "CUR-N12",
@@ -420,15 +430,20 @@
       "primary_core": "curiosity",
       "label": "Effort/cost-based avoidance",
       "definition": "Avoidance because expected cognitive, temporal, monetary, or social costs outweigh information value.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "choice under information effort/cost manipulation",
+      "boundary_conditions": [
+        "Cost-based avoidance can coexist with curiosity."
+      ]
     },
     {
       "id": "CUR-N13",
@@ -437,15 +452,20 @@
       "primary_core": "curiosity",
       "label": "Belief-protective avoidance",
       "definition": "Avoidance motivated by protecting identity, prior beliefs, or desired beliefs from disconfirming information.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "information choice plus belief/identity relevance measures",
+      "boundary_conditions": [
+        "Needs direct identity-protective disconfirmation evidence in later pass."
+      ]
     },
     {
       "id": "VE-N01",
@@ -726,15 +746,21 @@
       "primary_core": "valuation_emotion",
       "label": "Approach tendency",
       "definition": "Readiness to move toward, engage with, or pursue an object/action.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2H-VE-C01",
+        "R2H-VE-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "approach-action task with interpretation/context metadata",
+      "boundary_conditions": [
+        "Positive valence does not universally produce approach."
+      ]
     },
     {
       "id": "VE-N18",
@@ -743,15 +769,21 @@
       "primary_core": "valuation_emotion",
       "label": "Avoidance / withdrawal tendency",
       "definition": "Readiness to disengage, withdraw, or avoid an object/action.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2H-VE-C01",
+        "R2H-VE-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "avoidance-action task with interpretation/context metadata",
+      "boundary_conditions": [
+        "Negative valence does not universally produce avoidance."
+      ]
     },
     {
       "id": "VE-N19",
@@ -921,14 +953,19 @@
       "primary_core": "identity",
       "label": "Identity threat appraisal",
       "definition": "Perception that a valued personal/social identity is challenged, devalued, or undermined.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H-ID-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "identity-specific threat manipulation/appraisal measure",
+      "boundary_conditions": [
+        "Negative emotion alone is not identity threat."
+      ]
     },
     {
       "id": "ID-N11",
@@ -937,14 +974,19 @@
       "primary_core": "identity",
       "label": "Identity-protective response",
       "definition": "Cognitive/behavioral response oriented toward preserving or restoring a threatened identity.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H-ID-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "coping/identity-protective response measure tied to threatened identity",
+      "boundary_conditions": [
+        "Defense must be linked to identity restoration/protection mechanism."
+      ]
     },
     {
       "id": "ID-N12",
@@ -1145,14 +1187,19 @@
       "primary_core": "trust",
       "label": "Epistemic vigilance",
       "definition": "Monitoring for deception, error, weak evidence, or unreliable testimony before reliance.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H-TR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "message/source plausibility and selective-trust tasks",
+      "boundary_conditions": [
+        "Epistemic vigilance is not generalized skepticism."
+      ]
     },
     {
       "id": "TR-N13",
@@ -1161,14 +1208,19 @@
       "primary_core": "trust",
       "label": "Verification behavior",
       "definition": "Active checking of claims/source evidence against additional information.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H-TR-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "observed verification/checking behavior",
+      "boundary_conditions": [
+        "Self-reported skepticism is not verification behavior."
+      ]
     },
     {
       "id": "TR-N14",
@@ -1177,14 +1229,19 @@
       "primary_core": "trust",
       "label": "Trust calibration",
       "definition": "Degree to which reliance changes appropriately with evidence of source reliability/accuracy.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H-TR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "calibration between reliance and known source reliability",
+      "boundary_conditions": [
+        "High trust is not necessarily well-calibrated trust."
+      ]
     },
     {
       "id": "CON-N01",
@@ -1193,14 +1250,20 @@
       "primary_core": "connection",
       "label": "Parasocial interaction intensity",
       "definition": "Episode-level felt involvement or apparent interaction with a mediated persona.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2H-CON-C01",
+        "R2H-CON-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "episode-specific PSI measure such as EPSI when appropriate",
+      "boundary_conditions": [
+        "Do not infer enduring relationship from within-exposure involvement."
+      ]
     },
     {
       "id": "CON-N02",
@@ -1241,14 +1304,19 @@
       "primary_core": "connection",
       "label": "Parasocial relational continuity",
       "definition": "Sense that the one-sided relationship persists across encounters.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2H-CON-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "PSR measure referring to enduring cross-episode relationship",
+      "boundary_conditions": [
+        "Do not use PSI measure as a PSR substitute."
+      ]
     },
     {
       "id": "CON-N05",
@@ -1504,15 +1572,20 @@
       "primary_core": "social_transmission",
       "label": "Impression-management motive",
       "definition": "Motivation to shape how the audience perceives the sender.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "motive-specific impression-management measure/experiment",
+      "boundary_conditions": [
+        "Cannot infer motive from share action alone."
+      ]
     },
     {
       "id": "ST-N09",
@@ -1538,15 +1611,20 @@
       "primary_core": "social_transmission",
       "label": "Emotion-regulation motive",
       "definition": "Motivation to share as a way to regulate, process, amplify, or reduce emotion.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "emotion-regulation motive measure linked to transmission choice",
+      "boundary_conditions": [
+        "Keep separate from incidental arousal."
+      ]
     },
     {
       "id": "ST-N11",
@@ -1606,15 +1684,20 @@
       "primary_core": "social_transmission",
       "label": "Social-bonding motive",
       "definition": "Motivation to share to create or strengthen interpersonal connection.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "social-bonding motive/recipient relationship measure",
+      "boundary_conditions": [
+        "Sharing may have multiple simultaneous motives."
+      ]
     },
     {
       "id": "ST-N15",
@@ -1827,15 +1910,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Behavior repetition",
       "definition": "Repeated performance of an action, treated as an input to habit formation rather than habit itself.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H-RH-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "behavioral repetition history",
+      "boundary_conditions": [
+        "Repetition is input/history, not habit diagnosis."
+      ]
     },
     {
       "id": "RH-N13",
@@ -1844,15 +1932,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Context stability",
       "definition": "Consistency of contextual cues across repeated performance episodes.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H-RH-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "context stability/consistency measure",
+      "boundary_conditions": [
+        "Context must be defined behavior-specifically."
+      ]
     },
     {
       "id": "RH-N14",
@@ -1861,15 +1954,21 @@
       "primary_core": "reinforcement_habit",
       "label": "Habit formation trajectory",
       "definition": "Change in automatic/context-triggered control across repeated stable-context practice.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H-RH-C02",
+        "R2H-RH-C03"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "longitudinal automaticity/context-response trajectory",
+      "boundary_conditions": [
+        "No universal formation duration."
+      ]
     },
     {
       "id": "RH-N15",
@@ -1878,15 +1977,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Context discontinuity",
       "definition": "Change/removal of cues that reduces retrieval of a previously learned habitual response.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H-RH-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "natural/experimental context-disruption design",
+      "boundary_conditions": [
+        "Context change is an opportunity, not guaranteed behavior change."
+      ]
     },
     {
       "id": "RH-N16",

@@ -1,0 +1,188 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_01",
+  "claims": [
+    {
+      "id": "R2H-ATT-C01",
+      "target_ids": [
+        "ATT-M05",
+        "ATT-N12"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-ATT-S01"
+      ],
+      "statement": "Distractor suppression includes distinguishable proactive and reactive control mechanisms; suppression is therefore a real attention-control mechanism rather than merely the absence of capture."
+    },
+    {
+      "id": "R2H-CUR-C01",
+      "target_ids": [
+        "CUR-M06",
+        "CUR-N11",
+        "CUR-N12",
+        "CUR-N13"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-CUR-S01",
+        "R2H-CUR-S02"
+      ],
+      "statement": "Information avoidance is an active phenomenon distinct from lack of seeking and can arise even when information is available, useful, or low-cost because anticipated affect, beliefs, self-related concerns, or other costs alter its value."
+    },
+    {
+      "id": "R2H-VE-C01",
+      "target_ids": [
+        "VE-M07",
+        "VE-N17",
+        "VE-N18"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-VE-S01"
+      ],
+      "statement": "Action tendencies are a distinct component in the unfolding emotion process between appraisal and overt expression/action."
+    },
+    {
+      "id": "R2H-VE-C02",
+      "target_ids": [
+        "VE-N17",
+        "VE-N18"
+      ],
+      "claim_type": "association",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H-VE-S02"
+      ],
+      "statement": "Affect is associated with approach/avoidance tendencies, but the direction and magnitude depend on task instructions and self-versus-object interpretation, arguing against a simple valence-to-action law."
+    },
+    {
+      "id": "R2H-ID-C01",
+      "target_ids": [
+        "ID-M06",
+        "ID-N10",
+        "ID-N11"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-ID-S01",
+        "R2H-ID-S02"
+      ],
+      "statement": "Identity threat involves appraisal of potential harm to a valued identity and can activate coping/identity-protective responses whose form depends on situational cues, commitment, beliefs, motives, and coping resources."
+    },
+    {
+      "id": "R2H-TR-C01",
+      "target_ids": [
+        "TR-M06",
+        "TR-N12",
+        "TR-N14"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-TR-S01"
+      ],
+      "statement": "Epistemic vigilance includes checking message plausibility, calibrating reliance based on source competence/benevolence, and evaluating arguments rather than accepting communicated information indiscriminately."
+    },
+    {
+      "id": "R2H-TR-C02",
+      "target_ids": [
+        "TR-N13"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-TR-S01"
+      ],
+      "statement": "Critical evaluation and checking of communicated information are separable trust-calibration behaviors rather than generalized distrust."
+    },
+    {
+      "id": "R2H-CON-C01",
+      "target_ids": [
+        "CON-M01",
+        "CON-M02",
+        "CON-N01",
+        "CON-N04"
+      ],
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-CON-S01",
+        "R2H-CON-S02"
+      ],
+      "statement": "PSI is an episode-level interaction experience whereas PSR is a longer-term relational construct; systematic review and measurement evidence show they should not be collapsed."
+    },
+    {
+      "id": "R2H-CON-C02",
+      "target_ids": [
+        "CON-N01"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-CON-S02"
+      ],
+      "statement": "In an experimental comparison, the EPSI scale better captured within-viewing parasocial interaction than the commonly used PSI scale, which may mix short- and long-term liking/relationship constructs."
+    },
+    {
+      "id": "R2H-ST-C01",
+      "target_ids": [
+        "ST-M04",
+        "ST-M05",
+        "ST-M08",
+        "ST-N08",
+        "ST-N10",
+        "ST-N14"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-ST-S01"
+      ],
+      "statement": "Interpersonal transmission/word of mouth can serve distinct goals including impression management, emotion regulation, information acquisition, social bonding, and persuasion."
+    },
+    {
+      "id": "R2H-RH-C01",
+      "target_ids": [
+        "RH-M07",
+        "RH-N15"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-RH-S01",
+        "R2H-RH-S02"
+      ],
+      "statement": "Context disruption can weaken cue-dependent habitual control and create a temporary window in which deliberative values and intentions exert greater influence."
+    },
+    {
+      "id": "R2H-RH-C02",
+      "target_ids": [
+        "RH-M06",
+        "RH-N12",
+        "RH-N13",
+        "RH-N14"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H-RH-S03"
+      ],
+      "statement": "Habit formation depends on repeated performance and context/timing conditions, with substantial individual variability in the development of automaticity; repetition count alone is insufficient."
+    },
+    {
+      "id": "R2H-RH-C03",
+      "target_ids": [
+        "RH-N14"
+      ],
+      "claim_type": "boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H-RH-S03"
+      ],
+      "statement": "Habit-formation timing varies widely across individuals and behaviors, so no universal day-count threshold should be encoded in the reasoning system."
+    }
+  ]
+}

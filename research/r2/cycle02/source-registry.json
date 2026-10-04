@@ -1,0 +1,155 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_01",
+  "sources": [
+    {
+      "id": "R2H-ATT-S01",
+      "core": [
+        "attention"
+      ],
+      "title": "Attentional Mechanisms of Distractor Suppression",
+      "year": 2014,
+      "type": "review",
+      "doi": "10.1177/0963721414525780"
+    },
+    {
+      "id": "R2H-CUR-S01",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Information Avoidance: Past Perspectives and Future Directions",
+      "year": 2025,
+      "type": "review",
+      "doi": "10.1177/17456916231197668"
+    },
+    {
+      "id": "R2H-CUR-S02",
+      "core": [
+        "curiosity",
+        "valuation_emotion"
+      ],
+      "title": "Information Avoidance",
+      "year": 2017,
+      "type": "review",
+      "doi": "10.1257/jel.20151245"
+    },
+    {
+      "id": "R2H-VE-S01",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "The Emotion Process: Event Appraisal and Component Differentiation",
+      "year": 2019,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-122216-011854"
+    },
+    {
+      "id": "R2H-VE-S02",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Approach, avoidance, and affect: A meta-analysis",
+      "year": 2014,
+      "type": "meta_analysis",
+      "doi": "10.3389/fpsyg.2014.00378",
+      "studies": 29,
+      "effect_sizes": 81,
+      "n": 1538
+    },
+    {
+      "id": "R2H-ID-S01",
+      "core": [
+        "identity"
+      ],
+      "title": "Under Threat: Responses to and the Consequences of Threats to Individuals' Identities",
+      "year": 2011,
+      "type": "theoretical_review",
+      "doi": "10.5465/amr.2009.0087"
+    },
+    {
+      "id": "R2H-ID-S02",
+      "core": [
+        "identity"
+      ],
+      "title": "The Social Psychology of Stigma",
+      "year": 2005,
+      "type": "annual_review",
+      "doi": "10.1146/annurev.psych.56.091103.070137"
+    },
+    {
+      "id": "R2H-TR-S01",
+      "core": [
+        "trust"
+      ],
+      "title": "How Gullible are We? A Review of the Evidence from Psychology and Social Science",
+      "year": 2017,
+      "type": "review",
+      "doi": "10.1037/gpr0000111"
+    },
+    {
+      "id": "R2H-CON-S01",
+      "core": [
+        "connection"
+      ],
+      "title": "From Parasocial Interaction to Parasocial Relationship: A Review and Research Agenda",
+      "year": 2025,
+      "type": "systematic_review",
+      "doi": "10.1111/ijcs.70038",
+      "studies": 233
+    },
+    {
+      "id": "R2H-CON-S02",
+      "core": [
+        "connection"
+      ],
+      "title": "Parasocial Interaction and Parasocial Relationship: Conceptual Clarification and a Critical Assessment of Measures",
+      "year": 2016,
+      "type": "conceptual_plus_experiment",
+      "doi": "10.1111/hcre.12063",
+      "n": 383
+    },
+    {
+      "id": "R2H-ST-S01",
+      "core": [
+        "social_transmission"
+      ],
+      "title": "Word of mouth and interpersonal communication: A review and directions for future research",
+      "year": 2014,
+      "type": "review",
+      "doi": "10.1016/j.jcps.2014.05.002"
+    },
+    {
+      "id": "R2H-RH-S01",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Context change and travel mode choice: Combining the habit discontinuity and self-activation hypotheses",
+      "year": 2008,
+      "type": "field_study",
+      "doi": "10.1016/j.jenvp.2007.10.005",
+      "n": 433
+    },
+    {
+      "id": "R2H-RH-S02",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Habit Discontinuity, Self-Activation, and the Diminishing Influence of Context Change",
+      "year": 2016,
+      "type": "large_observational",
+      "doi": "10.1371/journal.pone.0153490",
+      "n": 18053
+    },
+    {
+      "id": "R2H-RH-S03",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants",
+      "year": 2024,
+      "type": "systematic_review_meta_analysis",
+      "doi": "10.3390/healthcare12232488",
+      "studies": 20,
+      "n": 2601
+    }
+  ]
+}

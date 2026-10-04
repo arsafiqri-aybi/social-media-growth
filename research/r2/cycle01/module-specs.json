@@ -91,9 +91,10 @@
         "selection_control"
       ],
       "claim_ids": [
-        "C2-ATT-001"
+        "C2-ATT-001",
+        "R2H-ATT-C01"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Needs direct module-level evidence before acceptance."
       ],
@@ -213,9 +214,10 @@
         "motivation_drive"
       ],
       "claim_ids": [
-        "C2-CUR-002"
+        "C2-CUR-002",
+        "R2H-CUR-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Avoidance is not simply the low end of curiosity."
       ],
@@ -335,9 +337,11 @@
       ],
       "claim_ids": [
         "C2-VE-001",
-        "C2-VE-002"
+        "C2-VE-002",
+        "R2H-VE-C01",
+        "R2H-VE-C02"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Action tendency is not identical to reported emotion."
       ],
@@ -417,9 +421,10 @@
       ],
       "claim_ids": [
         "C2-ID-001",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H-ID-C01"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Need direct evidence separating threat appraisal from downstream emotion."
       ],
@@ -540,9 +545,11 @@
         "metacognitive_monitoring"
       ],
       "claim_ids": [
-        "C2-TR-002"
+        "C2-TR-002",
+        "R2H-TR-C01",
+        "R2H-TR-C02"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Must separate healthy verification from generalized distrust."
       ],
@@ -560,9 +567,11 @@
         "relational"
       ],
       "claim_ids": [
-        "C2-CON-001"
+        "C2-CON-001",
+        "R2H-CON-C01",
+        "R2H-CON-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "PSI is not an enduring PSR."
       ],
@@ -581,9 +590,10 @@
       ],
       "claim_ids": [
         "C2-CON-001",
-        "C2-CON-002"
+        "C2-CON-002",
+        "R2H-CON-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "PSR is multidimensional and not equivalent to real reciprocity."
       ],
@@ -724,9 +734,10 @@
       ],
       "claim_ids": [
         "C2-ST-001",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H-ST-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Upstream identity activation belongs to Identity, not this module."
       ],
@@ -745,9 +756,10 @@
       ],
       "claim_ids": [
         "C2-ST-001",
-        "C2-ST-003"
+        "C2-ST-003",
+        "R2H-ST-C01"
       ],
-      "evidence_state": "candidate_requires_conditional_evidence",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Incidental physiological arousal cannot be used as a universal cause."
       ],
@@ -786,9 +798,10 @@
         "motivation_drive"
       ],
       "claim_ids": [
-        "C2-ST-001"
+        "C2-ST-001",
+        "R2H-ST-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Do not collapse into parasocial connection; this concerns sender-recipient function."
       ],
@@ -888,9 +901,11 @@
         "learning_adaptation"
       ],
       "claim_ids": [
-        "C2-RH-001"
+        "C2-RH-001",
+        "R2H-RH-C02",
+        "R2H-RH-C03"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Repetition without stable context does not guarantee habit."
       ],
@@ -909,9 +924,10 @@
       ],
       "claim_ids": [
         "C2-RH-001",
-        "C2-RH-003"
+        "C2-RH-003",
+        "R2H-RH-C01"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_review_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Need direct evidence on discontinuity and extinction mechanisms."
       ],

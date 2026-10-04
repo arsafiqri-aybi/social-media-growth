@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 6,
+  "revision": 7,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -265,20 +265,23 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Execute R2 Cycle 02: retrieve module/neuron-specific evidence, run overlap and construct-validity audits, attach L2 measurement mappings and contradictions, and promote only supported candidates.",
+  "next_action": "Continue R2 Cycle 02 evidence hardening. Do not accept nodes yet; strengthen remaining candidate constructs with direct evidence, overlap exclusions, measurement routes, and contradiction searches.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
       "R2"
     ],
-    "cycle": "R2_CYCLE_01",
-    "status": "BREADTH_DECOMPOSITION_COMPLETE_NOT_HARDENED",
-    "l1_module_specs": 45,
-    "l2_neuron_candidates": 116,
-    "legacy_neurons_migrated": 29,
-    "connector_candidates": 8,
-    "all_eight_cores_covered": true,
-    "next": "R2 Cycle 02 evidence hardening and overlap/measurement audits before promoting L2 nodes"
+    "cycle": "R2_CYCLE_02_BATCH_01",
+    "status": "SELECTIVE_EVIDENCE_HARDENING_IN_PROGRESS",
+    "l1_modules": 45,
+    "l2_total": 116,
+    "l2_provisional": 20,
+    "l2_candidate": 96,
+    "l2_accepted": 0,
+    "hardening_sources": 14,
+    "hardening_claims": 13,
+    "all_eight_cores_hardened_in_batch": true,
+    "next": "R2 Cycle 02 Batch 02: harden remaining high-value candidate modules/nodes; continue overlap and measurement audits"
   }
 }

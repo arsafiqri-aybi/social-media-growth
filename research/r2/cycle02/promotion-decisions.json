@@ -1,0 +1,229 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_01",
+  "decisions": [
+    {
+      "node_id": "ATT-N12",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-ATT-C01"
+      ],
+      "measurement_route": "task-based distractor-suppression paradigms",
+      "boundary": "Do not infer from low distraction alone; proactive and reactive suppression may need later split.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "CUR-N11",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-CUR-C01"
+      ],
+      "measurement_route": "information-avoidance choice/behavior plus threat appraisal",
+      "boundary": "Distinguish threat avoidance from simple lack of interest.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "CUR-N12",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-CUR-C01"
+      ],
+      "measurement_route": "choice under information effort/cost manipulation",
+      "boundary": "Cost-based avoidance can coexist with curiosity.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "CUR-N13",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-CUR-C01"
+      ],
+      "measurement_route": "information choice plus belief/identity relevance measures",
+      "boundary": "Needs direct identity-protective disconfirmation evidence in later pass.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "VE-N17",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-VE-C01",
+        "R2H-VE-C02"
+      ],
+      "measurement_route": "approach-action task with interpretation/context metadata",
+      "boundary": "Positive valence does not universally produce approach.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "VE-N18",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-VE-C01",
+        "R2H-VE-C02"
+      ],
+      "measurement_route": "avoidance-action task with interpretation/context metadata",
+      "boundary": "Negative valence does not universally produce avoidance.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "ID-N10",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-ID-C01"
+      ],
+      "measurement_route": "identity-specific threat manipulation/appraisal measure",
+      "boundary": "Negative emotion alone is not identity threat.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "ID-N11",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-ID-C01"
+      ],
+      "measurement_route": "coping/identity-protective response measure tied to threatened identity",
+      "boundary": "Defense must be linked to identity restoration/protection mechanism.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "TR-N12",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-TR-C01"
+      ],
+      "measurement_route": "message/source plausibility and selective-trust tasks",
+      "boundary": "Epistemic vigilance is not generalized skepticism.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "TR-N13",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-TR-C02"
+      ],
+      "measurement_route": "observed verification/checking behavior",
+      "boundary": "Self-reported skepticism is not verification behavior.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "TR-N14",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-TR-C01"
+      ],
+      "measurement_route": "calibration between reliance and known source reliability",
+      "boundary": "High trust is not necessarily well-calibrated trust.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "CON-N01",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-CON-C01",
+        "R2H-CON-C02"
+      ],
+      "measurement_route": "episode-specific PSI measure such as EPSI when appropriate",
+      "boundary": "Do not infer enduring relationship from within-exposure involvement.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "CON-N04",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-CON-C01"
+      ],
+      "measurement_route": "PSR measure referring to enduring cross-episode relationship",
+      "boundary": "Do not use PSI measure as a PSR substitute.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "ST-N08",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-ST-C01"
+      ],
+      "measurement_route": "motive-specific impression-management measure/experiment",
+      "boundary": "Cannot infer motive from share action alone.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "ST-N10",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-ST-C01"
+      ],
+      "measurement_route": "emotion-regulation motive measure linked to transmission choice",
+      "boundary": "Keep separate from incidental arousal.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "ST-N14",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-ST-C01"
+      ],
+      "measurement_route": "social-bonding motive/recipient relationship measure",
+      "boundary": "Sharing may have multiple simultaneous motives.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "RH-N12",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-RH-C02"
+      ],
+      "measurement_route": "behavioral repetition history",
+      "boundary": "Repetition is input/history, not habit diagnosis.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "RH-N13",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-RH-C02"
+      ],
+      "measurement_route": "context stability/consistency measure",
+      "boundary": "Context must be defined behavior-specifically.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "RH-N14",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-RH-C02",
+        "R2H-RH-C03"
+      ],
+      "measurement_route": "longitudinal automaticity/context-response trajectory",
+      "boundary": "No universal formation duration.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    },
+    {
+      "node_id": "RH-N15",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H-RH-C01"
+      ],
+      "measurement_route": "natural/experimental context-disruption design",
+      "boundary": "Context change is an opportunity, not guaranteed behavior change.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_01"
+    }
+  ]
+}
