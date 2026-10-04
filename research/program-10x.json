@@ -1,0 +1,340 @@
+{
+  "program_id": "SMG-HPC-RP-10X",
+  "version": "1.0.0",
+  "status": "ready",
+  "research_date_ceiling": "2026-10-05",
+  "strategy": "breadth-first evidence mapping across all eight candidate cores, followed by risk-driven deep dives and cross-core synthesis",
+  "rounds": [
+    {
+      "id": "R0",
+      "name": "Ontology challenge scan",
+      "purpose": "Test whether each core is conceptually coherent, separable, and missing fundamental mechanisms.",
+      "stop": "Every core has definitions, competing constructs, and explicit split/merge/missing-core hypotheses."
+    },
+    {
+      "id": "R1",
+      "name": "Evidence landscape",
+      "purpose": "Collect highest-level reviews/meta-analyses and foundational primary studies for all eight cores.",
+      "stop": "Every core has coverage across definition, mechanism, evidence, moderators, measurement, contradictions, and transfer limits."
+    },
+    {
+      "id": "R2",
+      "name": "Mechanism decomposition",
+      "purpose": "Derive evidence-backed modules and candidate neurons without arbitrary count targets.",
+      "stop": "Major mechanism families are represented and overlap is explicitly resolved or flagged."
+    },
+    {
+      "id": "R3",
+      "name": "Cross-core edge synthesis",
+      "purpose": "Test material connections, mediators, moderators, inhibition, feedback, and competing explanations.",
+      "stop": "Every strong edge has claim-level evidence and every high-impact hypothesized edge has a research status."
+    },
+    {
+      "id": "R4",
+      "name": "Measurement and transport audit",
+      "purpose": "Map validated instruments/behavioral measures/proxies and assess transfer to social-media contexts.",
+      "stop": "No latent construct is inferred from a platform metric without ambiguity/alternative-explanation metadata."
+    },
+    {
+      "id": "R5",
+      "name": "Disconfirmation and saturation",
+      "purpose": "Search nulls, contradictions, failed replications, heterogeneity, boundary conditions, and cultural/contextual limits.",
+      "stop": "Two consecutive targeted search passes yield no structural change, no new critical contradiction, and only marginal refinement."
+    }
+  ],
+  "global_questions": [
+    "What is the construct, and what is it explicitly not?",
+    "What competing definitions or taxonomies exist?",
+    "What mechanisms are causally supported versus merely associated?",
+    "What moderators and boundary conditions materially change the effect?",
+    "What individual, social, cultural, temporal, and platform contexts limit transport?",
+    "How is the construct measured, and what validity/reliability evidence exists?",
+    "What null, contradictory, or replication evidence exists?",
+    "Which other cores does this construct interact with, through what mechanism?",
+    "Could the observed social-media behavior be explained by a different core or non-psychological platform process?"
+  ],
+  "inclusion": [
+    "Human research directly relevant to the construct or its mechanism.",
+    "Meta-analyses, systematic reviews, high-quality narrative/theoretical reviews for map building.",
+    "Preregistered/replicated experiments and strong primary experiments for causal claims.",
+    "Longitudinal/behavioral/large observational studies when causal experiments are infeasible.",
+    "Foundational older research when still theoretically central.",
+    "Social-media-specific studies when they measure constructs with acceptable clarity.",
+    "Cross-cultural evidence when available."
+  ],
+  "exclusion": [
+    "Marketing blogs, creator advice, SEO listicles, and unsourced pop psychology as scientific evidence.",
+    "Claims supported only by search snippets without opening the source.",
+    "Non-human evidence used as direct proof of human social-media behavior.",
+    "Neuroimaging findings treated as behavioral causation without matching behavioral evidence.",
+    "Platform metric correlations presented as latent psychological measurements without construct-validity support.",
+    "Duplicate studies/reports unless needed for correction/version history."
+  ],
+  "extraction_fields": [
+    "source_id",
+    "claim_id",
+    "core_candidate",
+    "module_candidate",
+    "construct_definition",
+    "claim_type",
+    "claim_statement",
+    "study_design",
+    "sample_population",
+    "sample_size",
+    "context",
+    "platform_if_any",
+    "measurement",
+    "effect_estimate",
+    "confidence_interval",
+    "heterogeneity",
+    "bias_risk",
+    "causal_scope",
+    "moderators",
+    "mediators",
+    "boundary_conditions",
+    "contradictions",
+    "replication_status",
+    "transport_relevance",
+    "source_location",
+    "reviewer_note",
+    "ontology_implication"
+  ],
+  "core_tracks": {
+    "attention": {
+      "ontology_challenge": "Is Attention one coherent core or a family requiring modules for selection, control, salience, history, and sustained engagement?",
+      "disciplines": [
+        "cognitive psychology",
+        "attention science",
+        "learning",
+        "human-computer interaction"
+      ],
+      "query_concepts": [
+        "selective attention",
+        "attentional capture",
+        "goal-directed attention",
+        "value-driven attention",
+        "sustained attention",
+        "orienting",
+        "habituation",
+        "perceptual load"
+      ],
+      "disconfirmation_terms": [
+        "null effect",
+        "failed replication",
+        "boundary condition",
+        "top-down override",
+        "weak effect",
+        "methodological limitation"
+      ]
+    },
+    "curiosity": {
+      "ontology_challenge": "Separate curiosity from novelty, uncertainty, information value, surprise, and general reward seeking.",
+      "disciplines": [
+        "cognitive psychology",
+        "motivation",
+        "decision neuroscience",
+        "learning"
+      ],
+      "query_concepts": [
+        "curiosity",
+        "information seeking",
+        "information gap",
+        "uncertainty reduction",
+        "expected information gain",
+        "novelty",
+        "learning progress",
+        "epistemic curiosity"
+      ],
+      "disconfirmation_terms": [
+        "information avoidance",
+        "curiosity decreases",
+        "nonmonotonic uncertainty",
+        "threat avoidance",
+        "null effect",
+        "replication"
+      ]
+    },
+    "valuation_emotion": {
+      "ontology_challenge": "Test whether Valuation and Emotion can remain one core family or should become separate top-level cores.",
+      "disciplines": [
+        "affective science",
+        "decision science",
+        "motivation",
+        "reinforcement learning"
+      ],
+      "query_concepts": [
+        "subjective value",
+        "reward valuation",
+        "affective appraisal",
+        "emotion arousal",
+        "valence",
+        "motivational salience",
+        "relevance appraisal"
+      ],
+      "disconfirmation_terms": [
+        "valence arousal dissociation",
+        "emotion without valuation",
+        "valuation without emotion",
+        "null sharing effect",
+        "heterogeneity"
+      ]
+    },
+    "identity": {
+      "ontology_challenge": "Separate personal identity, social identity, self-relevance, norms, self-presentation, and homophily.",
+      "disciplines": [
+        "social psychology",
+        "self psychology",
+        "sociology",
+        "cultural psychology"
+      ],
+      "query_concepts": [
+        "social identity",
+        "self categorization",
+        "self concept",
+        "identity signaling",
+        "ingroup norms",
+        "homophily",
+        "self relevance",
+        "self presentation"
+      ],
+      "disconfirmation_terms": [
+        "weak identification",
+        "outgroup influence",
+        "counter-normative",
+        "identity not salient",
+        "cross-cultural difference",
+        "null effect"
+      ]
+    },
+    "trust": {
+      "ontology_challenge": "Separate trust from credibility, expertise, authenticity, familiarity, liking, and perceived benevolence.",
+      "disciplines": [
+        "social psychology",
+        "communication",
+        "risk/decision science",
+        "marketing only when construct-valid"
+      ],
+      "query_concepts": [
+        "trust",
+        "source credibility",
+        "trustworthiness",
+        "expertise",
+        "authenticity",
+        "benevolence",
+        "integrity",
+        "reliability"
+      ],
+      "disconfirmation_terms": [
+        "credibility backfire",
+        "expertise distrust",
+        "authenticity skepticism",
+        "publication bias",
+        "heterogeneity",
+        "null effect"
+      ]
+    },
+    "connection": {
+      "ontology_challenge": "Separate parasocial interaction, parasocial relationship, familiarity, attachment, identification, and real reciprocity.",
+      "disciplines": [
+        "media psychology",
+        "relationship science",
+        "communication",
+        "social psychology"
+      ],
+      "query_concepts": [
+        "parasocial interaction",
+        "parasocial relationship",
+        "parasocial attachment",
+        "perceived closeness",
+        "familiarity",
+        "creator audience relationship"
+      ],
+      "disconfirmation_terms": [
+        "parasocial null",
+        "negative parasocial",
+        "boundary condition",
+        "reciprocity distinction",
+        "causal gap",
+        "publication bias"
+      ]
+    },
+    "social_transmission": {
+      "ontology_challenge": "Separate observed sharing behavior from motives such as emotion, utility, identity signaling, reputation, norms, and relationship maintenance.",
+      "disciplines": [
+        "social psychology",
+        "communication",
+        "network science",
+        "behavioral science"
+      ],
+      "query_concepts": [
+        "social transmission",
+        "sharing behavior",
+        "word of mouth",
+        "information diffusion",
+        "identity signaling",
+        "social sharing",
+        "recommendation behavior",
+        "virality"
+      ],
+      "disconfirmation_terms": [
+        "non-sharing",
+        "privacy concern",
+        "reputational risk",
+        "platform confound",
+        "null effect",
+        "low arousal sharing",
+        "heterogeneity"
+      ]
+    },
+    "reinforcement_habit": {
+      "ontology_challenge": "Test whether reinforcement learning and habit belong in one core or require separate top-level anchors; distinguish recurrence from habit.",
+      "disciplines": [
+        "learning psychology",
+        "habit science",
+        "behavioral neuroscience",
+        "behavior change"
+      ],
+      "query_concepts": [
+        "reinforcement learning",
+        "reward learning",
+        "habit formation",
+        "context response association",
+        "automaticity",
+        "goal directed behavior",
+        "repetition",
+        "cue response"
+      ],
+      "disconfirmation_terms": [
+        "goal directed override",
+        "habit discontinuity",
+        "context change",
+        "reward not necessary",
+        "returning behavior not habit",
+        "null habit effect"
+      ]
+    }
+  },
+  "cross_core_priority_questions": [
+    "Attention ↔ Valuation/Reinforcement: when does learned value bias selection, and how large/context-bound is the effect?",
+    "Curiosity ↔ Valuation: when is information itself valuable, and when does uncertainty cause avoidance instead?",
+    "Identity ↔ Trust/Connection: are similarity effects mediated by liking, credibility, belonging, or other constructs?",
+    "Trust ↔ Connection: what is directional versus correlational?",
+    "Emotion/Valuation → Transmission: which dimensions matter and under what content/social contexts?",
+    "Connection/Trust → Return: distinguish relationship value, deliberate utility, reminders, and habit.",
+    "Identity → Transmission: separate norm compliance, signaling, self-presentation, and group relevance.",
+    "Transmission → Attention: distinguish psychological effect from mechanical exposure created by platform/network distribution."
+  ],
+  "saturation": {
+    "structural_change_events": [
+      "new core candidate",
+      "core split/merge",
+      "new major module family",
+      "new high-impact contradictory mechanism",
+      "new moderator that changes edge direction",
+      "measurement invalidation",
+      "new causal pathway that changes reasoning"
+    ],
+    "practical_saturation_rule": "After broad coverage, run at least two targeted disconfirmation/gap passes. A unit can close only when neither pass produces a structural change event and new evidence mainly refines already represented mechanisms.",
+    "reopen_rule": "Any later high-quality evidence that triggers a structural change event reopens only affected nodes/edges and descendants."
+  }
+}

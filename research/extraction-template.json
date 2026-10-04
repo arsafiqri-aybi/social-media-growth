@@ -1,0 +1,32 @@
+{
+  "template_version": "1.0.0",
+  "fields": {
+    "source_id": null,
+    "claim_id": null,
+    "core_candidate": null,
+    "module_candidate": null,
+    "construct_definition": null,
+    "claim_type": null,
+    "claim_statement": null,
+    "study_design": null,
+    "sample_population": null,
+    "sample_size": null,
+    "context": null,
+    "platform_if_any": null,
+    "measurement": null,
+    "effect_estimate": null,
+    "confidence_interval": null,
+    "heterogeneity": null,
+    "bias_risk": [],
+    "causal_scope": null,
+    "moderators": [],
+    "mediators": [],
+    "boundary_conditions": [],
+    "contradictions": [],
+    "replication_status": null,
+    "transport_relevance": null,
+    "source_location": null,
+    "reviewer_note": null,
+    "ontology_implication": null
+  }
+}
