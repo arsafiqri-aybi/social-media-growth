@@ -1,0 +1,351 @@
+{
+  "version": "1.0.0",
+  "audit": [
+    {
+      "edge_id": "R3-E001",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E002",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E003",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E004",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E005",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E006",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E007",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence": "BOUNDED_OR_MIXED",
+        "construct_alignment": "BOUNDED",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "gap": "direct_edge_evidence",
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E008",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E009",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence": "BOUNDED_OR_MIXED",
+        "construct_alignment": "BOUNDED",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "gap": "mixed_replication_evidence",
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E010",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence": "BOUNDED_OR_MIXED",
+        "construct_alignment": "BOUNDED",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "gap": "recommendation_action_measurement_alignment",
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E011",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence": "BOUNDED_OR_MIXED",
+        "construct_alignment": "BOUNDED",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "gap": "recommendation_action_measurement_alignment_and_context_heterogeneity",
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E012",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence": "BOUNDED_OR_MIXED",
+        "construct_alignment": "BOUNDED",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "gap": "credibility_vs_trustworthiness_and_directionality",
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E013",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E014",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence": "BOUNDED_OR_MIXED",
+        "construct_alignment": "BOUNDED",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "gap": "recommendation_intention_vs_observed_action",
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E015",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E016",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E017",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E018",
+      "decision": "SYSTEM_EDGE_ACCEPTED_AS_MECHANICAL",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E019",
+      "decision": "SYSTEM_EDGE_ACCEPTED_AS_MECHANICAL",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E020",
+      "decision": "SYSTEM_EDGE_ACCEPTED_AS_MECHANICAL",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E021",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence": "BOUNDED_OR_MIXED",
+        "construct_alignment": "BOUNDED",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "gap": "state_curiosity_vs_specific_L2_mechanism_mapping",
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E022",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E023",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence": "BOUNDED_OR_MIXED",
+        "construct_alignment": "BOUNDED",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "gap": "conflicting_expertise_to_PSR_findings",
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E024",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E025",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    },
+    {
+      "edge_id": "R3-E026",
+      "decision": "SYSTEM_EDGE_ACCEPTED_AS_MECHANICAL",
+      "gates": {
+        "evidence": "PASS",
+        "construct_alignment": "PASS",
+        "causal_language": "PASS",
+        "contradiction_boundary": "PASS",
+        "provenance": "PASS",
+        "runtime_separation": "PASS"
+      },
+      "blocking_gap": false
+    }
+  ]
+}

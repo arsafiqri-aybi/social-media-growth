@@ -1,0 +1,170 @@
+{
+  "version": "1.0.0",
+  "gaps": [
+    {
+      "id": "GAP-attention-curiosity",
+      "pair": [
+        "attention",
+        "curiosity"
+      ],
+      "status": "PROVISIONAL",
+      "current_edge_ids": [
+        "R3-E021"
+      ],
+      "need": "Direct curiosity–attention evidence exists at the state/gaze level, but mapping to the canonical knowledge-gap L2 node remains a construct bridge.",
+      "priority": "medium",
+      "criticality": "NONCRITICAL_PROVISIONAL",
+      "rationale": "A cautious edge already represents the state-curiosity/attention relationship; L2 mapping uncertainty is explicit.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-attention-connection",
+      "pair": [
+        "attention",
+        "connection"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Familiarity/relationship effects on attention require direct evidence.",
+      "priority": "high",
+      "criticality": "NONCRITICAL_NO_REQUIRED_DIRECT_EDGE",
+      "rationale": "No direct connection-to-attention edge is required to explain current major mechanisms; familiarity/relationship effects can remain an open targeted research question.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-curiosity-identity",
+      "pair": [
+        "curiosity",
+        "identity"
+      ],
+      "status": "PROVISIONAL",
+      "current_edge_ids": [
+        "R3-E007"
+      ],
+      "need": "Identity-protective avoidance plausible; direct edge evidence incomplete.",
+      "priority": "medium",
+      "criticality": "NONCRITICAL_PROVISIONAL",
+      "rationale": "The identity-threat/avoidance bridge is represented provisionally; stronger direct evidence can refine it later without blocking graph integration.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-curiosity-trust",
+      "pair": [
+        "curiosity",
+        "trust"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Trust-to-information-seeking direction needs direct evidence.",
+      "priority": "high",
+      "criticality": "NONCRITICAL_OPEN_GAP",
+      "rationale": "No direct trust-curiosity edge is required; current architecture can represent source evaluation and information value through separate pathways.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-curiosity-social_transmission",
+      "pair": [
+        "curiosity",
+        "social_transmission"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Curiosity-to-sharing is not yet evidenced as a distinct mechanism.",
+      "priority": "high",
+      "criticality": "NONCRITICAL_OPEN_GAP",
+      "rationale": "No strong evidence establishes curiosity as a distinct transmission motive; forcing an edge would overstate the corpus.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-valuation_emotion-connection",
+      "pair": [
+        "valuation_emotion",
+        "connection"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Affect and PSR are related, but current canonical node direction is unresolved.",
+      "priority": "high",
+      "criticality": "NONCRITICAL_OPEN_GAP",
+      "rationale": "Affect and PSR are related domains, but direction/construct mapping is unresolved and not required for the current major loops.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-valuation_emotion-social_transmission",
+      "pair": [
+        "valuation_emotion",
+        "social_transmission"
+      ],
+      "status": "MIXED",
+      "current_edge_ids": [
+        "R3-E009"
+      ],
+      "need": "Arousal-sharing evidence is context-bound and includes preregistered null replications.",
+      "priority": "high",
+      "criticality": "RESOLVED_AS_MIXED",
+      "rationale": "Arousal-sharing evidence is explicitly represented as mixed, including preregistered null replications.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-trust-social_transmission",
+      "pair": [
+        "trust",
+        "social_transmission"
+      ],
+      "status": "PROVISIONAL",
+      "current_edge_ids": [
+        "R3-E010",
+        "R3-E011"
+      ],
+      "need": "Credibility may support recommendation; outcome matching currently broad.",
+      "priority": "high",
+      "criticality": "NONCRITICAL_MEASUREMENT_GAP",
+      "rationale": "Trust/expertise-to-behavior evidence exists; recommendation-action specificity remains the reason edges stay provisional.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-trust-reinforcement_habit",
+      "pair": [
+        "trust",
+        "reinforcement_habit"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Repeated reliance versus habit requires direct evidence.",
+      "priority": "high",
+      "criticality": "NONCRITICAL_NO_REQUIRED_DIRECT_EDGE",
+      "rationale": "Repeated reliance is not habit; no direct edge is required without evidence of context-response automaticity.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-connection-social_transmission",
+      "pair": [
+        "connection",
+        "social_transmission"
+      ],
+      "status": "PROVISIONAL",
+      "current_edge_ids": [
+        "R3-E014"
+      ],
+      "need": "PSR/relationship quality can increase recommendation and advocacy intentions, including experimental evidence, but intention-to-action mapping is unresolved.",
+      "priority": "high",
+      "criticality": "NONCRITICAL_MEASUREMENT_GAP",
+      "rationale": "PSR-to-advocacy/recommendation evidence exists, but much of it measures intentions rather than logged action.",
+      "blocks_connection_build": false
+    },
+    {
+      "id": "GAP-connection-reinforcement_habit",
+      "pair": [
+        "connection",
+        "reinforcement_habit"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Parasocial engagement relates to repeated checking/problematic use, but this does not identify automaticity/context-response habit mechanisms; direct habit edge remains rejected.",
+      "priority": "high",
+      "criticality": "NONCRITICAL_NO_REQUIRED_DIRECT_EDGE",
+      "rationale": "Problematic use/repeated checking associated with parasocial engagement does not identify habit mechanisms.",
+      "blocks_connection_build": false
+    }
+  ]
+}

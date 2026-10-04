@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "claims": [
+    {
+      "id": "R3C3-C01",
+      "target_ids": [
+        "CTX-SOCIAL-FEEDBACK",
+        "RH-N02"
+      ],
+      "claim_type": "causal_mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R3C3-S01",
+        "R3C3-S02",
+        "R3C3-S03"
+      ],
+      "statement": "Social feedback such as likes/comments can function as a reward signal that changes subsequent social-media behavior; experimental manipulations support causal effects of feedback/reward rate on later posting or sharing."
+    },
+    {
+      "id": "R3C3-C02",
+      "target_ids": [
+        "RH-N02",
+        "ST-N01"
+      ],
+      "claim_type": "cross_core_learning",
+      "stance": "supports",
+      "source_ids": [
+        "R3C3-S01",
+        "R3C3-S02"
+      ],
+      "statement": "Reward-learning/value-updating processes can shape the timing or probability of subsequent social-media posting/sharing behavior."
+    },
+    {
+      "id": "R3C3-C03",
+      "target_ids": [
+        "ST-N01",
+        "CTX-SOCIAL-FEEDBACK"
+      ],
+      "claim_type": "system_mechanical",
+      "stance": "supports",
+      "source_ids": [
+        "R3C3-S01",
+        "R3C3-S02"
+      ],
+      "statement": "A social-media post/share creates an opportunity for social feedback when other users can react; feedback is conditional on audience/platform response."
+    },
+    {
+      "id": "R3C3-C04",
+      "target_ids": [
+        "RH-N06",
+        "ST-N01"
+      ],
+      "claim_type": "boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "R3C3-S04"
+      ],
+      "statement": "Real-world social-media posting can reflect a mixture of reinforcement learning and habitual processes, with substantial individual differences; posting frequency or repetition alone must not be used as a habit diagnosis."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "R3C3-S01",
+      "title": "A computational reward learning account of social media engagement",
+      "year": 2021,
+      "type": "large_behavioral_plus_experiment",
+      "doi": "10.1038/s41467-020-19607-x",
+      "observations": 1046857,
+      "users": 4168,
+      "experiment_n": 176,
+      "scope": [
+        "social_transmission",
+        "reinforcement_habit"
+      ]
+    },
+    {
+      "id": "R3C3-S02",
+      "title": "Social feedback promotes positive social sharing, trust, and closeness",
+      "year": 2023,
+      "type": "experimental_sharing_study",
+      "doi": "10.1037/emo0001182",
+      "scope": [
+        "social_transmission",
+        "reinforcement_habit",
+        "trust"
+      ]
+    },
+    {
+      "id": "R3C3-S03",
+      "title": "Emotional responses to likes and comments regulate posting frequency and content change behaviour on social media: An experimental study and mediation model",
+      "year": 2021,
+      "type": "within_subject_experiment",
+      "doi": "10.1016/j.chb.2021.106940",
+      "scope": [
+        "social_transmission",
+        "reinforcement_habit",
+        "valuation_emotion"
+      ]
+    },
+    {
+      "id": "R3C3-S04",
+      "title": "A computational model of reward learning and habits on social media",
+      "year": 2026,
+      "type": "computational_behavioral_with_preregistered_replication",
+      "doi": "10.1038/s41467-026-73547-6",
+      "users": 2696,
+      "scope": [
+        "reinforcement_habit",
+        "social_transmission"
+      ]
+    }
+  ]
+}
