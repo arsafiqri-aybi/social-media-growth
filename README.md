@@ -1,14 +1,30 @@
 # Social Media Growth
 
-Research-grounded neural knowledge architecture for building and growing social-media accounts.
+Research-grounded neural knowledge architecture and executable reasoning system for building and growing social-media accounts.
 
 ## Current stage
 
-**Human Psychological Core + Neural Reasoning Layer v0.1**
+**Human Psychological Core — Reasoning System v0.2**
 
-This repository is no longer only a knowledge library. It contains an executable, auditable graph reasoner that uses the eight core psychological families as nodes and evidence-weighted relationships as edges.
+The repository models social-media psychology as a **dynamic network**, not a linear funnel.
 
-## Core neurons
+```text
+observations
+   ↓
+measurement proxies + ambiguity
+   ↓
+29 sub-neurons
+   ↕
+mechanism-level propagation
+   ↓
+8 core neurons
+   ↕
+evidence-weighted network reasoning
+   ↓
+dominant mechanisms + tensions + evidence warnings
+```
+
+## Eight core neurons
 
 1. Attention
 2. Curiosity
@@ -19,51 +35,58 @@ This repository is no longer only a knowledge library. It contains an executable
 7. Social Transmission
 8. Reinforcement & Habit
 
-These are candidate core families, not immutable truths.
+## What v0.2 adds
 
-## Runtime concept
-
-```text
-observations
-   ↓
-seed activations + context
-   ↓
-8-node psychological network
-   ↕
-typed, weighted, evidence-discounted edges
-   ↓
-iterative propagation
-   ↓
-dominant mechanisms + conflicts + audit trace
-```
-
-The architecture is **not a linear funnel** and the numeric weights are **not claimed empirical effect sizes**. Weak evidence is explicitly discounted and every propagated conclusion can be traced back to edges and mechanisms.
+- 29 mechanism-level sub-neurons
+- hierarchical sub-neuron → core reasoning
+- measurement/proxy layer for real account analytics
+- negative evidence handling
+- empirical evidence registry
+- published effect-size metadata where available
+- contradiction / boundary-condition registry
+- evidence warnings attached to active reasoning paths
+- 15 automated tests
 
 ## Run
 
+Core-only reasoning:
+
 ```bash
 python -m engine.cli examples/case_identity_curiosity.json
+```
+
+Observation → sub-neuron → core reasoning:
+
+```bash
+python -m engine.hierarchical_cli examples/observed_case.json
+```
+
+Tests:
+
+```bash
 python -m unittest discover -s tests -v
 ```
 
-No third-party Python dependencies are required for v0.1.
-
-## Repository map
-
-- `neurons/` — research-grounded base knowledge for each core family
-- `connections/core-edge-map.md` — conceptual edge map
-- `data/nodes.json` — machine-readable node registry
-- `data/edges.json` — machine-readable weighted edge registry
-- `engine/` — executable reasoning runtime
-- `tests/` — deterministic behavioral tests
-- `examples/` — example reasoning cases
-- `docs/reasoning-engine.md` — runtime and scientific guardrails
-- `research/` — evidence policy and source registry
-
 ## Scientific constraint
 
-The engine is a **decision-support model**, not a biological simulation of the brain. It can reason consistently over the knowledge architecture, expose interactions, and surface uncertainty. It must not turn heuristic weights into fake psychological precision.
+This is a transparent decision-support reasoner, **not a biological brain simulation**.
 
-## Scope lock
+Important:
 
-The current layer focuses on the **Human Psychological Core**. Platform algorithms, content formats, branding, production, monetization, and growth tactics should connect later rather than contaminate this base layer.
+- architecture weights are not automatically empirical effect sizes;
+- analytics are not direct mind-state measurements;
+- correlation is not treated as causation;
+- uncertainty, heterogeneity, and contradictory evidence are retained;
+- weak/emerging edges are discounted rather than presented as fact.
+
+See:
+
+- `research/evidence_registry.json`
+- `research/contradictions.json`
+- `research/effect-size-policy.md`
+- `docs/measurement-layer.md`
+- `docs/sub-neuron-layer.md`
+
+## CI
+
+GitHub Actions runs the full unit-test suite and a reasoning example on pushes to `main` and on pull requests.

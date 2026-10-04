@@ -2,56 +2,62 @@
 
 ## Human Psychological Core
 
-Version: **Foundation + Neural Reasoning Layer v0.1**
+Version: **Reasoning System v0.2**
 
-### Completed
+### Foundation
 
-- [x] Eight candidate core neurons defined
-- [x] Base knowledge seeded for all eight
-- [x] Linear-funnel model rejected
-- [x] Typed many-to-many connection model defined
-- [x] Feedback loops mapped
-- [x] Evidence hierarchy and confidence policy
-- [x] Initial evidence registry
-- [x] Machine-readable node registry
-- [x] Machine-readable edge registry
-- [x] Evidence-discounted weighted propagation engine
-- [x] Context-sensitive edge modulation
-- [x] Support/inhibition accounting
-- [x] Conflict/tension reporting
-- [x] Explanation/audit trace
-- [x] Deterministic convergence loop
-- [x] CLI runner
-- [x] Unit test suite
+- [x] Eight candidate core neurons
+- [x] Research-grounded base knowledge
+- [x] Many-to-many typed connection model
+- [x] Feedback loops
+- [x] Evidence hierarchy
 - [x] Pop-psychology guardrails
 
-### Verified locally
+### Executable reasoning
 
-Six behavioral tests pass:
+- [x] Core graph reasoner
+- [x] Context-sensitive propagation
+- [x] Evidence-confidence discounting
+- [x] Support/inhibition accounting
+- [x] Conflict/tension reporting
+- [x] Audit trace
+- [x] Deterministic convergence
+- [x] CLI
 
-1. curiosity propagates into attention and valuation;
-2. identity propagates into social/relational nodes;
-3. high-arousal context strengthens the relevant transmission edge;
-4. unknown/fabricated nodes are rejected;
-5. identical cases produce deterministic results;
-6. conflicting positive/negative edges produce a tension report.
+### Scientific upgrade v0.2
 
-### Scientific limitations deliberately retained
+- [x] 29 sub-neurons
+- [x] Intra/sub-neuron connection network
+- [x] Hierarchical sub-neuron -> core reasoning
+- [x] Empirical evidence registry
+- [x] Published effect-size metadata where appropriate
+- [x] Contradiction/boundary-condition registry
+- [x] Measurement proxy layer
+- [x] Negative-evidence handling
+- [x] Evidence warnings in active reasoning paths
+- [x] Effect-size calibration policy
 
-- Current edge weights are architecture coefficients, **not empirical effect sizes**.
-- Node activations are latent reasoning states, **not measurements of a real person** unless supplied from validated measures.
-- Several edges remain emerging/hypothetical and are discounted.
-- The runtime does not claim to reproduce biological cognition.
-- GitHub Actions CI is not installed because workflow write permission is not enabled for the current connector.
+### Verification
 
-### Next upgrades
+- [x] GitHub Actions CI installed
+- [x] Initial CI run succeeded
+- [x] v0.2 CI run succeeded
+- [x] 15 automated tests pass
 
-- [ ] Effect-size/evidence metadata registry per edge
-- [ ] Contradiction registry
-- [ ] Negative/inhibitory evidence-backed edges
-- [ ] Measurement layer: observations -> validated node signals
-- [ ] Sub-neuron decomposition and intra-core propagation
-- [ ] Bayesian or probabilistic calibration layer
-- [ ] Scenario benchmark suite with expected qualitative outcomes
-- [ ] CI workflow when workflow-write permission is available
-- [ ] Platform/content layers connected only after core validation
+### Important limits preserved
+
+- Edge weights remain architecture coefficients unless a future calibration procedure justifies otherwise.
+- Pooled correlations are not copied into causal graph weights.
+- Platform metrics are operational proxies, not direct psychological measurements.
+- Returning behavior is not automatically classified as habit.
+- Emerging causal paths remain discounted.
+
+### Next research frontier
+
+- [ ] Validated psychometric/behavioral measurement models per sub-neuron
+- [ ] More evidence-backed inhibitory edges
+- [ ] Formal probabilistic/Bayesian uncertainty layer
+- [ ] Context-specific calibration by platform, content type, culture and audience
+- [ ] Benchmark corpus of real content/account scenarios
+- [ ] Prediction-vs-outcome evaluation
+- [ ] Only after core validation: content, brand, distribution, community and growth layers
