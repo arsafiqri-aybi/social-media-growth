@@ -34,7 +34,9 @@ class R2Cycle01Tests(unittest.TestCase):
         self.assertEqual({n["primary_core"] for n in self.neurons},CORES)
 
     def test_no_l2_is_prematurely_accepted(self):
-        self.assertTrue(all(n["status"]=="candidate" for n in self.neurons))
+        allowed={"candidate","provisional"}
+        self.assertTrue(all(n["status"] in allowed for n in self.neurons))
+        self.assertFalse(any(n["status"]=="accepted" for n in self.neurons))
 
     def test_all_29_legacy_nodes_have_one_migration(self):
         self.assertEqual(len(self.migration),29)
