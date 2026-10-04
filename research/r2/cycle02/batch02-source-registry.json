@@ -1,0 +1,218 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_02",
+  "sources": [
+    {
+      "id": "R2H2-ATT-S01",
+      "core": [
+        "attention"
+      ],
+      "title": "Sustaining attention to simple tasks: a meta-analytic review of the neural mechanisms of vigilant attention",
+      "year": 2013,
+      "type": "meta_analysis_review",
+      "doi": "10.1037/a0030694"
+    },
+    {
+      "id": "R2H2-CUR-S01",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Curiosity and the dynamics of optimal exploration",
+      "year": 2024,
+      "type": "review",
+      "doi": "10.1016/j.tics.2024.02.001"
+    },
+    {
+      "id": "R2H2-CUR-S02",
+      "core": [
+        "curiosity",
+        "valuation_emotion"
+      ],
+      "title": "An Integrative Appraisal Model of Epistemic Curiosity",
+      "year": 2025,
+      "type": "integrative_review",
+      "doi": "10.1007/s42761-025-00328-7"
+    },
+    {
+      "id": "R2H2-CUR-S03",
+      "core": [
+        "curiosity",
+        "reinforcement_habit"
+      ],
+      "title": "Learning reinforces curiosity for related information",
+      "year": 2026,
+      "type": "human_experimental_study",
+      "doi": "10.1073/pnas.2529176123"
+    },
+    {
+      "id": "R2H2-VE-S01",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Associations between cognitive appraisals and emotions: A meta-analytic review",
+      "year": 2024,
+      "type": "meta_analysis",
+      "doi": "10.1037/bul0000452",
+      "effect_sizes": 2634,
+      "studies": 309,
+      "reports": 251
+    },
+    {
+      "id": "R2H2-VE-S02",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "The Emotion Process: Event Appraisal and Component Differentiation",
+      "year": 2019,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-122216-011854"
+    },
+    {
+      "id": "R2H2-ID-S01",
+      "core": [
+        "identity"
+      ],
+      "title": "Social Influence and Group Identity",
+      "year": 2021,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-070620-111818"
+    },
+    {
+      "id": "R2H2-ID-S02",
+      "core": [
+        "identity"
+      ],
+      "title": "How prototypical are we compared to them? The role of group relative prototypicality in explaining the path from intergroup contact to collective action",
+      "year": 2025,
+      "type": "human_empirical_study",
+      "doi": "10.1111/bjso.12858"
+    },
+    {
+      "id": "R2H2-TR-S01",
+      "core": [
+        "trust"
+      ],
+      "title": "Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations",
+      "year": 2024,
+      "type": "meta_analysis",
+      "doi": "10.1002/mar.21927",
+      "studies": 53,
+      "effect_sizes": 250
+    },
+    {
+      "id": "R2H2-TR-S02",
+      "core": [
+        "trust"
+      ],
+      "title": "Influencer Authenticity in Marketing: A Systematic Literature Review and Future Research Agenda",
+      "year": 2026,
+      "type": "systematic_literature_review",
+      "doi": "10.1111/ijcs.70258",
+      "articles": 138
+    },
+    {
+      "id": "R2H2-CON-S01",
+      "core": [
+        "connection"
+      ],
+      "title": "Parasocial relationship: reconceptualization, scale development and validation",
+      "year": 2026,
+      "type": "scale_development_validation",
+      "doi": "10.1016/j.jbusres.2026.116122",
+      "empirical_studies": 5
+    },
+    {
+      "id": "R2H2-CON-S02",
+      "core": [
+        "connection"
+      ],
+      "title": "From Parasocial Interaction to Parasocial Relationship: A Review and Research Agenda",
+      "year": 2025,
+      "type": "systematic_review",
+      "doi": "10.1111/ijcs.70038",
+      "papers": 233
+    },
+    {
+      "id": "R2H2-ST-S01",
+      "core": [
+        "social_transmission"
+      ],
+      "title": "What Gets Shared, and Why? Interpersonal Communication and Word of Mouth",
+      "year": 2025,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-013024-031524"
+    },
+    {
+      "id": "R2H2-ST-S02",
+      "core": [
+        "social_transmission"
+      ],
+      "title": "Self-presentation, privacy and electronic word-of-mouth in social media",
+      "year": 2017,
+      "type": "qualitative_study",
+      "doi": "10.1108/JPBM-04-2016-1150",
+      "n": 22
+    },
+    {
+      "id": "R2H2-ST-S03",
+      "core": [
+        "social_transmission"
+      ],
+      "title": "Mastering the challenge of balancing self-disclosure and privacy in social media",
+      "year": 2020,
+      "type": "review",
+      "doi": "10.1016/j.copsyc.2019.08.003"
+    },
+    {
+      "id": "R2H2-ST-S04",
+      "core": [
+        "social_transmission",
+        "identity"
+      ],
+      "title": "Self-disclosure versus self-presentation on social media",
+      "year": 2020,
+      "type": "review",
+      "doi": "10.1016/j.copsyc.2019.06.025"
+    },
+    {
+      "id": "R2H2-RH-S01",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Learning, Reward, and Decision Making",
+      "year": 2017,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-010416-044216"
+    },
+    {
+      "id": "R2H2-RH-S02",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Cost-Benefit Arbitration Between Multiple Reinforcement-Learning Systems",
+      "year": 2017,
+      "type": "human_experiments",
+      "doi": "10.1177/0956797617708288"
+    },
+    {
+      "id": "R2H2-RH-S03",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "A Sequential Sampling Approach to the Integration of Habits and Goals",
+      "year": 2024,
+      "type": "computational_theory",
+      "doi": "10.1007/s42113-024-00199-4"
+    },
+    {
+      "id": "R2H2-RH-S04",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "The evaluation of devaluation: Deficient outcome devaluation leads to wrongly considering goal-directed actions as habits",
+      "year": 2026,
+      "type": "preregistered_conceptual_replication",
+      "doi": null,
+      "pmid": "42414812"
+    }
+  ]
+}

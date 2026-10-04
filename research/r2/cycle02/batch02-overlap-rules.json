@@ -1,0 +1,82 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_02",
+  "rules": [
+    {
+      "id": "OV2-ATT-01",
+      "a": "ATT-N09",
+      "b": "ATT-N02",
+      "relation": "timescale_distinction",
+      "rule": "Initial capture and sustained attention are separate mechanisms; strong early capture does not imply sustained processing."
+    },
+    {
+      "id": "OV2-CUR-01",
+      "a": "CUR-N05",
+      "b": "CUR-N06",
+      "relation": "related_not_identical",
+      "rule": "Expected information gain is an anticipated knowledge update; epistemic value is the subjective worth assigned to obtaining information."
+    },
+    {
+      "id": "OV2-CUR-02",
+      "a": "CUR-N07",
+      "b": "observed_learning_gain",
+      "relation": "latent_vs_observed",
+      "rule": "A learning-progress signal is a subjective/computational mechanism, not simply the fact that performance improved."
+    },
+    {
+      "id": "OV2-VE-01",
+      "a": "VE-N07/VE-N08/VE-N09/VE-N10",
+      "b": "emotion_label",
+      "relation": "many_to_many",
+      "rule": "Appraisals jointly differentiate emotions; no one appraisal is a direct emotion label."
+    },
+    {
+      "id": "OV2-ID-01",
+      "a": "ID-N09",
+      "b": "CTX-PERCEIVED-SIMILARITY",
+      "relation": "group_relative_vs_interpersonal",
+      "rule": "Group prototypicality is fit to a salient group prototype; perceived similarity/homophily is broader interpersonal or audience-source similarity."
+    },
+    {
+      "id": "OV2-TR-01",
+      "a": "TR-N06",
+      "b": "TR-N03",
+      "relation": "antecedent_or_component_not_alias",
+      "rule": "Perceived genuineness/authenticity can contribute to credibility/trust but is not identical to trustworthiness."
+    },
+    {
+      "id": "OV2-CON-01",
+      "a": "CON-N10",
+      "b": "CON-N07",
+      "relation": "relationship_vs_exposure",
+      "rule": "Parasocial intimacy is relational; creator familiarity can arise from repeated exposure without intimacy."
+    },
+    {
+      "id": "OV2-ST-01",
+      "a": "ST-N11",
+      "b": "ST-N12",
+      "relation": "distinct_costs",
+      "rule": "Privacy cost concerns unwanted information exposure/control; reputational risk concerns social evaluation/image consequences."
+    },
+    {
+      "id": "OV2-ST-02",
+      "a": "ST-N05/ST-N06",
+      "b": "ST-N01",
+      "relation": "motive_vs_behavior",
+      "rule": "Practical/information-value motives cannot be inferred solely from an observed share."
+    },
+    {
+      "id": "OV2-RH-01",
+      "a": "RH-N09/RH-N10",
+      "b": "RH-N04/RH-N06",
+      "relation": "parallel_control_routes",
+      "rule": "Goal-directed action-outcome control and context-response/habitual control can coexist and compete."
+    },
+    {
+      "id": "OV2-RH-02",
+      "a": "RH-N11",
+      "b": "control_integration",
+      "relation": "contested_architecture",
+      "rule": "Do not make a discrete central arbiter mandatory; arbitration is one model among alternatives including dynamic integration."
+    }
+  ]
+}

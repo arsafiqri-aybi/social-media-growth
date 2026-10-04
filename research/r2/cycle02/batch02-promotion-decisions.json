@@ -1,0 +1,231 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_02",
+  "decisions": [
+    {
+      "node_id": "ATT-N09",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-ATT-C01"
+      ],
+      "measurement_route": "sustained-attention/vigilance task with time-on-task performance",
+      "boundary": "Sustained attention must not be inferred from initial hold/capture.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "ATT-N10",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-ATT-C01"
+      ],
+      "measurement_route": "within-task time-on-task decrement under a validated vigilance paradigm",
+      "boundary": "A decrement is task-sensitive and not a stable trait by itself.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "CUR-N05",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-CUR-C01"
+      ],
+      "measurement_route": "choice-based expected-information-gain manipulation/estimate",
+      "boundary": "Information gain is not identical to uncertainty magnitude.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "CUR-N06",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-CUR-C01"
+      ],
+      "measurement_route": "information-choice valuation task or willingness-to-obtain information",
+      "boundary": "Epistemic value must be distinguished from instrumental reward.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "CUR-N07",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-CUR-C02"
+      ],
+      "measurement_route": "longitudinal/trial-level learning-progress estimate paired with exploration choice",
+      "boundary": "Observed learning alone does not prove a subjective progress signal.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "VE-N07",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
+      ],
+      "measurement_route": "appraisal measure/manipulation for goal congruence",
+      "boundary": "One appraisal cannot identify an emotion by itself.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "VE-N08",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
+      ],
+      "measurement_route": "certainty appraisal measure/manipulation",
+      "boundary": "Certainty is distinct from confidence in source truth.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "VE-N09",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
+      ],
+      "measurement_route": "control/coping-potential appraisal measure",
+      "boundary": "Perceived control is context- and event-specific.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "VE-N10",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
+      ],
+      "measurement_route": "agency/responsibility appraisal measure",
+      "boundary": "Agency appraisal is not identical to moral blame.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "ID-N08",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-ID-C01"
+      ],
+      "measurement_route": "salient-group norm measure/manipulation with identification context",
+      "boundary": "Norms should not be inferred from majority behavior alone.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "ID-N09",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-ID-C02"
+      ],
+      "measurement_route": "group-prototypicality measure relative to a salient group/category",
+      "boundary": "Prototypicality is group-relative, not generic similarity.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "TR-N06",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-TR-C01",
+        "R2H2-TR-C02"
+      ],
+      "measurement_route": "validated perceived-authenticity/genuineness measure matched to source context",
+      "boundary": "Authenticity is not objective truth or universal engagement value.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "CON-N06",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-CON-C01"
+      ],
+      "measurement_route": "validated PSR dimension measuring real-life relationship intention",
+      "boundary": "Desire for reciprocity is not evidence that reciprocity exists.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "CON-N10",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-CON-C01",
+        "R2H2-CON-C02"
+      ],
+      "measurement_route": "validated parasocial-intimacy/PSR dimension",
+      "boundary": "Intimacy must not be inferred from familiarity/exposure frequency.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "ST-N05",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-ST-C01"
+      ],
+      "measurement_route": "recipient-usefulness appraisal tied to a specific sharing decision",
+      "boundary": "Usefulness is a motive/appraisal, not the share action itself.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "ST-N06",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-ST-C01"
+      ],
+      "measurement_route": "motive-specific information-value sharing measure",
+      "boundary": "Information-value motive may coexist with other motives.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "ST-N11",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-ST-C02"
+      ],
+      "measurement_route": "privacy-risk/cost appraisal tied to audience and disclosure context",
+      "boundary": "Privacy concern may not translate directly to behavior in every context.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "ST-N12",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-ST-C03"
+      ],
+      "measurement_route": "reputational-risk/self-presentation appraisal tied to audience",
+      "boundary": "Reputational risk is audience-dependent and distinct from privacy risk.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "RH-N09",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-RH-C01"
+      ],
+      "measurement_route": "action-outcome knowledge or model-based transition/outcome representation task",
+      "boundary": "Model-based metrics are approximations, not literal proof of a single neural system.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    },
+    {
+      "node_id": "RH-N10",
+      "new_status": "provisional",
+      "claim_ids": [
+        "R2H2-RH-C01"
+      ],
+      "measurement_route": "goal-directed sensitivity to current outcome values/action-outcome contingencies",
+      "boundary": "Goal-directed control can coexist with habitual influences.",
+      "decision": "PROMOTE_CANDIDATE_TO_PROVISIONAL",
+      "review_cycle": "R2_CYCLE_02_BATCH_02"
+    }
+  ]
+}

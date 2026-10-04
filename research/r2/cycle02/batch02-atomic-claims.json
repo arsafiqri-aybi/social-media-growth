@@ -1,0 +1,242 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_02",
+  "claims": [
+    {
+      "id": "R2H2-ATT-C01",
+      "target_ids": [
+        "ATT-M04",
+        "ATT-N09",
+        "ATT-N10"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-ATT-S01"
+      ],
+      "statement": "Sustained/vigilant attention is a time-extended control problem distinct from initial capture, and performance commonly declines with increasing time on task."
+    },
+    {
+      "id": "R2H2-CUR-C01",
+      "target_ids": [
+        "CUR-M03",
+        "CUR-N05",
+        "CUR-N06"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-CUR-S01",
+        "R2H2-CUR-S02"
+      ],
+      "statement": "Expected information gain and the subjective value of information are separable but interacting drivers of curiosity-guided exploration."
+    },
+    {
+      "id": "R2H2-CUR-C02",
+      "target_ids": [
+        "CUR-M04",
+        "CUR-N07"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-CUR-S01",
+        "R2H2-CUR-S03"
+      ],
+      "statement": "Learning progress and successful acquisition of information can reinforce curiosity for related information, supporting a dynamic rather than static curiosity model."
+    },
+    {
+      "id": "R2H2-VE-C01",
+      "target_ids": [
+        "VE-M03",
+        "VE-N07",
+        "VE-N08",
+        "VE-N09",
+        "VE-N10"
+      ],
+      "claim_type": "association",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-VE-S01",
+        "R2H2-VE-S02"
+      ],
+      "statement": "Goal congruence, certainty, control/coping potential, and agency/responsibility are empirically distinguishable appraisal dimensions with differentiated relationships to emotion states."
+    },
+    {
+      "id": "R2H2-VE-C02",
+      "target_ids": [
+        "VE-M03"
+      ],
+      "claim_type": "boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H2-VE-S01"
+      ],
+      "statement": "Appraisal-emotion mapping is many-to-many: a single appraisal dimension does not uniquely identify an emotion, and emotion categories do not arise from one appraisal alone."
+    },
+    {
+      "id": "R2H2-ID-C01",
+      "target_ids": [
+        "ID-M03",
+        "ID-N08"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-ID-S01"
+      ],
+      "statement": "Salient group identity can make group norms a basis for social influence, with effects moderated by identification and context."
+    },
+    {
+      "id": "R2H2-ID-C02",
+      "target_ids": [
+        "ID-M03",
+        "ID-N09"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-ID-S01",
+        "R2H2-ID-S02"
+      ],
+      "statement": "Perceived group prototypicality is a distinct identity-relevant representation that can shape influence and collective behavior rather than being reducible to simple similarity."
+    },
+    {
+      "id": "R2H2-TR-C01",
+      "target_ids": [
+        "TR-M03",
+        "TR-N06"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-TR-S01",
+        "R2H2-TR-S02"
+      ],
+      "statement": "Perceived authenticity/genuineness is a recurring, empirically measured influencer construct related to credibility outcomes but is not identical to trustworthiness, expertise, or objective truth."
+    },
+    {
+      "id": "R2H2-TR-C02",
+      "target_ids": [
+        "TR-M03",
+        "TR-N06"
+      ],
+      "claim_type": "contradiction",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H2-TR-S02"
+      ],
+      "statement": "Strategic displays of authenticity can backfire and recent synthesis does not support treating perceived authenticity as a universal engagement booster."
+    },
+    {
+      "id": "R2H2-CON-C01",
+      "target_ids": [
+        "CON-M02",
+        "CON-N06",
+        "CON-N10"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-CON-S01",
+        "R2H2-CON-S02"
+      ],
+      "statement": "Modern online PSR measurement supports multidimensional representation including intimacy, relationship maintenance, and real-life relationship intention rather than a single closeness score."
+    },
+    {
+      "id": "R2H2-CON-C02",
+      "target_ids": [
+        "CON-N10"
+      ],
+      "claim_type": "boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H2-CON-S01"
+      ],
+      "statement": "Parasocial intimacy is a dimension of an enduring one-sided relationship and must not be inferred from mere repeated exposure/familiarity."
+    },
+    {
+      "id": "R2H2-ST-C01",
+      "target_ids": [
+        "ST-M03",
+        "ST-N05",
+        "ST-N06"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-ST-S01"
+      ],
+      "statement": "Perceived usefulness/information value can motivate interpersonal transmission, but the motive is distinct from the observed act of sharing."
+    },
+    {
+      "id": "R2H2-ST-C02",
+      "target_ids": [
+        "ST-M07",
+        "ST-N11"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-ST-S02",
+        "R2H2-ST-S03"
+      ],
+      "statement": "Anticipated privacy costs can inhibit or reshape social-media disclosure/transmission decisions and must be modeled alongside expected gratifications."
+    },
+    {
+      "id": "R2H2-ST-C03",
+      "target_ids": [
+        "ST-M07",
+        "ST-N12"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-ST-S02",
+        "R2H2-ST-S04"
+      ],
+      "statement": "Reputational and self-presentation concerns can alter what people transmit to an audience, especially under multiple-audience and feedback conditions."
+    },
+    {
+      "id": "R2H2-RH-C01",
+      "target_ids": [
+        "RH-M05",
+        "RH-N09",
+        "RH-N10"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2H2-RH-S01"
+      ],
+      "statement": "Goal-directed control relies on action-outcome/world-model representations and current outcome values, whereas habitual/model-free strategies provide a partly distinct control route."
+    },
+    {
+      "id": "R2H2-RH-C02",
+      "target_ids": [
+        "RH-M05",
+        "RH-N11"
+      ],
+      "claim_type": "contradiction",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H2-RH-S01",
+        "R2H2-RH-S02",
+        "R2H2-RH-S03"
+      ],
+      "statement": "A separate arbitration mechanism is one supported account of habit-goal control, but alternative models integrate habit and goal influences without a discrete central arbiter; arbitration should therefore remain provisional rather than ontologically mandatory."
+    },
+    {
+      "id": "R2H2-RH-C03",
+      "target_ids": [
+        "RH-M04",
+        "RH-N07"
+      ],
+      "claim_type": "measurement",
+      "stance": "bounds",
+      "source_ids": [
+        "R2H2-RH-S04"
+      ],
+      "statement": "Outcome-devaluation insensitivity can be misclassified when the devaluation manipulation itself is ineffective, so apparent habit-like responding requires manipulation-validity checks."
+    }
+  ]
+}

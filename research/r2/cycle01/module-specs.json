@@ -71,9 +71,10 @@
         "selection_control"
       ],
       "claim_ids": [
-        "C2-ATT-002"
+        "C2-ATT-002",
+        "R2H2-ATT-C01"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Initial capture and sustained attention must remain distinct."
       ],
@@ -153,9 +154,10 @@
         "appraisal_valuation"
       ],
       "claim_ids": [
-        "C2-CUR-001"
+        "C2-CUR-001",
+        "R2H2-CUR-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Must remain separable from general reward value."
       ],
@@ -173,9 +175,10 @@
         "motivation_drive"
       ],
       "claim_ids": [
-        "C2-CUR-001"
+        "C2-CUR-001",
+        "R2H2-CUR-C02"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Need direct evidence separating learning progress from competence/interest."
       ],
@@ -275,9 +278,11 @@
         "appraisal_valuation"
       ],
       "claim_ids": [
-        "C2-VE-002"
+        "C2-VE-002",
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Appraisals are many-to-many with emotions."
       ],
@@ -400,9 +405,11 @@
         "social_normative"
       ],
       "claim_ids": [
-        "C2-ID-001"
+        "C2-ID-001",
+        "R2H2-ID-C01",
+        "R2H2-ID-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Norm influence depends on salient identification/context."
       ],
@@ -484,9 +491,11 @@
       ],
       "claim_ids": [
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H2-TR-C01",
+        "R2H2-TR-C02"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Authenticity is not equivalent to truthfulness or expertise."
       ],
@@ -591,9 +600,11 @@
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "R2H-CON-C01"
+        "R2H-CON-C01",
+        "R2H2-CON-C01",
+        "R2H2-CON-C02"
       ],
-      "evidence_state": "direct_review_or_primary_evidence_hardened",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "PSR is multidimensional and not equivalent to real reciprocity."
       ],
@@ -713,9 +724,10 @@
         "motivation_drive"
       ],
       "claim_ids": [
-        "C2-ST-001"
+        "C2-ST-001",
+        "R2H2-ST-C01"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Motive cannot be inferred from share count alone."
       ],
@@ -778,9 +790,11 @@
       ],
       "claim_ids": [
         "C2-ST-001",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H2-ST-C02",
+        "R2H2-ST-C03"
       ],
-      "evidence_state": "candidate_needs_module_specific_evidence",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Cost can vary by audience and context."
       ],
@@ -881,9 +895,11 @@
         "selection_control"
       ],
       "claim_ids": [
-        "C2-RH-003"
+        "C2-RH-003",
+        "R2H2-RH-C01",
+        "R2H2-RH-C02"
       ],
-      "evidence_state": "provisional_landscape_supported",
+      "evidence_state": "direct_synthesis_or_primary_evidence_hardened",
       "boundary_conditions": [
         "Goal-directed and habitual influences can coexist."
       ],

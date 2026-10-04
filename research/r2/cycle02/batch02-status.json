@@ -1,0 +1,23 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_02",
+  "total_l2": 116,
+  "sources_added": 20,
+  "claims_added": 17,
+  "nodes_promoted": 20,
+  "modules_hardened": 10,
+  "status_counts": {
+    "candidate": 76,
+    "provisional": 40
+  },
+  "accepted_nodes": 0,
+  "next_priority": [
+    "remaining attention capture/disengagement/control candidates",
+    "curiosity novelty/uncertainty/exploration distinctions",
+    "valuation expected-vs-experienced value and differentiated emotion nodes",
+    "identity self-concept/identification/threat-boundary nodes",
+    "trust integrity/benevolence/expertise/consistency/reliability",
+    "connection familiarity/closeness/attachment distinctions",
+    "social transmission sharing/recommendation/identity-signal nodes",
+    "reinforcement prediction error/context-response/automaticity/outcome-insensitivity validity"
+  ]
+}

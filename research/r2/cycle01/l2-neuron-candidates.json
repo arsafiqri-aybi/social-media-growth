@@ -137,14 +137,19 @@
       "primary_core": "attention",
       "label": "Sustained attention",
       "definition": "Maintenance of task-relevant processing over extended time.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H2-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "sustained-attention/vigilance task with time-on-task performance",
+      "boundary_conditions": [
+        "Sustained attention must not be inferred from initial hold/capture."
+      ]
     },
     {
       "id": "ATT-N10",
@@ -153,14 +158,19 @@
       "primary_core": "attention",
       "label": "Vigilance decrement",
       "definition": "Time-related decline in sustained detection/monitoring performance.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2H2-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "within-task time-on-task decrement under a validated vigilance paradigm",
+      "boundary_conditions": [
+        "A decrement is task-sensitive and not a stable trait by itself."
+      ]
     },
     {
       "id": "ATT-N11",
@@ -306,15 +316,20 @@
       "primary_core": "curiosity",
       "label": "Expected information gain",
       "definition": "Anticipated reduction in uncertainty or improvement in knowledge from obtaining information.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H2-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "choice-based expected-information-gain manipulation/estimate",
+      "boundary_conditions": [
+        "Information gain is not identical to uncertainty magnitude."
+      ]
     },
     {
       "id": "CUR-N06",
@@ -323,15 +338,20 @@
       "primary_core": "curiosity",
       "label": "Epistemic value",
       "definition": "Subjective value assigned to information itself, apart from immediate external reward.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H2-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "information-choice valuation task or willingness-to-obtain information",
+      "boundary_conditions": [
+        "Epistemic value must be distinguished from instrumental reward."
+      ]
     },
     {
       "id": "CUR-N07",
@@ -340,15 +360,20 @@
       "primary_core": "curiosity",
       "label": "Learning-progress signal",
       "definition": "Perception that understanding or predictive competence is improving.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2H2-CUR-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "longitudinal/trial-level learning-progress estimate paired with exploration choice",
+      "boundary_conditions": [
+        "Observed learning alone does not prove a subjective progress signal."
+      ]
     },
     {
       "id": "CUR-N08",
@@ -576,15 +601,21 @@
       "primary_core": "valuation_emotion",
       "label": "Goal-congruence appraisal",
       "definition": "Appraisal of whether an event supports or obstructs current goals.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "appraisal measure/manipulation for goal congruence",
+      "boundary_conditions": [
+        "One appraisal cannot identify an emotion by itself."
+      ]
     },
     {
       "id": "VE-N08",
@@ -593,15 +624,21 @@
       "primary_core": "valuation_emotion",
       "label": "Certainty appraisal",
       "definition": "Appraisal of predictability/confidence about what is happening or will happen.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "certainty appraisal measure/manipulation",
+      "boundary_conditions": [
+        "Certainty is distinct from confidence in source truth."
+      ]
     },
     {
       "id": "VE-N09",
@@ -610,15 +647,21 @@
       "primary_core": "valuation_emotion",
       "label": "Control / coping-potential appraisal",
       "definition": "Appraisal of ability to influence, manage, or cope with an event.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "control/coping-potential appraisal measure",
+      "boundary_conditions": [
+        "Perceived control is context- and event-specific."
+      ]
     },
     {
       "id": "VE-N10",
@@ -627,15 +670,21 @@
       "primary_core": "valuation_emotion",
       "label": "Agency / responsibility appraisal",
       "definition": "Appraisal of who or what caused or is responsible for an event.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "agency/responsibility appraisal measure",
+      "boundary_conditions": [
+        "Agency appraisal is not identical to moral blame."
+      ]
     },
     {
       "id": "VE-N11",
@@ -921,14 +970,19 @@
       "primary_core": "identity",
       "label": "Norm salience",
       "definition": "Accessibility of perceived group norms in the current context.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H2-ID-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "salient-group norm measure/manipulation with identification context",
+      "boundary_conditions": [
+        "Norms should not be inferred from majority behavior alone."
+      ]
     },
     {
       "id": "ID-N09",
@@ -937,14 +991,19 @@
       "primary_core": "identity",
       "label": "Group prototypicality",
       "definition": "Perceived fit of a person/position with the defining prototype of the salient group.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2H2-ID-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "group-prototypicality measure relative to a salient group/category",
+      "boundary_conditions": [
+        "Prototypicality is group-relative, not generic similarity."
+      ]
     },
     {
       "id": "ID-N10",
@@ -1091,14 +1150,20 @@
       "primary_core": "trust",
       "label": "Perceived genuineness",
       "definition": "Judgment that presented identity/behavior is sincere rather than fabricated.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2H2-TR-C01",
+        "R2H2-TR-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated perceived-authenticity/genuineness measure matched to source context",
+      "boundary_conditions": [
+        "Authenticity is not objective truth or universal engagement value."
+      ]
     },
     {
       "id": "TR-N07",
@@ -1341,14 +1406,19 @@
       "primary_core": "connection",
       "label": "Real-life relationship intention",
       "definition": "Desire or imagined intention for the mediated bond to become reciprocal/offline.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2H2-CON-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated PSR dimension measuring real-life relationship intention",
+      "boundary_conditions": [
+        "Desire for reciprocity is not evidence that reciprocity exists."
+      ]
     },
     {
       "id": "CON-N07",
@@ -1405,14 +1475,20 @@
       "primary_core": "connection",
       "label": "Perceived intimacy",
       "definition": "Sense of personal/private knowing or emotional intimacy with the creator/source.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2H2-CON-C01",
+        "R2H2-CON-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "validated parasocial-intimacy/PSR dimension",
+      "boundary_conditions": [
+        "Intimacy must not be inferred from familiarity/exposure frequency."
+      ]
     },
     {
       "id": "CON-N11",
@@ -1521,15 +1597,20 @@
       "primary_core": "social_transmission",
       "label": "Perceived recipient usefulness",
       "definition": "Belief that shared information will help, inform, or benefit the recipient.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H2-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "recipient-usefulness appraisal tied to a specific sharing decision",
+      "boundary_conditions": [
+        "Usefulness is a motive/appraisal, not the share action itself."
+      ]
     },
     {
       "id": "ST-N06",
@@ -1538,15 +1619,20 @@
       "primary_core": "social_transmission",
       "label": "Information-value sharing motive",
       "definition": "Motivation to transmit because content is considered informative or practically valuable.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H2-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "motive-specific information-value sharing measure",
+      "boundary_conditions": [
+        "Information-value motive may coexist with other motives."
+      ]
     },
     {
       "id": "ST-N07",
@@ -1633,15 +1719,20 @@
       "primary_core": "social_transmission",
       "label": "Privacy-cost appraisal",
       "definition": "Expected privacy cost or unwanted information exposure associated with transmission.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H2-ST-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "privacy-risk/cost appraisal tied to audience and disclosure context",
+      "boundary_conditions": [
+        "Privacy concern may not translate directly to behavior in every context."
+      ]
     },
     {
       "id": "ST-N12",
@@ -1650,15 +1741,20 @@
       "primary_core": "social_transmission",
       "label": "Reputational-risk appraisal",
       "definition": "Expected social-image/reputation harm from transmitting content to a given audience.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2H2-ST-C03"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "reputational-risk/self-presentation appraisal tied to audience",
+      "boundary_conditions": [
+        "Reputational risk is audience-dependent and distinct from privacy risk."
+      ]
     },
     {
       "id": "ST-N13",
@@ -1859,15 +1955,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Action-outcome representation",
       "definition": "Representation linking an action to expected consequences used in goal-directed control.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H2-RH-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "action-outcome knowledge or model-based transition/outcome representation task",
+      "boundary_conditions": [
+        "Model-based metrics are approximations, not literal proof of a single neural system."
+      ]
     },
     {
       "id": "RH-N10",
@@ -1876,15 +1977,20 @@
       "primary_core": "reinforcement_habit",
       "label": "Goal-directed control strength",
       "definition": "Degree to which current goals/outcome values guide action selection.",
-      "status": "candidate",
-      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "status": "provisional",
+      "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2H2-RH-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "measurement_route": "goal-directed sensitivity to current outcome values/action-outcome contingencies",
+      "boundary_conditions": [
+        "Goal-directed control can coexist with habitual influences."
+      ]
     },
     {
       "id": "RH-N11",

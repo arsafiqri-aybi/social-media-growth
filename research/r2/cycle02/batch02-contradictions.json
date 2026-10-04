@@ -1,0 +1,66 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_02",
+  "records": [
+    {
+      "id": "R2H2-X01",
+      "targets": [
+        "TR-N06"
+      ],
+      "severity": "high",
+      "statement": "Authenticity is context-sensitive and strategic authenticity may backfire; no universal engagement benefit should be encoded.",
+      "source_ids": [
+        "R2H2-TR-S02"
+      ]
+    },
+    {
+      "id": "R2H2-X02",
+      "targets": [
+        "RH-N11"
+      ],
+      "severity": "high",
+      "statement": "A discrete model-based/model-free arbitration mechanism is not the only viable computational account of habit-goal conflict.",
+      "source_ids": [
+        "R2H2-RH-S02",
+        "R2H2-RH-S03"
+      ]
+    },
+    {
+      "id": "R2H2-X03",
+      "targets": [
+        "RH-N07"
+      ],
+      "severity": "high",
+      "statement": "Outcome-devaluation insensitivity can reflect ineffective devaluation rather than genuine habitual control.",
+      "source_ids": [
+        "R2H2-RH-S04"
+      ]
+    },
+    {
+      "id": "R2H2-X04",
+      "targets": [
+        "ST-N11",
+        "ST-N12"
+      ],
+      "severity": "medium",
+      "statement": "Privacy and self-presentation concerns do not deterministically suppress all social-media transmission; users balance anticipated costs against gratifications and audience goals.",
+      "source_ids": [
+        "R2H2-ST-S02",
+        "R2H2-ST-S03",
+        "R2H2-ST-S04"
+      ]
+    },
+    {
+      "id": "R2H2-X05",
+      "targets": [
+        "CUR-N05",
+        "CUR-N06"
+      ],
+      "severity": "medium",
+      "statement": "Information value and expected information gain can favor exploration, but other drives and costs can override them.",
+      "source_ids": [
+        "R2H2-CUR-S01",
+        "R2H2-CUR-S02"
+      ]
+    }
+  ]
+}
