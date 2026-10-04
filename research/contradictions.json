@@ -1,0 +1,10 @@
+{
+  "version":"0.2.0",
+  "records":[
+    {"id":"C-ATT-001","targets":["attention","e01","e02","s01"],"type":"methodological_limit","severity":"high","statement":"Reward-associated attentional capture is supported, but the traditional VDAC paradigm shows weak experimental effects and multiple methodological concerns.","source_evidence_ids":["EV-ATT-001"],"reasoning_rule":"Do not infer a large or universal reward-to-attention effect."},
+    {"id":"C-TRUST-001","targets":["trust","e13","s12","s15","s16"],"type":"heterogeneity_publication_bias","severity":"high","statement":"Influencer trust-related effect sizes vary strongly across platform, geography, product and influencer type; some relationships show small-study/publication-bias signals.","source_evidence_ids":["EV-TRUST-001"],"reasoning_rule":"Use context-specific interpretation and do not copy pooled r values into causal edge weights."},
+    {"id":"C-CONN-001","targets":["connection","e14","e17","s18"],"type":"causal_gap","severity":"medium","statement":"Parasocial engagement correlates with outcomes, but not every connection-to-return or connection-to-sharing pathway is established as causal.","source_evidence_ids":["EV-CONN-001","EV-CONN-002"],"reasoning_rule":"Keep these paths discounted or emerging until direct causal evidence is available."},
+    {"id":"C-HAB-001","targets":["reinforcement_habit","e14","e15","s19","s20","s21"],"type":"construct_validity","severity":"high","statement":"Repeated viewing or returning is not itself evidence of habit; habit requires context-linked repetition/automaticity and can coexist with goal-directed behavior.","source_evidence_ids":["EV-HAB-001"],"reasoning_rule":"Never label an audience as habitual from return-rate data alone."},
+    {"id":"C-ID-001","targets":["identity","e07","s09","s10"],"type":"boundary_condition","severity":"medium","statement":"Identity-based influence depends on identification strength and social context; it is not generic conformity.","source_evidence_ids":["EV-ID-001"],"reasoning_rule":"Require identity salience/context before making strong identity-based predictions."}
+  ]
+}

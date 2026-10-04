@@ -1,0 +1,12 @@
+{
+  "observations": {
+    "early_hold_rate": {"value": 0.62, "baseline": 0.45},
+    "completion_rate": {"value": 0.47, "baseline": 0.32},
+    "profile_visit_rate": {"value": 0.08, "baseline": 0.04},
+    "share_rate": {"value": 0.035, "baseline": 0.015},
+    "returning_viewer_rate": {"value": 0.28, "baseline": 0.18},
+    "repeat_creator_engagement": {"value": 0.16, "baseline": 0.10}
+  },
+  "context": {"high_arousal": 0.6},
+  "notes": "Example: above-baseline retention, profile seeking, sharing and repeat engagement."
+}
