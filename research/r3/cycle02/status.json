@@ -1,0 +1,47 @@
+{
+  "cycle": "R3_CYCLE_02",
+  "edge_records": 23,
+  "edge_status_counts": {
+    "accepted_edge": 12,
+    "provisional_edge": 8,
+    "system_edge": 3
+  },
+  "pair_count": 28,
+  "remaining_gap_like_pairs": 12,
+  "resolved_or_reclassified_from_cycle01": [
+    {
+      "pair": [
+        "curiosity",
+        "reinforcement_habit"
+      ],
+      "from": "RESEARCH_GAP",
+      "to": "DIRECT_SUPPORTED"
+    },
+    {
+      "pair": [
+        "valuation_emotion",
+        "trust"
+      ],
+      "from": "RESEARCH_GAP",
+      "to": "INDIRECT_SUPPORTED_NO_CANONICAL_EDGE"
+    },
+    {
+      "pair": [
+        "trust",
+        "connection"
+      ],
+      "from": "RESEARCH_HYPOTHESIS",
+      "to": "DIRECT_SUPPORTED_WITH_DIRECTIONAL_LIMITS"
+    },
+    {
+      "pair": [
+        "attention",
+        "curiosity"
+      ],
+      "from": "RESEARCH_GAP",
+      "to": "PROVISIONAL"
+    }
+  ],
+  "no_runtime_weights": true,
+  "next": "R3 Cycle 03 edge acceptance + saturation audit, with targeted searches only for remaining critical gap-like pairs."
+}

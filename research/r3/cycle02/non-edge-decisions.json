@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "decisions": [
+    {
+      "id": "R3C2-NE01",
+      "pair": [
+        "valuation_emotion",
+        "trust"
+      ],
+      "candidate_edge": "TR-N03 -> VE-N01",
+      "decision": "DO_NOT_CREATE_CANONICAL_EDGE",
+      "reason": "Meta-analytic evidence supports credibility/trustworthiness effects on attitudes and behavioral outcomes, but the architecture defines VE-N01 as subjective utility. Treating attitude as utility would collapse distinct constructs.",
+      "claim_ids": [
+        "R3C2-C08"
+      ],
+      "source_ids": [
+        "R3C2-S10",
+        "R3C2-S13"
+      ]
+    },
+    {
+      "id": "R3C2-NE02",
+      "pair": [
+        "connection",
+        "reinforcement_habit"
+      ],
+      "candidate_edge": "CON-N04 -> RH-N06",
+      "decision": "DO_NOT_CREATE_CANONICAL_EDGE",
+      "reason": "Repeated checking/problematic social-media use associated with parasocial engagement is not evidence of cue-contingent automaticity or habit.",
+      "claim_ids": [
+        "R3C2-C09"
+      ],
+      "source_ids": [
+        "R3C2-S14"
+      ]
+    },
+    {
+      "id": "R3C2-NE03",
+      "pair": [
+        "trust",
+        "connection"
+      ],
+      "candidate_edge": "TR-N04 -> CON-N04",
+      "decision": "KEEP_PROVISIONAL_MIXED",
+      "reason": "Expertise-to-PSR evidence conflicts across direct studies.",
+      "claim_ids": [
+        "R3C2-C04"
+      ],
+      "source_ids": [
+        "R3C2-S07",
+        "R3C2-S08"
+      ]
+    }
+  ]
+}

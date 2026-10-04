@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 12,
+  "revision": 13,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -265,21 +265,26 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Run R3 Cycle 02 targeted edge hardening. Prioritize curiosity-attention, trust-connection, trust/connection-recommendation, curiosity-learning/reinforcement, connection-recurrence, and credibility-to-specific-valuation pathways. Preserve null/contradictory evidence and do not create runtime weights.",
+  "next_action": "Run R3 Cycle 03 edge acceptance/saturation audit. Target only critical unresolved pairs where one focused retrieval pass could change architecture; otherwise preserve explicit gap/no-edge decisions. Close CONNECTION_BUILD only when major edges and loops are sufficiently represented without unsupported strong claims.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
       "R3"
     ],
-    "cycle": "R3_CYCLE_01",
-    "status": "CROSS_CORE_SPINE_BUILT_EDGE_HARDENING_PENDING",
+    "cycle": "R3_CYCLE_02",
+    "status": "TARGETED_EDGE_HARDENING_COMPLETE_ACCEPTANCE_AUDIT_PENDING",
     "r2_accepted_nodes": 84,
     "r2_provisional_nodes": 12,
-    "r3_edge_records": 20,
+    "r3_edge_records": 23,
+    "r3_edge_status_counts": {
+      "accepted_edge": 12,
+      "provisional_edge": 8,
+      "system_edge": 3
+    },
     "r3_pair_matrix": 28,
-    "r3_context_modifiers": 7,
+    "r3_remaining_gap_like_pairs": 12,
     "r3_loop_models": 4,
-    "next": "Targeted R3 edge hardening on research gaps and mixed/provisional paths, then edge acceptance and loop saturation audit."
+    "next": "R3 Cycle 03 edge acceptance and saturation audit. Target only remaining critical gaps before closing connection build."
   }
 }

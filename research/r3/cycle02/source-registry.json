@@ -1,0 +1,215 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "R3C2-S01",
+      "title": "Information-seeking, curiosity, and attention: computational and neural mechanisms",
+      "year": 2013,
+      "type": "review",
+      "doi": "10.1016/j.tics.2013.09.001",
+      "scope": [
+        "curiosity",
+        "attention"
+      ]
+    },
+    {
+      "id": "R3C2-S02",
+      "title": "Curiosity and evidence quality affect information seeking and eye movements during reading",
+      "year": 2026,
+      "type": "human_eye_tracking_study",
+      "doi": "10.1016/j.cognition.2026.106598",
+      "n": 56,
+      "scope": [
+        "curiosity",
+        "attention"
+      ]
+    },
+    {
+      "id": "R3C2-S03",
+      "title": "Eye movements reveal epistemic curiosity in human observers",
+      "year": 2015,
+      "type": "human_eye_tracking_study",
+      "doi": "10.1016/j.visres.2015.10.009",
+      "scope": [
+        "curiosity",
+        "attention"
+      ]
+    },
+    {
+      "id": "R3C2-S04",
+      "title": "Learning reinforces curiosity for related information",
+      "year": 2026,
+      "type": "large_human_behavioral_study",
+      "doi": "10.1073/pnas.2529176123",
+      "n": 5831,
+      "scope": [
+        "curiosity",
+        "reinforcement_habit"
+      ]
+    },
+    {
+      "id": "R3C2-S05",
+      "title": "Curiosity and reward: Valence predicts choice and information prediction errors enhance learning",
+      "year": 2016,
+      "type": "human_experimental_study",
+      "doi": "10.1037/xge0000140",
+      "scope": [
+        "curiosity",
+        "reinforcement_habit",
+        "valuation_emotion"
+      ]
+    },
+    {
+      "id": "R3C2-S06",
+      "title": "Consumers’ parasocial interactions and relationships with online influencers: a systematic review",
+      "year": 2026,
+      "type": "systematic_review",
+      "doi": "10.1108/JCM-02-2024-6611",
+      "studies": 76,
+      "scope": [
+        "connection",
+        "trust",
+        "social_transmission"
+      ]
+    },
+    {
+      "id": "R3C2-S07",
+      "title": "How fashion influencers drive consumers’ online brand-related activities (COBRAs)",
+      "year": 2025,
+      "type": "cross_sectional_sem",
+      "doi": "10.1108/JFMM-04-2025-0173",
+      "n": 201,
+      "scope": [
+        "trust",
+        "connection",
+        "social_transmission"
+      ]
+    },
+    {
+      "id": "R3C2-S08",
+      "title": "Parasocial relationship as a social-cognitive pathway in influencer marketing: evidence from Indonesian beauty followers",
+      "year": 2026,
+      "type": "cross_sectional_sem",
+      "doi": "10.3389/fcomm.2026.1723759",
+      "n": 407,
+      "scope": [
+        "trust",
+        "connection",
+        "valuation_emotion"
+      ]
+    },
+    {
+      "id": "R3C2-S09",
+      "title": "“Thanks for watching”. The effectiveness of YouTube vlogendorsements",
+      "year": 2019,
+      "type": "experiment",
+      "doi": "10.1016/j.chb.2018.12.014",
+      "n": 203,
+      "scope": [
+        "connection",
+        "trust"
+      ]
+    },
+    {
+      "id": "R3C2-S10",
+      "title": "Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations",
+      "year": 2024,
+      "type": "meta_analysis",
+      "doi": "10.1002/mar.21927",
+      "studies": 53,
+      "effect_sizes": 250,
+      "scope": [
+        "trust",
+        "connection",
+        "social_transmission",
+        "valuation_emotion"
+      ]
+    },
+    {
+      "id": "R3C2-S11",
+      "title": "Micro, macro and mega-influencers on instagram: The power of persuasion via the parasocial relationship",
+      "year": 2023,
+      "type": "cross_sectional_moderation",
+      "doi": "10.1016/j.jbusres.2023.113708",
+      "n": 577,
+      "scope": [
+        "connection",
+        "social_transmission"
+      ]
+    },
+    {
+      "id": "R3C2-S12",
+      "title": "Parasocial bonds drive brand connection: How listener-host parasocial relationships enhance brand advocacy through emotional investment",
+      "year": 2026,
+      "type": "multi_experiment",
+      "doi": "10.1016/j.jretconser.2025.104712",
+      "experiments": 4,
+      "scope": [
+        "connection",
+        "social_transmission",
+        "valuation_emotion"
+      ]
+    },
+    {
+      "id": "R3C2-S13",
+      "title": "How parasocial relationships drive purchase intentions: a meta-analysis",
+      "year": 2026,
+      "type": "meta_analysis",
+      "doi": "10.1108/JSTP-05-2025-0205",
+      "scope": [
+        "connection",
+        "trust",
+        "valuation_emotion"
+      ]
+    },
+    {
+      "id": "R3C2-S14",
+      "title": "Parasocial Engagement With Social Media Influencers and Mental Health Outcomes: Systematic Review and Meta-Analysis",
+      "year": 2026,
+      "type": "systematic_review_meta_analysis",
+      "doi": "10.2196/96331",
+      "studies": 17,
+      "effect_sizes": 52,
+      "scope": [
+        "connection",
+        "reinforcement_habit"
+      ]
+    },
+    {
+      "id": "R3C2-S15",
+      "title": "Their posts attracted me!: unveiling the effect of social media influencers’ attributes on relationship quality and purchase intention",
+      "year": 2026,
+      "type": "cross_sectional_sem_ann",
+      "doi": "10.1108/JRIM-02-2025-0068",
+      "n": 500,
+      "scope": [
+        "connection",
+        "social_transmission"
+      ]
+    },
+    {
+      "id": "R3C2-S16",
+      "title": "Instagram and YouTube bloggers promote it, why should I buy? How credibility and parasocial interaction influence purchase intentions",
+      "year": 2020,
+      "type": "cross_sectional_sem",
+      "doi": "10.1016/j.jretconser.2019.01.011",
+      "scope": [
+        "trust",
+        "connection",
+        "valuation_emotion"
+      ]
+    },
+    {
+      "id": "R3C2-S17",
+      "title": "Understanding consumer purchase intention in social media influencer marketing: the mediating role of parasocial relationship and trust in the Moroccan context",
+      "year": 2026,
+      "type": "cross_sectional_sem",
+      "doi": "10.3389/fcomm.2026.1911649",
+      "scope": [
+        "connection",
+        "trust",
+        "valuation_emotion"
+      ]
+    }
+  ]
+}

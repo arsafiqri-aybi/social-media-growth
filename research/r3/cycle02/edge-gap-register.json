@@ -1,0 +1,148 @@
+{
+  "version": "1.1.0",
+  "gaps": [
+    {
+      "id": "GAP-attention-curiosity",
+      "pair": [
+        "attention",
+        "curiosity"
+      ],
+      "status": "PROVISIONAL",
+      "current_edge_ids": [
+        "R3-E021"
+      ],
+      "need": "Direct curiosity–attention evidence exists at the state/gaze level, but mapping to the canonical knowledge-gap L2 node remains a construct bridge.",
+      "priority": "medium"
+    },
+    {
+      "id": "GAP-attention-connection",
+      "pair": [
+        "attention",
+        "connection"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Familiarity/relationship effects on attention require direct evidence.",
+      "priority": "high"
+    },
+    {
+      "id": "GAP-curiosity-identity",
+      "pair": [
+        "curiosity",
+        "identity"
+      ],
+      "status": "PROVISIONAL",
+      "current_edge_ids": [
+        "R3-E007"
+      ],
+      "need": "Identity-protective avoidance plausible; direct edge evidence incomplete.",
+      "priority": "medium"
+    },
+    {
+      "id": "GAP-curiosity-trust",
+      "pair": [
+        "curiosity",
+        "trust"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Trust-to-information-seeking direction needs direct evidence.",
+      "priority": "high"
+    },
+    {
+      "id": "GAP-curiosity-social_transmission",
+      "pair": [
+        "curiosity",
+        "social_transmission"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Curiosity-to-sharing is not yet evidenced as a distinct mechanism.",
+      "priority": "high"
+    },
+    {
+      "id": "GAP-valuation_emotion-connection",
+      "pair": [
+        "valuation_emotion",
+        "connection"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Affect and PSR are related, but current canonical node direction is unresolved.",
+      "priority": "high"
+    },
+    {
+      "id": "GAP-valuation_emotion-social_transmission",
+      "pair": [
+        "valuation_emotion",
+        "social_transmission"
+      ],
+      "status": "MIXED",
+      "current_edge_ids": [
+        "R3-E009"
+      ],
+      "need": "Arousal-sharing evidence is context-bound and includes preregistered null replications.",
+      "priority": "high"
+    },
+    {
+      "id": "GAP-trust-social_transmission",
+      "pair": [
+        "trust",
+        "social_transmission"
+      ],
+      "status": "PROVISIONAL",
+      "current_edge_ids": [
+        "R3-E010",
+        "R3-E011"
+      ],
+      "need": "Credibility may support recommendation; outcome matching currently broad.",
+      "priority": "high"
+    },
+    {
+      "id": "GAP-trust-reinforcement_habit",
+      "pair": [
+        "trust",
+        "reinforcement_habit"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Repeated reliance versus habit requires direct evidence.",
+      "priority": "high"
+    },
+    {
+      "id": "GAP-connection-social_transmission",
+      "pair": [
+        "connection",
+        "social_transmission"
+      ],
+      "status": "PROVISIONAL",
+      "current_edge_ids": [
+        "R3-E014"
+      ],
+      "need": "PSR/relationship quality can increase recommendation and advocacy intentions, including experimental evidence, but intention-to-action mapping is unresolved.",
+      "priority": "high"
+    },
+    {
+      "id": "GAP-connection-reinforcement_habit",
+      "pair": [
+        "connection",
+        "reinforcement_habit"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Parasocial engagement relates to repeated checking/problematic use, but this does not identify automaticity/context-response habit mechanisms; direct habit edge remains rejected.",
+      "priority": "high"
+    },
+    {
+      "id": "GAP-social_transmission-reinforcement_habit",
+      "pair": [
+        "social_transmission",
+        "reinforcement_habit"
+      ],
+      "status": "RESEARCH_GAP",
+      "current_edge_ids": [],
+      "need": "Social feedback/reinforcement path requires direct longitudinal/experimental evidence.",
+      "priority": "high"
+    }
+  ]
+}

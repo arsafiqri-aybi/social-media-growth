@@ -1,0 +1,148 @@
+{
+  "version": "1.0.0",
+  "claims": [
+    {
+      "id": "R3C2-C01",
+      "target_ids": [
+        "CUR-N04",
+        "ATT-N03"
+      ],
+      "claim_type": "cross_core_association",
+      "stance": "supports",
+      "source_ids": [
+        "R3C2-S01",
+        "R3C2-S02",
+        "R3C2-S03"
+      ],
+      "statement": "Epistemic curiosity is associated with selective attentional allocation, including anticipatory orienting and longer/fewer-skipped fixations during information sampling; however, the exact L2 curiosity mechanism driving attention is not uniquely identified."
+    },
+    {
+      "id": "R3C2-C02",
+      "target_ids": [
+        "RH-N02",
+        "CUR-N06"
+      ],
+      "claim_type": "cross_core_learning",
+      "stance": "supports",
+      "source_ids": [
+        "R3C2-S04",
+        "R3C2-S05"
+      ],
+      "statement": "Learning outcomes and information-prediction/update processes can change subsequent curiosity or information value, with reinforcement strongest for semantically related information."
+    },
+    {
+      "id": "R3C2-C03",
+      "target_ids": [
+        "TR-N03",
+        "CON-N04"
+      ],
+      "claim_type": "cross_core_association",
+      "stance": "supports",
+      "source_ids": [
+        "R3C2-S06",
+        "R3C2-S07",
+        "R3C2-S08"
+      ],
+      "statement": "Source-related antecedents foster parasocial relationships; in direct influencer studies, perceived trustworthiness positively predicts PSR, but the evidence is predominantly observational/cross-sectional."
+    },
+    {
+      "id": "R3C2-C04",
+      "target_ids": [
+        "TR-N04",
+        "CON-N04"
+      ],
+      "claim_type": "contradiction",
+      "stance": "mixed",
+      "source_ids": [
+        "R3C2-S07",
+        "R3C2-S08"
+      ],
+      "statement": "Expertise-to-PSR findings are inconsistent across influencer samples: one study found no significant expertise effect while another found a positive association, so no universal expertise-to-PSR edge is warranted."
+    },
+    {
+      "id": "R3C2-C05",
+      "target_ids": [
+        "CON-N04",
+        "TR-N03"
+      ],
+      "claim_type": "cross_core_association",
+      "stance": "supports",
+      "source_ids": [
+        "R3C2-S09",
+        "R3C2-S17"
+      ],
+      "statement": "Parasocial relational strength can be associated with subsequent perceived credibility/trust, but construct definitions differ and much direction-specific evidence remains cross-sectional."
+    },
+    {
+      "id": "R3C2-C06",
+      "target_ids": [
+        "CON-N04",
+        "ST-N03"
+      ],
+      "claim_type": "behavioral_intention",
+      "stance": "supports",
+      "source_ids": [
+        "R3C2-S11",
+        "R3C2-S12",
+        "R3C2-S15"
+      ],
+      "statement": "Stronger parasocial or relationship-quality states can increase recommendation/adoption/advocacy intentions, including experimental evidence for brand-advocacy intentions."
+    },
+    {
+      "id": "R3C2-C07",
+      "target_ids": [
+        "TR-N03",
+        "TR-N04",
+        "ST-N03"
+      ],
+      "claim_type": "outcome_scope",
+      "stance": "supports",
+      "source_ids": [
+        "R3C2-S10",
+        "R3C2-S16"
+      ],
+      "statement": "Trustworthiness, expertise and broader credibility predict attitudinal and behavioral outcomes, but pooled behavioral outcomes do not isolate observed recommendation action."
+    },
+    {
+      "id": "R3C2-C08",
+      "target_ids": [
+        "TR-N03",
+        "VE-N01"
+      ],
+      "claim_type": "construct_boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "R3C2-S10",
+        "R3C2-S13"
+      ],
+      "statement": "Credibility/trustworthiness strongly relate to consumer attitudes and purchase-related outcomes, but attitude and purchase intention are not equivalent to the canonical subjective-utility node; a direct trust-to-VE-N01 edge would overstate construct correspondence."
+    },
+    {
+      "id": "R3C2-C09",
+      "target_ids": [
+        "CON-N04",
+        "RH-N06"
+      ],
+      "claim_type": "construct_boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "R3C2-S14"
+      ],
+      "statement": "Parasocial engagement is associated with problematic social-media-use outcomes and repeated checking, but these outcomes do not establish cue-contingent automaticity or habit; a direct PSR-to-habit edge is not justified."
+    },
+    {
+      "id": "R3C2-C10",
+      "target_ids": [
+        "CON-N04",
+        "ST-N03"
+      ],
+      "claim_type": "measurement",
+      "stance": "bounds",
+      "source_ids": [
+        "R3C2-S11",
+        "R3C2-S12"
+      ],
+      "statement": "Much parasocial recommendation evidence uses recommendation/adoption intentions rather than logged recommendation action, so the canonical action-target edge remains provisional."
+    }
+  ]
+}

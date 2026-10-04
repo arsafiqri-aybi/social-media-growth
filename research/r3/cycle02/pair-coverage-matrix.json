@@ -1,0 +1,241 @@
+{
+  "version": "1.1.0",
+  "pairs": [
+    {
+      "core_a": "attention",
+      "core_b": "curiosity",
+      "status": "PROVISIONAL",
+      "edge_ids": [
+        "R3-E021"
+      ],
+      "note": "Direct curiosity–attention evidence exists at the state/gaze level, but mapping to the canonical knowledge-gap L2 node remains a construct bridge."
+    },
+    {
+      "core_a": "attention",
+      "core_b": "valuation_emotion",
+      "status": "INDIRECT_SUPPORTED",
+      "edge_ids": [
+        "R3-E001",
+        "R3-E015",
+        "R3-E016"
+      ],
+      "note": "Value affects learned attention through learning pathways; direct value-to-attention mapping needs construct-specific audit."
+    },
+    {
+      "core_a": "attention",
+      "core_b": "identity",
+      "status": "DIRECT_SUPPORTED",
+      "edge_ids": [
+        "R3-E002"
+      ],
+      "note": "Self-relevance can bias attention."
+    },
+    {
+      "core_a": "attention",
+      "core_b": "trust",
+      "status": "NO_MATERIAL_EDGE",
+      "edge_ids": [],
+      "note": "No strong direct psychological edge established in current corpus."
+    },
+    {
+      "core_a": "attention",
+      "core_b": "connection",
+      "status": "RESEARCH_GAP",
+      "edge_ids": [],
+      "note": "Familiarity/relationship effects on attention require direct evidence."
+    },
+    {
+      "core_a": "attention",
+      "core_b": "social_transmission",
+      "status": "SYSTEM_PATH",
+      "edge_ids": [
+        "R3-E018",
+        "R3-E020"
+      ],
+      "note": "Transmission can create exposure opportunity; system-mechanical, not direct psychological causation."
+    },
+    {
+      "core_a": "attention",
+      "core_b": "reinforcement_habit",
+      "status": "DIRECT_SUPPORTED",
+      "edge_ids": [
+        "R3-E001"
+      ],
+      "note": "Reward/outcome history can create learned attentional priority."
+    },
+    {
+      "core_a": "curiosity",
+      "core_b": "valuation_emotion",
+      "status": "DIRECT_SUPPORTED",
+      "edge_ids": [
+        "R3-E004",
+        "R3-E005",
+        "R3-E006"
+      ],
+      "note": "Information gain/value and costs shape seeking/avoidance."
+    },
+    {
+      "core_a": "curiosity",
+      "core_b": "identity",
+      "status": "PROVISIONAL",
+      "edge_ids": [
+        "R3-E007"
+      ],
+      "note": "Identity-protective avoidance plausible; direct edge evidence incomplete."
+    },
+    {
+      "core_a": "curiosity",
+      "core_b": "trust",
+      "status": "RESEARCH_GAP",
+      "edge_ids": [],
+      "note": "Trust-to-information-seeking direction needs direct evidence."
+    },
+    {
+      "core_a": "curiosity",
+      "core_b": "connection",
+      "status": "NO_MATERIAL_EDGE",
+      "edge_ids": [],
+      "note": "No necessary direct edge established."
+    },
+    {
+      "core_a": "curiosity",
+      "core_b": "social_transmission",
+      "status": "RESEARCH_GAP",
+      "edge_ids": [],
+      "note": "Curiosity-to-sharing is not yet evidenced as a distinct mechanism."
+    },
+    {
+      "core_a": "curiosity",
+      "core_b": "reinforcement_habit",
+      "status": "DIRECT_SUPPORTED",
+      "edge_ids": [
+        "R3-E022"
+      ],
+      "note": "Learning outcomes can reinforce future epistemic value/curiosity for semantically related information; not a habit claim."
+    },
+    {
+      "core_a": "valuation_emotion",
+      "core_b": "identity",
+      "status": "DIRECT_SUPPORTED",
+      "edge_ids": [
+        "R3-E003"
+      ],
+      "note": "Self-relevance can bias subjective value."
+    },
+    {
+      "core_a": "valuation_emotion",
+      "core_b": "trust",
+      "status": "INDIRECT_SUPPORTED",
+      "edge_ids": [],
+      "note": "Credibility/trustworthiness robustly predict attitudes and behavioral outcomes, but attitude/purchase intention do not equal subjective utility; no canonical L2 edge is created."
+    },
+    {
+      "core_a": "valuation_emotion",
+      "core_b": "connection",
+      "status": "RESEARCH_GAP",
+      "edge_ids": [],
+      "note": "Affect and PSR are related, but current canonical node direction is unresolved."
+    },
+    {
+      "core_a": "valuation_emotion",
+      "core_b": "social_transmission",
+      "status": "MIXED",
+      "edge_ids": [
+        "R3-E009"
+      ],
+      "note": "Arousal-sharing evidence is context-bound and includes preregistered null replications."
+    },
+    {
+      "core_a": "valuation_emotion",
+      "core_b": "reinforcement_habit",
+      "status": "DIRECT_SUPPORTED",
+      "edge_ids": [
+        "R3-E015",
+        "R3-E016",
+        "R3-E017"
+      ],
+      "note": "Experienced/expected value participates in learning and goal-directed control."
+    },
+    {
+      "core_a": "identity",
+      "core_b": "trust",
+      "status": "CONNECTOR_PATH",
+      "edge_ids": [],
+      "note": "Perceived similarity/homophily is modeled as a connector, not identity itself."
+    },
+    {
+      "core_a": "identity",
+      "core_b": "connection",
+      "status": "CONNECTOR_PATH",
+      "edge_ids": [],
+      "note": "Perceived similarity/homophily is a connector; direct identity-to-PSR direction uncertain."
+    },
+    {
+      "core_a": "identity",
+      "core_b": "social_transmission",
+      "status": "DIRECT_SUPPORTED",
+      "edge_ids": [
+        "R3-E008"
+      ],
+      "note": "Norm salience can bias identity-signaling transmission."
+    },
+    {
+      "core_a": "identity",
+      "core_b": "reinforcement_habit",
+      "status": "NO_MATERIAL_EDGE",
+      "edge_ids": [],
+      "note": "No direct canonical mechanism established."
+    },
+    {
+      "core_a": "trust",
+      "core_b": "connection",
+      "status": "DIRECT_SUPPORTED",
+      "edge_ids": [
+        "R3-E012",
+        "R3-E013",
+        "R3-E023"
+      ],
+      "note": "Trustworthiness→PSR is reproducibly supported as a correlational association; reverse direction is provisional and expertise effects are mixed."
+    },
+    {
+      "core_a": "trust",
+      "core_b": "social_transmission",
+      "status": "PROVISIONAL",
+      "edge_ids": [
+        "R3-E010",
+        "R3-E011"
+      ],
+      "note": "Credibility may support recommendation; outcome matching currently broad."
+    },
+    {
+      "core_a": "trust",
+      "core_b": "reinforcement_habit",
+      "status": "RESEARCH_GAP",
+      "edge_ids": [],
+      "note": "Repeated reliance versus habit requires direct evidence."
+    },
+    {
+      "core_a": "connection",
+      "core_b": "social_transmission",
+      "status": "PROVISIONAL",
+      "edge_ids": [
+        "R3-E014"
+      ],
+      "note": "PSR/relationship quality can increase recommendation and advocacy intentions, including experimental evidence, but intention-to-action mapping is unresolved."
+    },
+    {
+      "core_a": "connection",
+      "core_b": "reinforcement_habit",
+      "status": "RESEARCH_GAP",
+      "edge_ids": [],
+      "note": "Parasocial engagement relates to repeated checking/problematic use, but this does not identify automaticity/context-response habit mechanisms; direct habit edge remains rejected."
+    },
+    {
+      "core_a": "social_transmission",
+      "core_b": "reinforcement_habit",
+      "status": "RESEARCH_GAP",
+      "edge_ids": [],
+      "note": "Social feedback/reinforcement path requires direct longitudinal/experimental evidence."
+    }
+  ]
+}

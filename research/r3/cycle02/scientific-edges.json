@@ -1,0 +1,803 @@
+{
+  "version": "1.1.0",
+  "edges": [
+    {
+      "id": "R3-E001",
+      "source": "RH-N02",
+      "target": "ATT-N07",
+      "relation": "biases",
+      "sign": "positive",
+      "causal_status": "mixed",
+      "status": "accepted_edge",
+      "mechanism": "Outcome/reward learning creates learned value associations that can later bias attentional priority.",
+      "evidence_claim_ids": [
+        "R2H3-ATT-C02",
+        "R2H3-RH-C01"
+      ],
+      "support_source_ids": [
+        "R2H3-ATT-S02",
+        "R2H3-RH-S01"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "construct_bridge",
+      "moderators": [],
+      "boundary_conditions": [
+        "Value-driven attentional capture is method-sensitive; no universal large effect is allowed."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E002",
+      "source": "ID-N02",
+      "target": "ATT-N04",
+      "relation": "biases",
+      "sign": "conditional",
+      "causal_status": "mixed",
+      "status": "accepted_edge",
+      "mechanism": "Self-relevance can alter attentional allocation when the self-aspect is active and task/context permits prioritization.",
+      "evidence_claim_ids": [
+        "R2H3-ID-C03"
+      ],
+      "support_source_ids": [
+        "R2H3-ID-S03",
+        "R2H3-ID-S04"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "direct",
+      "moderators": [],
+      "boundary_conditions": [
+        "Self-relevance does not guarantee automatic capture."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "bounded",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E003",
+      "source": "ID-N02",
+      "target": "VE-N01",
+      "relation": "biases",
+      "sign": "conditional",
+      "causal_status": "mechanistic_theory",
+      "status": "accepted_edge",
+      "mechanism": "Self-relevance changes the subjective importance/value assigned to information rather than constituting value itself.",
+      "evidence_claim_ids": [
+        "R2C4-VE-C04"
+      ],
+      "support_source_ids": [
+        "R2C4-VE-S01"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "construct_bridge",
+      "moderators": [],
+      "boundary_conditions": [
+        "Magnitude/sign depend on active identity, goal, and decision context."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E004",
+      "source": "CUR-N05",
+      "target": "VE-N01",
+      "relation": "supports",
+      "sign": "positive",
+      "causal_status": "mechanistic_theory",
+      "status": "accepted_edge",
+      "mechanism": "Expected information gain can contribute to the subjective value of obtaining information.",
+      "evidence_claim_ids": [
+        "CL-CUR-002",
+        "R2H2-CUR-C01"
+      ],
+      "support_source_ids": [
+        "SRC-CUR-002",
+        "R2H2-CUR-S01",
+        "R2H2-CUR-S02"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "direct",
+      "moderators": [],
+      "boundary_conditions": [
+        "Information can have epistemic or instrumental value; not identical to generic reward."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "bounded",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E005",
+      "source": "VE-N01",
+      "target": "CUR-N10",
+      "relation": "biases",
+      "sign": "conditional",
+      "causal_status": "mechanistic_theory",
+      "status": "accepted_edge",
+      "mechanism": "Subjective information value can bias whether a person chooses to seek or sample more information.",
+      "evidence_claim_ids": [
+        "CL-CUR-002",
+        "R2H2-CUR-C01"
+      ],
+      "support_source_ids": [
+        "SRC-CUR-002",
+        "R2H2-CUR-S01",
+        "R2H2-CUR-S02"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "construct_bridge",
+      "moderators": [],
+      "boundary_conditions": [
+        "Threat, effort, safety, or identity-protective motives can override high information value."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E006",
+      "source": "VE-N03",
+      "target": "CUR-N12",
+      "relation": "biases",
+      "sign": "positive",
+      "causal_status": "mechanistic_theory",
+      "status": "accepted_edge",
+      "mechanism": "Expected effort, time, social, or other costs can increase cost-based information avoidance.",
+      "evidence_claim_ids": [
+        "R2H-CUR-C01"
+      ],
+      "support_source_ids": [
+        "R2H-CUR-S01",
+        "R2H-CUR-S02"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "direct",
+      "moderators": [],
+      "boundary_conditions": [
+        "Avoidance is not simply low curiosity and may coexist with high information value."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "bounded",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E007",
+      "source": "ID-N10",
+      "target": "CUR-N13",
+      "relation": "biases",
+      "sign": "conditional",
+      "causal_status": "mixed",
+      "status": "provisional_edge",
+      "mechanism": "Identity threat can plausibly increase belief-protective avoidance of disconfirming information.",
+      "evidence_claim_ids": [
+        "R2H-ID-C01",
+        "R2H-CUR-C01"
+      ],
+      "support_source_ids": [
+        "R2H-ID-S01",
+        "R2H-ID-S02",
+        "R2H-CUR-S01",
+        "R2H-CUR-S02"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "indirect",
+      "moderators": [],
+      "boundary_conditions": [
+        "Current evidence establishes each side separately; direct edge evidence remains a gap."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E008",
+      "source": "ID-N08",
+      "target": "ST-N07",
+      "relation": "biases",
+      "sign": "conditional",
+      "causal_status": "mechanistic_theory",
+      "status": "accepted_edge",
+      "mechanism": "Salient group norms can shape identity-expressive transmission when relevant group identity is active.",
+      "evidence_claim_ids": [
+        "CL-ID-001",
+        "R2H2-ID-C01",
+        "R2H3-ST-C01"
+      ],
+      "support_source_ids": [
+        "SRC-ID-001",
+        "R2H2-ID-S01",
+        "R2H3-ST-S01"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "construct_bridge",
+      "moderators": [
+        {
+          "kind": "node",
+          "id": "ID-N05",
+          "role": "identification_strength"
+        },
+        {
+          "kind": "context",
+          "id": "CTX-AUDIENCE-COMPOSITION",
+          "role": "audience_visibility"
+        }
+      ],
+      "boundary_conditions": [
+        "Identification strength, group salience, audience, visibility, and culture moderate the pathway."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E009",
+      "source": "VE-N12",
+      "target": "ST-N02",
+      "relation": "associates_with",
+      "sign": "conditional",
+      "causal_status": "mixed",
+      "status": "provisional_edge",
+      "mechanism": "Arousal has sometimes increased willingness to transmit information, but preregistered replications reject a universal arousal-to-sharing rule.",
+      "evidence_claim_ids": [
+        "CL-ST-002"
+      ],
+      "support_source_ids": [
+        "SRC-ST-002"
+      ],
+      "contradiction_claim_ids": [
+        "CL-ST-003",
+        "C2-ST-003"
+      ],
+      "contradiction_source_ids": [
+        "SRC-ST-003",
+        "SRC2-ST-003"
+      ],
+      "directness": "direct",
+      "moderators": [],
+      "boundary_conditions": [
+        "Do not generalize incidental arousal effects across content, motive, or platform."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "bounded",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E010",
+      "source": "TR-N03",
+      "target": "ST-N03",
+      "relation": "predicts",
+      "sign": "positive",
+      "causal_status": "correlational",
+      "status": "provisional_edge",
+      "mechanism": "Perceived trustworthiness is associated with downstream behavioral outcomes and may support recommendation, but recommendation-specific causality is not established.",
+      "evidence_claim_ids": [
+        "CL-TR-001",
+        "R2H3-TR-C02",
+        "R3C2-C07"
+      ],
+      "support_source_ids": [
+        "SRC-TR-001",
+        "R2H3-TR-S02",
+        "R3C2-S10",
+        "R3C2-S16"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "indirect",
+      "moderators": [],
+      "boundary_conditions": [
+        "Influencer, product, geography, platform, and outcome type moderate pooled associations.",
+        "Behavioral-outcome evidence is broader than observed recommendation action, so edge remains provisional."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E011",
+      "source": "TR-N04",
+      "target": "ST-N03",
+      "relation": "predicts",
+      "sign": "positive",
+      "causal_status": "correlational",
+      "status": "provisional_edge",
+      "mechanism": "Perceived expertise can contribute to favorable behavioral response and may support recommendation when expertise is relevant.",
+      "evidence_claim_ids": [
+        "CL-TR-001",
+        "R2H3-TR-C02",
+        "R3C2-C07"
+      ],
+      "support_source_ids": [
+        "SRC-TR-001",
+        "R2H3-TR-S02",
+        "R3C2-S10",
+        "R3C2-S16"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "indirect",
+      "moderators": [],
+      "boundary_conditions": [
+        "Expertise is domain-specific; pooled behavioral outcomes are broader than recommendation alone.",
+        "Expertise effects vary by outcome/context and do not isolate observed recommendation action."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E012",
+      "source": "CON-N04",
+      "target": "TR-N03",
+      "relation": "associates_with",
+      "sign": "positive",
+      "causal_status": "mixed",
+      "status": "provisional_edge",
+      "mechanism": "Enduring parasocial relationship can contribute to perceived credibility/trust, but direction-specific evidence remains partly cross-sectional and credibility is not identical to trustworthiness.",
+      "evidence_claim_ids": [
+        "CL-CON-001",
+        "CL-TR-001",
+        "R3C2-C05"
+      ],
+      "support_source_ids": [
+        "SRC-CON-001",
+        "SRC-TR-001",
+        "R3C2-S09",
+        "R3C2-S17"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "construct_bridge",
+      "moderators": [],
+      "boundary_conditions": [
+        "Do not encode bidirectional causality until longitudinal/experimental direction evidence exists.",
+        "Perceived credibility and trustworthiness are related but non-identical outcomes; causal direction is not settled."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E013",
+      "source": "TR-N03",
+      "target": "CON-N04",
+      "relation": "associates_with",
+      "sign": "positive",
+      "causal_status": "correlational",
+      "status": "accepted_edge",
+      "mechanism": "Perceived trustworthiness is a reproducible source-related predictor of parasocial relationship strength in influencer contexts, without establishing causality.",
+      "evidence_claim_ids": [
+        "CL-CON-001",
+        "CL-TR-001",
+        "R3C2-C03"
+      ],
+      "support_source_ids": [
+        "SRC-CON-001",
+        "SRC-TR-001",
+        "R3C2-S06",
+        "R3C2-S07",
+        "R3C2-S08"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "direct",
+      "moderators": [],
+      "boundary_conditions": [
+        "Reciprocity, exposure history, perceived similarity, and platform context may confound the association.",
+        "Accepted as a directional association, not a causal edge; source dimensions are non-uniform and context-sensitive."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E014",
+      "source": "CON-N04",
+      "target": "ST-N03",
+      "relation": "predicts",
+      "sign": "positive",
+      "causal_status": "mixed",
+      "status": "provisional_edge",
+      "mechanism": "Parasocial relationship strength can increase recommendation/adoption/advocacy intentions, including experimental evidence, but evidence usually measures intention rather than logged recommendation action.",
+      "evidence_claim_ids": [
+        "CL-CON-003",
+        "CL-TR-001",
+        "R3C2-C06",
+        "R3C2-C10"
+      ],
+      "support_source_ids": [
+        "SRC-CON-003",
+        "SRC-TR-001",
+        "R3C2-S11",
+        "R3C2-S12",
+        "R3C2-S15"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "direct",
+      "moderators": [],
+      "boundary_conditions": [
+        "Do not infer recommendation motive from connection alone.",
+        "Recommendation intention/adoption intention must not be treated as observed recommendation behavior; edge remains provisional."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E015",
+      "source": "VE-N05",
+      "target": "RH-N02",
+      "relation": "updates",
+      "sign": "conditional",
+      "causal_status": "mixed",
+      "status": "accepted_edge",
+      "mechanism": "Experienced outcomes provide information used to update learned expected value.",
+      "evidence_claim_ids": [
+        "R2C4-VE-C01",
+        "R2H3-RH-C01"
+      ],
+      "support_source_ids": [
+        "R2C4-VE-S01",
+        "R2C4-VE-S02",
+        "R2H3-RH-S01"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "construct_bridge",
+      "moderators": [],
+      "boundary_conditions": [
+        "Experienced value is not identical to prediction error; update depends on expectation/model."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E016",
+      "source": "RH-N02",
+      "target": "VE-N04",
+      "relation": "updates",
+      "sign": "conditional",
+      "causal_status": "mixed",
+      "status": "accepted_edge",
+      "mechanism": "Outcome-value updating changes expected future outcome value used in later decisions.",
+      "evidence_claim_ids": [
+        "R2H3-RH-C01",
+        "R2C4-VE-C01"
+      ],
+      "support_source_ids": [
+        "R2H3-RH-S01",
+        "R2C4-VE-S01",
+        "R2C4-VE-S02"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "construct_bridge",
+      "moderators": [],
+      "boundary_conditions": [
+        "A fitted RL value estimate is not direct subjective experience."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E017",
+      "source": "VE-N04",
+      "target": "RH-N10",
+      "relation": "biases",
+      "sign": "conditional",
+      "causal_status": "mechanistic_theory",
+      "status": "accepted_edge",
+      "mechanism": "Current expected outcome value is a key input to goal-directed action selection.",
+      "evidence_claim_ids": [
+        "R2H2-RH-C01"
+      ],
+      "support_source_ids": [
+        "R2H2-RH-S01"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "direct",
+      "moderators": [],
+      "boundary_conditions": [
+        "Goal-directed and habit/context-response influences can coexist."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "bounded",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E018",
+      "source": "ST-N01",
+      "target": "CTX-EXPOSURE-OPPORTUNITY",
+      "relation": "system_exposure",
+      "sign": "positive",
+      "causal_status": "system_mechanical",
+      "status": "system_edge",
+      "mechanism": "Observed sharing/forwarding can create an additional opportunity for another person to encounter content.",
+      "evidence_claim_ids": [
+        "R2H3-ST-C01"
+      ],
+      "support_source_ids": [
+        "R2H3-ST-S01"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "system_mechanical",
+      "moderators": [],
+      "boundary_conditions": [
+        "Exposure opportunity does not imply attention, persuasion, trust, or further sharing."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E019",
+      "source": "CTX-PLATFORM-AMPLIFICATION",
+      "target": "CTX-EXPOSURE-OPPORTUNITY",
+      "relation": "system_exposure",
+      "sign": "conditional",
+      "causal_status": "system_mechanical",
+      "status": "system_edge",
+      "mechanism": "Platform/network amplification can alter whether transmitted content reaches additional people independently of sender psychology.",
+      "evidence_claim_ids": [
+        "C2-ST-004"
+      ],
+      "support_source_ids": [
+        "SRC2-ST-004"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "system_mechanical",
+      "moderators": [],
+      "boundary_conditions": [
+        "Magnitude depends on platform/network mechanics outside the psychological latent-state model."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E020",
+      "source": "CTX-EXPOSURE-OPPORTUNITY",
+      "target": "ATT-N03",
+      "relation": "enables",
+      "sign": "unsigned",
+      "causal_status": "system_mechanical",
+      "status": "system_edge",
+      "mechanism": "Encounter opportunity is prerequisite for an orienting response but does not cause attention by itself.",
+      "evidence_claim_ids": [
+        "C2-ATT-001"
+      ],
+      "support_source_ids": [
+        "SRC2-ATT-001"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "system_mechanical",
+      "moderators": [],
+      "boundary_conditions": [
+        "Exposure can be ignored; stimulus, goals, and selection history still determine priority."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E021",
+      "source": "CUR-N04",
+      "target": "ATT-N03",
+      "relation": "biases",
+      "sign": "positive",
+      "causal_status": "mixed",
+      "status": "provisional_edge",
+      "mechanism": "Knowledge-gap-associated epistemic curiosity can bias anticipatory orienting and careful visual sampling of sought information.",
+      "evidence_claim_ids": [
+        "R3C2-C01"
+      ],
+      "support_source_ids": [
+        "R3C2-S01",
+        "R3C2-S02",
+        "R3C2-S03"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "construct_bridge",
+      "moderators": [],
+      "boundary_conditions": [
+        "Studies directly measure state curiosity/gaze, but do not uniquely isolate knowledge-gap representation as the sole causal driver.",
+        "Attention effects vary by task and information quality."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E022",
+      "source": "RH-N02",
+      "target": "CUR-N06",
+      "relation": "updates",
+      "sign": "conditional",
+      "causal_status": "mixed",
+      "status": "accepted_edge",
+      "mechanism": "Learning outcomes can update the future epistemic value of related information, increasing subsequent curiosity when newly encountered information is semantically related to satisfying prior learning.",
+      "evidence_claim_ids": [
+        "R3C2-C02"
+      ],
+      "support_source_ids": [
+        "R3C2-S04",
+        "R3C2-S05"
+      ],
+      "contradiction_claim_ids": [],
+      "contradiction_source_ids": [],
+      "directness": "construct_bridge",
+      "moderators": [],
+      "boundary_conditions": [
+        "Reinforcement is content-related rather than globally increasing curiosity.",
+        "Information-prediction/value updates are not synonymous with habit formation."
+      ],
+      "uncertainty": {
+        "epistemic": "bounded",
+        "construct": "material",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    },
+    {
+      "id": "R3-E023",
+      "source": "TR-N04",
+      "target": "CON-N04",
+      "relation": "associates_with",
+      "sign": "conditional",
+      "causal_status": "mixed",
+      "status": "provisional_edge",
+      "mechanism": "Perceived expertise may contribute to parasocial relationship formation in some influencer contexts, but direct findings are inconsistent.",
+      "evidence_claim_ids": [
+        "R3C2-C04"
+      ],
+      "support_source_ids": [
+        "R3C2-S07",
+        "R3C2-S08"
+      ],
+      "contradiction_claim_ids": [
+        "R3C2-C04"
+      ],
+      "contradiction_source_ids": [
+        "R3C2-S07",
+        "R3C2-S08"
+      ],
+      "directness": "direct",
+      "moderators": [],
+      "boundary_conditions": [
+        "Do not generalize expertise effects across influencer domains, platforms, cultures, or products."
+      ],
+      "uncertainty": {
+        "epistemic": "material",
+        "construct": "bounded",
+        "transport_context": "material",
+        "runtime_model": "un-calibrated"
+      },
+      "empirical_effect_size": null,
+      "runtime_parameter_ref": null
+    }
+  ]
+}
