@@ -21,10 +21,17 @@ class R2HardeningBatch02Tests(unittest.TestCase):
         cores={by[p["node_id"]]["primary_core"] for p in self.promotions}
         self.assertEqual(cores,{"attention","curiosity","valuation_emotion","identity","trust","connection","social_transmission","reinforcement_habit"})
 
-    def test_batch02_promoted_nodes_were_not_accepted(self):
+    def test_batch02_decisions_were_provisional_promotions(self):
+        self.assertTrue(all(p["decision"]=="PROMOTE_CANDIDATE_TO_PROVISIONAL" for p in self.promotions))
+        self.assertTrue(all(p["new_status"]=="provisional" for p in self.promotions))
+
+    def test_current_batch02_nodes_follow_valid_later_lifecycle(self):
         by={n["id"]:n for n in self.nodes}
-        self.assertTrue(all(by[p["node_id"]]["status"]!="accepted" for p in self.promotions))
-        self.assertFalse(any(n["status"]=="accepted" for n in self.nodes))
+        self.assertTrue(all(by[p["node_id"]]["status"] in {"provisional","accepted"} for p in self.promotions))
+        for p in self.promotions:
+            n=by[p["node_id"]]
+            if n["status"]=="accepted":
+                self.assertEqual(n.get("acceptance_gate"),"R2_ACCEPTANCE_V1_PASS")
 
     def test_claim_sources_resolve(self):
         ids={s["id"] for s in self.sources}
@@ -37,7 +44,7 @@ class R2HardeningBatch02Tests(unittest.TestCase):
 
     def test_arbitration_node_remains_noncanonical(self):
         by={n["id"]:n for n in self.nodes}
-        self.assertIn(by["RH-N11"]["status"],{"candidate","contested_model"})
+        self.assertEqual(by["RH-N11"]["status"],"contested_model")
         self.assertNotIn(by["RH-N11"]["status"],{"provisional","accepted"})
 
 if __name__=="__main__":

@@ -20,8 +20,8 @@ class R2ClosureBatch04Tests(unittest.TestCase):
     def test_no_unresolved_candidates_remain(self):
         self.assertEqual([n["id"] for n in self.nodes if n["status"]=="candidate"],[])
 
-    def test_no_nodes_accepted_before_acceptance_audit(self):
-        self.assertFalse(any(n["status"]=="accepted" for n in self.nodes))
+    def test_batch04_itself_did_not_directly_accept_nodes(self):
+        self.assertFalse(any(d["to_status"]=="accepted" for d in self.decisions))
 
     def test_every_nonactive_closure_has_target(self):
         for d in self.decisions:

@@ -35,9 +35,11 @@ class R2Cycle01Tests(unittest.TestCase):
         active={n["primary_core"] for n in self.neurons if n["status"] in {"provisional","accepted"}}
         self.assertEqual(active,CORES)
 
-    def test_lifecycle_statuses_are_controlled_and_no_premature_acceptance(self):
+    def test_lifecycle_statuses_are_controlled_and_acceptance_is_gated(self):
         self.assertTrue(all(n["status"] in VALID_STATUSES for n in self.neurons))
-        self.assertFalse(any(n["status"]=="accepted" for n in self.neurons))
+        for n in self.neurons:
+            if n["status"]=="accepted":
+                self.assertEqual(n.get("acceptance_gate"),"R2_ACCEPTANCE_V1_PASS")
 
     def test_all_29_legacy_nodes_have_one_migration(self):
         self.assertEqual(len(self.migration),29)

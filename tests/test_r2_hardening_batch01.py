@@ -18,10 +18,17 @@ class R2HardeningBatch01Tests(unittest.TestCase):
         cores={by_id[d["node_id"]]["primary_core"] for d in self.decisions}
         self.assertEqual(cores,{"attention","curiosity","valuation_emotion","identity","trust","connection","social_transmission","reinforcement_habit"})
 
-    def test_promoted_nodes_are_provisional_not_accepted(self):
+    def test_batch01_decisions_were_provisional_promotions(self):
+        self.assertTrue(all(d["decision"]=="PROMOTE_CANDIDATE_TO_PROVISIONAL" for d in self.decisions))
+        self.assertTrue(all(d["new_status"]=="provisional" for d in self.decisions))
+
+    def test_current_promoted_nodes_follow_valid_later_lifecycle(self):
         by_id={n["id"]:n for n in self.nodes}
-        self.assertTrue(all(by_id[d["node_id"]]["status"]=="provisional" for d in self.decisions))
-        self.assertFalse(any(n["status"]=="accepted" for n in self.nodes))
+        self.assertTrue(all(by_id[d["node_id"]]["status"] in {"provisional","accepted"} for d in self.decisions))
+        for d in self.decisions:
+            n=by_id[d["node_id"]]
+            if n["status"]=="accepted":
+                self.assertEqual(n.get("acceptance_gate"),"R2_ACCEPTANCE_V1_PASS")
 
     def test_hardening_claim_sources_resolve(self):
         source_ids={s["id"] for s in self.sources}
