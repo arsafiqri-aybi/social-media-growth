@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "object": "scientific_edge",
+  "required_fields": [
+    "id",
+    "source",
+    "target",
+    "relation",
+    "sign",
+    "causal_status",
+    "status",
+    "mechanism",
+    "evidence_claim_ids",
+    "support_source_ids",
+    "directness",
+    "boundary_conditions",
+    "uncertainty",
+    "runtime_parameter_ref"
+  ],
+  "rule": "Scientific edges contain evidence/mechanism metadata only; never runtime propagation weights.",
+  "status_vocabulary": [
+    "accepted_edge",
+    "provisional_edge",
+    "research_hypothesis",
+    "system_edge"
+  ],
+  "sign_vocabulary": [
+    "positive",
+    "negative",
+    "conditional",
+    "unsigned"
+  ],
+  "directness_vocabulary": [
+    "direct",
+    "construct_bridge",
+    "indirect",
+    "system_mechanical"
+  ],
+  "runtime_rule": "runtime_parameter_ref remains null until separate empirical calibration. Effect sizes remain empirical metadata, never runtime weights."
+}

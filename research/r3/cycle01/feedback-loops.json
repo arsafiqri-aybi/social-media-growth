@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "loops": [
+    {
+      "id": "R3-L01",
+      "label": "Value–learning–attention loop",
+      "status": "bounded_model",
+      "path": [
+        "VE-N05",
+        "RH-N02",
+        "ATT-N07",
+        "selection_or_exposure",
+        "VE-N05"
+      ],
+      "edge_refs": [
+        "R3-E015",
+        "R3-E001"
+      ],
+      "missing_return_link": "ATT-N07 -> selection/action -> new outcome -> VE-N05 requires observation/action environment; not a direct psychological edge.",
+      "strength_claim": "NOT_ESTIMATED"
+    },
+    {
+      "id": "R3-L02",
+      "label": "Curiosity–information-value loop",
+      "status": "bounded_model",
+      "path": [
+        "CUR-N05",
+        "VE-N01",
+        "CUR-N10",
+        "information_obtained",
+        "CUR-N07",
+        "CUR-N05"
+      ],
+      "edge_refs": [
+        "R3-E004",
+        "R3-E005"
+      ],
+      "missing_return_link": "Information-obtained and learning-progress return path needs explicit observation/event objects in runtime.",
+      "strength_claim": "NOT_ESTIMATED"
+    },
+    {
+      "id": "R3-L03",
+      "label": "Identity–transmission–social-feedback loop",
+      "status": "system_hypothesis",
+      "path": [
+        "ID-N08",
+        "ST-N07",
+        "ST-N01",
+        "social_feedback",
+        "ID-N08"
+      ],
+      "edge_refs": [
+        "R3-E008",
+        "R3-E018"
+      ],
+      "missing_return_link": "Social feedback -> future norm salience/identity update remains a direct-research gap.",
+      "strength_claim": "NOT_ESTIMATED"
+    },
+    {
+      "id": "R3-L04",
+      "label": "Trust–connection–advocacy loop",
+      "status": "research_hypothesis",
+      "path": [
+        "TR-N03",
+        "CON-N04",
+        "ST-N03",
+        "social_feedback",
+        "TR-N03"
+      ],
+      "edge_refs": [
+        "R3-E013",
+        "R3-E014"
+      ],
+      "missing_return_link": "Directionality among trust, PSR, recommendation, and feedback is not established.",
+      "strength_claim": "NOT_ESTIMATED"
+    }
+  ]
+}

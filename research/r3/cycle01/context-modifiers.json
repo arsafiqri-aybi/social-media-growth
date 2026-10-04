@@ -1,0 +1,84 @@
+{
+  "version": "1.0.0",
+  "modifiers": [
+    {
+      "id": "R3-M01",
+      "source": "CTX-GOAL-STATE",
+      "target_edge_ids": [
+        "R3-E002",
+        "R3-E003",
+        "R3-E005",
+        "R3-E017"
+      ],
+      "effect": "changes relevance/value/control priority",
+      "status": "accepted_context_modifier"
+    },
+    {
+      "id": "R3-M02",
+      "source": "CTX-CULTURAL-MEANING-SYSTEM",
+      "target_edge_ids": [
+        "R3-E002",
+        "R3-E008",
+        "R3-E009",
+        "R3-E010",
+        "R3-E014"
+      ],
+      "effect": "transport/context moderator; direction/magnitude may differ across cultural meaning systems",
+      "status": "accepted_context_modifier"
+    },
+    {
+      "id": "R3-M03",
+      "source": "CTX-AUDIENCE-COMPOSITION",
+      "target_edge_ids": [
+        "R3-E008",
+        "R3-E009",
+        "R3-E014"
+      ],
+      "effect": "changes identity-signaling, reputational, and relational stakes",
+      "status": "accepted_context_modifier"
+    },
+    {
+      "id": "R3-M04",
+      "source": "CTX-COMMUNICATION-MEDIUM",
+      "target_edge_ids": [
+        "R3-E009",
+        "R3-E010",
+        "R3-E014"
+      ],
+      "effect": "changes modality, cost, social cues, and observability",
+      "status": "accepted_context_modifier"
+    },
+    {
+      "id": "R3-M05",
+      "source": "CTX-PERCEIVED-SIMILARITY",
+      "target_edge_ids": [
+        "R3-E012",
+        "R3-E013"
+      ],
+      "effect": "possible common antecedent of trust and connection",
+      "status": "provisional_context_modifier"
+    },
+    {
+      "id": "R3-M06",
+      "source": "CTX-RELATIONSHIP-HISTORY",
+      "target_edge_ids": [
+        "R3-E012",
+        "R3-E013",
+        "R3-E014"
+      ],
+      "effect": "prior exposure/outcomes may confound or strengthen relational/trust associations",
+      "status": "provisional_context_modifier"
+    },
+    {
+      "id": "R3-M07",
+      "source": "CTX-INDIVIDUAL-REINFORCEMENT-SENSITIVITY",
+      "target_edge_ids": [
+        "R3-E015",
+        "R3-E016",
+        "R3-E017"
+      ],
+      "effect": "may alter learning/update responsiveness",
+      "status": "provisional_context_modifier"
+    }
+  ]
+}
