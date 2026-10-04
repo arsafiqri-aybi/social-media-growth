@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 3,
+  "revision": 4,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -265,7 +265,21 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Execute R0 and R1 breadth-first across all eight cores: ontology challenge plus first-pass evidence landscape.",
+  "next_action": "Execute R0/R1 Cycle 02 breadth-first, emphasizing split-risk ontology, measurement validity, deliberate disconfirmation, culture/individual differences, and module non-redundancy.",
   "architecture_ref": "architecture/ontology.json@1.0.0",
-  "research_program_ref": "research/program-10x.json@1.0.0"
+  "research_program_ref": "research/program-10x.json@1.0.0",
+  "research_progress": {
+    "current_rounds": [
+      "R0",
+      "R1"
+    ],
+    "cycle": "01",
+    "status": "FIRST_PASS_COMPLETE_NOT_SATURATED",
+    "all_eight_cores_touched": true,
+    "high_split_risk": [
+      "valuation_emotion",
+      "reinforcement_habit"
+    ],
+    "next": "R0/R1 Cycle 02: targeted ontology, measurement validity, contradiction/null, cross-cultural and non-redundancy audit"
+  }
 }

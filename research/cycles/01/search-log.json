@@ -1,0 +1,31 @@
+{
+  "cycle": "R0_R1_CYCLE_01",
+  "searched_on": "2026-10-05",
+  "databases_and_routes": [
+    "web scholarly search",
+    "PubMed-indexed records",
+    "Annual Reviews",
+    "publisher article pages"
+  ],
+  "unavailable_routes": [
+    "Consensus search quota exhausted for current month",
+    "Scite search not required for this pass"
+  ],
+  "strategy": "breadth-first across all 8 cores; prioritize review/meta-analysis, then contradictory/replication evidence",
+  "query_families": [
+    "attention capture control selection history reward sustained attention",
+    "curiosity uncertainty information seeking information gain learning progress information avoidance",
+    "subjective value appraisal emotion valence arousal",
+    "social identity self categorization norms online context",
+    "trust credibility expertise authenticity social media meta-analysis",
+    "parasocial interaction relationship influencer systematic review meta-analysis",
+    "social transmission word of mouth sharing emotion arousal replication",
+    "habit context-response automaticity reinforcement prediction error"
+  ],
+  "limitations": [
+    "This is a first-pass landscape, not saturation.",
+    "Not every source has full text available through current tools.",
+    "Effect-size extraction is incomplete for sources not reporting comparable quantitative synthesis in accessible text.",
+    "Cross-cultural coverage is still sparse outside identity/connection examples."
+  ]
+}

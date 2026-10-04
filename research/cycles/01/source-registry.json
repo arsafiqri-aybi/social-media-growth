@@ -1,0 +1,279 @@
+{
+  "cycle": "R0_R1_CYCLE_01",
+  "searched_on": "2026-10-05",
+  "sources": [
+    {
+      "id": "SRC-ATT-001",
+      "core": [
+        "attention"
+      ],
+      "title": "Attentional Capture and Control",
+      "year": 2025,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-011624-025340",
+      "use": "tripartite attentional control framework; current controversies"
+    },
+    {
+      "id": "SRC-ATT-002",
+      "core": [
+        "attention",
+        "reinforcement_habit"
+      ],
+      "title": "Systematic review of the value-driven attentional capture paradigm in visual attention studies: Evidence from 52 experiments",
+      "year": 2025,
+      "type": "systematic_review",
+      "doi": "10.1016/j.actpsy.2025.105060",
+      "use": "selection-history/reward effects plus methodological limits"
+    },
+    {
+      "id": "SRC-ATT-003",
+      "core": [
+        "attention"
+      ],
+      "title": "Sustaining attention to simple tasks: a meta-analytic review of the neural mechanisms of vigilant attention",
+      "year": 2013,
+      "type": "meta_analysis",
+      "doi": "10.1037/a0030694",
+      "use": "sustained/vigilant attention as distinct mechanism family"
+    },
+    {
+      "id": "SRC-CUR-001",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Curiosity and the dynamics of optimal exploration",
+      "year": 2024,
+      "type": "review",
+      "doi": "10.1016/j.tics.2024.02.001",
+      "use": "integrates uncertainty, information gain, learning progress and competing drives"
+    },
+    {
+      "id": "SRC-CUR-002",
+      "core": [
+        "curiosity",
+        "valuation_emotion"
+      ],
+      "title": "An Integrative Appraisal Model of Epistemic Curiosity",
+      "year": 2025,
+      "type": "review_model",
+      "doi": "10.1007/s42761-025-00328-7",
+      "use": "appraisal, reward value and knowledge-seeking account"
+    },
+    {
+      "id": "SRC-CUR-003",
+      "core": [
+        "curiosity"
+      ],
+      "title": "Curiosity-driven exploration: foundations in neuroscience and computational modeling",
+      "year": 2023,
+      "type": "review",
+      "doi": "10.1016/j.tins.2023.10.002",
+      "use": "multiple forms of information seeking; no single accepted curiosity framework"
+    },
+    {
+      "id": "SRC-VE-001",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Associations between cognitive appraisals and emotions: A meta-analytic review",
+      "year": 2024,
+      "type": "meta_analysis",
+      "doi": "10.1037/bul0000452",
+      "use": "quantitative appraisal-emotion evidence"
+    },
+    {
+      "id": "SRC-VE-002",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "Subjective Values in Decision-Making Under Uncertainty: A Systematic Review",
+      "year": 2026,
+      "type": "systematic_review",
+      "doi": "10.3390/bs16091494",
+      "use": "subjective value as integrative decision construct under uncertainty"
+    },
+    {
+      "id": "SRC-VE-003",
+      "core": [
+        "valuation_emotion"
+      ],
+      "title": "We (Still!) Need to Talk About Valence: Contemporary Issues and Recommendations for Affective Science",
+      "year": 2023,
+      "type": "review",
+      "doi": "10.1007/s42761-023-00217-x",
+      "use": "construct ambiguity and operationalization problems around valence"
+    },
+    {
+      "id": "SRC-ID-001",
+      "core": [
+        "identity"
+      ],
+      "title": "Social Influence and Group Identity",
+      "year": 2021,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-070620-111818",
+      "use": "self-categorization, norms, identification and online-context moderators"
+    },
+    {
+      "id": "SRC-ID-002",
+      "core": [
+        "identity"
+      ],
+      "title": "Social Identity Theory and Self-categorization Theory: A Historical Review",
+      "year": 2008,
+      "type": "critical_historical_review",
+      "doi": "10.1111/j.1751-9004.2007.00066.x",
+      "use": "distinguishes major social-identity theoretical constructs and limitations"
+    },
+    {
+      "id": "SRC-TR-001",
+      "core": [
+        "trust",
+        "identity",
+        "connection"
+      ],
+      "title": "Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations",
+      "year": 2024,
+      "type": "meta_analysis",
+      "doi": "10.1002/mar.21927",
+      "use": "credibility, trustworthiness, expertise, homophily, parasocial and heterogeneity evidence"
+    },
+    {
+      "id": "SRC-TR-002",
+      "core": [
+        "trust"
+      ],
+      "title": "How Heuristic Credibility Cues Shape Perceived Credibility on Social Media: A Meta-Analysis of Experimental Research",
+      "year": 2026,
+      "type": "meta_analysis_experimental",
+      "doi": "10.3390/bs16071184",
+      "use": "source/social credibility cues and moderators"
+    },
+    {
+      "id": "SRC-TR-003",
+      "core": [
+        "trust"
+      ],
+      "title": "Virtual lab coats: The effects of verified source information on social media post credibility",
+      "year": 2024,
+      "type": "experimental_study",
+      "doi": null,
+      "pmid": "38809822",
+      "use": "source authenticity/message credibility conflation and context-irrelevant credential effect"
+    },
+    {
+      "id": "SRC-CON-001",
+      "core": [
+        "connection"
+      ],
+      "title": "Consumers’ parasocial interactions and relationships with online influencers: a systematic review",
+      "year": 2026,
+      "type": "systematic_review",
+      "doi": "10.1108/JCM-02-2024-6611",
+      "use": "PSI/PSR antecedents, outcomes, media affordances and research gaps"
+    },
+    {
+      "id": "SRC-CON-002",
+      "core": [
+        "connection",
+        "trust"
+      ],
+      "title": "Unrequited love? A mixed-methods study of parasocial engagement with social media influencers",
+      "year": 2025,
+      "type": "meta_analysis_plus_qualitative",
+      "doi": "10.1016/j.ijinfomgt.2024.102845",
+      "use": "multidimensional parasocial engagement; 117 studies, 47,647 respondents"
+    },
+    {
+      "id": "SRC-CON-003",
+      "core": [
+        "connection"
+      ],
+      "title": "Parasocial Engagement With Social Media Influencers and Mental Health Outcomes: Systematic Review and Meta-Analysis",
+      "year": 2026,
+      "type": "systematic_review_meta_analysis",
+      "doi": "10.2196/96331",
+      "use": "PSI/PSR distinction, developmental and cultural moderation"
+    },
+    {
+      "id": "SRC-ST-001",
+      "core": [
+        "social_transmission"
+      ],
+      "title": "What Gets Shared, and Why? Interpersonal Communication and Word of Mouth",
+      "year": 2025,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-013024-031524",
+      "use": "drivers of sharing and audience/channel/device moderation"
+    },
+    {
+      "id": "SRC-ST-002",
+      "core": [
+        "social_transmission",
+        "valuation_emotion"
+      ],
+      "title": "What Makes Online Content Viral?",
+      "year": 2012,
+      "type": "field_plus_experiments",
+      "doi": "10.1509/jmr.10.0353",
+      "use": "emotion/arousal and online transmission; practical value and surprise as controls"
+    },
+    {
+      "id": "SRC-ST-003",
+      "core": [
+        "social_transmission",
+        "valuation_emotion"
+      ],
+      "title": "Does Physiological Arousal Increase Social Transmission of Information? Two Replications of Berger (2011)",
+      "year": 2024,
+      "type": "preregistered_replications",
+      "doi": "10.1177/09567976241257255",
+      "use": "two failed replications of incidental-arousal causal effect on social-media sharing"
+    },
+    {
+      "id": "SRC-RH-001",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Psychology of Habit",
+      "year": 2016,
+      "type": "annual_review",
+      "doi": "10.1146/annurev-psych-122414-033417",
+      "use": "habit formation, recurring context and interface with goal pursuit"
+    },
+    {
+      "id": "SRC-RH-002",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "Measuring context-response associations that drive habits",
+      "year": 2023,
+      "type": "experiments",
+      "doi": "10.1002/jeab.893",
+      "use": "objective context-response association measure and distinction from goal motivation"
+    },
+    {
+      "id": "SRC-RH-003",
+      "core": [
+        "reinforcement_habit"
+      ],
+      "title": "A new look at habits and the habit-goal interface",
+      "year": 2007,
+      "type": "theoretical_review",
+      "doi": "10.1037/0033-295X.114.4.843",
+      "use": "habit as learned context-response association without mediating goal after formation"
+    },
+    {
+      "id": "SRC-RH-004",
+      "core": [
+        "reinforcement_habit",
+        "valuation_emotion"
+      ],
+      "title": "How we learn to make decisions: rapid propagation of reinforcement learning prediction errors in humans",
+      "year": 2014,
+      "type": "human_experiment",
+      "doi": "10.1162/jocn_a_00509",
+      "use": "human prediction-error learning mechanism"
+    }
+  ]
+}

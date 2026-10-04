@@ -1,0 +1,116 @@
+{
+  "cycle": "R0_R1_CYCLE_01",
+  "cores": [
+    {
+      "core": "attention",
+      "working_definition": "Selective prioritization and maintenance of information/action under limited processing, shaped by goals, stimulus properties and selection history.",
+      "competing_or_adjacent": [
+        "salience",
+        "working memory",
+        "executive control",
+        "orienting",
+        "vigilance"
+      ],
+      "first_pass_decision": "retain_core",
+      "notes": "Must separate initial capture/control from sustained attention and learned selection history."
+    },
+    {
+      "core": "curiosity",
+      "working_definition": "A family of motivational/affective processes that assign value to resolving or exploring informational uncertainty and novelty.",
+      "competing_or_adjacent": [
+        "novelty seeking",
+        "surprise",
+        "interest",
+        "reward seeking",
+        "information avoidance"
+      ],
+      "first_pass_decision": "retain_core",
+      "notes": "Do not reduce to information gap; curiosity can be blocked by cost/threat and competing drives."
+    },
+    {
+      "core": "valuation_emotion",
+      "working_definition": "Umbrella family containing subjective valuation/appraisal processes and affective/emotional states that jointly shape relevance, motivation and action.",
+      "competing_or_adjacent": [
+        "reward",
+        "utility",
+        "motivation",
+        "interest",
+        "arousal",
+        "valence",
+        "appraisal"
+      ],
+      "first_pass_decision": "retain_as_provisional_umbrella_high_split_risk",
+      "notes": "Valuation and emotion are clearly non-identical; minimum architecture requires separate modules and R2 must test top-level split."
+    },
+    {
+      "core": "identity",
+      "working_definition": "Self- and group-representations that shape categorization, relevance, norms, signaling and social influence.",
+      "competing_or_adjacent": [
+        "self-concept",
+        "social identity",
+        "self-categorization",
+        "norms",
+        "homophily",
+        "self-presentation"
+      ],
+      "first_pass_decision": "retain_core",
+      "notes": "Similarity/homophily is not identity itself; norms need explicit mediation/moderation structure."
+    },
+    {
+      "core": "trust",
+      "working_definition": "Willingness/reliance under uncertainty informed by judgments such as trustworthiness, competence, authenticity and reliability.",
+      "competing_or_adjacent": [
+        "credibility",
+        "expertise",
+        "authenticity",
+        "familiarity",
+        "liking",
+        "accuracy"
+      ],
+      "first_pass_decision": "retain_core",
+      "notes": "Credibility cues and trust antecedents must not be equated with calibrated trust or message truth."
+    },
+    {
+      "core": "connection",
+      "working_definition": "Perceived relational bond with a creator/source, spanning episodic parasocial interaction, more enduring parasocial relationship, familiarity and attachment.",
+      "competing_or_adjacent": [
+        "parasocial interaction",
+        "parasocial relationship",
+        "identification",
+        "familiarity",
+        "attachment",
+        "real reciprocity"
+      ],
+      "first_pass_decision": "retain_core",
+      "notes": "PSI and PSR must be separate; real reciprocal relationship processes cannot be silently folded into parasocial mechanisms."
+    },
+    {
+      "core": "social_transmission",
+      "working_definition": "Behavioral transmission of information/opinions to others through sharing, recommending, discussing or forwarding, with motives modeled separately.",
+      "competing_or_adjacent": [
+        "virality",
+        "diffusion",
+        "word of mouth",
+        "identity signaling",
+        "practical value",
+        "platform distribution"
+      ],
+      "first_pass_decision": "retain_core_with_system_boundary",
+      "notes": "Keep psychological sharing behavior separate from algorithmic/network exposure and from motives for sharing."
+    },
+    {
+      "core": "reinforcement_habit",
+      "working_definition": "Umbrella family containing outcome-based learning/value updating and context-linked habitual control supporting recurrence.",
+      "competing_or_adjacent": [
+        "reward learning",
+        "prediction error",
+        "repetition",
+        "automaticity",
+        "goal-directed control",
+        "return behavior"
+      ],
+      "first_pass_decision": "retain_as_provisional_umbrella_high_split_risk",
+      "notes": "Reinforcement learning and habit are distinct; returning is an outcome, not a mechanism. R2 must test whether umbrella remains useful."
+    }
+  ]
+}

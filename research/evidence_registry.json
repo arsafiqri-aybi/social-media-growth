@@ -1,13 +1,257 @@
 {
-  "version":"0.2.0",
-  "principle":"Effect sizes are stored as evidence metadata. They are not automatically used as causal propagation weights.",
-  "records":[
-    {"id":"EV-ATT-001","applies_to":["e01","e02","s01"],"claim":"Previously reward-associated features can influence later attentional capture, but traditional VDAC effects are weak and method-sensitive.","design":"systematic_review","year":2025,"studies":23,"experiments":52,"population":"human visual attention experiments","effect_size":null,"heterogeneity":"not represented as a single pooled effect in the source summary","causal_scope":"laboratory attentional capture paradigms","quality":"strong_with_methodological_caveats","source":{"title":"Systematic review of the value-driven attentional capture paradigm in visual attention studies: Evidence from 52 experiments","doi":"10.1016/j.actpsy.2025.105060","pmid":"40505578"},"limitations":["history-selection confounds","color-reward association issues","color/luminance effects and preferences","low statistical power","weak effects in the traditional VDAC paradigm"]},
-    {"id":"EV-TRUST-001","applies_to":["e13","s12","s15","s16"],"claim":"Influencer credibility, trustworthiness, expertise, authenticity and related constructs are associated with attitudinal and behavioral outcomes, with strong context heterogeneity.","design":"meta_analysis","year":2024,"studies":53,"effect_sizes_analyzed":250,"population":"social media influencer studies","effect_size":{"metric":"r","examples":[{"predictor":"trustworthiness","outcome":"attitude_toward_influencer","value":0.604},{"predictor":"trustworthiness","outcome":"attitude_toward_content","value":0.525},{"predictor":"trustworthiness","outcome":"attitude_toward_brand","value":0.565},{"predictor":"trustworthiness","outcome":"purchase_intention","value":0.466},{"predictor":"trustworthiness","outcome":"engagement","value":0.670},{"predictor":"expertise","outcome":"attitude_toward_influencer","value":0.396},{"predictor":"expertise","outcome":"attitude_toward_content","value":0.369},{"predictor":"expertise","outcome":"attitude_toward_brand","value":0.533},{"predictor":"authenticity","outcome":"attitude_toward_brand","value":0.335},{"predictor":"homophily","outcome":"attitude_toward_content","value":0.511},{"predictor":"homophily","outcome":"attitude_toward_brand","value":0.565}]},"heterogeneity":"often high; trustworthiness attitude effects reported I2 around 89.64%-90.82%","causal_scope":"mixed; included literature is dominated by correlational studies and experiments/surveys","quality":"strong_synthesis_context_sensitive","source":{"title":"Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations","doi":"10.1002/mar.21927"},"limitations":["substantial heterogeneity across platform, geography, product and influencer type","publication-bias signals for several relationships including trustworthiness-engagement and homophily-engagement","limited methodological diversity","effect sizes should not be treated as universal constants"]},
-    {"id":"EV-ID-001","applies_to":["e07","s09","s10"],"claim":"Group identity and self-categorization shape social influence through group norms, with effects moderated by identification and context.","design":"annual_review","year":2021,"population":"social influence and group identity literature","effect_size":null,"causal_scope":"theory-integrating review across classic and recent studies","quality":"strong_review","source":{"title":"Social Influence and Group Identity","doi":"10.1146/annurev-psych-070620-111818","pmid":"32931718"},"limitations":["effects depend on group identification","anonymity versus visibility and isolation versus copresence can matter","identity-based influence is not interchangeable with generic conformity"]},
-    {"id":"EV-CONN-001","applies_to":["e08","e11","e12","e14","e17","s11","s16","s17","s18"],"claim":"Parasocial engagement with influencers is multidimensional and is related to brand associations and purchase intentions; effects vary by product and content characteristics.","design":"meta_analysis_plus_qualitative","year":2024,"studies":117,"respondents":47647,"effect_size":null,"causal_scope":"mixed literature synthesis","quality":"strong_synthesis","source":{"title":"Unrequited love? A mixed-methods study of parasocial engagement with social media influencers","doi":"10.1016/j.ijinfomgt.2024.102798"},"limitations":["specific pathways differ across cognitive, affective and behavioral dimensions","purchase-intention effects depend on product characteristics and content type","association does not imply every relational edge is bidirectionally causal"]},
-    {"id":"EV-CONN-002","applies_to":["e08","e11","e12","e14","e17"],"claim":"Source, message, medium and consumer factors can foster parasocial interaction/relationships; media affordances are underexplored and transactional outcomes are less studied.","design":"systematic_review","year":2026,"studies":76,"publication_window":"2000-2023","effect_size":null,"causal_scope":"qualitative synthesis","quality":"strong_review","source":{"title":"Consumers' parasocial interactions and relationships with online influencers: a systematic review","doi":"10.1108/JCM-02-2024-6611"},"limitations":["limited evidence on transactional outcomes such as purchase, impulse buying and gifting","social-media affordances remain underexplored","antecedents and moderators vary across studies"]},
-    {"id":"EV-HAB-001","applies_to":["e20","e21","s20","s21","s22","s23"],"claim":"Habits form through repeated responses in recurring contexts and interact with deliberate goal pursuit.","design":"annual_review","year":2016,"effect_size":null,"causal_scope":"integrative review of habit research","quality":"strong_review","source":{"title":"Psychology of Habit","doi":"10.1146/annurev-psych-122414-033417","pmid":"26361052"},"limitations":["returning behavior alone is not proof of habit","habit and deliberate goals can act synergistically or conflict","context repetition is central and should not be omitted"]},
-    {"id":"EV-EMO-001","applies_to":["e06","s08"],"claim":"Arousal can increase social transmission probability; valence alone is insufficient to explain sharing.","design":"field_plus_experiments","year":2012,"effect_size":null,"causal_scope":"online content sharing and experimental arousal manipulations","quality":"strong_bounded","source":{"title":"What Makes Online Content Viral?","doi":"10.1509/jmr.10.0353"},"limitations":["high arousal does not guarantee sharing","content and context moderate effects","virality is an aggregate outcome also shaped by distribution systems"]}
+  "version": "0.2.1",
+  "principle": "Effect sizes are stored as evidence metadata. They are not automatically used as causal propagation weights.",
+  "records": [
+    {
+      "id": "EV-ATT-001",
+      "applies_to": [
+        "e01",
+        "e02",
+        "s01"
+      ],
+      "claim": "Previously reward-associated features can influence later attentional capture, but traditional VDAC effects are weak and method-sensitive.",
+      "design": "systematic_review",
+      "year": 2025,
+      "studies": 23,
+      "experiments": 52,
+      "population": "human visual attention experiments",
+      "effect_size": null,
+      "heterogeneity": "not represented as a single pooled effect in the source summary",
+      "causal_scope": "laboratory attentional capture paradigms",
+      "quality": "strong_with_methodological_caveats",
+      "source": {
+        "title": "Systematic review of the value-driven attentional capture paradigm in visual attention studies: Evidence from 52 experiments",
+        "doi": "10.1016/j.actpsy.2025.105060",
+        "pmid": "40505578"
+      },
+      "limitations": [
+        "history-selection confounds",
+        "color-reward association issues",
+        "color/luminance effects and preferences",
+        "low statistical power",
+        "weak effects in the traditional VDAC paradigm"
+      ]
+    },
+    {
+      "id": "EV-TRUST-001",
+      "applies_to": [
+        "e13",
+        "s12",
+        "s15",
+        "s16"
+      ],
+      "claim": "Influencer credibility, trustworthiness, expertise, authenticity and related constructs are associated with attitudinal and behavioral outcomes, with strong context heterogeneity.",
+      "design": "meta_analysis",
+      "year": 2024,
+      "studies": 53,
+      "effect_sizes_analyzed": 250,
+      "population": "social media influencer studies",
+      "effect_size": {
+        "metric": "r",
+        "examples": [
+          {
+            "predictor": "trustworthiness",
+            "outcome": "attitude_toward_influencer",
+            "value": 0.604
+          },
+          {
+            "predictor": "trustworthiness",
+            "outcome": "attitude_toward_content",
+            "value": 0.525
+          },
+          {
+            "predictor": "trustworthiness",
+            "outcome": "attitude_toward_brand",
+            "value": 0.565
+          },
+          {
+            "predictor": "trustworthiness",
+            "outcome": "purchase_intention",
+            "value": 0.466
+          },
+          {
+            "predictor": "trustworthiness",
+            "outcome": "engagement",
+            "value": 0.67
+          },
+          {
+            "predictor": "expertise",
+            "outcome": "attitude_toward_influencer",
+            "value": 0.396
+          },
+          {
+            "predictor": "expertise",
+            "outcome": "attitude_toward_content",
+            "value": 0.369
+          },
+          {
+            "predictor": "expertise",
+            "outcome": "attitude_toward_brand",
+            "value": 0.533
+          },
+          {
+            "predictor": "authenticity",
+            "outcome": "attitude_toward_brand",
+            "value": 0.335
+          },
+          {
+            "predictor": "homophily",
+            "outcome": "attitude_toward_content",
+            "value": 0.511
+          },
+          {
+            "predictor": "homophily",
+            "outcome": "attitude_toward_brand",
+            "value": 0.565
+          }
+        ]
+      },
+      "heterogeneity": "often high; trustworthiness attitude effects reported I2 around 89.64%-90.82%",
+      "causal_scope": "mixed; included literature is dominated by correlational studies and experiments/surveys",
+      "quality": "strong_synthesis_context_sensitive",
+      "source": {
+        "title": "Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations",
+        "doi": "10.1002/mar.21927"
+      },
+      "limitations": [
+        "substantial heterogeneity across platform, geography, product and influencer type",
+        "publication-bias signals for several relationships including trustworthiness-engagement and homophily-engagement",
+        "limited methodological diversity",
+        "effect sizes should not be treated as universal constants"
+      ]
+    },
+    {
+      "id": "EV-ID-001",
+      "applies_to": [
+        "e07",
+        "s09",
+        "s10"
+      ],
+      "claim": "Group identity and self-categorization shape social influence through group norms, with effects moderated by identification and context.",
+      "design": "annual_review",
+      "year": 2021,
+      "population": "social influence and group identity literature",
+      "effect_size": null,
+      "causal_scope": "theory-integrating review across classic and recent studies",
+      "quality": "strong_review",
+      "source": {
+        "title": "Social Influence and Group Identity",
+        "doi": "10.1146/annurev-psych-070620-111818",
+        "pmid": "32931718"
+      },
+      "limitations": [
+        "effects depend on group identification",
+        "anonymity versus visibility and isolation versus copresence can matter",
+        "identity-based influence is not interchangeable with generic conformity"
+      ]
+    },
+    {
+      "id": "EV-CONN-001",
+      "applies_to": [
+        "e08",
+        "e11",
+        "e12",
+        "e14",
+        "e17",
+        "s11",
+        "s16",
+        "s17",
+        "s18"
+      ],
+      "claim": "Parasocial engagement with influencers is multidimensional and is related to brand associations and purchase intentions; effects vary by product and content characteristics.",
+      "design": "meta_analysis_plus_qualitative",
+      "year": 2024,
+      "studies": 117,
+      "respondents": 47647,
+      "effect_size": null,
+      "causal_scope": "mixed literature synthesis",
+      "quality": "strong_synthesis",
+      "source": {
+        "title": "Unrequited love? A mixed-methods study of parasocial engagement with social media influencers",
+        "doi": "10.1016/j.ijinfomgt.2024.102845",
+        "provenance_correction": "Corrected during R0/R1 Cycle 01; previous DOI ending 102798 did not match the retrieved article."
+      },
+      "limitations": [
+        "specific pathways differ across cognitive, affective and behavioral dimensions",
+        "purchase-intention effects depend on product characteristics and content type",
+        "association does not imply every relational edge is bidirectionally causal"
+      ]
+    },
+    {
+      "id": "EV-CONN-002",
+      "applies_to": [
+        "e08",
+        "e11",
+        "e12",
+        "e14",
+        "e17"
+      ],
+      "claim": "Source, message, medium and consumer factors can foster parasocial interaction/relationships; media affordances are underexplored and transactional outcomes are less studied.",
+      "design": "systematic_review",
+      "year": 2026,
+      "studies": 76,
+      "publication_window": "2000-2023",
+      "effect_size": null,
+      "causal_scope": "qualitative synthesis",
+      "quality": "strong_review",
+      "source": {
+        "title": "Consumers' parasocial interactions and relationships with online influencers: a systematic review",
+        "doi": "10.1108/JCM-02-2024-6611"
+      },
+      "limitations": [
+        "limited evidence on transactional outcomes such as purchase, impulse buying and gifting",
+        "social-media affordances remain underexplored",
+        "antecedents and moderators vary across studies"
+      ]
+    },
+    {
+      "id": "EV-HAB-001",
+      "applies_to": [
+        "e20",
+        "e21",
+        "s20",
+        "s21",
+        "s22",
+        "s23"
+      ],
+      "claim": "Habits form through repeated responses in recurring contexts and interact with deliberate goal pursuit.",
+      "design": "annual_review",
+      "year": 2016,
+      "effect_size": null,
+      "causal_scope": "integrative review of habit research",
+      "quality": "strong_review",
+      "source": {
+        "title": "Psychology of Habit",
+        "doi": "10.1146/annurev-psych-122414-033417",
+        "pmid": "26361052"
+      },
+      "limitations": [
+        "returning behavior alone is not proof of habit",
+        "habit and deliberate goals can act synergistically or conflict",
+        "context repetition is central and should not be omitted"
+      ]
+    },
+    {
+      "id": "EV-EMO-001",
+      "applies_to": [
+        "e06",
+        "s08"
+      ],
+      "claim": "Arousal can increase social transmission probability; valence alone is insufficient to explain sharing.",
+      "design": "field_plus_experiments",
+      "year": 2012,
+      "effect_size": null,
+      "causal_scope": "online content sharing and experimental arousal manipulations",
+      "quality": "strong_bounded",
+      "source": {
+        "title": "What Makes Online Content Viral?",
+        "doi": "10.1509/jmr.10.0353"
+      },
+      "limitations": [
+        "high arousal does not guarantee sharing",
+        "content and context moderate effects",
+        "virality is an aggregate outcome also shaped by distribution systems"
+      ]
+    }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "cycle": "R0_R1_CYCLE_01",
+  "risks": [
+    {
+      "id": "OR-01",
+      "severity": "high",
+      "targets": [
+        "valuation_emotion"
+      ],
+      "risk": "Valuation and Emotion are distinct construct families; one top-level core may hide incompatible mechanisms and measurements.",
+      "current_action": "keep provisional umbrella but force separate modules; test split in R2"
+    },
+    {
+      "id": "OR-02",
+      "severity": "high",
+      "targets": [
+        "reinforcement_habit"
+      ],
+      "risk": "Reinforcement learning/value updating and habit/context-response automaticity are distinct mechanisms.",
+      "current_action": "separate modules immediately; test top-level split in R2"
+    },
+    {
+      "id": "OR-03",
+      "severity": "high",
+      "targets": [
+        "trust",
+        "connection",
+        "identity"
+      ],
+      "risk": "Homophily, identification, liking, parasocial connection, credibility and trust are frequently correlated and may be conflated in influencer research.",
+      "current_action": "require competing-construct fields and mediation tests before creating strong edges"
+    },
+    {
+      "id": "OR-04",
+      "severity": "high",
+      "targets": [
+        "social_transmission",
+        "valuation_emotion"
+      ],
+      "risk": "The classic arousal→sharing claim is not universal; recent preregistered replications failed for incidental physiological arousal.",
+      "current_action": "downgrade universal arousal edge; represent content emotion, incidental arousal and context separately"
+    },
+    {
+      "id": "OR-05",
+      "severity": "medium",
+      "targets": [
+        "attention"
+      ],
+      "risk": "Attention is broader than capture; current v0.2 overweights salience/goal/history and underrepresents sustained attention, suppression and disengagement.",
+      "current_action": "expand candidate module map before neuron expansion"
+    },
+    {
+      "id": "OR-06",
+      "severity": "medium",
+      "targets": [
+        "curiosity"
+      ],
+      "risk": "Curiosity can be confused with novelty seeking or uncertainty reduction and ignores information avoidance if modeled monotonically.",
+      "current_action": "add avoidance/cost and competing-drive module candidate"
+    },
+    {
+      "id": "OR-07",
+      "severity": "medium",
+      "targets": [
+        "trust"
+      ],
+      "risk": "Perceived credibility can be raised by heuristic credentials even when the credential is not context-relevant.",
+      "current_action": "separate perceived credibility from calibrated accuracy/trust"
+    },
+    {
+      "id": "OR-08",
+      "severity": "medium",
+      "targets": [
+        "connection"
+      ],
+      "risk": "PSI, PSR, familiarity, attachment and reciprocal relationship are not interchangeable.",
+      "current_action": "represent distinct connection modules and transport boundaries"
+    },
+    {
+      "id": "OR-09",
+      "severity": "medium",
+      "targets": [
+        "social_transmission"
+      ],
+      "risk": "Virality combines human sharing with network/platform amplification.",
+      "current_action": "keep mechanical diffusion as system-level exposure object, not psychological neuron"
+    }
+  ]
+}

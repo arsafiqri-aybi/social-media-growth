@@ -1,0 +1,323 @@
+{
+  "cycle": "R0_R1_CYCLE_01",
+  "claims": [
+    {
+      "id": "CL-ATT-001",
+      "targets": [
+        "attention"
+      ],
+      "type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-ATT-001"
+      ],
+      "statement": "Attentional selection is usefully modeled as competition among goal-directed, stimulus-driven, and selection-history influences rather than a single salience process.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-ATT-002",
+      "targets": [
+        "attention",
+        "attention.learned_value"
+      ],
+      "type": "contradiction",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC-ATT-002"
+      ],
+      "statement": "Reward-associated features can bias later attention, but traditional VDAC effects are weak and method-sensitive, so learned-value attention must not be assigned a universal large effect.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-ATT-003",
+      "targets": [
+        "attention"
+      ],
+      "type": "descriptive",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-ATT-003"
+      ],
+      "statement": "Sustained/vigilant attention is a distinct time-on-task problem and should not be collapsed into initial attentional capture.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-CUR-001",
+      "targets": [
+        "curiosity"
+      ],
+      "type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-CUR-001",
+        "SRC-CUR-003"
+      ],
+      "statement": "Curiosity is not well represented by one information-gap mechanism; novelty, uncertainty, information gain, learning progress and other drives contribute to exploration.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-CUR-002",
+      "targets": [
+        "curiosity",
+        "valuation_emotion"
+      ],
+      "type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-CUR-002"
+      ],
+      "statement": "Epistemic curiosity can involve appraisal of a knowledge gap, assignment of reward value to information, and motivation to seek knowledge.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-CUR-003",
+      "targets": [
+        "curiosity"
+      ],
+      "type": "boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC-CUR-001"
+      ],
+      "statement": "Curiosity-driven exploration competes with other drives such as safety, so greater uncertainty is not guaranteed to increase exploration.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-VE-001",
+      "targets": [
+        "valuation_emotion"
+      ],
+      "type": "association",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-VE-001"
+      ],
+      "statement": "Cognitive appraisals show systematic relationships with differentiated emotions, but no single appraisal dimension explains emotion globally.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-VE-002",
+      "targets": [
+        "valuation_emotion"
+      ],
+      "type": "construct",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC-VE-003"
+      ],
+      "statement": "Valence is conceptually and operationally ambiguous across affective science, so valence must be defined rather than treated as a self-evident scalar.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-VE-003",
+      "targets": [
+        "valuation_emotion"
+      ],
+      "type": "descriptive",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-VE-002"
+      ],
+      "statement": "Subjective value is a decision construct integrating utility/reward with context and uncertainty; it is related to but not identical with emotion.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-ID-001",
+      "targets": [
+        "identity"
+      ],
+      "type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-ID-001"
+      ],
+      "statement": "Group identity can shape social influence through self-categorization and group norms, with strength depending on identification and context.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-ID-002",
+      "targets": [
+        "identity"
+      ],
+      "type": "boundary",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC-ID-001"
+      ],
+      "statement": "Anonymity versus visibility and isolation versus copresence can alter identity-based social influence, making online context a material moderator.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-ID-003",
+      "targets": [
+        "identity"
+      ],
+      "type": "construct",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC-ID-002"
+      ],
+      "statement": "Social identity and self-categorization are related but non-identical theoretical components and should not be collapsed into generic similarity.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-TR-001",
+      "targets": [
+        "trust"
+      ],
+      "type": "association",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-TR-001"
+      ],
+      "statement": "Trustworthiness, expertise and related source-credibility constructs are materially associated with influencer attitudinal and behavioral outcomes, but effect sizes vary by platform, geography, product and influencer type.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-TR-002",
+      "targets": [
+        "trust"
+      ],
+      "type": "causal",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-TR-002"
+      ],
+      "statement": "Experimental manipulation of heuristic source/social credibility cues has a small-to-moderate pooled effect on perceived credibility, with meaningful moderators.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-TR-003",
+      "targets": [
+        "trust"
+      ],
+      "type": "contradiction",
+      "stance": "bounds",
+      "source_ids": [
+        "SRC-TR-003"
+      ],
+      "statement": "Users can conflate source authenticity/credentials with message credibility, so credibility cues are not equivalent to accurate trust calibration.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-CON-001",
+      "targets": [
+        "connection"
+      ],
+      "type": "construct",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-CON-001"
+      ],
+      "statement": "Parasocial interaction and parasocial relationship should be represented as distinct but related constructs rather than one undifferentiated connection score.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-CON-002",
+      "targets": [
+        "connection"
+      ],
+      "type": "association",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-CON-002"
+      ],
+      "statement": "Parasocial engagement is multidimensional, including cognitive, affective and behavioral dimensions, and its outcome relationships vary by product and content characteristics.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-CON-003",
+      "targets": [
+        "connection"
+      ],
+      "type": "moderation",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-CON-003"
+      ],
+      "statement": "Parasocial associations vary by construct type, age and cultural region, so connection inference requires developmental and cultural context.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-ST-001",
+      "targets": [
+        "social_transmission"
+      ],
+      "type": "construct",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-ST-001"
+      ],
+      "statement": "Social transmission is an observed communication behavior with multiple motives and moderators; audience, modality, channel and device can change what gets shared.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-ST-002",
+      "targets": [
+        "social_transmission",
+        "valuation_emotion"
+      ],
+      "type": "causal",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-ST-002"
+      ],
+      "statement": "Specific emotion/arousal manipulations and field data have supported links between activation and online sharing in bounded contexts.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-ST-003",
+      "targets": [
+        "social_transmission",
+        "valuation_emotion"
+      ],
+      "type": "contradiction",
+      "stance": "contrasts",
+      "source_ids": [
+        "SRC-ST-003"
+      ],
+      "statement": "Two preregistered replications failed to find an effect of incidental physiological arousal on willingness to share news on social media, ruling out a universal arousal-to-sharing edge.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-RH-001",
+      "targets": [
+        "reinforcement_habit"
+      ],
+      "type": "construct",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-RH-001",
+        "SRC-RH-003"
+      ],
+      "statement": "Habit is best distinguished from mere repetition or returning behavior: it involves learned context-response control and interfaces with, but is not identical to, goal-directed action.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-RH-002",
+      "targets": [
+        "reinforcement_habit"
+      ],
+      "type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-RH-002"
+      ],
+      "statement": "Context-response associations can be measured separately from goal motivation, supporting a measurement distinction between habit mechanism and repeated behavior.",
+      "status": "verified_first_pass"
+    },
+    {
+      "id": "CL-RH-003",
+      "targets": [
+        "reinforcement_habit"
+      ],
+      "type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "SRC-RH-004"
+      ],
+      "statement": "Prediction-error updating is a separable reinforcement-learning mechanism and should not be treated as synonymous with habit automaticity.",
+      "status": "verified_first_pass"
+    }
+  ]
+}
