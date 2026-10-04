@@ -27,13 +27,14 @@ Version: **Foundation + Neural Reasoning Layer v0.1**
 
 ### Verified locally
 
-Five behavioral tests pass:
+Six behavioral tests pass:
 
 1. curiosity propagates into attention and valuation;
 2. identity propagates into social/relational nodes;
 3. high-arousal context strengthens the relevant transmission edge;
 4. unknown/fabricated nodes are rejected;
-5. identical cases produce deterministic results.
+5. identical cases produce deterministic results;
+6. conflicting positive/negative edges produce a tension report.
 
 ### Scientific limitations deliberately retained
 
@@ -41,6 +42,7 @@ Five behavioral tests pass:
 - Node activations are latent reasoning states, **not measurements of a real person** unless supplied from validated measures.
 - Several edges remain emerging/hypothetical and are discounted.
 - The runtime does not claim to reproduce biological cognition.
+- GitHub Actions CI is not installed because workflow write permission is not enabled for the current connector.
 
 ### Next upgrades
 
@@ -51,4 +53,5 @@ Five behavioral tests pass:
 - [ ] Sub-neuron decomposition and intra-core propagation
 - [ ] Bayesian or probabilistic calibration layer
 - [ ] Scenario benchmark suite with expected qualitative outcomes
+- [ ] CI workflow when workflow-write permission is available
 - [ ] Platform/content layers connected only after core validation

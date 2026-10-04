@@ -1,4 +1,6 @@
+import json
 from pathlib import Path
+import tempfile
 import unittest
 
 from engine import NeuralReasoner, ReasoningCase
@@ -48,6 +50,30 @@ class NeuralReasonerTests(unittest.TestCase):
         b = self.r.reason(case)
         self.assertEqual(a.activations, b.activations)
         self.assertEqual(a.dominant_nodes, b.dominant_nodes)
+
+    def test_negative_edge_can_create_tension(self):
+        edges = json.loads((ROOT / "data" / "edges.json").read_text())
+        edges["edges"].append({
+            "id":"test_inhibit",
+            "source":"identity",
+            "target":"social_transmission",
+            "relation":"inhibits",
+            "weight":-0.55,
+            "confidence":"strong",
+            "causal_status":"software_test_only",
+            "mechanism":"synthetic inhibition used only to verify runtime conflict handling"
+        })
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "edges.json"
+            path.write_text(json.dumps(edges))
+            r = NeuralReasoner(ROOT / "data" / "nodes.json", path)
+            out = r.reason(ReasoningCase(seeds={
+                "identity": 1.0,
+                "valuation_emotion": 0.9
+            }))
+            self.assertGreater(out.support["social_transmission"], 0.05)
+            self.assertGreater(out.inhibition["social_transmission"], 0.05)
+            self.assertTrue(any(x["node"] == "social_transmission" for x in out.tensions))
 
 if __name__ == "__main__":
     unittest.main()
