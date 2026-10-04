@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "SMG-HPC-10X",
+  "revision": 1,
+  "status": "IN_PROGRESS",
+  "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
+  "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
+  "protected_constraints": [
+    "Keep the eight current core families as candidate anchors until evidence-based architecture review decides otherwise.",
+    "Do not model the system as a linear funnel.",
+    "Do not convert correlation into causation.",
+    "Do not convert pooled effect sizes directly into graph weights without a justified calibration model.",
+    "Do not equate platform metrics with latent psychological states.",
+    "Search for contradictory evidence and boundary conditions, not only confirming evidence.",
+    "Do not declare 10/10 from volume of files, papers, neurons, edges, or tokens.",
+    "Do not weaken mandatory quality gates to finish faster.",
+    "Reuse accepted repository state; invalidate only affected descendants when upstream assumptions change."
+  ],
+  "route": {
+    "architecture": "planner -> bounded core research workstreams -> cross-core integrator -> reasoning/measurement implementer -> independent verifier",
+    "workstreams": [
+      "S0 state and ontology audit",
+      "S1 eight core evidence programs",
+      "S2 cross-core connector and edge program",
+      "S3 measurement and construct-validity program",
+      "S4 empirical-calibration program",
+      "S5 executable reasoning program",
+      "S6 benchmark and adversarial evaluation",
+      "S7 gap/saturation audit and refinement"
+    ],
+    "capability_floor": {
+      "research_synthesis": "high",
+      "architecture_reasoning": "high",
+      "implementation": "medium-to-high depending on failure mode",
+      "final_integration": "high"
+    },
+    "tools": [
+      "GitHub repository state and version control",
+      "academic/public web retrieval from primary sources and high-quality syntheses",
+      "deterministic Python/tests for validation and benchmarking",
+      "GitHub Actions CI"
+    ],
+    "unavailable_optional_dependency": "Scite MCP currently requires a paid plan/trial, so completion must not depend on it."
+  },
+  "scale_envelope": {
+    "principle": "Counts are capacity ranges, not completion criteria. Expand only when decomposition materially improves explanation, evidence mapping, reasoning, measurement, or verification.",
+    "core_families": 8,
+    "provisional_module_capacity": "roughly 4-12 mechanism modules per core if justified",
+    "provisional_neuron_capacity": "roughly 15-50 substantive neurons per core if justified",
+    "micro_neurons": "on demand only where a neuron still bundles separable mechanisms or measurements",
+    "material_edges": "no fixed target; every edge must earn inclusion through mechanism + evidence + integration value",
+    "replan_trigger": "If a core cannot achieve coverage without exceeding the envelope, or if major overlap suggests a different ontology, return to Scale rather than forcing the counts."
+  },
+  "execution_order": [
+    "PROMPT_LOCK",
+    "SCALE_DESIGN",
+    "ARCHITECTURE_DESIGN",
+    "RESEARCH_PROGRAM",
+    "KNOWLEDGE_BUILD",
+    "CONNECTION_BUILD",
+    "REASONING_ENGINE",
+    "EMPIRICAL_CALIBRATION",
+    "MEASUREMENT",
+    "BENCHMARK_AND_ADVERSARIAL_TESTING",
+    "GAP_ANALYSIS",
+    "ITERATIVE_REFINEMENT",
+    "FINAL_10_10_GATE"
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "property": "Conceptual correctness",
+      "verifier": "definition/source audit",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G2",
+      "property": "Mechanistic clarity",
+      "verifier": "mechanism decomposition audit",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G3",
+      "property": "Evidence support",
+      "verifier": "claim-evidence matrix",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G4",
+      "property": "Contradictory evidence checked",
+      "verifier": "adversarial literature search",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G5",
+      "property": "Causal language calibrated",
+      "verifier": "design-to-claim audit",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G6",
+      "property": "Boundary conditions known",
+      "verifier": "moderator/boundary registry",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G7",
+      "property": "Non-redundancy",
+      "verifier": "ontology overlap audit",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G8",
+      "property": "Network integration",
+      "verifier": "typed-edge coverage audit",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G9",
+      "property": "Measurement awareness",
+      "verifier": "construct/proxy validity audit",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G10",
+      "property": "Failure awareness",
+      "verifier": "failure-mode registry",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G11",
+      "property": "Reasoning usability",
+      "verifier": "scenario benchmark suite",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G12",
+      "property": "Retrieval usability",
+      "verifier": "stable IDs/schema/query tests",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G13",
+      "property": "Automated validation",
+      "verifier": "unit/schema/integration tests",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G14",
+      "property": "No obvious fundamental mechanism missing",
+      "verifier": "cross-discipline gap audit",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G15",
+      "property": "No unresolved major overlap",
+      "verifier": "ontology audit",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G16",
+      "property": "Major cross-core connections mapped",
+      "verifier": "cross-core edge matrix",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G17",
+      "property": "Major feedback loops mapped",
+      "verifier": "loop coverage/adversarial scenarios",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G18",
+      "property": "Uncertainty propagated",
+      "verifier": "reasoning trace + uncertainty tests",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G19",
+      "property": "Empirical metadata preserved",
+      "verifier": "evidence schema validation",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "G20",
+      "property": "Tests/CI pass",
+      "verifier": "GitHub Actions + local deterministic tests",
+      "status": "NOT_RUN"
+    }
+  ],
+  "saturation_rule": {
+    "unit_level": "A unit may stop expanding when its major mechanisms, alternatives, moderators, contradictions, measurement paths, and material connections are represented and further targeted retrieval adds only marginal refinement.",
+    "core_level": "A core may close only after at least one deliberate disconfirmation pass and a cross-core overlap/gap review.",
+    "system_level": "Final saturation requires no open critical gap, no unsupported strong edge, no unresolved major ontology conflict, passing reasoning/adversarial tests, and CI success."
+  },
+  "adaptation_envelope": {
+    "governor_may_change": [
+      "retrieval depth",
+      "search terms/databases",
+      "reasoning effort within capability floor",
+      "context packing",
+      "retry strategy",
+      "optional verification depth",
+      "reuse of still-valid accepted artifacts"
+    ],
+    "governor_may_not_change": [
+      "scientific quality floor",
+      "mandatory evidence",
+      "contradiction search",
+      "architecture integrity",
+      "measurement-validity requirements",
+      "final gates",
+      "causal-language discipline"
+    ]
+  },
+  "escalation_triggers": [
+    "A candidate core splits into two independently necessary mechanisms.",
+    "Two cores materially overlap and cannot be separated cleanly.",
+    "A major mechanism does not fit any current core.",
+    "Repeated evidence conflicts cannot be represented by existing edge/context schema.",
+    "Measurement cannot distinguish competing latent explanations.",
+    "Reasoning benchmarks fail despite adequate evidence and implementation.",
+    "Current decomposition becomes too coarse or too fragmented for retrieval/verification."
+  ],
+  "required_outputs": [
+    {
+      "id": "O1",
+      "name": "Scale contract",
+      "state": "PRESENT"
+    },
+    {
+      "id": "O2",
+      "name": "Architecture design",
+      "state": "MISSING"
+    },
+    {
+      "id": "O3",
+      "name": "Research program",
+      "state": "MISSING"
+    },
+    {
+      "id": "O4",
+      "name": "Deep knowledge graph",
+      "state": "MISSING"
+    },
+    {
+      "id": "O5",
+      "name": "Validated reasoning system",
+      "state": "MISSING"
+    },
+    {
+      "id": "O6",
+      "name": "Measurement/calibration system",
+      "state": "MISSING"
+    },
+    {
+      "id": "O7",
+      "name": "Benchmark/adversarial suite",
+      "state": "MISSING"
+    },
+    {
+      "id": "O8",
+      "name": "Final 10/10 audit",
+      "state": "MISSING"
+    }
+  ],
+  "state_ref": "arsafiqri-aybi/social-media-growth@main",
+  "next_action": "Design the formal architecture and ontology under this scale contract before expanding research depth or neuron count."
+}
