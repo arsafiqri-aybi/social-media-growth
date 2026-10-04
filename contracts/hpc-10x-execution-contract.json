@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 1,
+  "revision": 2,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -231,7 +231,7 @@
     {
       "id": "O2",
       "name": "Architecture design",
-      "state": "MISSING"
+      "state": "PRESENT"
     },
     {
       "id": "O3",
@@ -265,5 +265,6 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Design the formal architecture and ontology under this scale contract before expanding research depth or neuron count."
+  "next_action": "Design and execute the systematic Research Program for all eight cores using Architecture 10X v1.0 before expanding the ontology.",
+  "architecture_ref": "architecture/ontology.json@1.0.0"
 }

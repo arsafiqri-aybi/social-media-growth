@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scientific-edge.schema.json",
+  "title": "Scientific Edge",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "target",
+    "relation",
+    "polarity",
+    "causal_status",
+    "mechanism",
+    "claim_ids",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "relation": {
+      "enum": [
+        "causes_increase",
+        "causes_decrease",
+        "supports",
+        "inhibits",
+        "biases",
+        "enables",
+        "competes_with",
+        "updates",
+        "reinforces",
+        "mediates",
+        "moderates",
+        "predicts",
+        "associates_with",
+        "feedback_link",
+        "system_exposure"
+      ]
+    },
+    "polarity": {
+      "enum": [
+        "positive",
+        "negative",
+        "mixed",
+        "none",
+        "context_dependent"
+      ]
+    },
+    "directionality": {
+      "enum": [
+        "directed",
+        "bidirectional_pair_member",
+        "symmetric"
+      ]
+    },
+    "causal_status": {
+      "enum": [
+        "experimental_causal",
+        "quasi_causal",
+        "longitudinal_predictive",
+        "correlational",
+        "mechanistic_theory",
+        "system_mechanical",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "mechanism": {
+      "type": "string"
+    },
+    "claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "moderator_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "boundary_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "transport_limits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "runtime_parameter_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "under_review",
+        "accepted",
+        "provisional",
+        "deprecated",
+        "rejected"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

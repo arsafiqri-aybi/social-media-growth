@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "uncertainty.schema.json",
+  "title": "Uncertainty Record",
+  "type": "object",
+  "required": [
+    "id",
+    "channel",
+    "target_ids",
+    "level",
+    "reason",
+    "reducibility"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "channel": {
+      "enum": [
+        "epistemic",
+        "construct",
+        "measurement",
+        "transport_context",
+        "runtime_model"
+      ]
+    },
+    "target_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "level": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "unknown"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "reducibility": {
+      "enum": [
+        "retrieval",
+        "measurement",
+        "experiment",
+        "context_information",
+        "model_calibration",
+        "structural_replan",
+        "currently_irreducible"
+      ]
+    },
+    "resolution_requirement": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

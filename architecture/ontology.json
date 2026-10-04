@@ -1,0 +1,127 @@
+{
+  "architecture_id": "SMG-HPC-10X-ARCH",
+  "version": "1.0.0",
+  "status": "accepted_for_research_program",
+  "principles": [
+    "The eight core families are candidate anchors, not a linear funnel.",
+    "Hierarchy is for retrieval and composition; causality and influence live in the graph.",
+    "Scientific evidence, runtime coefficients, and measurements are separate object classes.",
+    "Every material inference must be traceable to atomic claims and context.",
+    "Uncertainty is multidimensional and must not be collapsed into a fake probability."
+  ],
+  "layers": [
+    {
+      "level": "L0",
+      "kind": "core",
+      "purpose": "Broad psychological functional family; stable top-level anchor."
+    },
+    {
+      "level": "L1",
+      "kind": "module",
+      "purpose": "Mechanism cluster that groups related neurons for explanation, retrieval, and verification."
+    },
+    {
+      "level": "L2",
+      "kind": "neuron",
+      "purpose": "Smallest normally reusable psychological construct/mechanism that can own evidence, edges, and measurement mappings."
+    },
+    {
+      "level": "L3",
+      "kind": "micro_neuron",
+      "purpose": "Optional decomposition used only when an L2 neuron still bundles empirically separable mechanisms or measurements."
+    }
+  ],
+  "core_anchors": [
+    "attention",
+    "curiosity",
+    "valuation_emotion",
+    "identity",
+    "trust",
+    "connection",
+    "social_transmission",
+    "reinforcement_habit"
+  ],
+  "module_role_vocabulary": [
+    "detection_representation",
+    "appraisal_valuation",
+    "motivation_drive",
+    "selection_control",
+    "learning_adaptation",
+    "memory_history",
+    "self_identity",
+    "social_normative",
+    "relational",
+    "expression_action",
+    "maintenance_recurrence",
+    "metacognitive_monitoring"
+  ],
+  "object_classes": [
+    "psych_node",
+    "scientific_edge",
+    "context_dimension",
+    "context_modifier",
+    "source",
+    "atomic_claim",
+    "evidence_synthesis",
+    "measurement_proxy",
+    "observation",
+    "uncertainty_record",
+    "runtime_parameter",
+    "benchmark_case"
+  ],
+  "edge_relation_vocabulary": [
+    "causes_increase",
+    "causes_decrease",
+    "supports",
+    "inhibits",
+    "biases",
+    "enables",
+    "competes_with",
+    "updates",
+    "reinforces",
+    "mediates",
+    "moderates",
+    "predicts",
+    "associates_with",
+    "feedback_link",
+    "system_exposure"
+  ],
+  "causal_status_vocabulary": [
+    "experimental_causal",
+    "quasi_causal",
+    "longitudinal_predictive",
+    "correlational",
+    "mechanistic_theory",
+    "system_mechanical",
+    "mixed",
+    "unknown"
+  ],
+  "context_dimensions": [
+    "person",
+    "goal_task",
+    "content_message",
+    "creator_source",
+    "social_group",
+    "relationship_history",
+    "temporal_history",
+    "platform_affordance",
+    "culture",
+    "situation_environment"
+  ],
+  "uncertainty_channels": [
+    "epistemic",
+    "construct",
+    "measurement",
+    "transport_context",
+    "runtime_model"
+  ],
+  "lifecycle": [
+    "candidate",
+    "under_review",
+    "accepted",
+    "provisional",
+    "deprecated",
+    "rejected"
+  ],
+  "runtime_rule": "No empirical effect size becomes a runtime propagation weight unless a separate calibration artifact explicitly justifies the transformation."
+}

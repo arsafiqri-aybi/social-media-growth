@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "measurement.schema.json",
+  "title": "Measurement Mapping",
+  "type": "object",
+  "required": [
+    "id",
+    "measurement_kind",
+    "observed_variable",
+    "target_ids",
+    "ambiguity",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "measurement_kind": {
+      "enum": [
+        "direct_behavior",
+        "validated_instrument",
+        "behavioral_task",
+        "classifier",
+        "platform_proxy",
+        "self_report_proxy"
+      ]
+    },
+    "observed_variable": {
+      "type": "string"
+    },
+    "target_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validity_evidence_claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reliability": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "population_scope": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "platform_scope": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ambiguity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "calibration_state": {
+      "enum": [
+        "none",
+        "heuristic",
+        "partially_validated",
+        "validated_for_scope"
+      ]
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "under_review",
+        "accepted",
+        "provisional",
+        "deprecated",
+        "rejected"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

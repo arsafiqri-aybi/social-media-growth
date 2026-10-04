@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "atomic-claim.schema.json",
+  "title": "Atomic Scientific Claim",
+  "type": "object",
+  "required": [
+    "id",
+    "statement",
+    "claim_type",
+    "stance",
+    "source_ids",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_type": {
+      "enum": [
+        "descriptive",
+        "association",
+        "causal",
+        "mechanistic",
+        "moderation",
+        "mediation",
+        "measurement",
+        "null",
+        "contradiction",
+        "transport_generalization"
+      ]
+    },
+    "stance": {
+      "enum": [
+        "supports",
+        "contrasts",
+        "bounds",
+        "neutral"
+      ]
+    },
+    "target_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "design": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "population": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sample": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "context": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "effect_estimates": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "heterogeneity": {
+      "type": [
+        "object",
+        "string",
+        "null"
+      ]
+    },
+    "bias_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "extracted",
+        "verified",
+        "contested",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "context-modifier.schema.json",
+  "title": "Context Modifier",
+  "type": "object",
+  "required": [
+    "id",
+    "dimension",
+    "target_ids",
+    "effect_direction",
+    "evidence_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "dimension": {
+      "enum": [
+        "person",
+        "goal_task",
+        "content_message",
+        "creator_source",
+        "social_group",
+        "relationship_history",
+        "temporal_history",
+        "platform_affordance",
+        "culture",
+        "situation_environment"
+      ]
+    },
+    "target_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "effect_direction": {
+      "enum": [
+        "strengthens",
+        "weakens",
+        "activates",
+        "inhibits",
+        "changes_form",
+        "unknown"
+      ]
+    },
+    "mechanism": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_status": {
+      "enum": [
+        "verified",
+        "supported",
+        "emerging",
+        "hypothesis",
+        "unknown"
+      ]
+    },
+    "range_domain": {
+      "type": [
+        "object",
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

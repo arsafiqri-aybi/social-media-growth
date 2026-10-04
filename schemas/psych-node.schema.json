@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "psych-node.schema.json",
+  "title": "Psychological Node",
+  "type": "object",
+  "required": [
+    "id",
+    "label",
+    "level",
+    "status",
+    "primary_core",
+    "definition",
+    "version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "level": {
+      "enum": [
+        "core",
+        "module",
+        "neuron",
+        "micro_neuron"
+      ]
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "under_review",
+        "accepted",
+        "provisional",
+        "deprecated",
+        "rejected"
+      ]
+    },
+    "primary_core": {
+      "type": "string"
+    },
+    "secondary_memberships": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "role_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "inclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mechanism_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "competing_construct_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "measurement_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainty_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "failure_modes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    }
+  },
+  "additionalProperties": true
+}
