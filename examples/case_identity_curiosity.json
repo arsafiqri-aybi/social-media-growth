@@ -1,0 +1,15 @@
+{
+  "seeds": {
+    "identity": 0.82,
+    "curiosity": 0.7,
+    "trust": 0.35,
+    "valuation_emotion": 0.68
+  },
+  "context": {
+    "high_arousal": 0.75
+  },
+  "goals": [
+    "understand likely psychological dynamics"
+  ],
+  "notes": "Identity-relevant and curiosity-rich content with moderate-low trust."
+}

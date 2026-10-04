@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "confidence_weights": {
+    "established": 1.0,
+    "strong": 0.9,
+    "moderate": 0.7,
+    "emerging": 0.45,
+    "hypothesis": 0.2
+  },
+  "edges": [
+    {"id":"e01","source":"valuation_emotion","target":"attention","relation":"biases","weight":0.75,"confidence":"strong","causal_status":"supported","mechanism":"learned value and subjective relevance bias selection priority"},
+    {"id":"e02","source":"reinforcement_habit","target":"attention","relation":"biases","weight":0.70,"confidence":"strong","causal_status":"supported","mechanism":"reward history creates learned attentional priority"},
+    {"id":"e03","source":"curiosity","target":"attention","relation":"directs","weight":0.72,"confidence":"strong","causal_status":"supported","mechanism":"information seeking prioritizes informative sampling"},
+    {"id":"e04","source":"curiosity","target":"valuation_emotion","relation":"interacts","weight":0.55,"confidence":"strong","causal_status":"supported","mechanism":"information can acquire subjective value"},
+    {"id":"e05","source":"valuation_emotion","target":"curiosity","relation":"interacts","weight":0.45,"confidence":"strong","causal_status":"supported","mechanism":"expected information value shapes seeking"},
+    {"id":"e06","source":"valuation_emotion","target":"social_transmission","relation":"increases_probability","weight":0.62,"confidence":"strong","causal_status":"bounded_causal","mechanism":"high arousal can increase sharing probability","contexts":{"high_arousal":1.25,"low_arousal":0.75}},
+    {"id":"e07","source":"identity","target":"social_transmission","relation":"moderates","weight":0.58,"confidence":"strong","causal_status":"general_social_influence","mechanism":"group relevance and norms shape expression and influence"},
+    {"id":"e08","source":"identity","target":"connection","relation":"supports","weight":0.45,"confidence":"moderate","causal_status":"mixed","mechanism":"homophily and congruence can support affinity"},
+    {"id":"e09","source":"identity","target":"trust","relation":"supports","weight":0.38,"confidence":"moderate","causal_status":"mixed","mechanism":"similarity can influence source evaluation"},
+    {"id":"e10","source":"identity","target":"valuation_emotion","relation":"biases","weight":0.48,"confidence":"moderate","causal_status":"mixed","mechanism":"self/group relevance changes subjective importance"},
+    {"id":"e11","source":"connection","target":"trust","relation":"supports","weight":0.44,"confidence":"moderate","causal_status":"mixed","mechanism":"relational engagement can increase receptivity and trust"},
+    {"id":"e12","source":"trust","target":"connection","relation":"supports","weight":0.40,"confidence":"moderate","causal_status":"mixed","mechanism":"reliable source evaluation can facilitate attachment"},
+    {"id":"e13","source":"trust","target":"valuation_emotion","relation":"biases","weight":0.50,"confidence":"strong","causal_status":"supported","mechanism":"credibility changes message evaluation"},
+    {"id":"e14","source":"connection","target":"reinforcement_habit","relation":"may_support","weight":0.30,"confidence":"emerging","causal_status":"uncertain","mechanism":"relational value may motivate repeated engagement"},
+    {"id":"e15","source":"curiosity","target":"reinforcement_habit","relation":"may_support","weight":0.26,"confidence":"emerging","causal_status":"uncertain","mechanism":"rewarding information seeking may support repeated exploration"},
+    {"id":"e16","source":"trust","target":"social_transmission","relation":"may_support","weight":0.30,"confidence":"emerging","causal_status":"uncertain","mechanism":"confidence in source/message may support recommendation"},
+    {"id":"e17","source":"connection","target":"social_transmission","relation":"may_support","weight":0.28,"confidence":"emerging","causal_status":"uncertain","mechanism":"affiliation and loyalty may encourage advocacy"},
+    {"id":"e18","source":"identity","target":"attention","relation":"may_bias","weight":0.25,"confidence":"emerging","causal_status":"uncertain","mechanism":"self relevance may prioritize processing"},
+    {"id":"e19","source":"social_transmission","target":"attention","relation":"enables","weight":0.15,"confidence":"established","causal_status":"system_level","mechanism":"transmission creates exposure opportunities","contexts":{"new_audience":1.35}},
+    {"id":"e20","source":"valuation_emotion","target":"reinforcement_habit","relation":"reinforces","weight":0.60,"confidence":"established","causal_status":"general_learning","mechanism":"experienced outcomes update learned value and future response probability"},
+    {"id":"e21","source":"reinforcement_habit","target":"valuation_emotion","relation":"updates","weight":0.52,"confidence":"established","causal_status":"general_learning","mechanism":"learned outcomes update expected value"}
+  ]
+}

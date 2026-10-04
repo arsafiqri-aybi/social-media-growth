@@ -1,0 +1,8 @@
+[project]
+name = "social-media-growth-reasoner"
+version = "0.1.0"
+description = "Auditable graph-based reasoning engine for the Social Media Growth Human Psychological Core."
+requires-python = ">=3.10"
+
+[tool.unittest]
+test-pattern = "test_*.py"

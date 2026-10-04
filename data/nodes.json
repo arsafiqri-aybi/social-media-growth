@@ -1,0 +1,53 @@
+{
+  "version": "0.1.0",
+  "nodes": [
+    {
+      "id": "attention",
+      "label": "Attention",
+      "description": "Selective prioritization under limited processing capacity.",
+      "subnodes": ["stimulus_salience", "goal_relevance", "selection_history"]
+    },
+    {
+      "id": "curiosity",
+      "label": "Curiosity",
+      "description": "Motivational processes that drive information seeking and exploration.",
+      "subnodes": ["novelty", "uncertainty", "information_gain", "learning_progress"]
+    },
+    {
+      "id": "valuation_emotion",
+      "label": "Valuation & Emotion",
+      "description": "Subjective importance/reward and affective activation.",
+      "subnodes": ["subjective_value", "relevance", "valence", "arousal"]
+    },
+    {
+      "id": "identity",
+      "label": "Identity",
+      "description": "Self- and group-representations that shape interpretation and behavior.",
+      "subnodes": ["self_relevance", "group_identity", "norm_salience", "homophily"]
+    },
+    {
+      "id": "trust",
+      "label": "Trust",
+      "description": "Willingness to rely on a source/message under uncertainty.",
+      "subnodes": ["trustworthiness", "expertise", "authenticity", "consistency"]
+    },
+    {
+      "id": "connection",
+      "label": "Connection",
+      "description": "Perceived relational bond with creator/source.",
+      "subnodes": ["parasocial_closeness", "familiarity", "affective_attachment"]
+    },
+    {
+      "id": "social_transmission",
+      "label": "Social Transmission",
+      "description": "Propensity for information to be passed to others.",
+      "subnodes": ["sharing", "recommending", "mentioning", "discussion"]
+    },
+    {
+      "id": "reinforcement_habit",
+      "label": "Reinforcement & Habit",
+      "description": "Learning and context-response processes supporting recurrence.",
+      "subnodes": ["reward_learning", "context_response_association", "automaticity"]
+    }
+  ]
+}
