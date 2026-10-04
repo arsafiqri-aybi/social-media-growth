@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "name": "Canonical Reasoning Runtime v2",
+  "scientific_input": {
+    "node_source": "research/r2/cycle01/l2-neuron-candidates.json",
+    "edge_source": "research/r3/cycle03/scientific-edges.json",
+    "connector_source": "research/r3/cycle03/context-connectors.json",
+    "modifier_source": "research/r3/cycle01/context-modifiers.json"
+  },
+  "seed_signal": {
+    "required": [
+      "node_id",
+      "basis"
+    ],
+    "direction": [
+      "support",
+      "oppose"
+    ],
+    "basis": [
+      "direct_measurement",
+      "validated_observation",
+      "structured_observation",
+      "external_event",
+      "user_hypothesis"
+    ],
+    "prohibited": [
+      "raw platform metric as latent node",
+      "numeric uncalibrated activation",
+      "noncanonical merged/moved/deferred node"
+    ]
+  },
+  "path_status": [
+    "accepted_graph_path",
+    "mixed_evidence_path",
+    "provisional_path",
+    "system_opportunity"
+  ],
+  "causal_ceiling": [
+    "causal_bounded",
+    "mechanistic_noncausal",
+    "association_only",
+    "mixed_evidence_only",
+    "hypothesis_only",
+    "no_claim"
+  ],
+  "runtime_rules": [
+    "No scientific edge weight is consumed.",
+    "No empirical effect size is converted into a propagation coefficient.",
+    "Accepted edges can support canonical graph inference but causal language follows causal_status.",
+    "Provisional edges may generate hypotheses but cannot alone support strong conclusions.",
+    "Mixed/contradictory evidence remains explicit.",
+    "System edges represent opportunity/enabling mechanics and do not automatically imply target occurrence.",
+    "Context modifiers change interpretation/qualification only until calibration justifies quantitative effects.",
+    "Raw platform metrics must pass through a measurement mapper before they can seed latent constructs.",
+    "Account-local feedback is stored separately and cannot mutate scientific knowledge."
+  ],
+  "feedback_isolation": {
+    "scientific_layer": "immutable during account-local feedback recording",
+    "operational_layer": "records observations for later calibration",
+    "update_rule": "scientific evidence can change only through explicit research/version-control workflow"
+  }
+}
