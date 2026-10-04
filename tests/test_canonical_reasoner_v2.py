@@ -21,7 +21,8 @@ class CanonicalReasonerV2Tests(unittest.TestCase):
             targets=["VE-N01"],
         ))
         c=out.conclusions["VE-N01"]
-        self.assertEqual(c.status,"bounded_support")
+        self.assertEqual(c.status,"bounded_conditional_support")
+        self.assertEqual(c.effect_direction,"conditional")
         self.assertEqual(c.selected_path_edge_ids,["R3-E003"])
         self.assertFalse(c.strong_causal_claim_allowed)
         self.assertEqual(c.causal_ceiling,"mechanistic_noncausal")
@@ -54,7 +55,8 @@ class CanonicalReasonerV2Tests(unittest.TestCase):
             max_depth=2,
         ))
         c=out.conclusions["RH-N02"]
-        self.assertEqual(c.status,"bounded_support")
+        self.assertEqual(c.status,"bounded_conditional_support")
+        self.assertEqual(c.effect_direction,"conditional")
         self.assertEqual(c.causal_ceiling,"causal_bounded")
         self.assertTrue(c.strong_causal_claim_allowed)
         self.assertEqual(c.selected_path_edge_ids,["R3-E024"])
@@ -120,6 +122,59 @@ class CanonicalReasonerV2Tests(unittest.TestCase):
         self.assertEqual(before,after)
         self.assertEqual(store.snapshot()[0]["scope"],"account_local_operational_evidence")
 
+
+    def test_user_hypothesis_caps_an_otherwise_accepted_path(self):
+        out=self.r.reason(CanonicalReasoningCase(
+            seeds={"TR-N03":"user_hypothesis"},
+            targets=["CON-N04"],
+        ))
+        c=out.conclusions["CON-N04"]
+        self.assertEqual(c.status,"provisional_hypothesis")
+        self.assertEqual(c.causal_ceiling,"hypothesis_only")
+
+    def test_opposing_observation_propagates_as_counterevidence_on_positive_edge(self):
+        out=self.r.reason(CanonicalReasoningCase(
+            seeds={"TR-N03":{"basis":"validated_observation","direction":"oppose"}},
+            targets=["CON-N04"],
+        ))
+        c=out.conclusions["CON-N04"]
+        self.assertEqual(c.effect_direction,"oppose")
+        self.assertEqual(c.status,"bounded_counterevidence")
+        self.assertEqual(c.causal_ceiling,"association_only")
+
+    def test_trace_exposes_provenance_ids(self):
+        out=self.r.reason(CanonicalReasoningCase(
+            seeds={"TR-N03":"validated_observation"},
+            targets=["CON-N04"],
+        ))
+        step=next(x for x in out.trace if x.edge_id=="R3-E013")
+        self.assertTrue(step.evidence_claim_ids)
+        self.assertTrue(step.support_source_ids)
+        self.assertIn("R3C2-C03",step.evidence_claim_ids)
+
+    def test_provisional_seed_never_upgrades_to_accepted_path(self):
+        out=self.r.reason(CanonicalReasoningCase(
+            seeds={"TR-N12":"user_hypothesis"},
+            max_depth=2,
+        ))
+        for h in out.hypotheses:
+            self.assertEqual(h.path_status,"provisional_path")
+            self.assertEqual(h.causal_ceiling,"hypothesis_only")
+
+    def test_operational_priority_is_not_changed_by_context_presence(self):
+        a=self.r.reason(CanonicalReasoningCase(
+            seeds={"ID-N08":"structured_observation"},
+            targets=["ST-N07"],
+        ))
+        b=self.r.reason(CanonicalReasoningCase(
+            seeds={"ID-N08":"structured_observation"},
+            context={"CTX-AUDIENCE-COMPOSITION":{"observed":True}},
+            targets=["ST-N07"],
+        ))
+        ha=next(h for h in a.hypotheses if h.target=="ST-N07")
+        hb=next(h for h in b.hypotheses if h.target=="ST-N07")
+        self.assertEqual(ha.operational_priority,hb.operational_priority)
+        self.assertIn("operational_priority orders retrieval paths only", " ".join(ha.reasons))
 
 if __name__=="__main__":
     unittest.main()

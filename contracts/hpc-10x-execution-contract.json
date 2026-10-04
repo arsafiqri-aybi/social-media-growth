@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 15,
+  "revision": 16,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -265,21 +265,28 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Validate Canonical Reasoning Engine v2 Build 01 in CI. Preserve the legacy v0.x engine for backward compatibility. After green CI, harden v2 with adversarial reasoning invariants before declaring the reasoning system validated.",
+  "next_action": "Validate Reasoning Engine v2 Build 02 in CI. If green, write the final reasoning validation audit, mark O5 PRESENT, and proceed to Measurement/Calibration.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
       "REASONING_ENGINE"
     ],
-    "cycle": "REASONING_V2_BUILD_01",
-    "status": "QUALITATIVE_CANONICAL_RUNTIME_IMPLEMENTED_CI_PENDING",
-    "r2_accepted_nodes": 84,
-    "r2_provisional_nodes": 12,
-    "r3_accepted_edges": 14,
-    "r3_provisional_edges": 8,
-    "r3_system_edges": 4,
-    "reasoning_semantics": "qualitative evidence-aware traversal; no uncalibrated scientific/runtime weights",
-    "next": "Run CI, fix runtime semantics if needed, then add hypothesis competition, event/feedback cycle tests, trace invariants, and reasoning acceptance audit."
+    "cycle": "REASONING_V2_BUILD_02",
+    "status": "HARDENED_RUNTIME_CI_PENDING",
+    "reasoning_features": [
+      "qualitative typed-edge traversal",
+      "accepted/provisional/system semantic separation",
+      "causal-language ceilings",
+      "opposing evidence propagation",
+      "user-hypothesis evidence cap",
+      "context qualification without numeric multiplier",
+      "provenance-rich trace",
+      "competing-path tension preservation",
+      "system opportunity gating",
+      "account-local feedback isolation"
+    ],
+    "no_uncalibrated_runtime_weights": true,
+    "next": "Pass CI then perform final reasoning-engine validation closure."
   }
 }

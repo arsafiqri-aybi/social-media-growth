@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0-build02",
+  "status": "CI_PENDING",
+  "gates": [
+    {
+      "id": "RE-01",
+      "gate": "scientific/runtime separation",
+      "expected": "PASS",
+      "evidence": "canonical loader rejects weight fields and non-null runtime_parameter_ref"
+    },
+    {
+      "id": "RE-02",
+      "gate": "lifecycle integrity",
+      "expected": "PASS",
+      "evidence": "noncanonical nodes rejected; provisional seed/path cannot become accepted"
+    },
+    {
+      "id": "RE-03",
+      "gate": "causal-language discipline",
+      "expected": "PASS",
+      "evidence": "correlational/mixed/provisional paths cap causal claims"
+    },
+    {
+      "id": "RE-04",
+      "gate": "system-event discipline",
+      "expected": "PASS",
+      "evidence": "system edges report opportunity and never auto-cascade"
+    },
+    {
+      "id": "RE-05",
+      "gate": "hypothesis-origin discipline",
+      "expected": "PASS",
+      "evidence": "user_hypothesis seed caps downstream path at hypothesis_only"
+    },
+    {
+      "id": "RE-06",
+      "gate": "counterevidence handling",
+      "expected": "PASS",
+      "evidence": "oppose signals propagate on signed edges and remain distinct from support"
+    },
+    {
+      "id": "RE-07",
+      "gate": "provenance trace",
+      "expected": "PASS",
+      "evidence": "trace exposes claim IDs, source IDs, contradictions and boundaries"
+    },
+    {
+      "id": "RE-08",
+      "gate": "context uncertainty",
+      "expected": "PASS",
+      "evidence": "modifiers alter qualification only; no invented numeric multiplier"
+    },
+    {
+      "id": "RE-09",
+      "gate": "feedback isolation",
+      "expected": "PASS",
+      "evidence": "account-local feedback cannot mutate scientific snapshot"
+    },
+    {
+      "id": "RE-10",
+      "gate": "determinism",
+      "expected": "PASS",
+      "evidence": "identical structured cases return identical output"
+    }
+  ],
+  "closure_rule": "Reasoning Engine may become PRESENT only after Build 02 CI success and a final validation-state commit."
+}

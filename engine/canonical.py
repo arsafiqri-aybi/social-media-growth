@@ -47,6 +47,8 @@ class TraceStep:
     mechanism: str
     inference_kind: str
     boundary_conditions: Tuple[str, ...]
+    evidence_claim_ids: Tuple[str, ...]
+    support_source_ids: Tuple[str, ...]
     contradiction_source_ids: Tuple[str, ...]
     observed_modifiers: Tuple[str, ...]
     unresolved_modifiers: Tuple[str, ...]
@@ -59,6 +61,7 @@ class PathHypothesis:
     path_nodes: List[str]
     edge_ids: List[str]
     path_status: str
+    effect_direction: str
     causal_ceiling: str
     operational_priority: int
     strong_causal_claim_allowed: bool
@@ -73,6 +76,7 @@ class PathHypothesis:
 class TargetConclusion:
     target: str
     status: str
+    effect_direction: str
     causal_ceiling: str
     selected_path_edge_ids: List[str]
     alternative_path_edge_ids: List[List[str]]
@@ -306,17 +310,38 @@ class CanonicalReasoner:
             mechanism=edge["mechanism"],
             inference_kind=inference_kind,
             boundary_conditions=tuple(edge.get("boundary_conditions", [])),
+            evidence_claim_ids=tuple(edge.get("evidence_claim_ids", [])),
+            support_source_ids=tuple(edge.get("support_source_ids", [])),
             contradiction_source_ids=tuple(edge.get("contradiction_source_ids", [])),
             observed_modifiers=tuple(observed),
             unresolved_modifiers=tuple(unresolved),
         )
 
     @staticmethod
-    def _path_semantics(path_edges: Iterable[Dict[str, Any]], seed: SeedSignal) -> Tuple[str, str, bool, List[str]]:
+    def _effect_direction(path_edges: Iterable[Dict[str, Any]], seed_direction: str) -> str:
+        direction = seed_direction
+        for edge in path_edges:
+            sign = edge.get("sign", "unsigned")
+            if direction in {"conditional", "ambiguous"}:
+                continue
+            if sign == "negative":
+                direction = "oppose" if direction == "support" else "support"
+            elif sign == "conditional":
+                direction = "conditional"
+            elif sign == "unsigned":
+                direction = "ambiguous"
+        return direction
+
+    @staticmethod
+    def _path_semantics(path_edges: Iterable[Dict[str, Any]], seed: SeedSignal) -> Tuple[str, str, str, bool, List[str]]:
         edges = list(path_edges)
         reasons: List[str] = []
+        effect_direction = CanonicalReasoner._effect_direction(edges, seed.direction)
 
-        if seed.lifecycle_status == "provisional":
+        if seed.basis == "user_hypothesis":
+            path_status = "provisional_path"
+            reasons.append("source seed is explicitly a user hypothesis, not established observation")
+        elif seed.lifecycle_status == "provisional":
             path_status = "provisional_path"
             reasons.append("source seed is a provisional canonical node")
         elif any(e["status"] == "provisional_edge" for e in edges):
@@ -351,7 +376,7 @@ class CanonicalReasoner:
             "mixed_evidence_path": 2,
             "provisional_path": 1,
         }[path_status]
-        return path_status, causal_ceiling, strong_causal, reasons + [
+        return path_status, effect_direction, causal_ceiling, strong_causal, reasons + [
             "operational_priority orders retrieval paths only; it is not an effect-size or scientific-strength coefficient"
         ]
 
@@ -362,7 +387,7 @@ class CanonicalReasoner:
         path_edges: List[Dict[str, Any]],
         context: Dict[str, Any],
     ) -> PathHypothesis:
-        status, ceiling, strong_causal, reasons = self._path_semantics(path_edges, seed)
+        status, effect_direction, ceiling, strong_causal, reasons = self._path_semantics(path_edges, seed)
         boundaries: List[str] = []
         contradictions: List[str] = []
         observed: List[str] = []
@@ -382,6 +407,7 @@ class CanonicalReasoner:
             path_nodes=list(path_nodes),
             edge_ids=[e["id"] for e in path_edges],
             path_status=status,
+            effect_direction=effect_direction,
             causal_ceiling=ceiling,
             operational_priority={
                 "accepted_graph_path": 3,
@@ -404,6 +430,7 @@ class CanonicalReasoner:
             return TargetConclusion(
                 target=target,
                 status="unsupported_in_current_graph",
+                effect_direction="unknown",
                 causal_ceiling="no_claim",
                 selected_path_edge_ids=[],
                 alternative_path_edge_ids=[],
@@ -417,7 +444,6 @@ class CanonicalReasoner:
             key=lambda h: (-h.operational_priority, len(h.edge_ids), tuple(h.edge_ids)),
         )
         best = ranked[0]
-        signs = set()
         warnings = set(best.boundary_conditions)
         for h in ranked:
             warnings.update(h.boundary_conditions)
@@ -427,23 +453,36 @@ class CanonicalReasoner:
                     "unresolved context/moderators: " + ", ".join(h.unresolved_modifiers)
                 )
 
-        if any(h.contradiction_source_ids for h in ranked):
+        top_priority = best.operational_priority
+        top_directions = {
+            h.effect_direction for h in ranked
+            if h.operational_priority == top_priority and h.effect_direction in {"support", "oppose"}
+        }
+        if len(top_directions) > 1:
+            status = "contested_direction"
+        elif any(h.contradiction_source_ids for h in ranked):
             status = "contested_or_mixed"
         elif best.path_status == "provisional_path":
             status = "provisional_hypothesis"
         elif best.path_status == "mixed_evidence_path":
             status = "bounded_mixed_support"
+        elif best.effect_direction == "oppose":
+            status = "bounded_counterevidence"
+        elif best.effect_direction in {"conditional", "ambiguous"}:
+            status = "bounded_conditional_support"
         else:
             status = "bounded_support"
 
         explanation = (
-            f"Best available path is {best.path_status} with causal-language ceiling "
+            f"Best available path is {best.path_status}, effect direction "
+            f"'{best.effect_direction}', with causal-language ceiling "
             f"'{best.causal_ceiling}'. Path priority is operational retrieval ordering, "
             "not an empirical effect magnitude."
         )
         return TargetConclusion(
             target=target,
             status=status,
+            effect_direction=best.effect_direction,
             causal_ceiling=best.causal_ceiling,
             selected_path_edge_ids=list(best.edge_ids),
             alternative_path_edge_ids=[list(h.edge_ids) for h in ranked[1:]],
@@ -520,15 +559,17 @@ class CanonicalReasoner:
             by_target.setdefault(h.target, []).append(h)
         for target, hs in sorted(by_target.items()):
             statuses = {h.path_status for h in hs}
+            directions = {h.effect_direction for h in hs}
             contradictions = sorted(
                 {x for h in hs for x in h.contradiction_source_ids}
             )
-            if len(statuses) > 1 or contradictions:
+            if len(statuses) > 1 or len(directions) > 1 or contradictions:
                 tensions.append({
                     "target": target,
                     "path_statuses": sorted(statuses),
+                    "effect_directions": sorted(directions),
                     "contradiction_source_ids": contradictions,
-                    "interpretation": "Competing or differently bounded paths are preserved rather than averaged.",
+                    "interpretation": "Competing, directionally different, or differently bounded paths are preserved rather than averaged.",
                 })
 
         warnings: List[str] = []
@@ -561,7 +602,7 @@ def summarize_canonical(result: CanonicalReasoningResult) -> str:
     lines.append("Canonical reasoning trace")
     for target, conclusion in sorted(result.conclusions.items()):
         lines.append(
-            f"- {target}: {conclusion.status}; causal ceiling={conclusion.causal_ceiling}; "
+            f"- {target}: {conclusion.status}; effect={conclusion.effect_direction}; causal ceiling={conclusion.causal_ceiling}; "
             f"path={conclusion.selected_path_edge_ids or 'none'}"
         )
     if result.tensions:
