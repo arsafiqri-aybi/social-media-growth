@@ -6,6 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 C=ROOT/"research"/"r2"/"cycle01"
 
 CORES={"attention","curiosity","valuation_emotion","identity","trust","connection","social_transmission","reinforcement_habit"}
+VALID_STATUSES={"candidate","provisional","accepted","merged","moved","refine_l3","deferred","derived","contested_model"}
 
 class R2Cycle01Tests(unittest.TestCase):
     def setUp(self):
@@ -30,12 +31,12 @@ class R2Cycle01Tests(unittest.TestCase):
         self.assertEqual(len(ids),len(set(ids)))
         self.assertTrue(all(n["parent_id"] in mids for n in self.neurons))
 
-    def test_all_cores_have_l2_candidates(self):
-        self.assertEqual({n["primary_core"] for n in self.neurons},CORES)
+    def test_all_cores_have_active_l2_nodes(self):
+        active={n["primary_core"] for n in self.neurons if n["status"] in {"provisional","accepted"}}
+        self.assertEqual(active,CORES)
 
-    def test_no_l2_is_prematurely_accepted(self):
-        allowed={"candidate","provisional"}
-        self.assertTrue(all(n["status"] in allowed for n in self.neurons))
+    def test_lifecycle_statuses_are_controlled_and_no_premature_acceptance(self):
+        self.assertTrue(all(n["status"] in VALID_STATUSES for n in self.neurons))
         self.assertFalse(any(n["status"]=="accepted" for n in self.neurons))
 
     def test_all_29_legacy_nodes_have_one_migration(self):

@@ -1,0 +1,28 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_04",
+  "starting_candidates": 34,
+  "decisions_total": 34,
+  "action_counts": {
+    "promote": 14,
+    "merge": 7,
+    "move_to_edge": 1,
+    "refine_to_l3": 4,
+    "move_to_context": 4,
+    "defer_research": 2,
+    "derive": 1,
+    "move_to_model_hypothesis": 1
+  },
+  "final_status_counts": {
+    "provisional": 96,
+    "merged": 7,
+    "moved": 5,
+    "refine_l3": 4,
+    "deferred": 2,
+    "derived": 1,
+    "contested_model": 1
+  },
+  "active_l2_count": 96,
+  "unresolved_candidate_count": 0,
+  "canonical_rule": "Only provisional/accepted nodes participate as active canonical L2 constructs. Merged/moved/refine_l3/deferred/derived/contested_model records remain in provenance and must not silently participate as independent neurons.",
+  "next": "Run node-level acceptance and saturation audit across active provisional L2 nodes before R3."
+}

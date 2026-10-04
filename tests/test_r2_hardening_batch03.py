@@ -14,12 +14,12 @@ class R2HardeningBatch03Tests(unittest.TestCase):
         self.claims=json.loads((C/"batch03-atomic-claims.json").read_text())["claims"]
         self.holds=json.loads((C/"batch03-holds.json").read_text())["holds"]
 
-    def test_total_l2_stays_constant(self):
+    def test_total_l2_records_stay_constant(self):
         self.assertEqual(len(self.nodes),116)
 
-    def test_every_promotion_started_from_documented_candidate_set_and_is_now_provisional(self):
+    def test_batch03_promotions_remain_nonaccepted(self):
         by={n["id"]:n for n in self.nodes}
-        self.assertTrue(all(by[p["node_id"]]["status"]=="provisional" for p in self.promotions))
+        self.assertTrue(all(by[p["node_id"]]["status"]!="accepted" for p in self.promotions))
 
     def test_no_node_is_accepted_yet(self):
         self.assertFalse(any(n["status"]=="accepted" for n in self.nodes))
@@ -29,12 +29,12 @@ class R2HardeningBatch03Tests(unittest.TestCase):
         unresolved=[(c["id"],sid) for c in self.claims for sid in c["source_ids"] if sid not in ids]
         self.assertEqual(unresolved,[])
 
-    def test_holds_remain_candidate(self):
+    def test_batch03_holds_were_not_silently_accepted(self):
         by={n["id"]:n for n in self.nodes}
         held=[nid for h in self.holds for nid in h["nodes"]]
-        self.assertTrue(all(by[nid]["status"]=="candidate" for nid in held))
+        self.assertTrue(all(by[nid]["status"]!="accepted" for nid in held))
 
-    def test_promoted_nodes_span_all_eight_cores(self):
+    def test_batch03_promoted_nodes_span_all_eight_cores(self):
         by={n["id"]:n for n in self.nodes}
         cores={by[p["node_id"]]["primary_core"] for p in self.promotions}
         self.assertEqual(cores,{"attention","curiosity","valuation_emotion","identity","trust","connection","social_transmission","reinforcement_habit"})

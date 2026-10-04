@@ -1,0 +1,379 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_04",
+  "decisions": [
+    {
+      "id": "ATT-N03",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "spatial orienting/reorienting task or eye-movement latency under controlled cueing",
+      "boundary": "Orienting can be voluntary or involuntary; it is not synonymous with capture.",
+      "claim_ids": [
+        "R2C4-ATT-C01"
+      ]
+    },
+    {
+      "id": "ATT-N11",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "trial-level lapse markers in sustained-attention/vigilance paradigms",
+      "boundary": "A lapse is transient and must be distinguished from a time-on-task decrement.",
+      "claim_ids": [
+        "R2C4-ATT-C02"
+      ]
+    },
+    {
+      "id": "ATT-N13",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "disengagement/reorienting cost under cueing or competition paradigms",
+      "boundary": "Disengagement releases current priority; it is not simply distractor suppression.",
+      "claim_ids": [
+        "R2C4-ATT-C01"
+      ]
+    },
+    {
+      "id": "ATT-N14",
+      "action": "merge",
+      "to_status": "merged",
+      "target": "ATT-M05",
+      "measurement_route": null,
+      "boundary": "Retained as module-level mechanism description, not an independent latent node.",
+      "claim_ids": [
+        "R2C4-ATT-C03"
+      ]
+    },
+    {
+      "id": "CUR-N04",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "explicit awareness of a specific knowledge gap paired with curiosity/seeking measure",
+      "boundary": "Knowledge gaps can produce curiosity, frustration, avoidance, or indifference depending on appraisal.",
+      "claim_ids": [
+        "R2C4-CUR-C01"
+      ]
+    },
+    {
+      "id": "CUR-N08",
+      "action": "merge",
+      "to_status": "merged",
+      "target": "CUR-N07",
+      "measurement_route": null,
+      "boundary": "Represent competence/mastery contribution inside learning-progress dynamics until separable evidence requires a split.",
+      "claim_ids": [
+        "R2C4-CUR-C02"
+      ]
+    },
+    {
+      "id": "VE-N02",
+      "action": "move_to_edge",
+      "to_status": "moved",
+      "target": "EDGE:ID-N02->VE-N01",
+      "measurement_route": null,
+      "boundary": "Personal relevance changes valuation; do not duplicate self-relevance as a value neuron.",
+      "claim_ids": [
+        "R2C4-VE-C04"
+      ]
+    },
+    {
+      "id": "VE-N03",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "effort/cost rating or choice model estimating subjective cost",
+      "boundary": "Cost is context- and option-specific; not all non-choice reflects high subjective cost.",
+      "claim_ids": [
+        "R2C4-VE-C01"
+      ]
+    },
+    {
+      "id": "VE-N04",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "pre-outcome expected-value rating/model or reward anticipation task",
+      "boundary": "Expected value precedes outcome and should remain distinct from experienced value.",
+      "claim_ids": [
+        "R2C4-VE-C01"
+      ]
+    },
+    {
+      "id": "VE-N05",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "post-outcome experienced-value rating/choice update",
+      "boundary": "Experienced value may update but is not identical to prediction error.",
+      "claim_ids": [
+        "R2C4-VE-C01"
+      ]
+    },
+    {
+      "id": "VE-N06",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "loss/punishment value task or aversive-outcome valuation",
+      "boundary": "Human punishment-value evidence is less mature than reward-value evidence.",
+      "claim_ids": [
+        "R2C4-VE-C01"
+      ]
+    },
+    {
+      "id": "VE-N13",
+      "action": "merge",
+      "to_status": "merged",
+      "target": "VE-M07",
+      "measurement_route": null,
+      "boundary": "Use specific approach/avoidance/confrontation tendencies rather than a generic action-activation node.",
+      "claim_ids": [
+        "R2C4-VE-C05"
+      ]
+    },
+    {
+      "id": "VE-N14",
+      "action": "refine_to_l3",
+      "to_status": "refine_l3",
+      "target": "VE-M06:specific_positive_emotions",
+      "measurement_route": null,
+      "boundary": "Do not encode all positive emotions as one mechanism.",
+      "claim_ids": [
+        "R2C4-VE-C06"
+      ]
+    },
+    {
+      "id": "VE-N15",
+      "action": "refine_to_l3",
+      "to_status": "refine_l3",
+      "target": "VE-M06:specific_negative_emotions",
+      "measurement_route": null,
+      "boundary": "Do not encode all negative emotions as one mechanism.",
+      "claim_ids": [
+        "R2C4-VE-C06"
+      ]
+    },
+    {
+      "id": "VE-N16",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "validated mixed-emotion paradigm with bivariate or multivariate assessment",
+      "boundary": "Mixed emotion is co-occurrence, not merely a weak correlation between positive and negative affect.",
+      "claim_ids": [
+        "R2C4-VE-C02"
+      ]
+    },
+    {
+      "id": "VE-N19",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "action-tendency measure tied to event appraisal/emotion context",
+      "boundary": "Confrontation/mobilization is conditional and not a one-to-one emotion label.",
+      "claim_ids": [
+        "R2C4-VE-C03"
+      ]
+    },
+    {
+      "id": "ID-N01",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "self-concept/identity representation measure matched to the relevant self-domain",
+      "boundary": "Personal self-concept is broader than one salient social category.",
+      "claim_ids": [
+        "R2C4-ID-C01"
+      ]
+    },
+    {
+      "id": "ID-N12",
+      "action": "merge",
+      "to_status": "merged",
+      "target": "ID-N11",
+      "measurement_route": null,
+      "boundary": "Boundary maintenance is one possible identity-protective response, not a universal reaction to threat.",
+      "claim_ids": [
+        "R2C4-ID-C02"
+      ]
+    },
+    {
+      "id": "TR-N07",
+      "action": "merge",
+      "to_status": "merged",
+      "target": "TR-N06",
+      "measurement_route": null,
+      "boundary": "Motive authenticity remains a facet/hypothesis under genuineness until discriminant validity is established.",
+      "claim_ids": [
+        "R2C4-TR-C02"
+      ]
+    },
+    {
+      "id": "TR-N08",
+      "action": "move_to_context",
+      "to_status": "moved",
+      "target": "CTX-RELATIONSHIP-HISTORY",
+      "measurement_route": null,
+      "boundary": "Behavioral consistency is source-history evidence feeding judgments rather than a latent trust state.",
+      "claim_ids": [
+        "R2C4-TR-C03"
+      ]
+    },
+    {
+      "id": "TR-N09",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "history-based reliability judgment using prior source outcomes/accuracy records",
+      "boundary": "A reliable track record can be domain-specific and does not guarantee benevolence or current accuracy.",
+      "claim_ids": [
+        "R2C4-TR-C01"
+      ]
+    },
+    {
+      "id": "CON-N02",
+      "action": "refine_to_l3",
+      "to_status": "refine_l3",
+      "target": "CON-N01:cognitive_features",
+      "measurement_route": null,
+      "boundary": "Do not claim a standalone PSI cognitive factor without construct-specific validation.",
+      "claim_ids": [
+        "R2C4-CON-C02"
+      ]
+    },
+    {
+      "id": "CON-N03",
+      "action": "refine_to_l3",
+      "to_status": "refine_l3",
+      "target": "CON-N01:affective_features",
+      "measurement_route": null,
+      "boundary": "Episode affect can accompany PSI but is not yet a standalone canonical PSI factor.",
+      "claim_ids": [
+        "R2C4-CON-C02"
+      ]
+    },
+    {
+      "id": "CON-N05",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "validated PSR relationship-maintenance dimension",
+      "boundary": "PSR maintenance is one-sided relational maintenance and not reciprocal interpersonal maintenance.",
+      "claim_ids": [
+        "R2C4-CON-C01"
+      ]
+    },
+    {
+      "id": "CON-N08",
+      "action": "move_to_context",
+      "to_status": "moved",
+      "target": "CTX-RELATIONSHIP-HISTORY",
+      "measurement_route": null,
+      "boundary": "Exposure history conditions familiarity/connection but is not itself relational closeness.",
+      "claim_ids": [
+        "R2C4-CON-C03"
+      ]
+    },
+    {
+      "id": "CON-N09",
+      "action": "merge",
+      "to_status": "merged",
+      "target": "CON-N10",
+      "measurement_route": null,
+      "boundary": "Use the validated intimacy construct rather than duplicate closeness/intimacy nodes.",
+      "claim_ids": [
+        "R2C4-CON-C04"
+      ]
+    },
+    {
+      "id": "CON-N11",
+      "action": "defer_research",
+      "to_status": "deferred",
+      "target": "RESEARCH_GAP:parasocial_attachment",
+      "measurement_route": null,
+      "boundary": "Recent review finds parasocial attachment substantially under-studied relative to PSI/PSR.",
+      "claim_ids": [
+        "R2C4-CON-C05"
+      ]
+    },
+    {
+      "id": "CON-N12",
+      "action": "defer_research",
+      "to_status": "deferred",
+      "target": "RESEARCH_GAP:parasocial_loss_sensitivity",
+      "measurement_route": null,
+      "boundary": "Insufficient evidence for a canonical loss-sensitivity node distinct from attachment/intimacy.",
+      "claim_ids": [
+        "R2C4-CON-C05"
+      ]
+    },
+    {
+      "id": "ST-N09",
+      "action": "promote",
+      "to_status": "provisional",
+      "target": null,
+      "measurement_route": "motive-specific affective-expression measure tied to an actual/intended transmission decision",
+      "boundary": "Affective expression is a motive and cannot be inferred from arousal or share count alone.",
+      "claim_ids": [
+        "R2C4-ST-C01"
+      ]
+    },
+    {
+      "id": "ST-N13",
+      "action": "move_to_context",
+      "to_status": "moved",
+      "target": "CTX-AUDIENCE-COMPOSITION",
+      "measurement_route": null,
+      "boundary": "Audience composition plus privacy/reputation costs generate inhibition contextually.",
+      "claim_ids": [
+        "R2C4-ST-C02"
+      ]
+    },
+    {
+      "id": "RH-N03",
+      "action": "move_to_context",
+      "to_status": "moved",
+      "target": "CTX-INDIVIDUAL-REINFORCEMENT-SENSITIVITY",
+      "measurement_route": null,
+      "boundary": "Treat as individual-difference/moderator unless a task-specific learning parameter is explicitly estimated.",
+      "claim_ids": [
+        "R2C4-RH-C01"
+      ]
+    },
+    {
+      "id": "RH-N08",
+      "action": "derive",
+      "to_status": "derived",
+      "target": "DERIVED:habitual_control_strength",
+      "measurement_route": null,
+      "boundary": "Derive from multiple indicators; never use as a primitive evidence source.",
+      "claim_ids": [
+        "R2C4-RH-C02"
+      ]
+    },
+    {
+      "id": "RH-N11",
+      "action": "move_to_model_hypothesis",
+      "to_status": "contested_model",
+      "target": "MODEL:hypothesis_habit_goal_arbitration",
+      "measurement_route": null,
+      "boundary": "Arbitration is one model class, not canonical ontology truth.",
+      "claim_ids": [
+        "R2C4-RH-C03"
+      ]
+    },
+    {
+      "id": "RH-N17",
+      "action": "merge",
+      "to_status": "merged",
+      "target": "RH-N10+RH-N15+RH-N16",
+      "measurement_route": null,
+      "boundary": "Override is an emergent behavioral outcome of goal control plus changed cues/outcomes/contingencies.",
+      "claim_ids": [
+        "R2C4-RH-C04"
+      ]
+    }
+  ]
+}

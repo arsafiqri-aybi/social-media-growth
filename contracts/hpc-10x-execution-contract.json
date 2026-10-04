@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 9,
+  "revision": 10,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -265,22 +265,31 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Execute R2 Cycle 02 Batch 04 as a closure pass: for every remaining candidate choose promote/refine/merge/move/reject; then run node-level acceptance and saturation audit. Do not expand node count unless a split is required for construct validity.",
+  "next_action": "Run the R2 node-level acceptance/saturation audit. Score each active provisional node on evidence sufficiency, measurement validity, non-overlap, contradiction/boundary coverage, transport uncertainty, and provenance completeness. Accept only nodes that pass; otherwise retain provisional with an explicit gap.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
       "R2"
     ],
-    "cycle": "R2_CYCLE_02_BATCH_03",
-    "status": "CLOSURE_ORIENTED_HARDENING_IN_PROGRESS",
+    "cycle": "R2_CYCLE_02_BATCH_04",
+    "status": "CANDIDATE_CLOSURE_COMPLETE_ACCEPTANCE_AUDIT_PENDING",
     "l1_modules": 45,
-    "l2_total": 116,
-    "l2_provisional": 82,
-    "l2_candidate": 34,
+    "l2_records_total": 116,
+    "l2_active_provisional": 96,
     "l2_accepted": 0,
-    "batch03_sources": 21,
-    "batch03_claims": 21,
-    "next": "R2 Cycle 02 Batch 04 closure pass on remaining candidates, then node-level acceptance/saturation audit."
+    "unresolved_candidates": 0,
+    "noncanonical_records": 20,
+    "closure_action_counts": {
+      "promote": 14,
+      "merge": 7,
+      "move_to_edge": 1,
+      "refine_to_l3": 4,
+      "move_to_context": 4,
+      "defer_research": 2,
+      "derive": 1,
+      "move_to_model_hypothesis": 1
+    },
+    "next": "Run node-level acceptance and saturation audit over active provisional L2 nodes. R3 remains blocked until this gate is complete."
   }
 }

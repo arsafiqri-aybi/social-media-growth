@@ -51,14 +51,21 @@
       "primary_core": "attention",
       "label": "Orienting response",
       "definition": "Rapid reorientation of processing toward a newly prioritized stimulus or location.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2C4-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Orienting can be voluntary or involuntary; it is not synonymous with capture."
+      ],
+      "measurement_route": "spatial orienting/reorienting task or eye-movement latency under controlled cueing"
     },
     {
       "id": "ATT-N04",
@@ -214,14 +221,21 @@
       "primary_core": "attention",
       "label": "Attentional lapse",
       "definition": "Transient failure to maintain intended task-relevant processing.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2C4-ATT-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "A lapse is transient and must be distinguished from a time-on-task decrement."
+      ],
+      "measurement_route": "trial-level lapse markers in sustained-attention/vigilance paradigms"
     },
     {
       "id": "ATT-N12",
@@ -251,14 +265,21 @@
       "primary_core": "attention",
       "label": "Attentional disengagement",
       "definition": "Release of processing priority from the currently attended target to enable reorientation.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2C4-ATT-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Disengagement releases current priority; it is not simply distractor suppression."
+      ],
+      "measurement_route": "disengagement/reorienting cost under cueing or competition paradigms"
     },
     {
       "id": "ATT-N14",
@@ -267,14 +288,20 @@
       "primary_core": "attention",
       "label": "Selection competition",
       "definition": "Concurrent competition among representations for limited processing priority.",
-      "status": "candidate",
+      "status": "merged",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ATT-001",
         "C2-ATT-002",
-        "C2-ATT-003"
+        "C2-ATT-003",
+        "R2C4-ATT-C03"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "merge",
+      "closure_target": "ATT-M05",
+      "boundary_conditions": [
+        "Retained as module-level mechanism description, not an independent latent node."
+      ]
     },
     {
       "id": "CUR-N01",
@@ -349,15 +376,22 @@
       "primary_core": "curiosity",
       "label": "Knowledge-gap representation",
       "definition": "Representation of a specific discrepancy between known and desired knowledge.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2C4-CUR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Knowledge gaps can produce curiosity, frustration, avoidance, or indifference depending on appraisal."
+      ],
+      "measurement_route": "explicit awareness of a specific knowledge gap paired with curiosity/seeking measure"
     },
     {
       "id": "CUR-N05",
@@ -432,15 +466,21 @@
       "primary_core": "curiosity",
       "label": "Competence-seeking",
       "definition": "Motivation to increase mastery or understanding through exploration.",
-      "status": "candidate",
+      "status": "merged",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CUR-001",
         "C2-CUR-002",
         "C2-CUR-003",
-        "C2-CUR-004"
+        "C2-CUR-004",
+        "R2C4-CUR-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "merge",
+      "closure_target": "CUR-N07",
+      "boundary_conditions": [
+        "Represent competence/mastery contribution inside learning-progress dynamics until separable evidence requires a split."
+      ]
     },
     {
       "id": "CUR-N09",
@@ -581,15 +621,21 @@
       "primary_core": "valuation_emotion",
       "label": "Personal relevance valuation",
       "definition": "Value increment/decrement arising because information bears on active needs, goals, or personally important concerns.",
-      "status": "candidate",
+      "status": "moved",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C04"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "move_to_edge",
+      "closure_target": "EDGE:ID-N02->VE-N01",
+      "boundary_conditions": [
+        "Personal relevance changes valuation; do not duplicate self-relevance as a value neuron."
+      ]
     },
     {
       "id": "VE-N03",
@@ -598,15 +644,22 @@
       "primary_core": "valuation_emotion",
       "label": "Subjective cost",
       "definition": "Perceived downside, effort, sacrifice, or opportunity cost attached to an option/action.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Cost is context- and option-specific; not all non-choice reflects high subjective cost."
+      ],
+      "measurement_route": "effort/cost rating or choice model estimating subjective cost"
     },
     {
       "id": "VE-N04",
@@ -615,15 +668,22 @@
       "primary_core": "valuation_emotion",
       "label": "Expected outcome value",
       "definition": "Anticipated value of a future result before action or exposure.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Expected value precedes outcome and should remain distinct from experienced value."
+      ],
+      "measurement_route": "pre-outcome expected-value rating/model or reward anticipation task"
     },
     {
       "id": "VE-N05",
@@ -632,15 +692,22 @@
       "primary_core": "valuation_emotion",
       "label": "Experienced outcome value",
       "definition": "Value assigned after an outcome is experienced.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Experienced value may update but is not identical to prediction error."
+      ],
+      "measurement_route": "post-outcome experienced-value rating/choice update"
     },
     {
       "id": "VE-N06",
@@ -649,15 +716,22 @@
       "primary_core": "valuation_emotion",
       "label": "Loss / punishment valuation",
       "definition": "Subjective negative value attached to anticipated or experienced adverse outcomes.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Human punishment-value evidence is less mature than reward-value evidence."
+      ],
+      "measurement_route": "loss/punishment value task or aversive-outcome valuation"
     },
     {
       "id": "VE-N07",
@@ -802,15 +876,21 @@
       "primary_core": "valuation_emotion",
       "label": "Action activation",
       "definition": "General mobilization/readiness to act that is related to but not identical with arousal.",
-      "status": "candidate",
+      "status": "merged",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C05"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "merge",
+      "closure_target": "VE-M07",
+      "boundary_conditions": [
+        "Use specific approach/avoidance/confrontation tendencies rather than a generic action-activation node."
+      ]
     },
     {
       "id": "VE-N14",
@@ -819,15 +899,21 @@
       "primary_core": "valuation_emotion",
       "label": "Differentiated positive emotion",
       "definition": "Specific positively valenced emotion state whose mechanisms/outcomes may differ from other positive emotions.",
-      "status": "candidate",
+      "status": "refine_l3",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C06"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "refine_to_l3",
+      "closure_target": "VE-M06:specific_positive_emotions",
+      "boundary_conditions": [
+        "Do not encode all positive emotions as one mechanism."
+      ]
     },
     {
       "id": "VE-N15",
@@ -836,15 +922,21 @@
       "primary_core": "valuation_emotion",
       "label": "Differentiated negative emotion",
       "definition": "Specific negatively valenced emotion state whose mechanisms/outcomes may differ from other negative emotions.",
-      "status": "candidate",
+      "status": "refine_l3",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C06"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "refine_to_l3",
+      "closure_target": "VE-M06:specific_negative_emotions",
+      "boundary_conditions": [
+        "Do not encode all negative emotions as one mechanism."
+      ]
     },
     {
       "id": "VE-N16",
@@ -853,15 +945,22 @@
       "primary_core": "valuation_emotion",
       "label": "Mixed emotion",
       "definition": "Co-occurring positive and negative affective experience that cannot be represented by one valence pole.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Mixed emotion is co-occurrence, not merely a weak correlation between positive and negative affect."
+      ],
+      "measurement_route": "validated mixed-emotion paradigm with bivariate or multivariate assessment"
     },
     {
       "id": "VE-N17",
@@ -916,15 +1015,22 @@
       "primary_core": "valuation_emotion",
       "label": "Confrontation / mobilization tendency",
       "definition": "Readiness for active response or confrontation rather than passive withdrawal.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
         "C2-VE-002",
         "C2-VE-003",
-        "C2-VE-004"
+        "C2-VE-004",
+        "R2C4-VE-C03"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Confrontation/mobilization is conditional and not a one-to-one emotion label."
+      ],
+      "measurement_route": "action-tendency measure tied to event appraisal/emotion context"
     },
     {
       "id": "ID-N01",
@@ -933,14 +1039,21 @@
       "primary_core": "identity",
       "label": "Personal self-concept",
       "definition": "Representation of attributes, roles, values, and narratives defining the individual self.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2C4-ID-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Personal self-concept is broader than one salient social category."
+      ],
+      "measurement_route": "self-concept/identity representation measure matched to the relevant self-domain"
     },
     {
       "id": "ID-N02",
@@ -1159,14 +1272,20 @@
       "primary_core": "identity",
       "label": "Intergroup boundary maintenance",
       "definition": "Maintenance or sharpening of category boundaries distinguishing in-group from out-group.",
-      "status": "candidate",
+      "status": "merged",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ID-001",
         "C2-ID-002",
-        "C2-ID-003"
+        "C2-ID-003",
+        "R2C4-ID-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "merge",
+      "closure_target": "ID-N11",
+      "boundary_conditions": [
+        "Boundary maintenance is one possible identity-protective response, not a universal reaction to threat."
+      ]
     },
     {
       "id": "TR-N01",
@@ -1303,14 +1422,20 @@
       "primary_core": "trust",
       "label": "Perceived motive authenticity",
       "definition": "Judgment that expressed motives/endorsements align with genuine beliefs rather than hidden incentives.",
-      "status": "candidate",
+      "status": "merged",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2C4-TR-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "merge",
+      "closure_target": "TR-N06",
+      "boundary_conditions": [
+        "Motive authenticity remains a facet/hypothesis under genuineness until discriminant validity is established."
+      ]
     },
     {
       "id": "TR-N08",
@@ -1319,14 +1444,20 @@
       "primary_core": "trust",
       "label": "Behavioral consistency",
       "definition": "Perceived stability of source behavior/claims across repeated encounters.",
-      "status": "candidate",
+      "status": "moved",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2C4-TR-C03"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "move_to_context",
+      "closure_target": "CTX-RELATIONSHIP-HISTORY",
+      "boundary_conditions": [
+        "Behavioral consistency is source-history evidence feeding judgments rather than a latent trust state."
+      ]
     },
     {
       "id": "TR-N09",
@@ -1335,14 +1466,21 @@
       "primary_core": "trust",
       "label": "Reliability track record",
       "definition": "Memory-based judgment from prior cases in which source claims/actions were dependable.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-TR-001",
         "C2-TR-002",
-        "C2-TR-003"
+        "C2-TR-003",
+        "R2C4-TR-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "A reliable track record can be domain-specific and does not guarantee benevolence or current accuracy."
+      ],
+      "measurement_route": "history-based reliability judgment using prior source outcomes/accuracy records"
     },
     {
       "id": "TR-N10",
@@ -1480,14 +1618,20 @@
       "primary_core": "connection",
       "label": "Parasocial cognitive engagement",
       "definition": "Episode-level cognitive attention/elaboration directed toward the persona as a social partner.",
-      "status": "candidate",
+      "status": "refine_l3",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2C4-CON-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "refine_to_l3",
+      "closure_target": "CON-N01:cognitive_features",
+      "boundary_conditions": [
+        "Do not claim a standalone PSI cognitive factor without construct-specific validation."
+      ]
     },
     {
       "id": "CON-N03",
@@ -1496,14 +1640,20 @@
       "primary_core": "connection",
       "label": "Parasocial affective response",
       "definition": "Episode-level affective response toward the persona during mediated exposure.",
-      "status": "candidate",
+      "status": "refine_l3",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2C4-CON-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "refine_to_l3",
+      "closure_target": "CON-N01:affective_features",
+      "boundary_conditions": [
+        "Episode affect can accompany PSI but is not yet a standalone canonical PSI factor."
+      ]
     },
     {
       "id": "CON-N04",
@@ -1533,14 +1683,21 @@
       "primary_core": "connection",
       "label": "Parasocial relationship maintenance",
       "definition": "Motivation/behavior oriented toward maintaining continued one-sided relational contact.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2C4-CON-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "PSR maintenance is one-sided relational maintenance and not reciprocal interpersonal maintenance."
+      ],
+      "measurement_route": "validated PSR relationship-maintenance dimension"
     },
     {
       "id": "CON-N06",
@@ -1591,14 +1748,20 @@
       "primary_core": "connection",
       "label": "Exposure history representation",
       "definition": "Memory of frequency/recency/context of prior encounters with the creator/source.",
-      "status": "candidate",
+      "status": "moved",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2C4-CON-C03"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "move_to_context",
+      "closure_target": "CTX-RELATIONSHIP-HISTORY",
+      "boundary_conditions": [
+        "Exposure history conditions familiarity/connection but is not itself relational closeness."
+      ]
     },
     {
       "id": "CON-N09",
@@ -1607,14 +1770,20 @@
       "primary_core": "connection",
       "label": "Perceived relational closeness",
       "definition": "Subjective sense of psychological closeness to the creator/source.",
-      "status": "candidate",
+      "status": "merged",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2C4-CON-C04"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "merge",
+      "closure_target": "CON-N10",
+      "boundary_conditions": [
+        "Use the validated intimacy construct rather than duplicate closeness/intimacy nodes."
+      ]
     },
     {
       "id": "CON-N10",
@@ -1645,14 +1814,20 @@
       "primary_core": "connection",
       "label": "Affective attachment",
       "definition": "Persistent emotional bond/investment toward the creator/source.",
-      "status": "candidate",
+      "status": "deferred",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2C4-CON-C05"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "defer_research",
+      "closure_target": "RESEARCH_GAP:parasocial_attachment",
+      "boundary_conditions": [
+        "Recent review finds parasocial attachment substantially under-studied relative to PSI/PSR."
+      ]
     },
     {
       "id": "CON-N12",
@@ -1661,14 +1836,20 @@
       "primary_core": "connection",
       "label": "Separation / loss sensitivity",
       "definition": "Negative affect or concern triggered by perceived loss, absence, or disruption of the bond.",
-      "status": "candidate",
+      "status": "deferred",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CON-001",
         "C2-CON-002",
-        "C2-CON-003"
+        "C2-CON-003",
+        "R2C4-CON-C05"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "defer_research",
+      "closure_target": "RESEARCH_GAP:parasocial_loss_sensitivity",
+      "boundary_conditions": [
+        "Insufficient evidence for a canonical loss-sensitivity node distinct from attachment/intimacy."
+      ]
     },
     {
       "id": "ST-N01",
@@ -1853,15 +2034,22 @@
       "primary_core": "social_transmission",
       "label": "Affective-expression motive",
       "definition": "Motivation to externalize or communicate emotional experience through sharing.",
-      "status": "candidate",
+      "status": "provisional",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2C4-ST-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "promote",
+      "closure_target": null,
+      "boundary_conditions": [
+        "Affective expression is a motive and cannot be inferred from arousal or share count alone."
+      ],
+      "measurement_route": "motive-specific affective-expression measure tied to an actual/intended transmission decision"
     },
     {
       "id": "ST-N10",
@@ -1936,15 +2124,21 @@
       "primary_core": "social_transmission",
       "label": "Audience-inhibition signal",
       "definition": "Reduction in willingness to transmit due to who may see the communication.",
-      "status": "candidate",
+      "status": "moved",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ST-001",
         "C2-ST-002",
         "C2-ST-003",
-        "C2-ST-004"
+        "C2-ST-004",
+        "R2C4-ST-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "move_to_context",
+      "closure_target": "CTX-AUDIENCE-COMPOSITION",
+      "boundary_conditions": [
+        "Audience composition plus privacy/reputation costs generate inhibition contextually."
+      ]
     },
     {
       "id": "ST-N14",
@@ -2041,15 +2235,21 @@
       "primary_core": "reinforcement_habit",
       "label": "Reinforcement sensitivity",
       "definition": "Individual/contextual sensitivity to reward/punishment signals during learning.",
-      "status": "candidate",
+      "status": "moved",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2C4-RH-C01"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "move_to_context",
+      "closure_target": "CTX-INDIVIDUAL-REINFORCEMENT-SENSITIVITY",
+      "boundary_conditions": [
+        "Treat as individual-difference/moderator unless a task-specific learning parameter is explicitly estimated."
+      ]
     },
     {
       "id": "RH-N04",
@@ -2147,15 +2347,21 @@
       "primary_core": "reinforcement_habit",
       "label": "Habitual control strength",
       "definition": "Relative control exerted by context-response mechanisms over current behavior.",
-      "status": "candidate",
+      "status": "derived",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2C4-RH-C02"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "derive",
+      "closure_target": "DERIVED:habitual_control_strength",
+      "boundary_conditions": [
+        "Derive from multiple indicators; never use as a primitive evidence source."
+      ]
     },
     {
       "id": "RH-N09",
@@ -2208,15 +2414,21 @@
       "primary_core": "reinforcement_habit",
       "label": "Habit–goal arbitration",
       "definition": "Competition/integration determining whether habitual or goal-directed control dominates.",
-      "status": "candidate",
+      "status": "contested_model",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2C4-RH-C03"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "move_to_model_hypothesis",
+      "closure_target": "MODEL:hypothesis_habit_goal_arbitration",
+      "boundary_conditions": [
+        "Arbitration is one model class, not canonical ontology truth."
+      ]
     },
     {
       "id": "RH-N12",
@@ -2336,15 +2548,21 @@
       "primary_core": "reinforcement_habit",
       "label": "Habit suppression / override",
       "definition": "Successful inhibition or replacement of a prepotent habitual response under changed goals/context.",
-      "status": "candidate",
+      "status": "merged",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-RH-001",
         "C2-RH-002",
         "C2-RH-003",
-        "C2-RH-004"
+        "C2-RH-004",
+        "R2C4-RH-C04"
       ],
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "closure_action": "merge",
+      "closure_target": "RH-N10+RH-N15+RH-N16",
+      "boundary_conditions": [
+        "Override is an emergent behavioral outcome of goal control plus changed cues/outcomes/contingencies."
+      ]
     }
   ]
 }

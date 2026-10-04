@@ -1,0 +1,342 @@
+{
+  "cycle": "R2_CYCLE_02_BATCH_04",
+  "claims": [
+    {
+      "id": "R2C4-ATT-C01",
+      "target_ids": [
+        "ATT-N03",
+        "ATT-N13"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-ATT-S01"
+      ],
+      "statement": "Orienting/reorienting and disengagement are distinguishable operations within attentional selection and control, while capture refers to involuntary priority rather than every orienting event."
+    },
+    {
+      "id": "R2C4-ATT-C02",
+      "target_ids": [
+        "ATT-N11"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-ATT-S02"
+      ],
+      "statement": "Attentional lapses are transient failures within sustained/vigilant attention and are distinct from the longer time-on-task vigilance decrement."
+    },
+    {
+      "id": "R2C4-ATT-C03",
+      "target_ids": [
+        "ATT-N14"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-ATT-S01"
+      ],
+      "statement": "Selection competition is a system-level description of interacting priority signals rather than a sufficiently independent latent construct for its own L2 node."
+    },
+    {
+      "id": "R2C4-CUR-C01",
+      "target_ids": [
+        "CUR-N04"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-CUR-S01",
+        "R2C4-CUR-S02"
+      ],
+      "statement": "Awareness/appraisal of a knowledge gap can trigger epistemic curiosity but is one pathway among several and does not deterministically produce information seeking."
+    },
+    {
+      "id": "R2C4-CUR-C02",
+      "target_ids": [
+        "CUR-N08"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-CUR-S02"
+      ],
+      "statement": "Competence-seeking is too overlapping with learning-progress/mastery processes at the current L2 resolution and is better represented inside the learning-progress module unless future evidence separates it."
+    },
+    {
+      "id": "R2C4-VE-C01",
+      "target_ids": [
+        "VE-N03",
+        "VE-N04",
+        "VE-N05",
+        "VE-N06"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-VE-S01",
+        "R2C4-VE-S02"
+      ],
+      "statement": "Subjective costs, anticipated outcome value, experienced outcome value, and punishment/loss value are separable components of value-based judgment and learning, though reward and punishment evidence is asymmetrical."
+    },
+    {
+      "id": "R2C4-VE-C02",
+      "target_ids": [
+        "VE-N16"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-VE-S03",
+        "R2C4-VE-S04"
+      ],
+      "statement": "Mixed emotions are a robust and measurable co-occurrence of differently valenced affective states and are not captured by a single bipolar valence score."
+    },
+    {
+      "id": "R2C4-VE-C03",
+      "target_ids": [
+        "VE-N19"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-VE-S05"
+      ],
+      "statement": "Confrontation/mobilization can be represented as an action tendency emerging from appraisal-emotion processes, but its mapping to any one discrete emotion is conditional."
+    },
+    {
+      "id": "R2C4-VE-C04",
+      "target_ids": [
+        "VE-N02"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-VE-S01"
+      ],
+      "statement": "Personal relevance valuation is better represented as a cross-core pathway from self-relevance into subjective value than as an independent L2 construct."
+    },
+    {
+      "id": "R2C4-VE-C05",
+      "target_ids": [
+        "VE-N13"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-VE-S05"
+      ],
+      "statement": "Generic action activation is too broad and overlaps arousal plus specific action tendencies; retain the differentiated tendency nodes instead."
+    },
+    {
+      "id": "R2C4-VE-C06",
+      "target_ids": [
+        "VE-N14",
+        "VE-N15"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-VE-S05"
+      ],
+      "statement": "Generic 'positive emotion' and 'negative emotion' buckets are not sufficiently specific L2 mechanisms; future emotion-specific constructs should be added at finer resolution when materially needed."
+    },
+    {
+      "id": "R2C4-ID-C01",
+      "target_ids": [
+        "ID-N01"
+      ],
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-ID-S01"
+      ],
+      "statement": "Personal self-concept is a legitimate representation of self-related attributes, roles and meanings and can be distinguished from momentary social self-categorization."
+    },
+    {
+      "id": "R2C4-ID-C02",
+      "target_ids": [
+        "ID-N12"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-ID-S01"
+      ],
+      "statement": "Intergroup boundary maintenance is better treated as a possible identity-protective response/pathway rather than an independent L2 construct at this resolution."
+    },
+    {
+      "id": "R2C4-TR-C01",
+      "target_ids": [
+        "TR-N09"
+      ],
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-TR-S01"
+      ],
+      "statement": "Prior source performance and track record contribute to reliability/credibility judgments and can be represented as a history-based reliability assessment distinct from a one-shot cue."
+    },
+    {
+      "id": "R2C4-TR-C02",
+      "target_ids": [
+        "TR-N07"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-TR-S01"
+      ],
+      "statement": "Motive authenticity is not yet sufficiently separable from perceived genuineness and benevolence to justify a standalone L2 node."
+    },
+    {
+      "id": "R2C4-TR-C03",
+      "target_ids": [
+        "TR-N08"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-TR-S01"
+      ],
+      "statement": "Observed behavioral consistency is source-history evidence feeding reliability judgment, not necessarily an independent latent trust state."
+    },
+    {
+      "id": "R2C4-CON-C01",
+      "target_ids": [
+        "CON-N05"
+      ],
+      "claim_type": "measurement",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-CON-S01"
+      ],
+      "statement": "Relationship maintenance is a validated dimension of enduring parasocial relationship and is separable from intimacy and real-life relationship intention."
+    },
+    {
+      "id": "R2C4-CON-C02",
+      "target_ids": [
+        "CON-N02",
+        "CON-N03"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-CON-S02"
+      ],
+      "statement": "Current PSI evidence validates an episode-level interaction experience, but does not justify treating cognitive engagement and affective response as independent canonical L2 PSI constructs; keep them as possible lower-level features."
+    },
+    {
+      "id": "R2C4-CON-C03",
+      "target_ids": [
+        "CON-N08"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-CON-S03"
+      ],
+      "statement": "Exposure history is contextual/memory provenance that conditions familiarity and relationship development rather than a standalone connection state."
+    },
+    {
+      "id": "R2C4-CON-C04",
+      "target_ids": [
+        "CON-N09"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-CON-S01"
+      ],
+      "statement": "Perceived relational closeness substantially overlaps the validated PSR intimacy dimension and should be merged to avoid redundant L2 representation."
+    },
+    {
+      "id": "R2C4-CON-C05",
+      "target_ids": [
+        "CON-N11",
+        "CON-N12"
+      ],
+      "claim_type": "gap",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-CON-S03"
+      ],
+      "statement": "Parasocial attachment is currently under-studied relative to PSI/PSR; separation/loss sensitivity is even less established, so neither should remain an active canonical L2 node yet."
+    },
+    {
+      "id": "R2C4-ST-C01",
+      "target_ids": [
+        "ST-N09"
+      ],
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "source_ids": [
+        "R2C4-ST-S01"
+      ],
+      "statement": "Affective expression is a defensible motive for interpersonal transmission distinct from incidental arousal and from the observed sharing act."
+    },
+    {
+      "id": "R2C4-ST-C02",
+      "target_ids": [
+        "ST-N13"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-ST-S01"
+      ],
+      "statement": "Audience inhibition is better represented as the downstream effect of audience composition plus privacy/reputational cost, rather than an independent transmission motive/state."
+    },
+    {
+      "id": "R2C4-RH-C01",
+      "target_ids": [
+        "RH-N03"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-RH-S01"
+      ],
+      "statement": "Reinforcement sensitivity is primarily an individual-difference/moderator construct at this architecture level rather than a core learning operation."
+    },
+    {
+      "id": "R2C4-RH-C02",
+      "target_ids": [
+        "RH-N08"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-RH-S01",
+        "R2C4-RH-S04"
+      ],
+      "statement": "Habitual control strength is a derived summary over context-response control, automaticity, and outcome sensitivity, not a primitive L2 mechanism."
+    },
+    {
+      "id": "R2C4-RH-C03",
+      "target_ids": [
+        "RH-N11"
+      ],
+      "claim_type": "contradiction",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-RH-S02",
+        "R2C4-RH-S03"
+      ],
+      "statement": "A discrete habit-goal arbitration mechanism is one viable model but not the only supported architecture; it belongs in competing model hypotheses rather than the canonical neuron set."
+    },
+    {
+      "id": "R2C4-RH-C04",
+      "target_ids": [
+        "RH-N17"
+      ],
+      "claim_type": "ontology",
+      "stance": "bounds",
+      "source_ids": [
+        "R2C4-RH-S01",
+        "R2C4-RH-S04"
+      ],
+      "statement": "Habit override/suppression is better represented as an emergent outcome of goal-directed control, context change, and contingency/outcome revaluation than as an independent primitive node."
+    }
+  ]
+}

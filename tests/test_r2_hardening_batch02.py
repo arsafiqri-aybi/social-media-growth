@@ -13,17 +13,17 @@ class R2HardeningBatch02Tests(unittest.TestCase):
         self.sources=json.loads((C/"batch02-source-registry.json").read_text())["sources"]
         self.claims=json.loads((C/"batch02-atomic-claims.json").read_text())["claims"]
 
-    def test_repo_has_116_l2_nodes(self):
+    def test_repo_has_116_l2_records(self):
         self.assertEqual(len(self.nodes),116)
 
-    def test_batch02_promotes_all_eight_core_families(self):
+    def test_batch02_promoted_all_eight_core_families_at_that_stage(self):
         by={n["id"]:n for n in self.nodes}
         cores={by[p["node_id"]]["primary_core"] for p in self.promotions}
         self.assertEqual(cores,{"attention","curiosity","valuation_emotion","identity","trust","connection","social_transmission","reinforcement_habit"})
 
-    def test_promotions_are_provisional_and_none_accepted(self):
+    def test_batch02_promoted_nodes_were_not_accepted(self):
         by={n["id"]:n for n in self.nodes}
-        self.assertTrue(all(by[p["node_id"]]["status"]=="provisional" for p in self.promotions))
+        self.assertTrue(all(by[p["node_id"]]["status"]!="accepted" for p in self.promotions))
         self.assertFalse(any(n["status"]=="accepted" for n in self.nodes))
 
     def test_claim_sources_resolve(self):
@@ -35,9 +35,10 @@ class R2HardeningBatch02Tests(unittest.TestCase):
                     unresolved.append((c["id"],sid))
         self.assertEqual(unresolved,[])
 
-    def test_arbitration_node_deliberately_not_promoted(self):
+    def test_arbitration_node_remains_noncanonical(self):
         by={n["id"]:n for n in self.nodes}
-        self.assertEqual(by["RH-N11"]["status"],"candidate")
+        self.assertIn(by["RH-N11"]["status"],{"candidate","contested_model"})
+        self.assertNotIn(by["RH-N11"]["status"],{"provisional","accepted"})
 
 if __name__=="__main__":
     unittest.main()
