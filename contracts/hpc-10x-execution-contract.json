@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 5,
+  "revision": 6,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -241,7 +241,7 @@
     {
       "id": "O4",
       "name": "Deep knowledge graph",
-      "state": "MISSING"
+      "state": "IN_PROGRESS"
     },
     {
       "id": "O5",
@@ -265,22 +265,20 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Begin R2 Mechanism Decomposition across all eight cores using the 45 audited candidate modules; accept, refine, split, merge, or reject modules and derive L2 neurons only from evidence-backed construct boundaries.",
+  "next_action": "Execute R2 Cycle 02: retrieve module/neuron-specific evidence, run overlap and construct-validity audits, attach L2 measurement mappings and contradictions, and promote only supported candidates.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
-      "R0",
-      "R1"
+      "R2"
     ],
-    "cycle": "02",
-    "status": "SECOND_PASS_COMPLETE_NOT_SATURATED",
-    "all_eight_cores_touched": true,
-    "l0_decision": "preserve 8 anchors; valuation_emotion and reinforcement_habit are composite families; social_transmission is a behavioral-output family",
-    "active_candidate_modules": 45,
-    "measurement_validity_first_pass": true,
-    "deliberate_disconfirmation_first_pass_all_cores": true,
-    "culture_individual_difference_map": true,
-    "next": "R2 mechanism decomposition breadth-first; derive evidence-backed L2 neurons and explicitly migrate the 29 legacy neurons"
+    "cycle": "R2_CYCLE_01",
+    "status": "BREADTH_DECOMPOSITION_COMPLETE_NOT_HARDENED",
+    "l1_module_specs": 45,
+    "l2_neuron_candidates": 116,
+    "legacy_neurons_migrated": 29,
+    "connector_candidates": 8,
+    "all_eight_cores_covered": true,
+    "next": "R2 Cycle 02 evidence hardening and overlap/measurement audits before promoting L2 nodes"
   }
 }

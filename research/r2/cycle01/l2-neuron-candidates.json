@@ -1,0 +1,1926 @@
+{
+  "cycle": "R2_CYCLE_01",
+  "status": "candidate_not_final",
+  "neurons": [
+    {
+      "id": "ATT-N01",
+      "level": "neuron",
+      "parent_id": "ATT-M01",
+      "primary_core": "attention",
+      "label": "Perceptual salience",
+      "definition": "Relative sensory prominence created by feature contrast or conspicuity that biases competition for selection.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N02",
+      "level": "neuron",
+      "parent_id": "ATT-M01",
+      "primary_core": "attention",
+      "label": "Stimulus-driven capture",
+      "definition": "Involuntary prioritization caused by stimulus properties despite competing goals.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N03",
+      "level": "neuron",
+      "parent_id": "ATT-M01",
+      "primary_core": "attention",
+      "label": "Orienting response",
+      "definition": "Rapid reorientation of processing toward a newly prioritized stimulus or location.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N04",
+      "level": "neuron",
+      "parent_id": "ATT-M02",
+      "primary_core": "attention",
+      "label": "Goal relevance",
+      "definition": "Match between information and an active goal/task that raises selection priority.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N05",
+      "level": "neuron",
+      "parent_id": "ATT-M02",
+      "primary_core": "attention",
+      "label": "Attentional set / target template",
+      "definition": "Active representation of sought-for features or categories that biases selection.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N06",
+      "level": "neuron",
+      "parent_id": "ATT-M02",
+      "primary_core": "attention",
+      "label": "Executive attentional control",
+      "definition": "Top-down resolution of competition in favor of task-relevant processing.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N07",
+      "level": "neuron",
+      "parent_id": "ATT-M03",
+      "primary_core": "attention",
+      "label": "Reward-associated attentional priority",
+      "definition": "Learned attentional bias toward features previously associated with reward/value.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N08",
+      "level": "neuron",
+      "parent_id": "ATT-M03",
+      "primary_core": "attention",
+      "label": "Prior-selection history",
+      "definition": "Bias in current selection caused by prior selections independent of immediate goals.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N09",
+      "level": "neuron",
+      "parent_id": "ATT-M04",
+      "primary_core": "attention",
+      "label": "Sustained attention",
+      "definition": "Maintenance of task-relevant processing over extended time.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N10",
+      "level": "neuron",
+      "parent_id": "ATT-M04",
+      "primary_core": "attention",
+      "label": "Vigilance decrement",
+      "definition": "Time-related decline in sustained detection/monitoring performance.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N11",
+      "level": "neuron",
+      "parent_id": "ATT-M04",
+      "primary_core": "attention",
+      "label": "Attentional lapse",
+      "definition": "Transient failure to maintain intended task-relevant processing.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N12",
+      "level": "neuron",
+      "parent_id": "ATT-M05",
+      "primary_core": "attention",
+      "label": "Distractor suppression",
+      "definition": "Active or learned down-weighting of irrelevant competing information.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N13",
+      "level": "neuron",
+      "parent_id": "ATT-M05",
+      "primary_core": "attention",
+      "label": "Attentional disengagement",
+      "definition": "Release of processing priority from the currently attended target to enable reorientation.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-N14",
+      "level": "neuron",
+      "parent_id": "ATT-M05",
+      "primary_core": "attention",
+      "label": "Selection competition",
+      "definition": "Concurrent competition among representations for limited processing priority.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N01",
+      "level": "neuron",
+      "parent_id": "CUR-M01",
+      "primary_core": "curiosity",
+      "label": "Novelty appraisal",
+      "definition": "Evaluation that information is new relative to current knowledge/history.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N02",
+      "level": "neuron",
+      "parent_id": "CUR-M01",
+      "primary_core": "curiosity",
+      "label": "Surprise / expectancy violation",
+      "definition": "Detection that an observation deviates from expectation and may warrant model updating.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N03",
+      "level": "neuron",
+      "parent_id": "CUR-M02",
+      "primary_core": "curiosity",
+      "label": "Subjective uncertainty",
+      "definition": "Experienced lack of confidence or unresolved state about information/outcomes.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N04",
+      "level": "neuron",
+      "parent_id": "CUR-M02",
+      "primary_core": "curiosity",
+      "label": "Knowledge-gap representation",
+      "definition": "Representation of a specific discrepancy between known and desired knowledge.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N05",
+      "level": "neuron",
+      "parent_id": "CUR-M03",
+      "primary_core": "curiosity",
+      "label": "Expected information gain",
+      "definition": "Anticipated reduction in uncertainty or improvement in knowledge from obtaining information.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N06",
+      "level": "neuron",
+      "parent_id": "CUR-M03",
+      "primary_core": "curiosity",
+      "label": "Epistemic value",
+      "definition": "Subjective value assigned to information itself, apart from immediate external reward.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N07",
+      "level": "neuron",
+      "parent_id": "CUR-M04",
+      "primary_core": "curiosity",
+      "label": "Learning-progress signal",
+      "definition": "Perception that understanding or predictive competence is improving.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N08",
+      "level": "neuron",
+      "parent_id": "CUR-M04",
+      "primary_core": "curiosity",
+      "label": "Competence-seeking",
+      "definition": "Motivation to increase mastery or understanding through exploration.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N09",
+      "level": "neuron",
+      "parent_id": "CUR-M05",
+      "primary_core": "curiosity",
+      "label": "Directed exploration",
+      "definition": "Targeted sampling chosen because a specific information gap is expected to be resolved.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N10",
+      "level": "neuron",
+      "parent_id": "CUR-M05",
+      "primary_core": "curiosity",
+      "label": "Exploratory information seeking",
+      "definition": "Behavioral pursuit of additional information under uncertainty or novelty.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N11",
+      "level": "neuron",
+      "parent_id": "CUR-M06",
+      "primary_core": "curiosity",
+      "label": "Threat-based information avoidance",
+      "definition": "Avoidance of available information because anticipated knowledge is threatening or aversive.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N12",
+      "level": "neuron",
+      "parent_id": "CUR-M06",
+      "primary_core": "curiosity",
+      "label": "Effort/cost-based avoidance",
+      "definition": "Avoidance because expected cognitive, temporal, monetary, or social costs outweigh information value.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-N13",
+      "level": "neuron",
+      "parent_id": "CUR-M06",
+      "primary_core": "curiosity",
+      "label": "Belief-protective avoidance",
+      "definition": "Avoidance motivated by protecting identity, prior beliefs, or desired beliefs from disconfirming information.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N01",
+      "level": "neuron",
+      "parent_id": "VE-M01",
+      "primary_core": "valuation_emotion",
+      "label": "Subjective utility",
+      "definition": "Context- and goal-dependent worth assigned to an option, outcome, or piece of information.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N02",
+      "level": "neuron",
+      "parent_id": "VE-M01",
+      "primary_core": "valuation_emotion",
+      "label": "Personal relevance valuation",
+      "definition": "Value increment/decrement arising because information bears on active needs, goals, or personally important concerns.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N03",
+      "level": "neuron",
+      "parent_id": "VE-M01",
+      "primary_core": "valuation_emotion",
+      "label": "Subjective cost",
+      "definition": "Perceived downside, effort, sacrifice, or opportunity cost attached to an option/action.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N04",
+      "level": "neuron",
+      "parent_id": "VE-M02",
+      "primary_core": "valuation_emotion",
+      "label": "Expected outcome value",
+      "definition": "Anticipated value of a future result before action or exposure.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N05",
+      "level": "neuron",
+      "parent_id": "VE-M02",
+      "primary_core": "valuation_emotion",
+      "label": "Experienced outcome value",
+      "definition": "Value assigned after an outcome is experienced.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N06",
+      "level": "neuron",
+      "parent_id": "VE-M02",
+      "primary_core": "valuation_emotion",
+      "label": "Loss / punishment valuation",
+      "definition": "Subjective negative value attached to anticipated or experienced adverse outcomes.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N07",
+      "level": "neuron",
+      "parent_id": "VE-M03",
+      "primary_core": "valuation_emotion",
+      "label": "Goal-congruence appraisal",
+      "definition": "Appraisal of whether an event supports or obstructs current goals.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N08",
+      "level": "neuron",
+      "parent_id": "VE-M03",
+      "primary_core": "valuation_emotion",
+      "label": "Certainty appraisal",
+      "definition": "Appraisal of predictability/confidence about what is happening or will happen.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N09",
+      "level": "neuron",
+      "parent_id": "VE-M03",
+      "primary_core": "valuation_emotion",
+      "label": "Control / coping-potential appraisal",
+      "definition": "Appraisal of ability to influence, manage, or cope with an event.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N10",
+      "level": "neuron",
+      "parent_id": "VE-M03",
+      "primary_core": "valuation_emotion",
+      "label": "Agency / responsibility appraisal",
+      "definition": "Appraisal of who or what caused or is responsible for an event.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N11",
+      "level": "neuron",
+      "parent_id": "VE-M04",
+      "primary_core": "valuation_emotion",
+      "label": "Affective valence",
+      "definition": "Positive-versus-negative subjective quality of affective experience.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N12",
+      "level": "neuron",
+      "parent_id": "VE-M04",
+      "primary_core": "valuation_emotion",
+      "label": "Affective arousal",
+      "definition": "Level of affective activation or physiological/subjective intensity.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N13",
+      "level": "neuron",
+      "parent_id": "VE-M04",
+      "primary_core": "valuation_emotion",
+      "label": "Action activation",
+      "definition": "General mobilization/readiness to act that is related to but not identical with arousal.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N14",
+      "level": "neuron",
+      "parent_id": "VE-M06",
+      "primary_core": "valuation_emotion",
+      "label": "Differentiated positive emotion",
+      "definition": "Specific positively valenced emotion state whose mechanisms/outcomes may differ from other positive emotions.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N15",
+      "level": "neuron",
+      "parent_id": "VE-M06",
+      "primary_core": "valuation_emotion",
+      "label": "Differentiated negative emotion",
+      "definition": "Specific negatively valenced emotion state whose mechanisms/outcomes may differ from other negative emotions.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N16",
+      "level": "neuron",
+      "parent_id": "VE-M06",
+      "primary_core": "valuation_emotion",
+      "label": "Mixed emotion",
+      "definition": "Co-occurring positive and negative affective experience that cannot be represented by one valence pole.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N17",
+      "level": "neuron",
+      "parent_id": "VE-M07",
+      "primary_core": "valuation_emotion",
+      "label": "Approach tendency",
+      "definition": "Readiness to move toward, engage with, or pursue an object/action.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N18",
+      "level": "neuron",
+      "parent_id": "VE-M07",
+      "primary_core": "valuation_emotion",
+      "label": "Avoidance / withdrawal tendency",
+      "definition": "Readiness to disengage, withdraw, or avoid an object/action.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-N19",
+      "level": "neuron",
+      "parent_id": "VE-M07",
+      "primary_core": "valuation_emotion",
+      "label": "Confrontation / mobilization tendency",
+      "definition": "Readiness for active response or confrontation rather than passive withdrawal.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N01",
+      "level": "neuron",
+      "parent_id": "ID-M01",
+      "primary_core": "identity",
+      "label": "Personal self-concept",
+      "definition": "Representation of attributes, roles, values, and narratives defining the individual self.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N02",
+      "level": "neuron",
+      "parent_id": "ID-M01",
+      "primary_core": "identity",
+      "label": "Self-relevance",
+      "definition": "Degree to which information is interpreted as bearing on an important aspect of the self.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N03",
+      "level": "neuron",
+      "parent_id": "ID-M01",
+      "primary_core": "identity",
+      "label": "Identity centrality",
+      "definition": "Importance of a particular identity component within the overall self-concept.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N04",
+      "level": "neuron",
+      "parent_id": "ID-M02",
+      "primary_core": "identity",
+      "label": "Self-categorization",
+      "definition": "Momentary categorization of self as a member of a social category/group.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N05",
+      "level": "neuron",
+      "parent_id": "ID-M02",
+      "primary_core": "identity",
+      "label": "In-group identification",
+      "definition": "Psychological attachment/identification with a social group.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N06",
+      "level": "neuron",
+      "parent_id": "ID-M02",
+      "primary_core": "identity",
+      "label": "Self-definition",
+      "definition": "Perceived similarity/prototypicality and homogeneity that define the self in group terms.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N07",
+      "level": "neuron",
+      "parent_id": "ID-M02",
+      "primary_core": "identity",
+      "label": "Self-investment",
+      "definition": "Importance, satisfaction, and solidarity invested in group membership.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N08",
+      "level": "neuron",
+      "parent_id": "ID-M03",
+      "primary_core": "identity",
+      "label": "Norm salience",
+      "definition": "Accessibility of perceived group norms in the current context.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N09",
+      "level": "neuron",
+      "parent_id": "ID-M03",
+      "primary_core": "identity",
+      "label": "Group prototypicality",
+      "definition": "Perceived fit of a person/position with the defining prototype of the salient group.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N10",
+      "level": "neuron",
+      "parent_id": "ID-M06",
+      "primary_core": "identity",
+      "label": "Identity threat appraisal",
+      "definition": "Perception that a valued personal/social identity is challenged, devalued, or undermined.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N11",
+      "level": "neuron",
+      "parent_id": "ID-M06",
+      "primary_core": "identity",
+      "label": "Identity-protective response",
+      "definition": "Cognitive/behavioral response oriented toward preserving or restoring a threatened identity.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-N12",
+      "level": "neuron",
+      "parent_id": "ID-M06",
+      "primary_core": "identity",
+      "label": "Intergroup boundary maintenance",
+      "definition": "Maintenance or sharpening of category boundaries distinguishing in-group from out-group.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N01",
+      "level": "neuron",
+      "parent_id": "TR-M01",
+      "primary_core": "trust",
+      "label": "Perceived integrity",
+      "definition": "Belief that a source adheres to acceptable principles and is honest/non-deceptive.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N02",
+      "level": "neuron",
+      "parent_id": "TR-M01",
+      "primary_core": "trust",
+      "label": "Perceived benevolence",
+      "definition": "Belief that a source has goodwill and is not primarily seeking to exploit the audience.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N03",
+      "level": "neuron",
+      "parent_id": "TR-M01",
+      "primary_core": "trust",
+      "label": "Perceived trustworthiness",
+      "definition": "Integrated judgment that a source can be relied on in the relevant relationship/domain.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N04",
+      "level": "neuron",
+      "parent_id": "TR-M02",
+      "primary_core": "trust",
+      "label": "Perceived expertise",
+      "definition": "Judgment that a source possesses relevant knowledge or experience.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N05",
+      "level": "neuron",
+      "parent_id": "TR-M02",
+      "primary_core": "trust",
+      "label": "Perceived competence",
+      "definition": "Judgment that a source can perform/evaluate the relevant task accurately.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N06",
+      "level": "neuron",
+      "parent_id": "TR-M03",
+      "primary_core": "trust",
+      "label": "Perceived genuineness",
+      "definition": "Judgment that presented identity/behavior is sincere rather than fabricated.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N07",
+      "level": "neuron",
+      "parent_id": "TR-M03",
+      "primary_core": "trust",
+      "label": "Perceived motive authenticity",
+      "definition": "Judgment that expressed motives/endorsements align with genuine beliefs rather than hidden incentives.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N08",
+      "level": "neuron",
+      "parent_id": "TR-M04",
+      "primary_core": "trust",
+      "label": "Behavioral consistency",
+      "definition": "Perceived stability of source behavior/claims across repeated encounters.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N09",
+      "level": "neuron",
+      "parent_id": "TR-M04",
+      "primary_core": "trust",
+      "label": "Reliability track record",
+      "definition": "Memory-based judgment from prior cases in which source claims/actions were dependable.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N10",
+      "level": "neuron",
+      "parent_id": "TR-M05",
+      "primary_core": "trust",
+      "label": "Source credibility cue use",
+      "definition": "Heuristic use of credentials, verification badges, presentation, or source markers in credibility judgment.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N11",
+      "level": "neuron",
+      "parent_id": "TR-M05",
+      "primary_core": "trust",
+      "label": "Social credibility cue use",
+      "definition": "Heuristic use of likes, follower counts, consensus, endorsements, or similar social signals.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N12",
+      "level": "neuron",
+      "parent_id": "TR-M06",
+      "primary_core": "trust",
+      "label": "Epistemic vigilance",
+      "definition": "Monitoring for deception, error, weak evidence, or unreliable testimony before reliance.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N13",
+      "level": "neuron",
+      "parent_id": "TR-M06",
+      "primary_core": "trust",
+      "label": "Verification behavior",
+      "definition": "Active checking of claims/source evidence against additional information.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-N14",
+      "level": "neuron",
+      "parent_id": "TR-M06",
+      "primary_core": "trust",
+      "label": "Trust calibration",
+      "definition": "Degree to which reliance changes appropriately with evidence of source reliability/accuracy.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N01",
+      "level": "neuron",
+      "parent_id": "CON-M01",
+      "primary_core": "connection",
+      "label": "Parasocial interaction intensity",
+      "definition": "Episode-level felt involvement or apparent interaction with a mediated persona.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N02",
+      "level": "neuron",
+      "parent_id": "CON-M01",
+      "primary_core": "connection",
+      "label": "Parasocial cognitive engagement",
+      "definition": "Episode-level cognitive attention/elaboration directed toward the persona as a social partner.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N03",
+      "level": "neuron",
+      "parent_id": "CON-M01",
+      "primary_core": "connection",
+      "label": "Parasocial affective response",
+      "definition": "Episode-level affective response toward the persona during mediated exposure.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N04",
+      "level": "neuron",
+      "parent_id": "CON-M02",
+      "primary_core": "connection",
+      "label": "Parasocial relational continuity",
+      "definition": "Sense that the one-sided relationship persists across encounters.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N05",
+      "level": "neuron",
+      "parent_id": "CON-M02",
+      "primary_core": "connection",
+      "label": "Parasocial relationship maintenance",
+      "definition": "Motivation/behavior oriented toward maintaining continued one-sided relational contact.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N06",
+      "level": "neuron",
+      "parent_id": "CON-M02",
+      "primary_core": "connection",
+      "label": "Real-life relationship intention",
+      "definition": "Desire or imagined intention for the mediated bond to become reciprocal/offline.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N07",
+      "level": "neuron",
+      "parent_id": "CON-M03",
+      "primary_core": "connection",
+      "label": "Creator familiarity",
+      "definition": "Subjective recognition/knownness produced by repeated exposure to the same creator/source.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N08",
+      "level": "neuron",
+      "parent_id": "CON-M03",
+      "primary_core": "connection",
+      "label": "Exposure history representation",
+      "definition": "Memory of frequency/recency/context of prior encounters with the creator/source.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N09",
+      "level": "neuron",
+      "parent_id": "CON-M04",
+      "primary_core": "connection",
+      "label": "Perceived relational closeness",
+      "definition": "Subjective sense of psychological closeness to the creator/source.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N10",
+      "level": "neuron",
+      "parent_id": "CON-M04",
+      "primary_core": "connection",
+      "label": "Perceived intimacy",
+      "definition": "Sense of personal/private knowing or emotional intimacy with the creator/source.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N11",
+      "level": "neuron",
+      "parent_id": "CON-M05",
+      "primary_core": "connection",
+      "label": "Affective attachment",
+      "definition": "Persistent emotional bond/investment toward the creator/source.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-N12",
+      "level": "neuron",
+      "parent_id": "CON-M05",
+      "primary_core": "connection",
+      "label": "Separation / loss sensitivity",
+      "definition": "Negative affect or concern triggered by perceived loss, absence, or disruption of the bond.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N01",
+      "level": "neuron",
+      "parent_id": "ST-M01",
+      "primary_core": "social_transmission",
+      "label": "Share / forward action",
+      "definition": "Observed act of transmitting content to another person or audience.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N02",
+      "level": "neuron",
+      "parent_id": "ST-M01",
+      "primary_core": "social_transmission",
+      "label": "Sharing intention",
+      "definition": "Stated or latent willingness to share, explicitly separate from observed action.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N03",
+      "level": "neuron",
+      "parent_id": "ST-M02",
+      "primary_core": "social_transmission",
+      "label": "Recommendation action",
+      "definition": "Observed endorsement/recommendation of content, source, product, or idea.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N04",
+      "level": "neuron",
+      "parent_id": "ST-M02",
+      "primary_core": "social_transmission",
+      "label": "Word-of-mouth evaluation",
+      "definition": "Positive, negative, or mixed evaluative communication communicated to others.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N05",
+      "level": "neuron",
+      "parent_id": "ST-M03",
+      "primary_core": "social_transmission",
+      "label": "Perceived recipient usefulness",
+      "definition": "Belief that shared information will help, inform, or benefit the recipient.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N06",
+      "level": "neuron",
+      "parent_id": "ST-M03",
+      "primary_core": "social_transmission",
+      "label": "Information-value sharing motive",
+      "definition": "Motivation to transmit because content is considered informative or practically valuable.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N07",
+      "level": "neuron",
+      "parent_id": "ST-M04",
+      "primary_core": "social_transmission",
+      "label": "Identity-signaling motive",
+      "definition": "Motivation to transmit content to communicate group membership, values, or self-definition.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N08",
+      "level": "neuron",
+      "parent_id": "ST-M04",
+      "primary_core": "social_transmission",
+      "label": "Impression-management motive",
+      "definition": "Motivation to shape how the audience perceives the sender.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N09",
+      "level": "neuron",
+      "parent_id": "ST-M05",
+      "primary_core": "social_transmission",
+      "label": "Affective-expression motive",
+      "definition": "Motivation to externalize or communicate emotional experience through sharing.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N10",
+      "level": "neuron",
+      "parent_id": "ST-M05",
+      "primary_core": "social_transmission",
+      "label": "Emotion-regulation motive",
+      "definition": "Motivation to share as a way to regulate, process, amplify, or reduce emotion.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N11",
+      "level": "neuron",
+      "parent_id": "ST-M07",
+      "primary_core": "social_transmission",
+      "label": "Privacy-cost appraisal",
+      "definition": "Expected privacy cost or unwanted information exposure associated with transmission.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N12",
+      "level": "neuron",
+      "parent_id": "ST-M07",
+      "primary_core": "social_transmission",
+      "label": "Reputational-risk appraisal",
+      "definition": "Expected social-image/reputation harm from transmitting content to a given audience.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N13",
+      "level": "neuron",
+      "parent_id": "ST-M07",
+      "primary_core": "social_transmission",
+      "label": "Audience-inhibition signal",
+      "definition": "Reduction in willingness to transmit due to who may see the communication.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N14",
+      "level": "neuron",
+      "parent_id": "ST-M08",
+      "primary_core": "social_transmission",
+      "label": "Social-bonding motive",
+      "definition": "Motivation to share to create or strengthen interpersonal connection.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-N15",
+      "level": "neuron",
+      "parent_id": "ST-M08",
+      "primary_core": "social_transmission",
+      "label": "Relationship-maintenance motive",
+      "definition": "Motivation to communicate/share to sustain an existing relationship over time.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N01",
+      "level": "neuron",
+      "parent_id": "RH-M01",
+      "primary_core": "reinforcement_habit",
+      "label": "Reward prediction error",
+      "definition": "Difference between expected and experienced outcome value used for learning/updating.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N02",
+      "level": "neuron",
+      "parent_id": "RH-M01",
+      "primary_core": "reinforcement_habit",
+      "label": "Outcome-value updating",
+      "definition": "Revision of expected action/cue value from experienced outcomes.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N03",
+      "level": "neuron",
+      "parent_id": "RH-M01",
+      "primary_core": "reinforcement_habit",
+      "label": "Reinforcement sensitivity",
+      "definition": "Individual/contextual sensitivity to reward/punishment signals during learning.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N04",
+      "level": "neuron",
+      "parent_id": "RH-M03",
+      "primary_core": "reinforcement_habit",
+      "label": "Context-response association strength",
+      "definition": "Learned strength linking a recurring context/cue to a behavioral response.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N05",
+      "level": "neuron",
+      "parent_id": "RH-M03",
+      "primary_core": "reinforcement_habit",
+      "label": "Cue-triggered response tendency",
+      "definition": "Tendency for a contextual cue to activate a learned response.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N06",
+      "level": "neuron",
+      "parent_id": "RH-M04",
+      "primary_core": "reinforcement_habit",
+      "label": "Automaticity",
+      "definition": "Degree to which a response is initiated/executed with reduced deliberation.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N07",
+      "level": "neuron",
+      "parent_id": "RH-M04",
+      "primary_core": "reinforcement_habit",
+      "label": "Outcome insensitivity",
+      "definition": "Persistence of a response despite reduced current value of the outcome, where demonstrated.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N08",
+      "level": "neuron",
+      "parent_id": "RH-M04",
+      "primary_core": "reinforcement_habit",
+      "label": "Habitual control strength",
+      "definition": "Relative control exerted by context-response mechanisms over current behavior.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N09",
+      "level": "neuron",
+      "parent_id": "RH-M05",
+      "primary_core": "reinforcement_habit",
+      "label": "Action-outcome representation",
+      "definition": "Representation linking an action to expected consequences used in goal-directed control.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N10",
+      "level": "neuron",
+      "parent_id": "RH-M05",
+      "primary_core": "reinforcement_habit",
+      "label": "Goal-directed control strength",
+      "definition": "Degree to which current goals/outcome values guide action selection.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N11",
+      "level": "neuron",
+      "parent_id": "RH-M05",
+      "primary_core": "reinforcement_habit",
+      "label": "Habit–goal arbitration",
+      "definition": "Competition/integration determining whether habitual or goal-directed control dominates.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N12",
+      "level": "neuron",
+      "parent_id": "RH-M06",
+      "primary_core": "reinforcement_habit",
+      "label": "Behavior repetition",
+      "definition": "Repeated performance of an action, treated as an input to habit formation rather than habit itself.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N13",
+      "level": "neuron",
+      "parent_id": "RH-M06",
+      "primary_core": "reinforcement_habit",
+      "label": "Context stability",
+      "definition": "Consistency of contextual cues across repeated performance episodes.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N14",
+      "level": "neuron",
+      "parent_id": "RH-M06",
+      "primary_core": "reinforcement_habit",
+      "label": "Habit formation trajectory",
+      "definition": "Change in automatic/context-triggered control across repeated stable-context practice.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N15",
+      "level": "neuron",
+      "parent_id": "RH-M07",
+      "primary_core": "reinforcement_habit",
+      "label": "Context discontinuity",
+      "definition": "Change/removal of cues that reduces retrieval of a previously learned habitual response.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N16",
+      "level": "neuron",
+      "parent_id": "RH-M07",
+      "primary_core": "reinforcement_habit",
+      "label": "Contingency / outcome revaluation",
+      "definition": "Change in consequences or action-outcome contingencies that can reveal or alter control mode.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-N17",
+      "level": "neuron",
+      "parent_id": "RH-M07",
+      "primary_core": "reinforcement_habit",
+      "label": "Habit suppression / override",
+      "definition": "Successful inhibition or replacement of a prepotent habitual response under changed goals/context.",
+      "status": "candidate",
+      "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004"
+      ],
+      "version": "0.1.0"
+    }
+  ]
+}

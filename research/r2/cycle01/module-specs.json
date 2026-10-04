@@ -1,0 +1,923 @@
+{
+  "cycle": "R2_CYCLE_01",
+  "modules": [
+    {
+      "id": "ATT-M01",
+      "level": "module",
+      "core": "attention",
+      "label": "Stimulus-driven capture & salience",
+      "definition": "Perceptual properties that create bottom-up priority and can trigger involuntary orienting/capture.",
+      "role_tags": [
+        "selection_control"
+      ],
+      "claim_ids": [
+        "C2-ATT-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Do not equate perceptual salience with guaranteed capture."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-M02",
+      "level": "module",
+      "core": "attention",
+      "label": "Goal-directed selection & control",
+      "definition": "Current goals and target representations that bias selection and maintain task-relevant priority.",
+      "role_tags": [
+        "selection_control"
+      ],
+      "claim_ids": [
+        "C2-ATT-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Goal relevance is state/context dependent, not a stable audience trait."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-M03",
+      "level": "module",
+      "core": "attention",
+      "label": "Selection history & learned priority",
+      "definition": "Past selections and learned value associations that alter future attentional priority.",
+      "role_tags": [
+        "learning_adaptation"
+      ],
+      "claim_ids": [
+        "C2-ATT-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Traditional reward-capture effects are method-sensitive; magnitude cannot be universalized."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-M04",
+      "level": "module",
+      "core": "attention",
+      "label": "Sustained attention & vigilance",
+      "definition": "Maintenance of task-relevant processing over time and vulnerability to attentional lapses.",
+      "role_tags": [
+        "selection_control"
+      ],
+      "claim_ids": [
+        "C2-ATT-002"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Initial capture and sustained attention must remain distinct."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ATT-M05",
+      "level": "module",
+      "core": "attention",
+      "label": "Suppression, disengagement & competition",
+      "definition": "Processes that suppress distractors, resolve competition, or disengage from currently prioritized information.",
+      "role_tags": [
+        "selection_control"
+      ],
+      "claim_ids": [
+        "C2-ATT-001"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Needs direct module-level evidence before acceptance."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-M01",
+      "level": "module",
+      "core": "curiosity",
+      "label": "Novelty & surprise appraisal",
+      "definition": "Appraisal of unexpected or novel information that can create exploration opportunity.",
+      "role_tags": [
+        "detection_representation"
+      ],
+      "claim_ids": [
+        "C2-CUR-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Novelty/surprise are neither necessary nor sufficient for curiosity."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-M02",
+      "level": "module",
+      "core": "curiosity",
+      "label": "Uncertainty & knowledge gaps",
+      "definition": "Representation/appraisal of what is unknown, unresolved, or missing from current knowledge.",
+      "role_tags": [
+        "detection_representation"
+      ],
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "More uncertainty can increase seeking or avoidance depending on cost/threat."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-M03",
+      "level": "module",
+      "core": "curiosity",
+      "label": "Epistemic information value & reward anticipation",
+      "definition": "Expected value assigned to obtaining information independent of immediate instrumental reward.",
+      "role_tags": [
+        "appraisal_valuation"
+      ],
+      "claim_ids": [
+        "C2-CUR-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Must remain separable from general reward value."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-M04",
+      "level": "module",
+      "core": "curiosity",
+      "label": "Learning progress & competence",
+      "definition": "Signals that understanding or mastery is improving and can sustain exploration.",
+      "role_tags": [
+        "motivation_drive"
+      ],
+      "claim_ids": [
+        "C2-CUR-001"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Need direct evidence separating learning progress from competence/interest."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-M05",
+      "level": "module",
+      "core": "curiosity",
+      "label": "Exploration & information seeking",
+      "definition": "Choice and action processes that sample information to resolve uncertainty or gain knowledge.",
+      "role_tags": [
+        "expression_action"
+      ],
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-003"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Observed seeking is not pure curiosity; utility and threat can also drive it."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CUR-M06",
+      "level": "module",
+      "core": "curiosity",
+      "label": "Information avoidance, threat & cost",
+      "definition": "Motivated avoidance of available information due to threat, anticipated affect, effort, social cost, or self-protective goals.",
+      "role_tags": [
+        "motivation_drive"
+      ],
+      "claim_ids": [
+        "C2-CUR-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Avoidance is not simply the low end of curiosity."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-M01",
+      "level": "module",
+      "core": "valuation_emotion",
+      "label": "Subjective valuation & utility",
+      "definition": "Computation/appraisal of the subjective worth of information, outcomes, or actions given goals and context.",
+      "role_tags": [
+        "appraisal_valuation"
+      ],
+      "claim_ids": [
+        "C2-VE-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Subjective value is not interchangeable with affect."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-M02",
+      "level": "module",
+      "core": "valuation_emotion",
+      "label": "Outcome, reward & punishment valuation",
+      "definition": "Expected and experienced positive/negative outcome value that guides learning and choice.",
+      "role_tags": [
+        "appraisal_valuation"
+      ],
+      "claim_ids": [
+        "C2-VE-001"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Must distinguish expected from experienced value and reward from affect."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-M03",
+      "level": "module",
+      "core": "valuation_emotion",
+      "label": "Cognitive appraisal dimensions",
+      "definition": "Evaluation of events on dimensions such as goal relevance, certainty, controllability, agency, and novelty that differentiate emotional responses.",
+      "role_tags": [
+        "appraisal_valuation"
+      ],
+      "claim_ids": [
+        "C2-VE-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Appraisals are many-to-many with emotions."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-M04",
+      "level": "module",
+      "core": "valuation_emotion",
+      "label": "Dimensional affect: valence, arousal & activation",
+      "definition": "Dimensional representation of affective quality and activation without assuming a single emotion category.",
+      "role_tags": [
+        "detection_representation"
+      ],
+      "claim_ids": [
+        "C2-VE-003"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Valence, arousal, and subjective value are distinct."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-M06",
+      "level": "module",
+      "core": "valuation_emotion",
+      "label": "Discrete emotion / differentiated affect",
+      "definition": "Differentiated emotion states whose effects may depend on appraisal pattern and action tendency.",
+      "role_tags": [
+        "detection_representation"
+      ],
+      "claim_ids": [
+        "C2-VE-002",
+        "C2-VE-004"
+      ],
+      "evidence_state": "candidate_needs_emotion_specific_evidence",
+      "boundary_conditions": [
+        "Do not collapse all positive or negative emotions."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "VE-M07",
+      "level": "module",
+      "core": "valuation_emotion",
+      "label": "Motivational action tendencies",
+      "definition": "Approach, avoidance, confrontation, withdrawal, or other action-readiness patterns linked to valuation and emotion.",
+      "role_tags": [
+        "motivation_drive"
+      ],
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Action tendency is not identical to reported emotion."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-M01",
+      "level": "module",
+      "core": "identity",
+      "label": "Self-concept & self-relevance",
+      "definition": "Personal self-representations and perceived relevance of information to important self-aspects.",
+      "role_tags": [
+        "self_identity"
+      ],
+      "claim_ids": [
+        "C2-ID-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Self-relevance is not generic personal preference."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-M02",
+      "level": "module",
+      "core": "identity",
+      "label": "Social categorization & group identification",
+      "definition": "Self-categorization as a group member and degree/form of psychological identification with that group.",
+      "role_tags": [
+        "self_identity"
+      ],
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Identification is multidimensional; membership alone is insufficient."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-M03",
+      "level": "module",
+      "core": "identity",
+      "label": "Norm salience & prototypicality",
+      "definition": "Accessibility of group norms and perceived fit/prototypicality that shape identity-based influence.",
+      "role_tags": [
+        "social_normative"
+      ],
+      "claim_ids": [
+        "C2-ID-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Norm influence depends on salient identification/context."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ID-M06",
+      "level": "module",
+      "core": "identity",
+      "label": "Identity threat, defense & boundary maintenance",
+      "definition": "Processes responding to threats to valued identities or group boundaries, including defensive differentiation.",
+      "role_tags": [
+        "self_identity"
+      ],
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-003"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Need direct evidence separating threat appraisal from downstream emotion."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-M01",
+      "level": "module",
+      "core": "trust",
+      "label": "Trustworthiness, integrity & benevolence",
+      "definition": "Perceived honesty, integrity, goodwill, and non-exploitative intent of a source.",
+      "role_tags": [
+        "appraisal_valuation"
+      ],
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Trustworthiness judgments are not factual accuracy."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-M02",
+      "level": "module",
+      "core": "trust",
+      "label": "Expertise & competence",
+      "definition": "Perceived ability, knowledge, or competence of a source in the relevant domain.",
+      "role_tags": [
+        "appraisal_valuation"
+      ],
+      "claim_ids": [
+        "C2-TR-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Expertise is domain-specific and not equivalent to benevolence."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-M03",
+      "level": "module",
+      "core": "trust",
+      "label": "Authenticity & genuineness",
+      "definition": "Perceived genuineness, sincerity, and congruence of source self-presentation.",
+      "role_tags": [
+        "appraisal_valuation"
+      ],
+      "claim_ids": [
+        "C2-TR-002",
+        "C2-TR-003"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Authenticity is not equivalent to truthfulness or expertise."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-M04",
+      "level": "module",
+      "core": "trust",
+      "label": "Consistency, reliability & track record",
+      "definition": "Perceived stability and dependability of source behavior or claims across time.",
+      "role_tags": [
+        "memory_history"
+      ],
+      "claim_ids": [
+        "C2-TR-003"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Familiarity/repetition alone must not be treated as reliability."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-M05",
+      "level": "module",
+      "core": "trust",
+      "label": "Credibility cues & heuristic evaluation",
+      "definition": "Use of source, social, interface, or presentation cues to form rapid credibility judgments.",
+      "role_tags": [
+        "appraisal_valuation"
+      ],
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Heuristic credibility can be miscalibrated."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "TR-M06",
+      "level": "module",
+      "core": "trust",
+      "label": "Verification, skepticism & trust calibration",
+      "definition": "Effortful checking, epistemic vigilance, skepticism, and updating reliance when evidence supports or contradicts a source.",
+      "role_tags": [
+        "metacognitive_monitoring"
+      ],
+      "claim_ids": [
+        "C2-TR-002"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Must separate healthy verification from generalized distrust."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-M01",
+      "level": "module",
+      "core": "connection",
+      "label": "Parasocial interaction (episodic)",
+      "definition": "Episode-level experience of apparent interaction/involvement with a mediated persona during or shortly after exposure.",
+      "role_tags": [
+        "relational"
+      ],
+      "claim_ids": [
+        "C2-CON-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "PSI is not an enduring PSR."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-M02",
+      "level": "module",
+      "core": "connection",
+      "label": "Parasocial relationship (enduring)",
+      "definition": "Persistent one-sided relational representation extending beyond a single exposure episode.",
+      "role_tags": [
+        "relational"
+      ],
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "PSR is multidimensional and not equivalent to real reciprocity."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-M03",
+      "level": "module",
+      "core": "connection",
+      "label": "Familiarity & repeated exposure",
+      "definition": "Recognition and subjective familiarity built through repeated encounters with a creator/source.",
+      "role_tags": [
+        "memory_history"
+      ],
+      "claim_ids": [
+        "C2-CON-003"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Familiarity does not imply trust, closeness, or positive attachment."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-M04",
+      "level": "module",
+      "core": "connection",
+      "label": "Perceived closeness & intimacy",
+      "definition": "Subjective sense of psychological closeness or intimacy toward a creator/source.",
+      "role_tags": [
+        "relational"
+      ],
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-003"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Closeness must be distinguished from familiarity and identification."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "CON-M05",
+      "level": "module",
+      "core": "connection",
+      "label": "Affective attachment",
+      "definition": "Emotional investment/bonding toward a creator/source that may persist across time.",
+      "role_tags": [
+        "relational"
+      ],
+      "claim_ids": [
+        "C2-CON-003"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Positive attachment is not assumed; dependency/distress boundaries require research."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-M01",
+      "level": "module",
+      "core": "social_transmission",
+      "label": "Sharing / forwarding behavior",
+      "definition": "Observable act of sending, reposting, or forwarding content to another audience.",
+      "role_tags": [
+        "expression_action"
+      ],
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Sharing intention is an imperfect proxy for behavior."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-M02",
+      "level": "module",
+      "core": "social_transmission",
+      "label": "Recommendation & word of mouth",
+      "definition": "Active endorsement, recommendation, or evaluative communication about a source, idea, brand, or content.",
+      "role_tags": [
+        "expression_action"
+      ],
+      "claim_ids": [
+        "C2-ST-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Recommendation can differ from neutral forwarding."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-M03",
+      "level": "module",
+      "core": "social_transmission",
+      "label": "Practical / information-value motives",
+      "definition": "Transmission motivated by perceived usefulness, informativeness, or anticipated benefit to recipients.",
+      "role_tags": [
+        "motivation_drive"
+      ],
+      "claim_ids": [
+        "C2-ST-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Motive cannot be inferred from share count alone."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-M04",
+      "level": "module",
+      "core": "social_transmission",
+      "label": "Identity signaling & impression-management motives",
+      "definition": "Transmission used to express identity, manage impressions, or shape how others perceive the sender.",
+      "role_tags": [
+        "motivation_drive"
+      ],
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-004"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Upstream identity activation belongs to Identity, not this module."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-M05",
+      "level": "module",
+      "core": "social_transmission",
+      "label": "Emotion regulation & affective-expression motives",
+      "definition": "Transmission used to express, amplify, regulate, or socially process affective experience.",
+      "role_tags": [
+        "motivation_drive"
+      ],
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-003"
+      ],
+      "evidence_state": "candidate_requires_conditional_evidence",
+      "boundary_conditions": [
+        "Incidental physiological arousal cannot be used as a universal cause."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-M07",
+      "level": "module",
+      "core": "social_transmission",
+      "label": "Privacy, reputational cost & inhibition",
+      "definition": "Perceived social, privacy, reputational, or relational costs that inhibit transmission.",
+      "role_tags": [
+        "motivation_drive"
+      ],
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-004"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Cost can vary by audience and context."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ST-M08",
+      "level": "module",
+      "core": "social_transmission",
+      "label": "Social bonding & relationship-maintenance motives",
+      "definition": "Transmission used to initiate, maintain, strengthen, or coordinate social relationships.",
+      "role_tags": [
+        "motivation_drive"
+      ],
+      "claim_ids": [
+        "C2-ST-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Do not collapse into parasocial connection; this concerns sender-recipient function."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-M01",
+      "level": "module",
+      "core": "reinforcement_habit",
+      "label": "Outcome/reward learning & value updating",
+      "definition": "Learning that updates expected action/cue value from outcomes, including prediction-error-like mechanisms.",
+      "role_tags": [
+        "learning_adaptation"
+      ],
+      "claim_ids": [
+        "C2-RH-003"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Model-free/value learning is not habit by definition."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-M03",
+      "level": "module",
+      "core": "reinforcement_habit",
+      "label": "Context-response association",
+      "definition": "Learned association linking recurring contexts/cues to responses independent of current deliberation.",
+      "role_tags": [
+        "learning_adaptation"
+      ],
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-004"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Requires evidence of context-response structure, not return frequency alone."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-M04",
+      "level": "module",
+      "core": "reinforcement_habit",
+      "label": "Automaticity & habitual control",
+      "definition": "Increasing cue-triggered automatic control and reduced deliberative dependence as habits develop.",
+      "role_tags": [
+        "maintenance_recurrence"
+      ],
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Automaticity is an important component but not the whole habit construct."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-M05",
+      "level": "module",
+      "core": "reinforcement_habit",
+      "label": "Goal-directed control interface & arbitration",
+      "definition": "Interaction/competition between action-outcome goal-directed control and habitual/context-response control.",
+      "role_tags": [
+        "selection_control"
+      ],
+      "claim_ids": [
+        "C2-RH-003"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Goal-directed and habitual influences can coexist."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-M06",
+      "level": "module",
+      "core": "reinforcement_habit",
+      "label": "Repetition, context stability & habit formation",
+      "definition": "Developmental process by which repeated action in stable contexts strengthens cue-response control.",
+      "role_tags": [
+        "learning_adaptation"
+      ],
+      "claim_ids": [
+        "C2-RH-001"
+      ],
+      "evidence_state": "provisional_landscape_supported",
+      "boundary_conditions": [
+        "Repetition without stable context does not guarantee habit."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    },
+    {
+      "id": "RH-M07",
+      "level": "module",
+      "core": "reinforcement_habit",
+      "label": "Habit disruption & context change",
+      "definition": "Weakening or bypassing habitual control when cues, context, outcomes, or routines change.",
+      "role_tags": [
+        "learning_adaptation"
+      ],
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-003"
+      ],
+      "evidence_state": "candidate_needs_module_specific_evidence",
+      "boundary_conditions": [
+        "Need direct evidence on discontinuity and extinction mechanisms."
+      ],
+      "status": "provisional",
+      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
+      "version": "0.1.0"
+    }
+  ]
+}

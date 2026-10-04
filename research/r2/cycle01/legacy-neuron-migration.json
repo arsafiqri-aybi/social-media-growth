@@ -1,0 +1,249 @@
+{
+  "cycle": "R2_CYCLE_01",
+  "migrations": [
+    {
+      "legacy_id": "attention.salience",
+      "action": "refine",
+      "target_ids": [
+        "ATT-N01"
+      ],
+      "rationale": "Stimulus Salience retained as perceptual-salience construct; capture is separated into ATT-N02."
+    },
+    {
+      "legacy_id": "attention.goal_relevance",
+      "action": "refine",
+      "target_ids": [
+        "ATT-N04"
+      ],
+      "rationale": "Goal relevance retained; attentional set/control separated into neighboring nodes."
+    },
+    {
+      "legacy_id": "attention.learned_value",
+      "action": "refine",
+      "target_ids": [
+        "ATT-N07"
+      ],
+      "rationale": "Learned-value priority retained with reward-association boundary."
+    },
+    {
+      "legacy_id": "curiosity.novelty",
+      "action": "refine",
+      "target_ids": [
+        "CUR-N01"
+      ],
+      "rationale": "Novelty retained as appraisal rather than curiosity itself."
+    },
+    {
+      "legacy_id": "curiosity.uncertainty",
+      "action": "refine",
+      "target_ids": [
+        "CUR-N03"
+      ],
+      "rationale": "Uncertainty retained as subjective state; knowledge gap separated."
+    },
+    {
+      "legacy_id": "curiosity.information_gain",
+      "action": "refine",
+      "target_ids": [
+        "CUR-N05"
+      ],
+      "rationale": "Expected information gain retained; epistemic value separated."
+    },
+    {
+      "legacy_id": "curiosity.learning_progress",
+      "action": "refine",
+      "target_ids": [
+        "CUR-N07"
+      ],
+      "rationale": "Learning progress retained; competence-seeking separated."
+    },
+    {
+      "legacy_id": "valuation.subjective_value",
+      "action": "refine",
+      "target_ids": [
+        "VE-N01"
+      ],
+      "rationale": "Subjective value retained within valuation subsystem."
+    },
+    {
+      "legacy_id": "valuation.relevance",
+      "action": "move_refine",
+      "target_ids": [
+        "VE-N02"
+      ],
+      "rationale": "Personal relevance represented as value contribution; self-relevance remains separately in Identity."
+    },
+    {
+      "legacy_id": "emotion.valence",
+      "action": "retain_refine",
+      "target_ids": [
+        "VE-N11"
+      ],
+      "rationale": "Valence retained as dimensional affect node."
+    },
+    {
+      "legacy_id": "emotion.arousal",
+      "action": "retain_refine",
+      "target_ids": [
+        "VE-N12"
+      ],
+      "rationale": "Arousal retained but explicitly not a universal transmission driver."
+    },
+    {
+      "legacy_id": "identity.self_relevance",
+      "action": "retain_refine",
+      "target_ids": [
+        "ID-N02"
+      ],
+      "rationale": "Self-relevance retained within personal identity module."
+    },
+    {
+      "legacy_id": "identity.group_identity",
+      "action": "split",
+      "target_ids": [
+        "ID-N05",
+        "ID-N06",
+        "ID-N07"
+      ],
+      "rationale": "Generic group identity split into identification, self-definition, and self-investment."
+    },
+    {
+      "legacy_id": "identity.norm_salience",
+      "action": "retain_refine",
+      "target_ids": [
+        "ID-N08"
+      ],
+      "rationale": "Norm salience retained; prototypicality separated."
+    },
+    {
+      "legacy_id": "identity.homophily",
+      "action": "move_to_connector",
+      "target_ids": [
+        "CTX-PERCEIVED-SIMILARITY"
+      ],
+      "rationale": "Homophily/similarity is a cross-core connector, not identity itself."
+    },
+    {
+      "legacy_id": "trust.trustworthiness",
+      "action": "split",
+      "target_ids": [
+        "TR-N01",
+        "TR-N02",
+        "TR-N03"
+      ],
+      "rationale": "Legacy trustworthiness bundled integrity, benevolence and integrated trustworthiness."
+    },
+    {
+      "legacy_id": "trust.expertise",
+      "action": "retain_refine",
+      "target_ids": [
+        "TR-N04"
+      ],
+      "rationale": "Expertise retained; competence distinguished."
+    },
+    {
+      "legacy_id": "trust.authenticity",
+      "action": "split",
+      "target_ids": [
+        "TR-N06",
+        "TR-N07"
+      ],
+      "rationale": "Authenticity separated into genuineness and motive authenticity."
+    },
+    {
+      "legacy_id": "trust.consistency",
+      "action": "split",
+      "target_ids": [
+        "TR-N08",
+        "TR-N09"
+      ],
+      "rationale": "Consistency separated from evidence-based reliability track record."
+    },
+    {
+      "legacy_id": "connection.parasocial_closeness",
+      "action": "split",
+      "target_ids": [
+        "CON-N01",
+        "CON-N04",
+        "CON-N09"
+      ],
+      "rationale": "Legacy closeness conflated episodic PSI, enduring PSR, and relational closeness."
+    },
+    {
+      "legacy_id": "connection.familiarity",
+      "action": "retain_refine",
+      "target_ids": [
+        "CON-N07"
+      ],
+      "rationale": "Familiarity retained; exposure history separated."
+    },
+    {
+      "legacy_id": "connection.affective_attachment",
+      "action": "retain_refine",
+      "target_ids": [
+        "CON-N11"
+      ],
+      "rationale": "Affective attachment retained; loss sensitivity added separately."
+    },
+    {
+      "legacy_id": "transmission.sharing",
+      "action": "split",
+      "target_ids": [
+        "ST-N01",
+        "ST-N02"
+      ],
+      "rationale": "Observed sharing behavior separated from sharing intention."
+    },
+    {
+      "legacy_id": "transmission.recommending",
+      "action": "retain_refine",
+      "target_ids": [
+        "ST-N03"
+      ],
+      "rationale": "Recommendation action retained; evaluative WOM separated."
+    },
+    {
+      "legacy_id": "transmission.identity_signaling",
+      "action": "retain_move",
+      "target_ids": [
+        "ST-N07"
+      ],
+      "rationale": "Retained under Social Transmission, not Identity."
+    },
+    {
+      "legacy_id": "transmission.practical_value",
+      "action": "refine",
+      "target_ids": [
+        "ST-N05",
+        "ST-N06"
+      ],
+      "rationale": "Recipient usefulness separated from information-value motive."
+    },
+    {
+      "legacy_id": "reinforcement.reward_learning",
+      "action": "split",
+      "target_ids": [
+        "RH-N01",
+        "RH-N02",
+        "RH-N03"
+      ],
+      "rationale": "Reward learning decomposed into prediction error, value updating and sensitivity."
+    },
+    {
+      "legacy_id": "habit.context_association",
+      "action": "retain_refine",
+      "target_ids": [
+        "RH-N04"
+      ],
+      "rationale": "Context-response association retained with explicit mechanistic definition."
+    },
+    {
+      "legacy_id": "habit.automaticity",
+      "action": "retain_refine",
+      "target_ids": [
+        "RH-N06"
+      ],
+      "rationale": "Automaticity retained but no longer treated as whole habit construct."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "cycle": "R2_CYCLE_01",
+  "module_specs": 45,
+  "l2_neuron_candidates": 116,
+  "legacy_neurons_migrated": 29,
+  "connector_candidates": 8,
+  "core_counts": {
+    "attention": 14,
+    "curiosity": 13,
+    "valuation_emotion": 19,
+    "identity": 12,
+    "trust": 14,
+    "connection": 12,
+    "social_transmission": 15,
+    "reinforcement_habit": 17
+  }
+}

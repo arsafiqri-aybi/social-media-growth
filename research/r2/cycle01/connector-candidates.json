@@ -1,0 +1,138 @@
+{
+  "cycle": "R2_CYCLE_01",
+  "connectors": [
+    {
+      "id": "CTX-PERCEIVED-SIMILARITY",
+      "dimension": "person",
+      "label": "Perceived similarity / homophily",
+      "definition": "Perceived similarity between audience member and source/others that may modify identity relevance, trust, and connection.",
+      "target_families": [
+        "identity",
+        "trust",
+        "connection"
+      ],
+      "status": "candidate",
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-TR-003"
+      ]
+    },
+    {
+      "id": "CTX-RELATIONSHIP-RECIPROCITY",
+      "dimension": "relationship_history",
+      "label": "Relationship reciprocity",
+      "definition": "Degree to which communication/relationship is actually reciprocal rather than parasocial or one-sided.",
+      "target_families": [
+        "connection",
+        "trust"
+      ],
+      "status": "candidate",
+      "claim_ids": [
+        "C2-CON-001"
+      ]
+    },
+    {
+      "id": "CTX-COMMUNICATION-MEDIUM",
+      "dimension": "platform_affordance",
+      "label": "Communication medium / modality",
+      "definition": "Channel, modality, device, and interface affordances that alter communication costs, cues, audience, and behavior.",
+      "target_families": [
+        "social_transmission",
+        "attention",
+        "trust"
+      ],
+      "status": "candidate",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-004"
+      ]
+    },
+    {
+      "id": "CTX-AUDIENCE-COMPOSITION",
+      "dimension": "social_group",
+      "label": "Audience composition",
+      "definition": "Who is expected to receive/observe a communication, including tie strength, group membership, and audience heterogeneity.",
+      "target_families": [
+        "social_transmission",
+        "identity"
+      ],
+      "status": "candidate",
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-004"
+      ]
+    },
+    {
+      "id": "CTX-CULTURAL-MEANING-SYSTEM",
+      "dimension": "culture",
+      "label": "Cultural meaning system",
+      "definition": "Shared cultural practices/meanings that can change attention, emotion, identity, connection, trust, and communication processes.",
+      "target_families": [
+        "attention",
+        "curiosity",
+        "valuation_emotion",
+        "identity",
+        "trust",
+        "connection",
+        "social_transmission",
+        "reinforcement_habit"
+      ],
+      "status": "candidate",
+      "claim_ids": [
+        "C2-ATT-003",
+        "C2-CUR-004",
+        "C2-VE-004",
+        "C2-ID-003",
+        "C2-ST-004"
+      ]
+    },
+    {
+      "id": "CTX-PLATFORM-AMPLIFICATION",
+      "dimension": "platform_affordance",
+      "label": "Platform/network amplification",
+      "definition": "Mechanical distribution/exposure produced by recommender systems and network topology after or independent of human transmission.",
+      "target_families": [
+        "social_transmission",
+        "attention"
+      ],
+      "status": "candidate",
+      "claim_ids": [
+        "C2-ST-001"
+      ],
+      "boundary": "System-level exposure mechanism, not a psychological motive."
+    },
+    {
+      "id": "CTX-RELATIONSHIP-HISTORY",
+      "dimension": "relationship_history",
+      "label": "Prior creator-audience history",
+      "definition": "Accumulated exposure, outcomes, and interaction history that conditions familiarity, trust, and connection.",
+      "target_families": [
+        "connection",
+        "trust",
+        "reinforcement_habit"
+      ],
+      "status": "candidate",
+      "claim_ids": [
+        "C2-CON-003",
+        "C2-TR-003"
+      ]
+    },
+    {
+      "id": "CTX-GOAL-STATE",
+      "dimension": "goal_task",
+      "label": "Active goal / task state",
+      "definition": "Current goal configuration that changes relevance, attention, value, curiosity, and action selection.",
+      "target_families": [
+        "attention",
+        "curiosity",
+        "valuation_emotion",
+        "reinforcement_habit"
+      ],
+      "status": "candidate",
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-RH-003"
+      ]
+    }
+  ]
+}
