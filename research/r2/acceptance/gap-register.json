@@ -1,0 +1,203 @@
+{
+  "version": "1.0.0",
+  "gaps": [
+    {
+      "node_id": "ATT-N12",
+      "core": "attention",
+      "label": "Distractor suppression",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H-ATT-C01"
+      ]
+    },
+    {
+      "node_id": "CUR-N09",
+      "core": "curiosity",
+      "label": "Directed exploration",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H3-CUR-C02"
+      ]
+    },
+    {
+      "node_id": "TR-N09",
+      "core": "trust",
+      "label": "Reliability track record",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2C4-TR-C01"
+      ]
+    },
+    {
+      "node_id": "TR-N12",
+      "core": "trust",
+      "label": "Epistemic vigilance",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H-TR-C01"
+      ]
+    },
+    {
+      "node_id": "TR-N13",
+      "core": "trust",
+      "label": "Verification behavior",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H-TR-C02"
+      ]
+    },
+    {
+      "node_id": "TR-N14",
+      "core": "trust",
+      "label": "Trust calibration",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H-TR-C01"
+      ]
+    },
+    {
+      "node_id": "CON-N07",
+      "core": "connection",
+      "label": "Creator familiarity",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003",
+        "R2H3-CON-C01"
+      ]
+    },
+    {
+      "node_id": "ST-N08",
+      "core": "social_transmission",
+      "label": "Impression-management motive",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H-ST-C01"
+      ]
+    },
+    {
+      "node_id": "ST-N10",
+      "core": "social_transmission",
+      "label": "Emotion-regulation motive",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H-ST-C01"
+      ]
+    },
+    {
+      "node_id": "ST-N11",
+      "core": "social_transmission",
+      "label": "Privacy-cost appraisal",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H2-ST-C02"
+      ]
+    },
+    {
+      "node_id": "ST-N12",
+      "core": "social_transmission",
+      "label": "Reputational-risk appraisal",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H2-ST-C03"
+      ]
+    },
+    {
+      "node_id": "ST-N14",
+      "core": "social_transmission",
+      "label": "Social-bonding motive",
+      "failed_gates": [
+        "evidence_sufficiency"
+      ],
+      "primary_gap": "direct_evidence_sufficiency",
+      "required_next_evidence": "Add >=1 direct Tier-A synthesis/validation source or >=2 independent direct Tier-B-or-better sources without weakening the current construct boundary.",
+      "current_claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H-ST-C01"
+      ]
+    }
+  ]
+}

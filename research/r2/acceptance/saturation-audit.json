@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "scope": "R2 mechanism decomposition only",
+  "status": "PASS_WITH_NONCRITICAL_EVIDENCE_GAPS",
+  "accepted_count": 84,
+  "provisional_gap_count": 12,
+  "noncanonical_count": 20,
+  "unresolved_candidate_count": 0,
+  "accepted_by_core": {
+    "attention": 12,
+    "curiosity": 11,
+    "valuation_emotion": 15,
+    "identity": 11,
+    "trust": 8,
+    "connection": 5,
+    "social_transmission": 9,
+    "reinforcement_habit": 13
+  },
+  "provisional_by_core": {
+    "attention": 1,
+    "curiosity": 1,
+    "trust": 4,
+    "connection": 1,
+    "social_transmission": 5
+  },
+  "rationale": [
+    "All 116 L2 records have explicit lifecycle state and there are no unresolved candidates.",
+    "All eight core families retain accepted canonical L2 constructs.",
+    "84 nodes pass the multichannel R2 acceptance gate.",
+    "12 nodes remain provisional only because direct evidence is below the conservative acceptance threshold.",
+    "Remaining gaps are explicit and do not remove any L0 core or L1 mechanism family from representation.",
+    "R3 may proceed, but provisional nodes must carry uncertainty and cannot solely support strong edge conclusions."
+  ],
+  "system_saturation": "NOT_CLAIMED",
+  "next_gate": "R3 cross-core connector and typed-edge synthesis"
+}

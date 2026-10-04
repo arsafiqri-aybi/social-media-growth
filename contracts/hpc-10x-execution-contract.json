@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 10,
+  "revision": 11,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -265,31 +265,21 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Run the R2 node-level acceptance/saturation audit. Score each active provisional node on evidence sufficiency, measurement validity, non-overlap, contradiction/boundary coverage, transport uncertainty, and provenance completeness. Accept only nodes that pass; otherwise retain provisional with an explicit gap.",
+  "next_action": "Begin R3 cross-core connector and typed-edge synthesis from the 84 accepted L2 nodes, preserving the 12 provisional evidence-gap nodes as uncertainty-carrying constructs. Build evidence-linked typed edges, moderators, inhibitions, competing pathways, and feedback loops before reasoning-engine integration.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
       "R2"
     ],
-    "cycle": "R2_CYCLE_02_BATCH_04",
-    "status": "CANDIDATE_CLOSURE_COMPLETE_ACCEPTANCE_AUDIT_PENDING",
+    "cycle": "R2_ACCEPTANCE_AUDIT_V1",
+    "status": "R2_PASS_WITH_NONCRITICAL_EVIDENCE_GAPS",
     "l1_modules": 45,
     "l2_records_total": 116,
-    "l2_active_provisional": 96,
-    "l2_accepted": 0,
+    "l2_accepted": 84,
+    "l2_provisional_with_gaps": 12,
+    "l2_noncanonical": 20,
     "unresolved_candidates": 0,
-    "noncanonical_records": 20,
-    "closure_action_counts": {
-      "promote": 14,
-      "merge": 7,
-      "move_to_edge": 1,
-      "refine_to_l3": 4,
-      "move_to_context": 4,
-      "defer_research": 2,
-      "derive": 1,
-      "move_to_model_hypothesis": 1
-    },
-    "next": "Run node-level acceptance and saturation audit over active provisional L2 nodes. R3 remains blocked until this gate is complete."
+    "next": "Begin R3 cross-core connector and typed-edge synthesis. Provisional nodes remain uncertainty-carrying and cannot be sole support for strong edges."
   }
 }

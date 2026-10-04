@@ -1,0 +1,2569 @@
+{
+  "version": "1.0.0",
+  "audit": [
+    {
+      "node_id": "ATT-N01",
+      "core": "attention",
+      "label": "Perceptual salience",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "validated visual-attention salience manipulation/task",
+      "boundary_conditions": [
+        "Perceptual salience biases priority but does not guarantee capture."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N02",
+      "core": "attention",
+      "label": "Stimulus-driven capture",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "capture paradigm with task-goal conflict and latency/selection outcome",
+      "boundary_conditions": [
+        "Capture requires evidence of involuntary priority, not mere noticing."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N03",
+      "core": "attention",
+      "label": "Orienting response",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2C4-ATT-C01"
+      ],
+      "measurement_route": "spatial orienting/reorienting task or eye-movement latency under controlled cueing",
+      "boundary_conditions": [
+        "Orienting can be voluntary or involuntary; it is not synonymous with capture."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N04",
+      "core": "attention",
+      "label": "Goal relevance",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "goal-relevance manipulation tied to an active task/goal",
+      "boundary_conditions": [
+        "Relevance is state- and task-dependent."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N05",
+      "core": "attention",
+      "label": "Attentional set / target template",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "target-template/attentional-set manipulation in selective-attention task",
+      "boundary_conditions": [
+        "A target template is an active control representation, not a stable preference."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N06",
+      "core": "attention",
+      "label": "Executive attentional control",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "executive-control/competition-resolution task",
+      "boundary_conditions": [
+        "Executive control is broader than one difference score or platform metric."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N07",
+      "core": "attention",
+      "label": "Reward-associated attentional priority",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H3-ATT-C02"
+      ],
+      "measurement_route": "value-driven attentional-capture paradigm with prior reward association",
+      "boundary_conditions": [
+        "Reward-history effects are method-sensitive and should not receive a universal effect coefficient."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N08",
+      "core": "attention",
+      "label": "Prior-selection history",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H3-ATT-C01"
+      ],
+      "measurement_route": "selection-history manipulation controlling current goals and salience",
+      "boundary_conditions": [
+        "Prior selection must be separated from current goal and stimulus-driven effects."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N09",
+      "core": "attention",
+      "label": "Sustained attention",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H2-ATT-C01"
+      ],
+      "measurement_route": "sustained-attention/vigilance task with time-on-task performance",
+      "boundary_conditions": [
+        "Sustained attention must not be inferred from initial hold/capture."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N10",
+      "core": "attention",
+      "label": "Vigilance decrement",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H2-ATT-C01"
+      ],
+      "measurement_route": "within-task time-on-task decrement under a validated vigilance paradigm",
+      "boundary_conditions": [
+        "A decrement is task-sensitive and not a stable trait by itself."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N11",
+      "core": "attention",
+      "label": "Attentional lapse",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2C4-ATT-C02"
+      ],
+      "measurement_route": "trial-level lapse markers in sustained-attention/vigilance paradigms",
+      "boundary_conditions": [
+        "A lapse is transient and must be distinguished from a time-on-task decrement."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N12",
+      "core": "attention",
+      "label": "Distractor suppression",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2H-ATT-C01"
+      ],
+      "measurement_route": "task-based distractor-suppression paradigms",
+      "boundary_conditions": [
+        "Do not infer from low distraction alone; proactive and reactive suppression may need later split."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ATT-N13",
+      "core": "attention",
+      "label": "Attentional disengagement",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ATT-001",
+        "C2-ATT-002",
+        "C2-ATT-003",
+        "R2C4-ATT-C01"
+      ],
+      "measurement_route": "disengagement/reorienting cost under cueing or competition paradigms",
+      "boundary_conditions": [
+        "Disengagement releases current priority; it is not simply distractor suppression."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N01",
+      "core": "curiosity",
+      "label": "Novelty appraisal",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H3-CUR-C01"
+      ],
+      "measurement_route": "novelty manipulation plus curiosity/information-seeking response",
+      "boundary_conditions": [
+        "Novelty can trigger exploration but is neither necessary nor sufficient for curiosity."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N02",
+      "core": "curiosity",
+      "label": "Surprise / expectancy violation",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H3-CUR-C01"
+      ],
+      "measurement_route": "expectancy-violation/surprise manipulation plus information-seeking response",
+      "boundary_conditions": [
+        "Surprise is a prediction mismatch, not curiosity itself."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N03",
+      "core": "curiosity",
+      "label": "Subjective uncertainty",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H3-CUR-C01"
+      ],
+      "measurement_route": "subjective uncertainty/confidence estimate paired with seeking choice",
+      "boundary_conditions": [
+        "Uncertainty can increase curiosity, avoidance, or neither depending on value and threat."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N04",
+      "core": "curiosity",
+      "label": "Knowledge-gap representation",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2C4-CUR-C01"
+      ],
+      "measurement_route": "explicit awareness of a specific knowledge gap paired with curiosity/seeking measure",
+      "boundary_conditions": [
+        "Knowledge gaps can produce curiosity, frustration, avoidance, or indifference depending on appraisal."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N05",
+      "core": "curiosity",
+      "label": "Expected information gain",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H2-CUR-C01"
+      ],
+      "measurement_route": "choice-based expected-information-gain manipulation/estimate",
+      "boundary_conditions": [
+        "Information gain is not identical to uncertainty magnitude."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N06",
+      "core": "curiosity",
+      "label": "Epistemic value",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H2-CUR-C01"
+      ],
+      "measurement_route": "information-choice valuation task or willingness-to-obtain information",
+      "boundary_conditions": [
+        "Epistemic value must be distinguished from instrumental reward."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N07",
+      "core": "curiosity",
+      "label": "Learning-progress signal",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H2-CUR-C02"
+      ],
+      "measurement_route": "longitudinal/trial-level learning-progress estimate paired with exploration choice",
+      "boundary_conditions": [
+        "Observed learning alone does not prove a subjective progress signal."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N09",
+      "core": "curiosity",
+      "label": "Directed exploration",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H3-CUR-C02"
+      ],
+      "measurement_route": "directed exploration choice explicitly linked to uncertainty reduction/information value",
+      "boundary_conditions": [
+        "Directed exploration may serve instrumental goals unrelated to curiosity."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N10",
+      "core": "curiosity",
+      "label": "Exploratory information seeking",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H3-CUR-C01"
+      ],
+      "measurement_route": "observed information-seeking/exploration choice",
+      "boundary_conditions": [
+        "Seeking behavior is multiply determined and cannot diagnose curiosity alone."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N11",
+      "core": "curiosity",
+      "label": "Threat-based information avoidance",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H-CUR-C01"
+      ],
+      "measurement_route": "information-avoidance choice/behavior plus threat appraisal",
+      "boundary_conditions": [
+        "Distinguish threat avoidance from simple lack of interest."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N12",
+      "core": "curiosity",
+      "label": "Effort/cost-based avoidance",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H-CUR-C01"
+      ],
+      "measurement_route": "choice under information effort/cost manipulation",
+      "boundary_conditions": [
+        "Cost-based avoidance can coexist with curiosity."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CUR-N13",
+      "core": "curiosity",
+      "label": "Belief-protective avoidance",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CUR-001",
+        "C2-CUR-002",
+        "C2-CUR-003",
+        "C2-CUR-004",
+        "R2H-CUR-C01"
+      ],
+      "measurement_route": "information choice plus belief/identity relevance measures",
+      "boundary_conditions": [
+        "Needs direct identity-protective disconfirmation evidence in later pass."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N01",
+      "core": "valuation_emotion",
+      "label": "Subjective utility",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2H3-VE-C01"
+      ],
+      "measurement_route": "choice, rating, willingness-to-pay, or fitted subjective-value model matched to decision context",
+      "boundary_conditions": [
+        "Do not substitute valence, arousal, likes, or watch time for subjective utility."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N03",
+      "core": "valuation_emotion",
+      "label": "Subjective cost",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2C4-VE-C01"
+      ],
+      "measurement_route": "effort/cost rating or choice model estimating subjective cost",
+      "boundary_conditions": [
+        "Cost is context- and option-specific; not all non-choice reflects high subjective cost."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N04",
+      "core": "valuation_emotion",
+      "label": "Expected outcome value",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2C4-VE-C01"
+      ],
+      "measurement_route": "pre-outcome expected-value rating/model or reward anticipation task",
+      "boundary_conditions": [
+        "Expected value precedes outcome and should remain distinct from experienced value."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N05",
+      "core": "valuation_emotion",
+      "label": "Experienced outcome value",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2C4-VE-C01"
+      ],
+      "measurement_route": "post-outcome experienced-value rating/choice update",
+      "boundary_conditions": [
+        "Experienced value may update but is not identical to prediction error."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N06",
+      "core": "valuation_emotion",
+      "label": "Loss / punishment valuation",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2C4-VE-C01"
+      ],
+      "measurement_route": "loss/punishment value task or aversive-outcome valuation",
+      "boundary_conditions": [
+        "Human punishment-value evidence is less mature than reward-value evidence."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N07",
+      "core": "valuation_emotion",
+      "label": "Goal-congruence appraisal",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
+      ],
+      "measurement_route": "appraisal measure/manipulation for goal congruence",
+      "boundary_conditions": [
+        "One appraisal cannot identify an emotion by itself."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N08",
+      "core": "valuation_emotion",
+      "label": "Certainty appraisal",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
+      ],
+      "measurement_route": "certainty appraisal measure/manipulation",
+      "boundary_conditions": [
+        "Certainty is distinct from confidence in source truth."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N09",
+      "core": "valuation_emotion",
+      "label": "Control / coping-potential appraisal",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
+      ],
+      "measurement_route": "control/coping-potential appraisal measure",
+      "boundary_conditions": [
+        "Perceived control is context- and event-specific."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N10",
+      "core": "valuation_emotion",
+      "label": "Agency / responsibility appraisal",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2H2-VE-C01",
+        "R2H2-VE-C02"
+      ],
+      "measurement_route": "agency/responsibility appraisal measure",
+      "boundary_conditions": [
+        "Agency appraisal is not identical to moral blame."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N11",
+      "core": "valuation_emotion",
+      "label": "Affective valence",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2H3-VE-C02"
+      ],
+      "measurement_route": "validated valence self-report/dimensional affect measure",
+      "boundary_conditions": [
+        "Valence alone does not identify a discrete emotion."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N12",
+      "core": "valuation_emotion",
+      "label": "Affective arousal",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2H3-VE-C02"
+      ],
+      "measurement_route": "validated arousal self-report/physiological measure with construct-specific interpretation",
+      "boundary_conditions": [
+        "Arousal alone does not identify emotional meaning or transmission motive."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N16",
+      "core": "valuation_emotion",
+      "label": "Mixed emotion",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2C4-VE-C02"
+      ],
+      "measurement_route": "validated mixed-emotion paradigm with bivariate or multivariate assessment",
+      "boundary_conditions": [
+        "Mixed emotion is co-occurrence, not merely a weak correlation between positive and negative affect."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N17",
+      "core": "valuation_emotion",
+      "label": "Approach tendency",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2H-VE-C01",
+        "R2H-VE-C02"
+      ],
+      "measurement_route": "approach-action task with interpretation/context metadata",
+      "boundary_conditions": [
+        "Positive valence does not universally produce approach."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N18",
+      "core": "valuation_emotion",
+      "label": "Avoidance / withdrawal tendency",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2H-VE-C01",
+        "R2H-VE-C02"
+      ],
+      "measurement_route": "avoidance-action task with interpretation/context metadata",
+      "boundary_conditions": [
+        "Negative valence does not universally produce avoidance."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "VE-N19",
+      "core": "valuation_emotion",
+      "label": "Confrontation / mobilization tendency",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-VE-001",
+        "C2-VE-002",
+        "C2-VE-003",
+        "C2-VE-004",
+        "R2C4-VE-C03"
+      ],
+      "measurement_route": "action-tendency measure tied to event appraisal/emotion context",
+      "boundary_conditions": [
+        "Confrontation/mobilization is conditional and not a one-to-one emotion label."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N01",
+      "core": "identity",
+      "label": "Personal self-concept",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2C4-ID-C01"
+      ],
+      "measurement_route": "self-concept/identity representation measure matched to the relevant self-domain",
+      "boundary_conditions": [
+        "Personal self-concept is broader than one salient social category."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N02",
+      "core": "identity",
+      "label": "Self-relevance",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H3-ID-C03"
+      ],
+      "measurement_route": "self-relevance manipulation/appraisal tied to a defined self-aspect",
+      "boundary_conditions": [
+        "Self-relevance is not generic liking or familiarity."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N03",
+      "core": "identity",
+      "label": "Identity centrality",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H3-ID-C01"
+      ],
+      "measurement_route": "identity-centrality component within a validated identification scale",
+      "boundary_conditions": [
+        "Centrality should be identity-specific rather than a global trait."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N04",
+      "core": "identity",
+      "label": "Self-categorization",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H3-ID-C02"
+      ],
+      "measurement_route": "salient self-categorization manipulation/measure",
+      "boundary_conditions": [
+        "Group membership does not prove that the category is psychologically active."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N05",
+      "core": "identity",
+      "label": "In-group identification",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H3-ID-C01"
+      ],
+      "measurement_route": "validated in-group identification measure",
+      "boundary_conditions": [
+        "Identification is multidimensional and should not be reduced to membership."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N06",
+      "core": "identity",
+      "label": "Self-definition",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H3-ID-C01"
+      ],
+      "measurement_route": "validated self-definition components such as self-stereotyping/in-group homogeneity",
+      "boundary_conditions": [
+        "Self-definition is not generic interpersonal similarity."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N07",
+      "core": "identity",
+      "label": "Self-investment",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H3-ID-C01"
+      ],
+      "measurement_route": "validated self-investment components such as solidarity/satisfaction/centrality",
+      "boundary_conditions": [
+        "Self-investment should not be inferred from public group signaling alone."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N08",
+      "core": "identity",
+      "label": "Norm salience",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H2-ID-C01"
+      ],
+      "measurement_route": "salient-group norm measure/manipulation with identification context",
+      "boundary_conditions": [
+        "Norms should not be inferred from majority behavior alone."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N09",
+      "core": "identity",
+      "label": "Group prototypicality",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H2-ID-C02"
+      ],
+      "measurement_route": "group-prototypicality measure relative to a salient group/category",
+      "boundary_conditions": [
+        "Prototypicality is group-relative, not generic similarity."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N10",
+      "core": "identity",
+      "label": "Identity threat appraisal",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H-ID-C01"
+      ],
+      "measurement_route": "identity-specific threat manipulation/appraisal measure",
+      "boundary_conditions": [
+        "Negative emotion alone is not identity threat."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ID-N11",
+      "core": "identity",
+      "label": "Identity-protective response",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ID-001",
+        "C2-ID-002",
+        "C2-ID-003",
+        "R2H-ID-C01"
+      ],
+      "measurement_route": "coping/identity-protective response measure tied to threatened identity",
+      "boundary_conditions": [
+        "Defense must be linked to identity restoration/protection mechanism."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N01",
+      "core": "trust",
+      "label": "Perceived integrity",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H3-TR-C01"
+      ],
+      "measurement_route": "validated integrity dimension of epistemic/source trust",
+      "boundary_conditions": [
+        "Perceived integrity is subjective and not proof of factual accuracy."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N02",
+      "core": "trust",
+      "label": "Perceived benevolence",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H3-TR-C01"
+      ],
+      "measurement_route": "validated benevolence/good-intentions dimension",
+      "boundary_conditions": [
+        "Benevolence is distinct from competence/expertise."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N03",
+      "core": "trust",
+      "label": "Perceived trustworthiness",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H3-TR-C02"
+      ],
+      "measurement_route": "validated trustworthiness/source-trust measure matched to domain",
+      "boundary_conditions": [
+        "Trustworthiness is not equivalent to credibility or objective truth."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N04",
+      "core": "trust",
+      "label": "Perceived expertise",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H3-TR-C01",
+        "R2H3-TR-C02"
+      ],
+      "measurement_route": "validated perceived-expertise dimension or experimentally manipulated credentials",
+      "boundary_conditions": [
+        "Perceived expertise is domain-specific and can be miscalibrated."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N05",
+      "core": "trust",
+      "label": "Perceived competence",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H3-TR-C01"
+      ],
+      "measurement_route": "validated competence dimension",
+      "boundary_conditions": [
+        "Competence is ability-related and distinct from integrity/benevolence."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N06",
+      "core": "trust",
+      "label": "Perceived genuineness",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H2-TR-C01",
+        "R2H2-TR-C02"
+      ],
+      "measurement_route": "validated perceived-authenticity/genuineness measure matched to source context",
+      "boundary_conditions": [
+        "Authenticity is not objective truth or universal engagement value."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N09",
+      "core": "trust",
+      "label": "Reliability track record",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2C4-TR-C01"
+      ],
+      "measurement_route": "history-based reliability judgment using prior source outcomes/accuracy records",
+      "boundary_conditions": [
+        "A reliable track record can be domain-specific and does not guarantee benevolence or current accuracy."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N10",
+      "core": "trust",
+      "label": "Source credibility cue use",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H3-TR-C03",
+        "R2H3-TR-C04"
+      ],
+      "measurement_route": "experimental source-cue manipulation with perceived-credibility outcome",
+      "boundary_conditions": [
+        "Source cue use does not prove source quality."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N11",
+      "core": "trust",
+      "label": "Social credibility cue use",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H3-TR-C03",
+        "R2H3-TR-C04"
+      ],
+      "measurement_route": "experimental social-cue manipulation with perceived-credibility outcome",
+      "boundary_conditions": [
+        "Popularity/consensus cues can alter credibility perception without verifying truth."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N12",
+      "core": "trust",
+      "label": "Epistemic vigilance",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H-TR-C01"
+      ],
+      "measurement_route": "message/source plausibility and selective-trust tasks",
+      "boundary_conditions": [
+        "Epistemic vigilance is not generalized skepticism."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N13",
+      "core": "trust",
+      "label": "Verification behavior",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H-TR-C02"
+      ],
+      "measurement_route": "observed verification/checking behavior",
+      "boundary_conditions": [
+        "Self-reported skepticism is not verification behavior."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "TR-N14",
+      "core": "trust",
+      "label": "Trust calibration",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-TR-001",
+        "C2-TR-002",
+        "C2-TR-003",
+        "R2H-TR-C01"
+      ],
+      "measurement_route": "calibration between reliance and known source reliability",
+      "boundary_conditions": [
+        "High trust is not necessarily well-calibrated trust."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CON-N01",
+      "core": "connection",
+      "label": "Parasocial interaction intensity",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003",
+        "R2H-CON-C01",
+        "R2H-CON-C02"
+      ],
+      "measurement_route": "episode-specific PSI measure such as EPSI when appropriate",
+      "boundary_conditions": [
+        "Do not infer enduring relationship from within-exposure involvement."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CON-N04",
+      "core": "connection",
+      "label": "Parasocial relational continuity",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003",
+        "R2H-CON-C01"
+      ],
+      "measurement_route": "PSR measure referring to enduring cross-episode relationship",
+      "boundary_conditions": [
+        "Do not use PSI measure as a PSR substitute."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CON-N05",
+      "core": "connection",
+      "label": "Parasocial relationship maintenance",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003",
+        "R2C4-CON-C01"
+      ],
+      "measurement_route": "validated PSR relationship-maintenance dimension",
+      "boundary_conditions": [
+        "PSR maintenance is one-sided relational maintenance and not reciprocal interpersonal maintenance."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CON-N06",
+      "core": "connection",
+      "label": "Real-life relationship intention",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003",
+        "R2H2-CON-C01"
+      ],
+      "measurement_route": "validated PSR dimension measuring real-life relationship intention",
+      "boundary_conditions": [
+        "Desire for reciprocity is not evidence that reciprocity exists."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CON-N07",
+      "core": "connection",
+      "label": "Creator familiarity",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003",
+        "R2H3-CON-C01"
+      ],
+      "measurement_route": "recognition/familiarity measure tied to repeated exposure history",
+      "boundary_conditions": [
+        "Familiarity is not closeness, trust, intimacy, or attachment."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "CON-N10",
+      "core": "connection",
+      "label": "Perceived intimacy",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-CON-001",
+        "C2-CON-002",
+        "C2-CON-003",
+        "R2H2-CON-C01",
+        "R2H2-CON-C02"
+      ],
+      "measurement_route": "validated parasocial-intimacy/PSR dimension",
+      "boundary_conditions": [
+        "Intimacy must not be inferred from familiarity/exposure frequency."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N01",
+      "core": "social_transmission",
+      "label": "Share / forward action",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "logged/observed share or forward action",
+      "boundary_conditions": [
+        "Behavior identifies transmission, not motive."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N02",
+      "core": "social_transmission",
+      "label": "Sharing intention",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H3-ST-C02"
+      ],
+      "measurement_route": "sharing-intention/willingness measure labeled explicitly as intention",
+      "boundary_conditions": [
+        "Intention must not be treated as observed behavior."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N03",
+      "core": "social_transmission",
+      "label": "Recommendation action",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "observed endorsement/recommendation action",
+      "boundary_conditions": [
+        "Recommendation is stronger/evaluative transmission and should not be merged with neutral forwarding."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N04",
+      "core": "social_transmission",
+      "label": "Word-of-mouth evaluation",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "coded or self-reported evaluative word-of-mouth content",
+      "boundary_conditions": [
+        "WOM valence/evaluation is not identical to recommendation action."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N05",
+      "core": "social_transmission",
+      "label": "Perceived recipient usefulness",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H2-ST-C01"
+      ],
+      "measurement_route": "recipient-usefulness appraisal tied to a specific sharing decision",
+      "boundary_conditions": [
+        "Usefulness is a motive/appraisal, not the share action itself."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N06",
+      "core": "social_transmission",
+      "label": "Information-value sharing motive",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H2-ST-C01"
+      ],
+      "measurement_route": "motive-specific information-value sharing measure",
+      "boundary_conditions": [
+        "Information-value motive may coexist with other motives."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N07",
+      "core": "social_transmission",
+      "label": "Identity-signaling motive",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "identity-expression/signaling motive measure tied to transmission choice",
+      "boundary_conditions": [
+        "The motive cannot be inferred solely from identity-relevant content."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N08",
+      "core": "social_transmission",
+      "label": "Impression-management motive",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H-ST-C01"
+      ],
+      "measurement_route": "motive-specific impression-management measure/experiment",
+      "boundary_conditions": [
+        "Cannot infer motive from share action alone."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N09",
+      "core": "social_transmission",
+      "label": "Affective-expression motive",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2C4-ST-C01"
+      ],
+      "measurement_route": "motive-specific affective-expression measure tied to an actual/intended transmission decision",
+      "boundary_conditions": [
+        "Affective expression is a motive and cannot be inferred from arousal or share count alone."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N10",
+      "core": "social_transmission",
+      "label": "Emotion-regulation motive",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H-ST-C01"
+      ],
+      "measurement_route": "emotion-regulation motive measure linked to transmission choice",
+      "boundary_conditions": [
+        "Keep separate from incidental arousal."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N11",
+      "core": "social_transmission",
+      "label": "Privacy-cost appraisal",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H2-ST-C02"
+      ],
+      "measurement_route": "privacy-risk/cost appraisal tied to audience and disclosure context",
+      "boundary_conditions": [
+        "Privacy concern may not translate directly to behavior in every context."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N12",
+      "core": "social_transmission",
+      "label": "Reputational-risk appraisal",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H2-ST-C03"
+      ],
+      "measurement_route": "reputational-risk/self-presentation appraisal tied to audience",
+      "boundary_conditions": [
+        "Reputational risk is audience-dependent and distinct from privacy risk."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N14",
+      "core": "social_transmission",
+      "label": "Social-bonding motive",
+      "decision": "RETAIN_PROVISIONAL",
+      "gates": {
+        "evidence_sufficiency": "FAIL",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H-ST-C01"
+      ],
+      "measurement_route": "social-bonding motive/recipient relationship measure",
+      "boundary_conditions": [
+        "Sharing may have multiple simultaneous motives."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "ST-N15",
+      "core": "social_transmission",
+      "label": "Relationship-maintenance motive",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-ST-001",
+        "C2-ST-002",
+        "C2-ST-003",
+        "C2-ST-004",
+        "R2H3-ST-C01"
+      ],
+      "measurement_route": "relationship-maintenance motive measure tied to sender-recipient relationship",
+      "boundary_conditions": [
+        "Relationship-maintenance sharing is distinct from parasocial connection to the creator."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N01",
+      "core": "reinforcement_habit",
+      "label": "Reward prediction error",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H3-RH-C01"
+      ],
+      "measurement_route": "reinforcement-learning model fit with prediction-error construct and task feedback",
+      "boundary_conditions": [
+        "Model-derived RPE is an estimate, not a direct psychological observation."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N02",
+      "core": "reinforcement_habit",
+      "label": "Outcome-value updating",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H3-RH-C01"
+      ],
+      "measurement_route": "trial-level value update/learning model or outcome-learning task",
+      "boundary_conditions": [
+        "Value updating should not be equated with habit formation."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N04",
+      "core": "reinforcement_habit",
+      "label": "Context-response association strength",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H3-RH-C02"
+      ],
+      "measurement_route": "objective or validated context-response association measure",
+      "boundary_conditions": [
+        "Return frequency alone does not establish association strength."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N05",
+      "core": "reinforcement_habit",
+      "label": "Cue-triggered response tendency",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H3-RH-C02"
+      ],
+      "measurement_route": "cue-triggered response/action-slip task",
+      "boundary_conditions": [
+        "Cue-triggering is context-specific and can coexist with deliberate control."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N06",
+      "core": "reinforcement_habit",
+      "label": "Automaticity",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H3-RH-C02"
+      ],
+      "measurement_route": "SRBAI/automaticity measure or objective automatic-response task",
+      "boundary_conditions": [
+        "Automaticity is an important habit component but not the entire habit construct."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N07",
+      "core": "reinforcement_habit",
+      "label": "Outcome insensitivity",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H3-RH-C03",
+        "R2H3-RH-C04"
+      ],
+      "measurement_route": "validated outcome-devaluation/revaluation paradigm with manipulation check",
+      "boundary_conditions": [
+        "Apparent devaluation insensitivity can be artifactual and does not imply global persistence."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N09",
+      "core": "reinforcement_habit",
+      "label": "Action-outcome representation",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H2-RH-C01"
+      ],
+      "measurement_route": "action-outcome knowledge or model-based transition/outcome representation task",
+      "boundary_conditions": [
+        "Model-based metrics are approximations, not literal proof of a single neural system."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N10",
+      "core": "reinforcement_habit",
+      "label": "Goal-directed control strength",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H2-RH-C01"
+      ],
+      "measurement_route": "goal-directed sensitivity to current outcome values/action-outcome contingencies",
+      "boundary_conditions": [
+        "Goal-directed control can coexist with habitual influences."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N12",
+      "core": "reinforcement_habit",
+      "label": "Behavior repetition",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H-RH-C02"
+      ],
+      "measurement_route": "behavioral repetition history",
+      "boundary_conditions": [
+        "Repetition is input/history, not habit diagnosis."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N13",
+      "core": "reinforcement_habit",
+      "label": "Context stability",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H-RH-C02"
+      ],
+      "measurement_route": "context stability/consistency measure",
+      "boundary_conditions": [
+        "Context must be defined behavior-specifically."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N14",
+      "core": "reinforcement_habit",
+      "label": "Habit formation trajectory",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H-RH-C02",
+        "R2H-RH-C03"
+      ],
+      "measurement_route": "longitudinal automaticity/context-response trajectory",
+      "boundary_conditions": [
+        "No universal formation duration."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N15",
+      "core": "reinforcement_habit",
+      "label": "Context discontinuity",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H-RH-C01"
+      ],
+      "measurement_route": "natural/experimental context-disruption design",
+      "boundary_conditions": [
+        "Context change is an opportunity, not guaranteed behavior change."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    },
+    {
+      "node_id": "RH-N16",
+      "core": "reinforcement_habit",
+      "label": "Contingency / outcome revaluation",
+      "decision": "ACCEPT",
+      "gates": {
+        "evidence_sufficiency": "PASS",
+        "measurement_validity": "PASS",
+        "non_redundancy": "PASS",
+        "contradiction_boundary": "PASS",
+        "transport_context": "BOUNDED_PASS",
+        "provenance": "PASS"
+      },
+      "claim_ids": [
+        "C2-RH-001",
+        "C2-RH-002",
+        "C2-RH-003",
+        "C2-RH-004",
+        "R2H3-RH-C03"
+      ],
+      "measurement_route": "outcome-revaluation or contingency-change paradigm",
+      "boundary_conditions": [
+        "Revaluation is a manipulation/test condition, not itself a stable trait."
+      ],
+      "evidence_evaluation_basis": "Normalized direct-claim/source audit across R0-R2 registries; see acceptance-policy.json.",
+      "transport_scope": "context-bounded, not universal"
+    }
+  ]
+}

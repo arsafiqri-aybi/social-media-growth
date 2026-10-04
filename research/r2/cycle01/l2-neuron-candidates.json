@@ -9,7 +9,7 @@
       "primary_core": "attention",
       "label": "Perceptual salience",
       "definition": "Relative sensory prominence created by feature contrast or conspicuity that biases competition for selection.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
@@ -21,7 +21,9 @@
       "measurement_route": "validated visual-attention salience manipulation/task",
       "boundary_conditions": [
         "Perceptual salience biases priority but does not guarantee capture."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N02",
@@ -30,7 +32,7 @@
       "primary_core": "attention",
       "label": "Stimulus-driven capture",
       "definition": "Involuntary prioritization caused by stimulus properties despite competing goals.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
@@ -42,7 +44,9 @@
       "measurement_route": "capture paradigm with task-goal conflict and latency/selection outcome",
       "boundary_conditions": [
         "Capture requires evidence of involuntary priority, not mere noticing."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N03",
@@ -51,7 +55,7 @@
       "primary_core": "attention",
       "label": "Orienting response",
       "definition": "Rapid reorientation of processing toward a newly prioritized stimulus or location.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ATT-001",
@@ -65,7 +69,9 @@
       "boundary_conditions": [
         "Orienting can be voluntary or involuntary; it is not synonymous with capture."
       ],
-      "measurement_route": "spatial orienting/reorienting task or eye-movement latency under controlled cueing"
+      "measurement_route": "spatial orienting/reorienting task or eye-movement latency under controlled cueing",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N04",
@@ -74,7 +80,7 @@
       "primary_core": "attention",
       "label": "Goal relevance",
       "definition": "Match between information and an active goal/task that raises selection priority.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
@@ -86,7 +92,9 @@
       "measurement_route": "goal-relevance manipulation tied to an active task/goal",
       "boundary_conditions": [
         "Relevance is state- and task-dependent."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N05",
@@ -95,7 +103,7 @@
       "primary_core": "attention",
       "label": "Attentional set / target template",
       "definition": "Active representation of sought-for features or categories that biases selection.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
@@ -107,7 +115,9 @@
       "measurement_route": "target-template/attentional-set manipulation in selective-attention task",
       "boundary_conditions": [
         "A target template is an active control representation, not a stable preference."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N06",
@@ -116,7 +126,7 @@
       "primary_core": "attention",
       "label": "Executive attentional control",
       "definition": "Top-down resolution of competition in favor of task-relevant processing.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
@@ -128,7 +138,9 @@
       "measurement_route": "executive-control/competition-resolution task",
       "boundary_conditions": [
         "Executive control is broader than one difference score or platform metric."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N07",
@@ -137,7 +149,7 @@
       "primary_core": "attention",
       "label": "Reward-associated attentional priority",
       "definition": "Learned attentional bias toward features previously associated with reward/value.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
@@ -149,7 +161,9 @@
       "measurement_route": "value-driven attentional-capture paradigm with prior reward association",
       "boundary_conditions": [
         "Reward-history effects are method-sensitive and should not receive a universal effect coefficient."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N08",
@@ -158,7 +172,7 @@
       "primary_core": "attention",
       "label": "Prior-selection history",
       "definition": "Bias in current selection caused by prior selections independent of immediate goals.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
@@ -170,7 +184,9 @@
       "measurement_route": "selection-history manipulation controlling current goals and salience",
       "boundary_conditions": [
         "Prior selection must be separated from current goal and stimulus-driven effects."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N09",
@@ -179,7 +195,7 @@
       "primary_core": "attention",
       "label": "Sustained attention",
       "definition": "Maintenance of task-relevant processing over extended time.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
@@ -191,7 +207,9 @@
       "measurement_route": "sustained-attention/vigilance task with time-on-task performance",
       "boundary_conditions": [
         "Sustained attention must not be inferred from initial hold/capture."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N10",
@@ -200,7 +218,7 @@
       "primary_core": "attention",
       "label": "Vigilance decrement",
       "definition": "Time-related decline in sustained detection/monitoring performance.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ATT-001",
@@ -212,7 +230,9 @@
       "measurement_route": "within-task time-on-task decrement under a validated vigilance paradigm",
       "boundary_conditions": [
         "A decrement is task-sensitive and not a stable trait by itself."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N11",
@@ -221,7 +241,7 @@
       "primary_core": "attention",
       "label": "Attentional lapse",
       "definition": "Transient failure to maintain intended task-relevant processing.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ATT-001",
@@ -235,7 +255,9 @@
       "boundary_conditions": [
         "A lapse is transient and must be distinguished from a time-on-task decrement."
       ],
-      "measurement_route": "trial-level lapse markers in sustained-attention/vigilance paradigms"
+      "measurement_route": "trial-level lapse markers in sustained-attention/vigilance paradigms",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N12",
@@ -256,6 +278,10 @@
       "measurement_route": "task-based distractor-suppression paradigms",
       "boundary_conditions": [
         "Do not infer from low distraction alone; proactive and reactive suppression may need later split."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -265,7 +291,7 @@
       "primary_core": "attention",
       "label": "Attentional disengagement",
       "definition": "Release of processing priority from the currently attended target to enable reorientation.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ATT-001",
@@ -279,7 +305,9 @@
       "boundary_conditions": [
         "Disengagement releases current priority; it is not simply distractor suppression."
       ],
-      "measurement_route": "disengagement/reorienting cost under cueing or competition paradigms"
+      "measurement_route": "disengagement/reorienting cost under cueing or competition paradigms",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ATT-N14",
@@ -310,7 +338,7 @@
       "primary_core": "curiosity",
       "label": "Novelty appraisal",
       "definition": "Evaluation that information is new relative to current knowledge/history.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -323,7 +351,9 @@
       "measurement_route": "novelty manipulation plus curiosity/information-seeking response",
       "boundary_conditions": [
         "Novelty can trigger exploration but is neither necessary nor sufficient for curiosity."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N02",
@@ -332,7 +362,7 @@
       "primary_core": "curiosity",
       "label": "Surprise / expectancy violation",
       "definition": "Detection that an observation deviates from expectation and may warrant model updating.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -345,7 +375,9 @@
       "measurement_route": "expectancy-violation/surprise manipulation plus information-seeking response",
       "boundary_conditions": [
         "Surprise is a prediction mismatch, not curiosity itself."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N03",
@@ -354,7 +386,7 @@
       "primary_core": "curiosity",
       "label": "Subjective uncertainty",
       "definition": "Experienced lack of confidence or unresolved state about information/outcomes.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -367,7 +399,9 @@
       "measurement_route": "subjective uncertainty/confidence estimate paired with seeking choice",
       "boundary_conditions": [
         "Uncertainty can increase curiosity, avoidance, or neither depending on value and threat."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N04",
@@ -376,7 +410,7 @@
       "primary_core": "curiosity",
       "label": "Knowledge-gap representation",
       "definition": "Representation of a specific discrepancy between known and desired knowledge.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CUR-001",
@@ -391,7 +425,9 @@
       "boundary_conditions": [
         "Knowledge gaps can produce curiosity, frustration, avoidance, or indifference depending on appraisal."
       ],
-      "measurement_route": "explicit awareness of a specific knowledge gap paired with curiosity/seeking measure"
+      "measurement_route": "explicit awareness of a specific knowledge gap paired with curiosity/seeking measure",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N05",
@@ -400,7 +436,7 @@
       "primary_core": "curiosity",
       "label": "Expected information gain",
       "definition": "Anticipated reduction in uncertainty or improvement in knowledge from obtaining information.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -413,7 +449,9 @@
       "measurement_route": "choice-based expected-information-gain manipulation/estimate",
       "boundary_conditions": [
         "Information gain is not identical to uncertainty magnitude."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N06",
@@ -422,7 +460,7 @@
       "primary_core": "curiosity",
       "label": "Epistemic value",
       "definition": "Subjective value assigned to information itself, apart from immediate external reward.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -435,7 +473,9 @@
       "measurement_route": "information-choice valuation task or willingness-to-obtain information",
       "boundary_conditions": [
         "Epistemic value must be distinguished from instrumental reward."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N07",
@@ -444,7 +484,7 @@
       "primary_core": "curiosity",
       "label": "Learning-progress signal",
       "definition": "Perception that understanding or predictive competence is improving.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -457,7 +497,9 @@
       "measurement_route": "longitudinal/trial-level learning-progress estimate paired with exploration choice",
       "boundary_conditions": [
         "Observed learning alone does not prove a subjective progress signal."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N08",
@@ -502,6 +544,10 @@
       "measurement_route": "directed exploration choice explicitly linked to uncertainty reduction/information value",
       "boundary_conditions": [
         "Directed exploration may serve instrumental goals unrelated to curiosity."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -511,7 +557,7 @@
       "primary_core": "curiosity",
       "label": "Exploratory information seeking",
       "definition": "Behavioral pursuit of additional information under uncertainty or novelty.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -524,7 +570,9 @@
       "measurement_route": "observed information-seeking/exploration choice",
       "boundary_conditions": [
         "Seeking behavior is multiply determined and cannot diagnose curiosity alone."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N11",
@@ -533,7 +581,7 @@
       "primary_core": "curiosity",
       "label": "Threat-based information avoidance",
       "definition": "Avoidance of available information because anticipated knowledge is threatening or aversive.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -546,7 +594,9 @@
       "measurement_route": "information-avoidance choice/behavior plus threat appraisal",
       "boundary_conditions": [
         "Distinguish threat avoidance from simple lack of interest."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N12",
@@ -555,7 +605,7 @@
       "primary_core": "curiosity",
       "label": "Effort/cost-based avoidance",
       "definition": "Avoidance because expected cognitive, temporal, monetary, or social costs outweigh information value.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -568,7 +618,9 @@
       "measurement_route": "choice under information effort/cost manipulation",
       "boundary_conditions": [
         "Cost-based avoidance can coexist with curiosity."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CUR-N13",
@@ -577,7 +629,7 @@
       "primary_core": "curiosity",
       "label": "Belief-protective avoidance",
       "definition": "Avoidance motivated by protecting identity, prior beliefs, or desired beliefs from disconfirming information.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CUR-001",
@@ -590,7 +642,9 @@
       "measurement_route": "information choice plus belief/identity relevance measures",
       "boundary_conditions": [
         "Needs direct identity-protective disconfirmation evidence in later pass."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N01",
@@ -599,7 +653,7 @@
       "primary_core": "valuation_emotion",
       "label": "Subjective utility",
       "definition": "Context- and goal-dependent worth assigned to an option, outcome, or piece of information.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
@@ -612,7 +666,9 @@
       "measurement_route": "choice, rating, willingness-to-pay, or fitted subjective-value model matched to decision context",
       "boundary_conditions": [
         "Do not substitute valence, arousal, likes, or watch time for subjective utility."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N02",
@@ -644,7 +700,7 @@
       "primary_core": "valuation_emotion",
       "label": "Subjective cost",
       "definition": "Perceived downside, effort, sacrifice, or opportunity cost attached to an option/action.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
@@ -659,7 +715,9 @@
       "boundary_conditions": [
         "Cost is context- and option-specific; not all non-choice reflects high subjective cost."
       ],
-      "measurement_route": "effort/cost rating or choice model estimating subjective cost"
+      "measurement_route": "effort/cost rating or choice model estimating subjective cost",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N04",
@@ -668,7 +726,7 @@
       "primary_core": "valuation_emotion",
       "label": "Expected outcome value",
       "definition": "Anticipated value of a future result before action or exposure.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
@@ -683,7 +741,9 @@
       "boundary_conditions": [
         "Expected value precedes outcome and should remain distinct from experienced value."
       ],
-      "measurement_route": "pre-outcome expected-value rating/model or reward anticipation task"
+      "measurement_route": "pre-outcome expected-value rating/model or reward anticipation task",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N05",
@@ -692,7 +752,7 @@
       "primary_core": "valuation_emotion",
       "label": "Experienced outcome value",
       "definition": "Value assigned after an outcome is experienced.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
@@ -707,7 +767,9 @@
       "boundary_conditions": [
         "Experienced value may update but is not identical to prediction error."
       ],
-      "measurement_route": "post-outcome experienced-value rating/choice update"
+      "measurement_route": "post-outcome experienced-value rating/choice update",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N06",
@@ -716,7 +778,7 @@
       "primary_core": "valuation_emotion",
       "label": "Loss / punishment valuation",
       "definition": "Subjective negative value attached to anticipated or experienced adverse outcomes.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
@@ -731,7 +793,9 @@
       "boundary_conditions": [
         "Human punishment-value evidence is less mature than reward-value evidence."
       ],
-      "measurement_route": "loss/punishment value task or aversive-outcome valuation"
+      "measurement_route": "loss/punishment value task or aversive-outcome valuation",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N07",
@@ -740,7 +804,7 @@
       "primary_core": "valuation_emotion",
       "label": "Goal-congruence appraisal",
       "definition": "Appraisal of whether an event supports or obstructs current goals.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
@@ -754,7 +818,9 @@
       "measurement_route": "appraisal measure/manipulation for goal congruence",
       "boundary_conditions": [
         "One appraisal cannot identify an emotion by itself."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N08",
@@ -763,7 +829,7 @@
       "primary_core": "valuation_emotion",
       "label": "Certainty appraisal",
       "definition": "Appraisal of predictability/confidence about what is happening or will happen.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
@@ -777,7 +843,9 @@
       "measurement_route": "certainty appraisal measure/manipulation",
       "boundary_conditions": [
         "Certainty is distinct from confidence in source truth."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N09",
@@ -786,7 +854,7 @@
       "primary_core": "valuation_emotion",
       "label": "Control / coping-potential appraisal",
       "definition": "Appraisal of ability to influence, manage, or cope with an event.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
@@ -800,7 +868,9 @@
       "measurement_route": "control/coping-potential appraisal measure",
       "boundary_conditions": [
         "Perceived control is context- and event-specific."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N10",
@@ -809,7 +879,7 @@
       "primary_core": "valuation_emotion",
       "label": "Agency / responsibility appraisal",
       "definition": "Appraisal of who or what caused or is responsible for an event.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
@@ -823,7 +893,9 @@
       "measurement_route": "agency/responsibility appraisal measure",
       "boundary_conditions": [
         "Agency appraisal is not identical to moral blame."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N11",
@@ -832,7 +904,7 @@
       "primary_core": "valuation_emotion",
       "label": "Affective valence",
       "definition": "Positive-versus-negative subjective quality of affective experience.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
@@ -845,7 +917,9 @@
       "measurement_route": "validated valence self-report/dimensional affect measure",
       "boundary_conditions": [
         "Valence alone does not identify a discrete emotion."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N12",
@@ -854,7 +928,7 @@
       "primary_core": "valuation_emotion",
       "label": "Affective arousal",
       "definition": "Level of affective activation or physiological/subjective intensity.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
@@ -867,7 +941,9 @@
       "measurement_route": "validated arousal self-report/physiological measure with construct-specific interpretation",
       "boundary_conditions": [
         "Arousal alone does not identify emotional meaning or transmission motive."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N13",
@@ -945,7 +1021,7 @@
       "primary_core": "valuation_emotion",
       "label": "Mixed emotion",
       "definition": "Co-occurring positive and negative affective experience that cannot be represented by one valence pole.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
@@ -960,7 +1036,9 @@
       "boundary_conditions": [
         "Mixed emotion is co-occurrence, not merely a weak correlation between positive and negative affect."
       ],
-      "measurement_route": "validated mixed-emotion paradigm with bivariate or multivariate assessment"
+      "measurement_route": "validated mixed-emotion paradigm with bivariate or multivariate assessment",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N17",
@@ -969,7 +1047,7 @@
       "primary_core": "valuation_emotion",
       "label": "Approach tendency",
       "definition": "Readiness to move toward, engage with, or pursue an object/action.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
@@ -983,7 +1061,9 @@
       "measurement_route": "approach-action task with interpretation/context metadata",
       "boundary_conditions": [
         "Positive valence does not universally produce approach."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N18",
@@ -992,7 +1072,7 @@
       "primary_core": "valuation_emotion",
       "label": "Avoidance / withdrawal tendency",
       "definition": "Readiness to disengage, withdraw, or avoid an object/action.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-VE-001",
@@ -1006,7 +1086,9 @@
       "measurement_route": "avoidance-action task with interpretation/context metadata",
       "boundary_conditions": [
         "Negative valence does not universally produce avoidance."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "VE-N19",
@@ -1015,7 +1097,7 @@
       "primary_core": "valuation_emotion",
       "label": "Confrontation / mobilization tendency",
       "definition": "Readiness for active response or confrontation rather than passive withdrawal.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-VE-001",
@@ -1030,7 +1112,9 @@
       "boundary_conditions": [
         "Confrontation/mobilization is conditional and not a one-to-one emotion label."
       ],
-      "measurement_route": "action-tendency measure tied to event appraisal/emotion context"
+      "measurement_route": "action-tendency measure tied to event appraisal/emotion context",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N01",
@@ -1039,7 +1123,7 @@
       "primary_core": "identity",
       "label": "Personal self-concept",
       "definition": "Representation of attributes, roles, values, and narratives defining the individual self.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ID-001",
@@ -1053,7 +1137,9 @@
       "boundary_conditions": [
         "Personal self-concept is broader than one salient social category."
       ],
-      "measurement_route": "self-concept/identity representation measure matched to the relevant self-domain"
+      "measurement_route": "self-concept/identity representation measure matched to the relevant self-domain",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N02",
@@ -1062,7 +1148,7 @@
       "primary_core": "identity",
       "label": "Self-relevance",
       "definition": "Degree to which information is interpreted as bearing on an important aspect of the self.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1074,7 +1160,9 @@
       "measurement_route": "self-relevance manipulation/appraisal tied to a defined self-aspect",
       "boundary_conditions": [
         "Self-relevance is not generic liking or familiarity."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N03",
@@ -1083,7 +1171,7 @@
       "primary_core": "identity",
       "label": "Identity centrality",
       "definition": "Importance of a particular identity component within the overall self-concept.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1095,7 +1183,9 @@
       "measurement_route": "identity-centrality component within a validated identification scale",
       "boundary_conditions": [
         "Centrality should be identity-specific rather than a global trait."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N04",
@@ -1104,7 +1194,7 @@
       "primary_core": "identity",
       "label": "Self-categorization",
       "definition": "Momentary categorization of self as a member of a social category/group.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1116,7 +1206,9 @@
       "measurement_route": "salient self-categorization manipulation/measure",
       "boundary_conditions": [
         "Group membership does not prove that the category is psychologically active."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N05",
@@ -1125,7 +1217,7 @@
       "primary_core": "identity",
       "label": "In-group identification",
       "definition": "Psychological attachment/identification with a social group.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1137,7 +1229,9 @@
       "measurement_route": "validated in-group identification measure",
       "boundary_conditions": [
         "Identification is multidimensional and should not be reduced to membership."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N06",
@@ -1146,7 +1240,7 @@
       "primary_core": "identity",
       "label": "Self-definition",
       "definition": "Perceived similarity/prototypicality and homogeneity that define the self in group terms.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1158,7 +1252,9 @@
       "measurement_route": "validated self-definition components such as self-stereotyping/in-group homogeneity",
       "boundary_conditions": [
         "Self-definition is not generic interpersonal similarity."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N07",
@@ -1167,7 +1263,7 @@
       "primary_core": "identity",
       "label": "Self-investment",
       "definition": "Importance, satisfaction, and solidarity invested in group membership.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1179,7 +1275,9 @@
       "measurement_route": "validated self-investment components such as solidarity/satisfaction/centrality",
       "boundary_conditions": [
         "Self-investment should not be inferred from public group signaling alone."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N08",
@@ -1188,7 +1286,7 @@
       "primary_core": "identity",
       "label": "Norm salience",
       "definition": "Accessibility of perceived group norms in the current context.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1200,7 +1298,9 @@
       "measurement_route": "salient-group norm measure/manipulation with identification context",
       "boundary_conditions": [
         "Norms should not be inferred from majority behavior alone."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N09",
@@ -1209,7 +1309,7 @@
       "primary_core": "identity",
       "label": "Group prototypicality",
       "definition": "Perceived fit of a person/position with the defining prototype of the salient group.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1221,7 +1321,9 @@
       "measurement_route": "group-prototypicality measure relative to a salient group/category",
       "boundary_conditions": [
         "Prototypicality is group-relative, not generic similarity."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N10",
@@ -1230,7 +1332,7 @@
       "primary_core": "identity",
       "label": "Identity threat appraisal",
       "definition": "Perception that a valued personal/social identity is challenged, devalued, or undermined.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1242,7 +1344,9 @@
       "measurement_route": "identity-specific threat manipulation/appraisal measure",
       "boundary_conditions": [
         "Negative emotion alone is not identity threat."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N11",
@@ -1251,7 +1355,7 @@
       "primary_core": "identity",
       "label": "Identity-protective response",
       "definition": "Cognitive/behavioral response oriented toward preserving or restoring a threatened identity.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ID-001",
@@ -1263,7 +1367,9 @@
       "measurement_route": "coping/identity-protective response measure tied to threatened identity",
       "boundary_conditions": [
         "Defense must be linked to identity restoration/protection mechanism."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ID-N12",
@@ -1294,7 +1400,7 @@
       "primary_core": "trust",
       "label": "Perceived integrity",
       "definition": "Belief that a source adheres to acceptable principles and is honest/non-deceptive.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
@@ -1306,7 +1412,9 @@
       "measurement_route": "validated integrity dimension of epistemic/source trust",
       "boundary_conditions": [
         "Perceived integrity is subjective and not proof of factual accuracy."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "TR-N02",
@@ -1315,7 +1423,7 @@
       "primary_core": "trust",
       "label": "Perceived benevolence",
       "definition": "Belief that a source has goodwill and is not primarily seeking to exploit the audience.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
@@ -1327,7 +1435,9 @@
       "measurement_route": "validated benevolence/good-intentions dimension",
       "boundary_conditions": [
         "Benevolence is distinct from competence/expertise."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "TR-N03",
@@ -1336,7 +1446,7 @@
       "primary_core": "trust",
       "label": "Perceived trustworthiness",
       "definition": "Integrated judgment that a source can be relied on in the relevant relationship/domain.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
@@ -1348,7 +1458,9 @@
       "measurement_route": "validated trustworthiness/source-trust measure matched to domain",
       "boundary_conditions": [
         "Trustworthiness is not equivalent to credibility or objective truth."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "TR-N04",
@@ -1357,7 +1469,7 @@
       "primary_core": "trust",
       "label": "Perceived expertise",
       "definition": "Judgment that a source possesses relevant knowledge or experience.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
@@ -1370,7 +1482,9 @@
       "measurement_route": "validated perceived-expertise dimension or experimentally manipulated credentials",
       "boundary_conditions": [
         "Perceived expertise is domain-specific and can be miscalibrated."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "TR-N05",
@@ -1379,7 +1493,7 @@
       "primary_core": "trust",
       "label": "Perceived competence",
       "definition": "Judgment that a source can perform/evaluate the relevant task accurately.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
@@ -1391,7 +1505,9 @@
       "measurement_route": "validated competence dimension",
       "boundary_conditions": [
         "Competence is ability-related and distinct from integrity/benevolence."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "TR-N06",
@@ -1400,7 +1516,7 @@
       "primary_core": "trust",
       "label": "Perceived genuineness",
       "definition": "Judgment that presented identity/behavior is sincere rather than fabricated.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
@@ -1413,7 +1529,9 @@
       "measurement_route": "validated perceived-authenticity/genuineness measure matched to source context",
       "boundary_conditions": [
         "Authenticity is not objective truth or universal engagement value."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "TR-N07",
@@ -1480,7 +1598,11 @@
       "boundary_conditions": [
         "A reliable track record can be domain-specific and does not guarantee benevolence or current accuracy."
       ],
-      "measurement_route": "history-based reliability judgment using prior source outcomes/accuracy records"
+      "measurement_route": "history-based reliability judgment using prior source outcomes/accuracy records",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
+      ]
     },
     {
       "id": "TR-N10",
@@ -1489,7 +1611,7 @@
       "primary_core": "trust",
       "label": "Source credibility cue use",
       "definition": "Heuristic use of credentials, verification badges, presentation, or source markers in credibility judgment.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
@@ -1502,7 +1624,9 @@
       "measurement_route": "experimental source-cue manipulation with perceived-credibility outcome",
       "boundary_conditions": [
         "Source cue use does not prove source quality."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "TR-N11",
@@ -1511,7 +1635,7 @@
       "primary_core": "trust",
       "label": "Social credibility cue use",
       "definition": "Heuristic use of likes, follower counts, consensus, endorsements, or similar social signals.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-TR-001",
@@ -1524,7 +1648,9 @@
       "measurement_route": "experimental social-cue manipulation with perceived-credibility outcome",
       "boundary_conditions": [
         "Popularity/consensus cues can alter credibility perception without verifying truth."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "TR-N12",
@@ -1545,6 +1671,10 @@
       "measurement_route": "message/source plausibility and selective-trust tasks",
       "boundary_conditions": [
         "Epistemic vigilance is not generalized skepticism."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -1566,6 +1696,10 @@
       "measurement_route": "observed verification/checking behavior",
       "boundary_conditions": [
         "Self-reported skepticism is not verification behavior."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -1587,6 +1721,10 @@
       "measurement_route": "calibration between reliance and known source reliability",
       "boundary_conditions": [
         "High trust is not necessarily well-calibrated trust."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -1596,7 +1734,7 @@
       "primary_core": "connection",
       "label": "Parasocial interaction intensity",
       "definition": "Episode-level felt involvement or apparent interaction with a mediated persona.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CON-001",
@@ -1609,7 +1747,9 @@
       "measurement_route": "episode-specific PSI measure such as EPSI when appropriate",
       "boundary_conditions": [
         "Do not infer enduring relationship from within-exposure involvement."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CON-N02",
@@ -1662,7 +1802,7 @@
       "primary_core": "connection",
       "label": "Parasocial relational continuity",
       "definition": "Sense that the one-sided relationship persists across encounters.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CON-001",
@@ -1674,7 +1814,9 @@
       "measurement_route": "PSR measure referring to enduring cross-episode relationship",
       "boundary_conditions": [
         "Do not use PSI measure as a PSR substitute."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CON-N05",
@@ -1683,7 +1825,7 @@
       "primary_core": "connection",
       "label": "Parasocial relationship maintenance",
       "definition": "Motivation/behavior oriented toward maintaining continued one-sided relational contact.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-CON-001",
@@ -1697,7 +1839,9 @@
       "boundary_conditions": [
         "PSR maintenance is one-sided relational maintenance and not reciprocal interpersonal maintenance."
       ],
-      "measurement_route": "validated PSR relationship-maintenance dimension"
+      "measurement_route": "validated PSR relationship-maintenance dimension",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CON-N06",
@@ -1706,7 +1850,7 @@
       "primary_core": "connection",
       "label": "Real-life relationship intention",
       "definition": "Desire or imagined intention for the mediated bond to become reciprocal/offline.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CON-001",
@@ -1718,7 +1862,9 @@
       "measurement_route": "validated PSR dimension measuring real-life relationship intention",
       "boundary_conditions": [
         "Desire for reciprocity is not evidence that reciprocity exists."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CON-N07",
@@ -1739,6 +1885,10 @@
       "measurement_route": "recognition/familiarity measure tied to repeated exposure history",
       "boundary_conditions": [
         "Familiarity is not closeness, trust, intimacy, or attachment."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -1792,7 +1942,7 @@
       "primary_core": "connection",
       "label": "Perceived intimacy",
       "definition": "Sense of personal/private knowing or emotional intimacy with the creator/source.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-CON-001",
@@ -1805,7 +1955,9 @@
       "measurement_route": "validated parasocial-intimacy/PSR dimension",
       "boundary_conditions": [
         "Intimacy must not be inferred from familiarity/exposure frequency."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "CON-N11",
@@ -1858,7 +2010,7 @@
       "primary_core": "social_transmission",
       "label": "Share / forward action",
       "definition": "Observed act of transmitting content to another person or audience.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
@@ -1871,7 +2023,9 @@
       "measurement_route": "logged/observed share or forward action",
       "boundary_conditions": [
         "Behavior identifies transmission, not motive."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ST-N02",
@@ -1880,7 +2034,7 @@
       "primary_core": "social_transmission",
       "label": "Sharing intention",
       "definition": "Stated or latent willingness to share, explicitly separate from observed action.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
@@ -1893,7 +2047,9 @@
       "measurement_route": "sharing-intention/willingness measure labeled explicitly as intention",
       "boundary_conditions": [
         "Intention must not be treated as observed behavior."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ST-N03",
@@ -1902,7 +2058,7 @@
       "primary_core": "social_transmission",
       "label": "Recommendation action",
       "definition": "Observed endorsement/recommendation of content, source, product, or idea.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
@@ -1915,7 +2071,9 @@
       "measurement_route": "observed endorsement/recommendation action",
       "boundary_conditions": [
         "Recommendation is stronger/evaluative transmission and should not be merged with neutral forwarding."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ST-N04",
@@ -1924,7 +2082,7 @@
       "primary_core": "social_transmission",
       "label": "Word-of-mouth evaluation",
       "definition": "Positive, negative, or mixed evaluative communication communicated to others.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
@@ -1937,7 +2095,9 @@
       "measurement_route": "coded or self-reported evaluative word-of-mouth content",
       "boundary_conditions": [
         "WOM valence/evaluation is not identical to recommendation action."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ST-N05",
@@ -1946,7 +2106,7 @@
       "primary_core": "social_transmission",
       "label": "Perceived recipient usefulness",
       "definition": "Belief that shared information will help, inform, or benefit the recipient.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
@@ -1959,7 +2119,9 @@
       "measurement_route": "recipient-usefulness appraisal tied to a specific sharing decision",
       "boundary_conditions": [
         "Usefulness is a motive/appraisal, not the share action itself."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ST-N06",
@@ -1968,7 +2130,7 @@
       "primary_core": "social_transmission",
       "label": "Information-value sharing motive",
       "definition": "Motivation to transmit because content is considered informative or practically valuable.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
@@ -1981,7 +2143,9 @@
       "measurement_route": "motive-specific information-value sharing measure",
       "boundary_conditions": [
         "Information-value motive may coexist with other motives."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ST-N07",
@@ -1990,7 +2154,7 @@
       "primary_core": "social_transmission",
       "label": "Identity-signaling motive",
       "definition": "Motivation to transmit content to communicate group membership, values, or self-definition.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
@@ -2003,7 +2167,9 @@
       "measurement_route": "identity-expression/signaling motive measure tied to transmission choice",
       "boundary_conditions": [
         "The motive cannot be inferred solely from identity-relevant content."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ST-N08",
@@ -2025,6 +2191,10 @@
       "measurement_route": "motive-specific impression-management measure/experiment",
       "boundary_conditions": [
         "Cannot infer motive from share action alone."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -2034,7 +2204,7 @@
       "primary_core": "social_transmission",
       "label": "Affective-expression motive",
       "definition": "Motivation to externalize or communicate emotional experience through sharing.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "LANDSCAPE_SUPPORTED_PENDING_NEURON_SPECIFIC_AUDIT",
       "claim_ids": [
         "C2-ST-001",
@@ -2049,7 +2219,9 @@
       "boundary_conditions": [
         "Affective expression is a motive and cannot be inferred from arousal or share count alone."
       ],
-      "measurement_route": "motive-specific affective-expression measure tied to an actual/intended transmission decision"
+      "measurement_route": "motive-specific affective-expression measure tied to an actual/intended transmission decision",
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "ST-N10",
@@ -2071,6 +2243,10 @@
       "measurement_route": "emotion-regulation motive measure linked to transmission choice",
       "boundary_conditions": [
         "Keep separate from incidental arousal."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -2093,6 +2269,10 @@
       "measurement_route": "privacy-risk/cost appraisal tied to audience and disclosure context",
       "boundary_conditions": [
         "Privacy concern may not translate directly to behavior in every context."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -2115,6 +2295,10 @@
       "measurement_route": "reputational-risk/self-presentation appraisal tied to audience",
       "boundary_conditions": [
         "Reputational risk is audience-dependent and distinct from privacy risk."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -2160,6 +2344,10 @@
       "measurement_route": "social-bonding motive/recipient relationship measure",
       "boundary_conditions": [
         "Sharing may have multiple simultaneous motives."
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_FAIL",
+      "acceptance_gap": [
+        "evidence_sufficiency"
       ]
     },
     {
@@ -2169,7 +2357,7 @@
       "primary_core": "social_transmission",
       "label": "Relationship-maintenance motive",
       "definition": "Motivation to communicate/share to sustain an existing relationship over time.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-ST-001",
@@ -2182,7 +2370,9 @@
       "measurement_route": "relationship-maintenance motive measure tied to sender-recipient relationship",
       "boundary_conditions": [
         "Relationship-maintenance sharing is distinct from parasocial connection to the creator."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N01",
@@ -2191,7 +2381,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Reward prediction error",
       "definition": "Difference between expected and experienced outcome value used for learning/updating.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2204,7 +2394,9 @@
       "measurement_route": "reinforcement-learning model fit with prediction-error construct and task feedback",
       "boundary_conditions": [
         "Model-derived RPE is an estimate, not a direct psychological observation."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N02",
@@ -2213,7 +2405,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Outcome-value updating",
       "definition": "Revision of expected action/cue value from experienced outcomes.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2226,7 +2418,9 @@
       "measurement_route": "trial-level value update/learning model or outcome-learning task",
       "boundary_conditions": [
         "Value updating should not be equated with habit formation."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N03",
@@ -2258,7 +2452,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Context-response association strength",
       "definition": "Learned strength linking a recurring context/cue to a behavioral response.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2271,7 +2465,9 @@
       "measurement_route": "objective or validated context-response association measure",
       "boundary_conditions": [
         "Return frequency alone does not establish association strength."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N05",
@@ -2280,7 +2476,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Cue-triggered response tendency",
       "definition": "Tendency for a contextual cue to activate a learned response.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2293,7 +2489,9 @@
       "measurement_route": "cue-triggered response/action-slip task",
       "boundary_conditions": [
         "Cue-triggering is context-specific and can coexist with deliberate control."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N06",
@@ -2302,7 +2500,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Automaticity",
       "definition": "Degree to which a response is initiated/executed with reduced deliberation.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2315,7 +2513,9 @@
       "measurement_route": "SRBAI/automaticity measure or objective automatic-response task",
       "boundary_conditions": [
         "Automaticity is an important habit component but not the entire habit construct."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N07",
@@ -2324,7 +2524,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Outcome insensitivity",
       "definition": "Persistence of a response despite reduced current value of the outcome, where demonstrated.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2338,7 +2538,9 @@
       "measurement_route": "validated outcome-devaluation/revaluation paradigm with manipulation check",
       "boundary_conditions": [
         "Apparent devaluation insensitivity can be artifactual and does not imply global persistence."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N08",
@@ -2370,7 +2572,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Action-outcome representation",
       "definition": "Representation linking an action to expected consequences used in goal-directed control.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2383,7 +2585,9 @@
       "measurement_route": "action-outcome knowledge or model-based transition/outcome representation task",
       "boundary_conditions": [
         "Model-based metrics are approximations, not literal proof of a single neural system."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N10",
@@ -2392,7 +2596,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Goal-directed control strength",
       "definition": "Degree to which current goals/outcome values guide action selection.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_SYNTHESIS_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2405,7 +2609,9 @@
       "measurement_route": "goal-directed sensitivity to current outcome values/action-outcome contingencies",
       "boundary_conditions": [
         "Goal-directed control can coexist with habitual influences."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N11",
@@ -2437,7 +2643,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Behavior repetition",
       "definition": "Repeated performance of an action, treated as an input to habit formation rather than habit itself.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2450,7 +2656,9 @@
       "measurement_route": "behavioral repetition history",
       "boundary_conditions": [
         "Repetition is input/history, not habit diagnosis."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N13",
@@ -2459,7 +2667,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Context stability",
       "definition": "Consistency of contextual cues across repeated performance episodes.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2472,7 +2680,9 @@
       "measurement_route": "context stability/consistency measure",
       "boundary_conditions": [
         "Context must be defined behavior-specifically."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N14",
@@ -2481,7 +2691,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Habit formation trajectory",
       "definition": "Change in automatic/context-triggered control across repeated stable-context practice.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2495,7 +2705,9 @@
       "measurement_route": "longitudinal automaticity/context-response trajectory",
       "boundary_conditions": [
         "No universal formation duration."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N15",
@@ -2504,7 +2716,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Context discontinuity",
       "definition": "Change/removal of cues that reduces retrieval of a previously learned habitual response.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_OR_PRIMARY_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2517,7 +2729,9 @@
       "measurement_route": "natural/experimental context-disruption design",
       "boundary_conditions": [
         "Context change is an opportunity, not guaranteed behavior change."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N16",
@@ -2526,7 +2740,7 @@
       "primary_core": "reinforcement_habit",
       "label": "Contingency / outcome revaluation",
       "definition": "Change in consequences or action-outcome contingencies that can reveal or alter control mode.",
-      "status": "provisional",
+      "status": "accepted",
       "evidence_state": "DIRECT_REVIEW_META_ANALYSIS_OR_VALIDATION_EVIDENCE_HARDENED",
       "claim_ids": [
         "C2-RH-001",
@@ -2539,7 +2753,9 @@
       "measurement_route": "outcome-revaluation or contingency-change paradigm",
       "boundary_conditions": [
         "Revaluation is a manipulation/test condition, not itself a stable trait."
-      ]
+      ],
+      "acceptance_gate": "R2_ACCEPTANCE_V1_PASS",
+      "acceptance_scope": "canonical_for_R3_context_bounded"
     },
     {
       "id": "RH-N17",
