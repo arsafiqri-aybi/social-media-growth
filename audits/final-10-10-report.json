@@ -1,0 +1,274 @@
+{
+  "release": "HPC_V1",
+  "contract_id": "SMG-HPC-10X",
+  "status": "PASS_20_OF_20_WITH_BOUNDED_NONCRITICAL_GAPS",
+  "quality_gate_score": "20/20",
+  "internal_quality_target": "10/10 achieved within declared Human Psychological Core scope",
+  "validated_audit_commit": "ccbf2ee72c8d66a805b73ed2918790a861610421",
+  "audit_ci": {
+    "workflow": "Test Reasoning Engine",
+    "run_id": 37247422423,
+    "status": "success"
+  },
+  "gates": [
+    {
+      "id": "G1",
+      "property": "Conceptual correctness",
+      "status": "PASS",
+      "verifier": "definition/source audit",
+      "evidence_refs": [
+        "research/r2/acceptance/node-audit.json",
+        "research/r2/cycle01/l2-neuron-candidates.json"
+      ]
+    },
+    {
+      "id": "G2",
+      "property": "Mechanistic clarity",
+      "status": "PASS",
+      "verifier": "mechanism decomposition audit",
+      "evidence_refs": [
+        "research/r2/module-lifecycle-audit.json",
+        "research/r2/cycle01/module-specs.json"
+      ]
+    },
+    {
+      "id": "G3",
+      "property": "Evidence support",
+      "status": "PASS",
+      "verifier": "claim-evidence matrix",
+      "evidence_refs": [
+        "research/r2/acceptance/node-audit.json",
+        "research/r3/cycle03/scientific-edges.json"
+      ]
+    },
+    {
+      "id": "G4",
+      "property": "Contradictory evidence checked",
+      "status": "PASS",
+      "verifier": "adversarial literature search",
+      "evidence_refs": [
+        "research/cycles/02/contradiction-register.json",
+        "research/r3/cycle03/gap-criticality-audit.json"
+      ]
+    },
+    {
+      "id": "G5",
+      "property": "Causal language calibrated",
+      "status": "PASS",
+      "verifier": "design-to-claim audit",
+      "evidence_refs": [
+        "reasoning/v2/validation-audit.json",
+        "benchmarks/validation-audit.json"
+      ]
+    },
+    {
+      "id": "G6",
+      "property": "Boundary conditions known",
+      "status": "PASS",
+      "verifier": "moderator/boundary registry",
+      "evidence_refs": [
+        "research/r2/cycle01/l2-neuron-candidates.json",
+        "research/r3/cycle03/scientific-edges.json"
+      ]
+    },
+    {
+      "id": "G7",
+      "property": "Non-redundancy",
+      "status": "PASS",
+      "verifier": "ontology overlap audit",
+      "evidence_refs": [
+        "research/r2/module-lifecycle-audit.json",
+        "research/r2/cycle02/batch04-closure-decisions.json"
+      ]
+    },
+    {
+      "id": "G8",
+      "property": "Network integration",
+      "status": "PASS",
+      "verifier": "typed-edge coverage audit",
+      "evidence_refs": [
+        "research/r3/cycle03/pair-coverage-matrix.json",
+        "research/r3/cycle03/scientific-edges.json"
+      ]
+    },
+    {
+      "id": "G9",
+      "property": "Measurement awareness",
+      "status": "PASS",
+      "verifier": "construct/proxy validity audit",
+      "evidence_refs": [
+        "measurement/v2/validation-audit.json",
+        "measurement/v2/proxies.json"
+      ]
+    },
+    {
+      "id": "G10",
+      "property": "Failure awareness",
+      "status": "PASS",
+      "verifier": "failure-mode registry",
+      "evidence_refs": [
+        "benchmarks/validation-audit.json",
+        "research/cycles/02/contradiction-register.json"
+      ]
+    },
+    {
+      "id": "G11",
+      "property": "Reasoning usability",
+      "status": "PASS",
+      "verifier": "scenario benchmark suite",
+      "evidence_refs": [
+        "reasoning/v2/validation-audit.json",
+        "benchmarks/adversarial_scenarios.json"
+      ]
+    },
+    {
+      "id": "G12",
+      "property": "Retrieval usability",
+      "status": "PASS",
+      "verifier": "stable IDs/schema/query tests",
+      "evidence_refs": [
+        "audits/final_10_10.py",
+        "research/r3/cycle03/scientific-edges.json"
+      ]
+    },
+    {
+      "id": "G13",
+      "property": "Automated validation",
+      "status": "PASS",
+      "verifier": "unit/schema/integration tests",
+      "evidence_refs": [
+        "reasoning/v2/validation-audit.json",
+        "measurement/v2/validation-audit.json",
+        "benchmarks/validation-audit.json"
+      ]
+    },
+    {
+      "id": "G14",
+      "property": "No obvious fundamental mechanism missing",
+      "status": "PASS",
+      "verifier": "cross-discipline gap audit",
+      "evidence_refs": [
+        "research/r2/acceptance/saturation-audit.json",
+        "research/r3/cycle03/saturation-audit.json",
+        "research/r2/module-lifecycle-audit.json"
+      ]
+    },
+    {
+      "id": "G15",
+      "property": "No unresolved major overlap",
+      "status": "PASS",
+      "verifier": "ontology audit",
+      "evidence_refs": [
+        "research/r2/cycle02/batch04-closure-decisions.json",
+        "research/r2/module-lifecycle-audit.json"
+      ]
+    },
+    {
+      "id": "G16",
+      "property": "Major cross-core connections mapped",
+      "status": "PASS",
+      "verifier": "cross-core edge matrix",
+      "evidence_refs": [
+        "research/r3/cycle03/pair-coverage-matrix.json",
+        "research/r3/cycle03/saturation-audit.json"
+      ]
+    },
+    {
+      "id": "G17",
+      "property": "Major feedback loops mapped",
+      "status": "PASS",
+      "verifier": "loop coverage/adversarial scenarios",
+      "evidence_refs": [
+        "research/r3/cycle03/feedback-loops.json"
+      ]
+    },
+    {
+      "id": "G18",
+      "property": "Uncertainty propagated",
+      "status": "PASS",
+      "verifier": "reasoning trace + uncertainty tests",
+      "evidence_refs": [
+        "reasoning/v2/validation-audit.json",
+        "benchmarks/adversarial_scenarios.json"
+      ]
+    },
+    {
+      "id": "G19",
+      "property": "Empirical metadata preserved",
+      "status": "PASS",
+      "verifier": "evidence schema validation",
+      "evidence_refs": [
+        "research/r3/cycle03/scientific-edges.json",
+        "research/r3/edge-schema.json"
+      ]
+    },
+    {
+      "id": "G20",
+      "property": "Tests/CI pass",
+      "status": "PASS",
+      "verifier": "GitHub Actions + local deterministic tests",
+      "evidence_refs": [
+        "GitHub Actions run 37247422423 (success)",
+        "tests/test_final_10_10_audit.py"
+      ]
+    }
+  ],
+  "canonical_state": {
+    "core_families": 8,
+    "l1_modules_total": 45,
+    "l2_records_total": 116,
+    "l2_accepted": 84,
+    "l2_provisional": 12,
+    "l2_candidate": 0,
+    "module_lifecycle": {
+      "accepted_container": 35,
+      "accepted_container_with_bounded_gaps": 5,
+      "bounded_provisional_container": 4,
+      "deferred_research_container": 1
+    },
+    "r3_edges_total": 26,
+    "r3_accepted_edges": 14,
+    "r3_provisional_edges": 8,
+    "r3_system_edges": 4,
+    "audited_unordered_core_pairs": 28,
+    "feedback_loop_models": 5,
+    "adversarial_scenarios_passed": "34/34",
+    "unresolved_critical_connection_gaps": 0,
+    "scientific_runtime_weights": 0
+  },
+  "bounded_noncritical_gaps": {
+    "provisional_l2_nodes": {
+      "count": 12,
+      "policy": "Evidence-sufficiency gaps remain explicit; these nodes cannot be treated as accepted canonical support."
+    },
+    "bounded_provisional_modules": {
+      "count": 4,
+      "ids": [
+        "TR-M04",
+        "TR-M06",
+        "CON-M03",
+        "ST-M07"
+      ],
+      "policy": "No accepted child yet; module remains bounded and cannot independently support strong conclusions."
+    },
+    "deferred_research_modules": {
+      "count": 1,
+      "ids": [
+        "CON-M05"
+      ],
+      "policy": "Deferred because attachment-level connection evidence is not mature enough for canonical promotion."
+    },
+    "provisional_scientific_edges": {
+      "count": 8,
+      "policy": "May generate bounded hypotheses but cannot independently justify strong causal conclusions."
+    }
+  },
+  "nonclaims": [
+    "This release is not a claim of universal or final psychological truth.",
+    "This release is not evidence of real-world predictive validity across all social-media platforms, cultures, or accounts.",
+    "The 10/10 score refers to the project's declared internal quality gates and completion contract.",
+    "No platform proxy is treated as a one-to-one latent psychological measurement unless its construct-valid measurement requirements pass.",
+    "No empirical effect size or legacy graph weight is used as an unvalidated runtime propagation coefficient."
+  ],
+  "release_rule": "Any future change to accepted scientific claims, measurement semantics, causal status, or runtime reasoning must reopen the affected evidence and validation gates."
+}

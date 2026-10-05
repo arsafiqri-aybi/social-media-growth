@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 23,
-  "status": "IN_PROGRESS",
+  "revision": 24,
+  "status": "COMPLETE_WITH_BOUNDED_NONCRITICAL_GAPS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
   "protected_constraints": [
@@ -71,121 +71,222 @@
       "id": "G1",
       "property": "Conceptual correctness",
       "verifier": "definition/source audit",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r2/acceptance/node-audit.json",
+        "research/r2/cycle01/l2-neuron-candidates.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G2",
       "property": "Mechanistic clarity",
       "verifier": "mechanism decomposition audit",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r2/module-lifecycle-audit.json",
+        "research/r2/cycle01/module-specs.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G3",
       "property": "Evidence support",
       "verifier": "claim-evidence matrix",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r2/acceptance/node-audit.json",
+        "research/r3/cycle03/scientific-edges.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G4",
       "property": "Contradictory evidence checked",
       "verifier": "adversarial literature search",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/cycles/02/contradiction-register.json",
+        "research/r3/cycle03/gap-criticality-audit.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G5",
       "property": "Causal language calibrated",
       "verifier": "design-to-claim audit",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "reasoning/v2/validation-audit.json",
+        "benchmarks/validation-audit.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G6",
       "property": "Boundary conditions known",
       "verifier": "moderator/boundary registry",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r2/cycle01/l2-neuron-candidates.json",
+        "research/r3/cycle03/scientific-edges.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G7",
       "property": "Non-redundancy",
       "verifier": "ontology overlap audit",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r2/module-lifecycle-audit.json",
+        "research/r2/cycle02/batch04-closure-decisions.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G8",
       "property": "Network integration",
       "verifier": "typed-edge coverage audit",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r3/cycle03/pair-coverage-matrix.json",
+        "research/r3/cycle03/scientific-edges.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G9",
       "property": "Measurement awareness",
       "verifier": "construct/proxy validity audit",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "measurement/v2/validation-audit.json",
+        "measurement/v2/proxies.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G10",
       "property": "Failure awareness",
       "verifier": "failure-mode registry",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "benchmarks/validation-audit.json",
+        "research/cycles/02/contradiction-register.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G11",
       "property": "Reasoning usability",
       "verifier": "scenario benchmark suite",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "reasoning/v2/validation-audit.json",
+        "benchmarks/adversarial_scenarios.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G12",
       "property": "Retrieval usability",
       "verifier": "stable IDs/schema/query tests",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "audits/final_10_10.py",
+        "research/r3/cycle03/scientific-edges.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G13",
       "property": "Automated validation",
       "verifier": "unit/schema/integration tests",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "reasoning/v2/validation-audit.json",
+        "measurement/v2/validation-audit.json",
+        "benchmarks/validation-audit.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G14",
       "property": "No obvious fundamental mechanism missing",
       "verifier": "cross-discipline gap audit",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r2/acceptance/saturation-audit.json",
+        "research/r3/cycle03/saturation-audit.json",
+        "research/r2/module-lifecycle-audit.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G15",
       "property": "No unresolved major overlap",
       "verifier": "ontology audit",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r2/cycle02/batch04-closure-decisions.json",
+        "research/r2/module-lifecycle-audit.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G16",
       "property": "Major cross-core connections mapped",
       "verifier": "cross-core edge matrix",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r3/cycle03/pair-coverage-matrix.json",
+        "research/r3/cycle03/saturation-audit.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G17",
       "property": "Major feedback loops mapped",
       "verifier": "loop coverage/adversarial scenarios",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r3/cycle03/feedback-loops.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G18",
       "property": "Uncertainty propagated",
       "verifier": "reasoning trace + uncertainty tests",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "reasoning/v2/validation-audit.json",
+        "benchmarks/adversarial_scenarios.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G19",
       "property": "Empirical metadata preserved",
       "verifier": "evidence schema validation",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "research/r3/cycle03/scientific-edges.json",
+        "research/r3/edge-schema.json"
+      ],
+      "final_audit_release": "HPC_V1"
     },
     {
       "id": "G20",
       "property": "Tests/CI pass",
       "verifier": "GitHub Actions + local deterministic tests",
-      "status": "NOT_RUN"
+      "status": "PASS",
+      "evidence_refs": [
+        "GitHub Actions run 37247422423 (success)",
+        "tests/test_final_10_10_audit.py"
+      ],
+      "final_audit_release": "HPC_V1"
     }
   ],
   "saturation_rule": {
@@ -261,20 +362,31 @@
     {
       "id": "O8",
       "name": "Final 10/10 audit",
-      "state": "IN_PROGRESS"
+      "state": "PRESENT"
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Run CI for the final 20-gate auditor. If CI succeeds and the auditor reports 19 PASS + G20 pending with zero critical failures, set G20 PASS, mark O8 PRESENT, and close SMG-HPC-10X as COMPLETE_WITH_BOUNDED_NONCRITICAL_GAPS.",
+  "next_action": "Preserve this release as the Human Psychological Core v1 baseline. Future work may harden bounded evidence gaps or begin a separately scoped next stage; do not alter canonical claims or runtime semantics without reopening the affected evidence/validation gates.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
       "FINAL_10_10_GATE"
     ],
-    "cycle": "FINAL_AUDIT_BUILD",
-    "status": "FINAL_20_GATE_AUDITOR_IMPLEMENTED_CI_PENDING",
-    "expected_result": "19 internal gates PASS; G20 waits for CI of final-audit implementation",
-    "next": "Run final-audit implementation in CI; close only if it passes without weakening any gate."
+    "cycle": "FINAL_RELEASE_HPC_V1",
+    "status": "COMPLETE_WITH_BOUNDED_NONCRITICAL_GAPS",
+    "quality_gates_passed": 20,
+    "quality_gates_total": 20,
+    "internal_quality_target": "10/10 achieved within declared Human Psychological Core scope",
+    "final_audit_commit": "ccbf2ee72c8d66a805b73ed2918790a861610421",
+    "final_audit_ci_run_id": 37247422423,
+    "bounded_knowledge": {
+      "provisional_l2_nodes": 12,
+      "bounded_provisional_modules": 4,
+      "deferred_research_modules": 1,
+      "provisional_scientific_edges": 8
+    },
+    "critical_open_gaps": 0,
+    "note": "Bounded/provisional/deferred knowledge remains explicit and cannot support strong conclusions until its own evidence gates pass."
   }
 }
