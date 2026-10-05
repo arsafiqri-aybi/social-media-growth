@@ -40,3 +40,8 @@ That separation is mandatory: one account performing well must never rewrite the
 ## Current limitation
 
 This is a qualitative inference runtime. Numerical effect magnitude, proxy calibration, and account-specific operational parameters belong to the next Measurement/Calibration block.
+
+
+## Measurement v2 integration
+
+`proxy_hypothesis` is now an allowed seed basis. It always caps downstream reasoning at provisional/hypothesis-only status.

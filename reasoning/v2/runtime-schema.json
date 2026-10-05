@@ -21,6 +21,7 @@
       "validated_observation",
       "structured_observation",
       "external_event",
+      "proxy_hypothesis",
       "user_hypothesis"
     ],
     "prohibited": [
@@ -52,7 +53,8 @@
     "System edges represent opportunity/enabling mechanics and do not automatically imply target occurrence.",
     "Context modifiers change interpretation/qualification only until calibration justifies quantitative effects.",
     "Raw platform metrics must pass through a measurement mapper before they can seed latent constructs.",
-    "Account-local feedback is stored separately and cannot mutate scientific knowledge."
+    "Account-local feedback is stored separately and cannot mutate scientific knowledge.",
+    "Proxy-grade measurement evidence enters as proxy_hypothesis and therefore caps downstream paths at provisional/hypothesis-only status."
   ],
   "feedback_isolation": {
     "scientific_layer": "immutable during account-local feedback recording",

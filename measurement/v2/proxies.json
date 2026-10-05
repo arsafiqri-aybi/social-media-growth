@@ -1,0 +1,201 @@
+{
+  "version": "2.0.0",
+  "principle": "Platform observables are measurements of behavior/events first. They are not one-to-one estimates of latent psychological states.",
+  "validity_classes": {
+    "direct_behavior": "Directly observes a canonical behavioral action; may seed that behavior node when direction indicates observed presence/increase.",
+    "external_event": "Directly observes an external system/social event; may seed the matching context event.",
+    "qualified_behavioral_proxy": "Behavior is observed but construct mapping is ambiguous; may only seed as proxy_hypothesis.",
+    "validated_construct_measure": "May seed a latent node only when the observation explicitly documents validated instrument use and domain match.",
+    "ambiguous_platform_proxy": "Never auto-seeds a latent node; only creates bounded candidate explanations."
+  },
+  "proxies": [
+    {
+      "id": "share_rate",
+      "description": "Logged share/forward behavior rate.",
+      "validity_class": "direct_behavior",
+      "direct_targets": [
+        {
+          "node_id": "ST-N01",
+          "basis": "structured_observation"
+        }
+      ],
+      "candidate_explanations": [
+        "ST-N07",
+        "ST-N15",
+        "VE-N01"
+      ],
+      "seed_on": [
+        "up",
+        "present"
+      ],
+      "warning": "Observed sharing identifies transmission behavior, not motive, trust, identity signaling, or virality."
+    },
+    {
+      "id": "recommendation_action_rate",
+      "description": "Logged endorsement/recommendation action rate.",
+      "validity_class": "direct_behavior",
+      "direct_targets": [
+        {
+          "node_id": "ST-N03",
+          "basis": "structured_observation"
+        }
+      ],
+      "candidate_explanations": [
+        "TR-N03",
+        "TR-N04",
+        "CON-N04"
+      ],
+      "seed_on": [
+        "up",
+        "present"
+      ],
+      "warning": "Recommendation action is observed; the psychological reason for recommending remains unresolved."
+    },
+    {
+      "id": "social_feedback_count",
+      "description": "Observed likes/comments/replies or other social feedback events returned to a post/account.",
+      "validity_class": "external_event",
+      "direct_targets": [
+        {
+          "node_id": "CTX-SOCIAL-FEEDBACK",
+          "basis": "external_event"
+        }
+      ],
+      "candidate_explanations": [],
+      "seed_on": [
+        "present",
+        "up"
+      ],
+      "warning": "Feedback occurrence is an external event; its subjective reward value varies by person and context."
+    },
+    {
+      "id": "profile_visit_rate",
+      "description": "Viewer-to-profile-visit behavior after content exposure.",
+      "validity_class": "qualified_behavioral_proxy",
+      "direct_targets": [
+        {
+          "node_id": "CUR-N10",
+          "basis": "proxy_hypothesis"
+        }
+      ],
+      "candidate_explanations": [
+        "ID-N02",
+        "TR-N04",
+        "CON-N04"
+      ],
+      "seed_on": [
+        "up",
+        "present"
+      ],
+      "warning": "A profile visit is compatible with information seeking but can also reflect monitoring, controversy, navigation, or unrelated goals."
+    },
+    {
+      "id": "source_credibility_survey",
+      "description": "Construct-matched survey of perceived trustworthiness and/or expertise.",
+      "validity_class": "validated_construct_measure",
+      "direct_targets": [
+        {
+          "node_id": "TR-N03",
+          "basis": "direct_measurement",
+          "dimension": "trustworthiness"
+        },
+        {
+          "node_id": "TR-N04",
+          "basis": "direct_measurement",
+          "dimension": "expertise"
+        }
+      ],
+      "requires": [
+        "validated_instrument",
+        "domain_match"
+      ],
+      "seed_on": [
+        "up",
+        "present"
+      ],
+      "negative_seed_on": [
+        "down",
+        "absent"
+      ],
+      "warning": "Perceived credibility is domain-specific and is not factual accuracy."
+    },
+    {
+      "id": "early_hold_rate",
+      "description": "Fraction of exposed viewers remaining past an early-view threshold.",
+      "validity_class": "ambiguous_platform_proxy",
+      "direct_targets": [],
+      "candidate_explanations": [
+        "ATT-N01",
+        "ATT-N04",
+        "CUR-N01",
+        "CUR-N04"
+      ],
+      "seed_on": [],
+      "warning": "Hold can reflect salience, relevance, curiosity, autoplay, friction, format, or audience selection; it cannot identify a specific attention mechanism alone."
+    },
+    {
+      "id": "completion_rate",
+      "description": "Fraction of starts reaching content completion.",
+      "validity_class": "ambiguous_platform_proxy",
+      "direct_targets": [],
+      "candidate_explanations": [
+        "ATT-N04",
+        "CUR-N10",
+        "VE-N01"
+      ],
+      "seed_on": [],
+      "warning": "Completion is multiply determined by length, pacing, prior selection, utility, curiosity, and platform behavior."
+    },
+    {
+      "id": "save_rate",
+      "description": "Observed save/bookmark rate.",
+      "validity_class": "ambiguous_platform_proxy",
+      "direct_targets": [],
+      "candidate_explanations": [
+        "VE-N01",
+        "CUR-N07"
+      ],
+      "seed_on": [],
+      "warning": "Saving may reflect utility, deferred consumption, collection, reminders, or platform-specific behavior; it is not a direct subjective-value measure."
+    },
+    {
+      "id": "returning_viewer_rate",
+      "description": "Audience recurrence across periods.",
+      "validity_class": "ambiguous_platform_proxy",
+      "direct_targets": [],
+      "candidate_explanations": [
+        "CON-N04",
+        "RH-N06",
+        "TR-N03"
+      ],
+      "seed_on": [],
+      "warning": "Returning is an outcome and does not prove habit, trust, parasocial relationship, or reinforcement."
+    },
+    {
+      "id": "repeat_creator_engagement",
+      "description": "Repeated active engagement with the same creator across exposures.",
+      "validity_class": "ambiguous_platform_proxy",
+      "direct_targets": [],
+      "candidate_explanations": [
+        "CON-N04",
+        "RH-N06",
+        "TR-N03"
+      ],
+      "seed_on": [],
+      "warning": "Repeated engagement can reflect relationship, utility, controversy, monitoring, incentives, or habit; it does not diagnose any one construct."
+    },
+    {
+      "id": "identity_language_score",
+      "description": "Content-analysis score for self/group identity language.",
+      "validity_class": "ambiguous_platform_proxy",
+      "direct_targets": [],
+      "candidate_explanations": [
+        "ID-N02",
+        "ID-N05",
+        "ID-N08"
+      ],
+      "seed_on": [],
+      "warning": "Identity language does not establish identification strength, identity centrality, or active self-categorization without construct-valid coding and context."
+    }
+  ]
+}

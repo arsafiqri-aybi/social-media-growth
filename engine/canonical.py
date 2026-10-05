@@ -12,6 +12,7 @@ ALLOWED_SEED_BASES = {
     "validated_observation",
     "structured_observation",
     "external_event",
+    "proxy_hypothesis",
     "user_hypothesis",
 }
 ALLOWED_DIRECTIONS = {"support", "oppose"}
@@ -338,9 +339,11 @@ class CanonicalReasoner:
         reasons: List[str] = []
         effect_direction = CanonicalReasoner._effect_direction(edges, seed.direction)
 
-        if seed.basis == "user_hypothesis":
+        if seed.basis in {"user_hypothesis", "proxy_hypothesis"}:
             path_status = "provisional_path"
-            reasons.append("source seed is explicitly a user hypothesis, not established observation")
+            reasons.append(
+                "source seed is hypothesis-grade evidence rather than a construct-valid direct observation"
+            )
         elif seed.lifecycle_status == "provisional":
             path_status = "provisional_path"
             reasons.append("source seed is a provisional canonical node")
