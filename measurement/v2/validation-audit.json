@@ -1,6 +1,6 @@
 {
   "version": "2.0.0-build02",
-  "status": "CI_PENDING",
+  "status": "PASS",
   "gates": [
     {
       "id": "MC-01",
@@ -63,5 +63,18 @@
       "evidence": "Pearson association is descriptive only; latent and causal flags remain false"
     }
   ],
-  "closure_rule": "O6 may be PRESENT only after Build 02 CI success."
+  "closure_rule": "O6 may be PRESENT only after Build 02 CI success.",
+  "validated_commit": "97f667bd19d672e64c739da23b14adc345981e04",
+  "ci": {
+    "status": "success",
+    "workflow": "Test Reasoning Engine",
+    "run_id": 37246970642
+  },
+  "result": "VALIDATED_CANONICAL_MEASUREMENT_AND_LOCAL_CALIBRATION",
+  "limitations": [
+    "No account-local association is a causal estimate.",
+    "No calibration result is a latent psychological estimate.",
+    "A future numeric runtime parameter still requires a separate validation protocol.",
+    "Ambiguous platform metrics remain observational evidence or competing explanations, not latent-state measurements."
+  ]
 }
