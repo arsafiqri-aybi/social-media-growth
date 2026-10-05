@@ -1,7 +1,7 @@
 import unittest
 from pathlib import Path
 
-from measurement.global import GlobalMeasurementSystem
+from measurement.global_measurement import GlobalMeasurementSystem
 
 
 ROOT = Path(__file__).resolve().parents[1]
