@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 22,
+  "revision": 23,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -261,38 +261,20 @@
     {
       "id": "O8",
       "name": "Final 10/10 audit",
-      "state": "MISSING"
+      "state": "IN_PROGRESS"
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Run FINAL_10_10_GATE. Verify all 20 gates against repository artifacts and CI. Do not convert bounded provisional/deferred modules or nodes into accepted claims merely to pass final audit.",
+  "next_action": "Run CI for the final 20-gate auditor. If CI succeeds and the auditor reports 19 PASS + G20 pending with zero critical failures, set G20 PASS, mark O8 PRESENT, and close SMG-HPC-10X as COMPLETE_WITH_BOUNDED_NONCRITICAL_GAPS.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
       "FINAL_10_10_GATE"
     ],
-    "cycle": "FINAL_AUDIT_PREP",
-    "status": "BENCHMARK_VALIDATED_MODULE_LIFECYCLE_EXPLICIT",
-    "benchmark": {
-      "status": "PRESENT",
-      "scenario_count": 34,
-      "ci_run_id": 37247131374
-    },
-    "module_lifecycle_counts": {
-      "accepted_container": 35,
-      "accepted_container_with_bounded_gaps": 5,
-      "bounded_provisional_container": 4,
-      "deferred_research_container": 1
-    },
-    "modules_without_accepted_child": [
-      "TR-M04",
-      "TR-M06",
-      "CON-M03",
-      "CON-M05",
-      "ST-M07"
-    ],
-    "module_gap_policy": "bounded/deferred modules remain explicit noncritical gaps and cannot support strong conclusions until their child nodes pass acceptance",
-    "next": "Run final 20-gate audit with deterministic structural checks plus evidence-artifact verification."
+    "cycle": "FINAL_AUDIT_BUILD",
+    "status": "FINAL_20_GATE_AUDITOR_IMPLEMENTED_CI_PENDING",
+    "expected_result": "19 internal gates PASS; G20 waits for CI of final-audit implementation",
+    "next": "Run final-audit implementation in CI; close only if it passes without weakening any gate."
   }
 }
