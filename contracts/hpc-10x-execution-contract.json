@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 20,
+  "revision": 21,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -256,7 +256,7 @@
     {
       "id": "O7",
       "name": "Benchmark/adversarial suite",
-      "state": "MISSING"
+      "state": "IN_PROGRESS"
     },
     {
       "id": "O8",
@@ -265,7 +265,7 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Begin Benchmark/Adversarial suite. Create scenario fixtures and deterministic evaluation for reasoning + measurement + calibration. Include expected refusals/uncertainty, not only positive-path cases.",
+  "next_action": "Run the adversarial benchmark in CI. Treat failures as architecture/runtime bugs unless the benchmark expectation is itself invalid; never weaken causal, measurement, uncertainty, or lifecycle safeguards merely to make tests pass.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
@@ -273,13 +273,14 @@
       "BENCHMARK_AND_ADVERSARIAL_TESTING"
     ],
     "cycle": "BENCHMARK_BUILD_01",
-    "status": "MEASUREMENT_CALIBRATION_VALIDATED_BENCHMARK_NEXT",
-    "measurement_calibration": {
-      "status": "PRESENT",
-      "version": "v2.0 canonical measurement + account-local descriptive calibration",
-      "validated_commit": "97f667bd19d672e64c739da23b14adc345981e04",
-      "ci_run_id": 37246970642
-    },
-    "next": "Build benchmark/adversarial suite spanning causal overclaim, proxy leakage, context omission, contradictions, lifecycle violations, feedback contamination, system-edge misuse, determinism, and retrieval integrity."
+    "status": "ADVERSARIAL_SUITE_IMPLEMENTED_CI_PENDING",
+    "scenario_count": 34,
+    "categories": [
+      "measurement",
+      "reasoning",
+      "calibration",
+      "structural"
+    ],
+    "next": "Run CI. Fix any expectation/runtime discrepancy without weakening safeguards, then close O7 only after full benchmark pass."
   }
 }

@@ -1,0 +1,692 @@
+{
+  "version": "1.0.0",
+  "scenarios": [
+    {
+      "id": "ADV-001",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Share rate identifies observed sharing, not motive.",
+      "observations": {
+        "share_rate": {
+          "value": 0.04,
+          "baseline": 0.02
+        }
+      },
+      "expect": {
+        "seed_ids": [
+          "ST-N01"
+        ],
+        "forbid_seed_ids": [
+          "ST-N07",
+          "ST-N15",
+          "VE-N01"
+        ],
+        "basis": {
+          "ST_N01": [
+            "ST-N01",
+            "structured_observation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ADV-002",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Returning viewers cannot diagnose habit/connection/trust.",
+      "observations": {
+        "returning_viewer_rate": {
+          "value": 0.3,
+          "baseline": 0.2
+        }
+      },
+      "expect": {
+        "seed_ids": [],
+        "forbid_seed_ids": [
+          "RH-N06",
+          "CON-N04",
+          "TR-N03"
+        ],
+        "candidate_ids": [
+          "RH-N06",
+          "CON-N04",
+          "TR-N03"
+        ]
+      }
+    },
+    {
+      "id": "ADV-003",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Completion rate cannot auto-seed attention/curiosity/value.",
+      "observations": {
+        "completion_rate": {
+          "value": 0.8,
+          "baseline": 0.55
+        }
+      },
+      "expect": {
+        "seed_ids": [],
+        "forbid_seed_ids": [
+          "ATT-N04",
+          "CUR-N10",
+          "VE-N01"
+        ]
+      }
+    },
+    {
+      "id": "ADV-004",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Unvalidated credibility survey is blocked.",
+      "observations": {
+        "source_credibility_survey": {
+          "direction": "up",
+          "validated_instrument": false,
+          "domain_match": true,
+          "dimension": "trustworthiness"
+        }
+      },
+      "expect": {
+        "seed_ids": [],
+        "forbid_seed_ids": [
+          "TR-N03"
+        ]
+      }
+    },
+    {
+      "id": "ADV-005",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Validated trustworthiness survey seeds only trustworthiness dimension.",
+      "observations": {
+        "source_credibility_survey": {
+          "direction": "up",
+          "validated_instrument": true,
+          "domain_match": true,
+          "dimension": "trustworthiness"
+        }
+      },
+      "expect": {
+        "seed_ids": [
+          "TR-N03"
+        ],
+        "forbid_seed_ids": [
+          "TR-N04"
+        ],
+        "basis": {
+          "trust": [
+            "TR-N03",
+            "direct_measurement"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ADV-006",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Missing survey dimension cannot leak across constructs.",
+      "observations": {
+        "source_credibility_survey": {
+          "direction": "up",
+          "validated_instrument": true,
+          "domain_match": true
+        }
+      },
+      "expect": {
+        "seed_ids": [],
+        "forbid_seed_ids": [
+          "TR-N03",
+          "TR-N04"
+        ]
+      }
+    },
+    {
+      "id": "ADV-007",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Missing observation is not negative psychology.",
+      "observations": {
+        "returning_viewer_rate": {
+          "missing": true
+        }
+      },
+      "expect": {
+        "seed_ids": [],
+        "observed_direction": "missing"
+      }
+    },
+    {
+      "id": "ADV-008",
+      "category": "measurement",
+      "type": "measurement_error",
+      "description": "Impossible rate is rejected.",
+      "observations": {
+        "share_rate": {
+          "value": 1.2,
+          "baseline": 0.2
+        }
+      },
+      "expect_error": "ValueError"
+    },
+    {
+      "id": "ADV-009",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Observed social feedback maps to external event only.",
+      "observations": {
+        "social_feedback_count": {
+          "value": 12
+        }
+      },
+      "expect": {
+        "seed_ids": [
+          "CTX-SOCIAL-FEEDBACK"
+        ],
+        "basis": {
+          "feedback": [
+            "CTX-SOCIAL-FEEDBACK",
+            "external_event"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ADV-010",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Lower share rate is not an opposing latent state.",
+      "observations": {
+        "share_rate": {
+          "value": 0.01,
+          "baseline": 0.03
+        }
+      },
+      "expect": {
+        "seed_ids": []
+      }
+    },
+    {
+      "id": "ADV-011",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Recommendation action does not prove trust/connection.",
+      "observations": {
+        "recommendation_action_rate": {
+          "value": 0.05,
+          "baseline": 0.02
+        }
+      },
+      "expect": {
+        "seed_ids": [
+          "ST-N03"
+        ],
+        "forbid_seed_ids": [
+          "TR-N03",
+          "TR-N04",
+          "CON-N04"
+        ]
+      }
+    },
+    {
+      "id": "ADV-012",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Identity language is not identification strength.",
+      "observations": {
+        "identity_language_score": {
+          "direction": "up"
+        }
+      },
+      "expect": {
+        "seed_ids": [],
+        "forbid_seed_ids": [
+          "ID-N02",
+          "ID-N05",
+          "ID-N08"
+        ]
+      }
+    },
+    {
+      "id": "ADV-013",
+      "category": "measurement",
+      "type": "measurement",
+      "description": "Profile visit remains hypothesis-grade.",
+      "observations": {
+        "profile_visit_rate": {
+          "value": 0.05,
+          "baseline": 0.03
+        }
+      },
+      "expect": {
+        "seed_ids": [
+          "CUR-N10"
+        ],
+        "basis": {
+          "profile": [
+            "CUR-N10",
+            "proxy_hypothesis"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ADV-014",
+      "category": "reasoning",
+      "type": "reasoning",
+      "description": "Trustworthiness to PSR remains association-only.",
+      "case": {
+        "seeds": {
+          "TR-N03": "validated_observation"
+        },
+        "targets": [
+          "CON-N04"
+        ]
+      },
+      "expect": {
+        "target": "CON-N04",
+        "status": "bounded_support",
+        "causal_ceiling": "association_only",
+        "strong_causal": false,
+        "path": [
+          "R3-E013"
+        ]
+      }
+    },
+    {
+      "id": "ADV-015",
+      "category": "reasoning",
+      "type": "reasoning",
+      "description": "Observed social feedback can support bounded causal reward-learning inference.",
+      "case": {
+        "seeds": {
+          "CTX-SOCIAL-FEEDBACK": "external_event"
+        },
+        "targets": [
+          "RH-N02"
+        ],
+        "max_depth": 2
+      },
+      "expect": {
+        "target": "RH-N02",
+        "status": "bounded_conditional_support",
+        "causal_ceiling": "causal_bounded",
+        "strong_causal": true,
+        "path": [
+          "R3-E024"
+        ]
+      }
+    },
+    {
+      "id": "ADV-016",
+      "category": "reasoning",
+      "type": "reasoning",
+      "description": "Sharing alone cannot hallucinate that social feedback occurred.",
+      "case": {
+        "seeds": {
+          "ST-N01": "structured_observation"
+        },
+        "targets": [
+          "RH-N02"
+        ],
+        "max_depth": 3
+      },
+      "expect": {
+        "target": "RH-N02",
+        "status": "unsupported_in_current_graph",
+        "opportunity_edge": "R3-E026"
+      }
+    },
+    {
+      "id": "ADV-017",
+      "category": "reasoning",
+      "type": "reasoning",
+      "description": "Arousal-sharing preserves contradictory evidence.",
+      "case": {
+        "seeds": {
+          "VE-N12": "direct_measurement"
+        },
+        "targets": [
+          "ST-N02"
+        ]
+      },
+      "expect": {
+        "target": "ST-N02",
+        "status": "contested_or_mixed",
+        "causal_ceiling": "hypothesis_only",
+        "strong_causal": false,
+        "contradiction_source": "SRC-ST-003"
+      }
+    },
+    {
+      "id": "ADV-018",
+      "category": "reasoning",
+      "type": "reasoning",
+      "description": "User hypothesis cannot upgrade accepted edge into accepted conclusion.",
+      "case": {
+        "seeds": {
+          "TR-N03": "user_hypothesis"
+        },
+        "targets": [
+          "CON-N04"
+        ]
+      },
+      "expect": {
+        "target": "CON-N04",
+        "status": "provisional_hypothesis",
+        "causal_ceiling": "hypothesis_only",
+        "strong_causal": false
+      }
+    },
+    {
+      "id": "ADV-019",
+      "category": "reasoning",
+      "type": "reasoning",
+      "description": "Proxy hypothesis is capped even on accepted scientific edge.",
+      "case": {
+        "seeds": {
+          "ID-N02": "proxy_hypothesis"
+        },
+        "targets": [
+          "VE-N01"
+        ]
+      },
+      "expect": {
+        "target": "VE-N01",
+        "status": "provisional_hypothesis",
+        "causal_ceiling": "hypothesis_only",
+        "strong_causal": false
+      }
+    },
+    {
+      "id": "ADV-020",
+      "category": "reasoning",
+      "type": "reasoning",
+      "description": "Opposing trust evidence propagates as counterevidence, not support.",
+      "case": {
+        "seeds": {
+          "TR-N03": {
+            "basis": "validated_observation",
+            "direction": "oppose"
+          }
+        },
+        "targets": [
+          "CON-N04"
+        ]
+      },
+      "expect": {
+        "target": "CON-N04",
+        "status": "bounded_counterevidence",
+        "effect_direction": "oppose",
+        "causal_ceiling": "association_only"
+      }
+    },
+    {
+      "id": "ADV-021",
+      "category": "reasoning",
+      "type": "reasoning_error",
+      "description": "Noncanonical contested model cannot seed runtime.",
+      "case": {
+        "seeds": {
+          "RH-N11": "user_hypothesis"
+        }
+      },
+      "expect_error": "ValueError"
+    },
+    {
+      "id": "ADV-022",
+      "category": "reasoning",
+      "type": "reasoning_error",
+      "description": "Raw platform metric cannot bypass measurement layer.",
+      "case": {
+        "seeds": {
+          "share_rate": "structured_observation"
+        }
+      },
+      "expect_error": "ValueError"
+    },
+    {
+      "id": "ADV-023",
+      "category": "reasoning",
+      "type": "reasoning_error",
+      "description": "Uncalibrated numeric activation is rejected.",
+      "case": {
+        "seeds": {
+          "TR-N03": 0.8
+        }
+      },
+      "expect_error": "ValueError"
+    },
+    {
+      "id": "ADV-024",
+      "category": "reasoning",
+      "type": "reasoning",
+      "description": "Context omission remains visible instead of receiving invented multiplier.",
+      "case": {
+        "seeds": {
+          "ID-N08": "structured_observation"
+        },
+        "targets": [
+          "ST-N07"
+        ]
+      },
+      "expect": {
+        "target": "ST-N07",
+        "unresolved_modifier": "CTX-AUDIENCE-COMPOSITION"
+      }
+    },
+    {
+      "id": "ADV-025",
+      "category": "reasoning",
+      "type": "reasoning",
+      "description": "Trace carries evidence provenance.",
+      "case": {
+        "seeds": {
+          "TR-N03": "validated_observation"
+        },
+        "targets": [
+          "CON-N04"
+        ]
+      },
+      "expect": {
+        "target": "CON-N04",
+        "trace_edge": "R3-E013",
+        "claim_id": "R3C2-C03",
+        "source_id": "R3C2-S06"
+      }
+    },
+    {
+      "id": "ADV-026",
+      "category": "reasoning",
+      "type": "determinism",
+      "description": "Identical structured case is deterministic.",
+      "case": {
+        "seeds": {
+          "CTX-SOCIAL-FEEDBACK": "external_event",
+          "ID-N02": "structured_observation"
+        },
+        "max_depth": 3
+      }
+    },
+    {
+      "id": "ADV-027",
+      "category": "calibration",
+      "type": "calibration",
+      "description": "Too little local data cannot produce association.",
+      "records": [
+        {
+          "case_id": "1",
+          "predictors": {
+            "share_rate": 0.02
+          },
+          "outcomes": {
+            "next_share_rate": 0.03
+          }
+        }
+      ],
+      "query": {
+        "predictor_id": "share_rate",
+        "outcome_id": "next_share_rate",
+        "min_records": 3
+      },
+      "expect": {
+        "status": "insufficient_data",
+        "r_is_none": true
+      }
+    },
+    {
+      "id": "ADV-028",
+      "category": "calibration",
+      "type": "calibration",
+      "description": "Local calibration stays descriptive/noncausal/nonlatent.",
+      "records": [
+        {
+          "case_id": "1",
+          "predictors": {
+            "save_rate": 1
+          },
+          "outcomes": {
+            "next_completion": 2
+          }
+        },
+        {
+          "case_id": "2",
+          "predictors": {
+            "save_rate": 2
+          },
+          "outcomes": {
+            "next_completion": 4
+          }
+        },
+        {
+          "case_id": "3",
+          "predictors": {
+            "save_rate": 3
+          },
+          "outcomes": {
+            "next_completion": 6
+          }
+        },
+        {
+          "case_id": "4",
+          "predictors": {
+            "save_rate": 4
+          },
+          "outcomes": {
+            "next_completion": 8
+          }
+        },
+        {
+          "case_id": "5",
+          "predictors": {
+            "save_rate": 5
+          },
+          "outcomes": {
+            "next_completion": 10
+          }
+        }
+      ],
+      "query": {
+        "predictor_id": "save_rate",
+        "outcome_id": "next_completion",
+        "min_records": 5
+      },
+      "expect": {
+        "status": "descriptive_association_only",
+        "direction": "positive",
+        "scientific_effect_claim_allowed": false,
+        "latent_state_claim_allowed": false
+      }
+    },
+    {
+      "id": "ADV-029",
+      "category": "calibration",
+      "type": "calibration",
+      "description": "No variance means local association is non-identifiable.",
+      "records": [
+        {
+          "case_id": "1",
+          "predictors": {
+            "x": 1
+          },
+          "outcomes": {
+            "y": 1
+          }
+        },
+        {
+          "case_id": "2",
+          "predictors": {
+            "x": 1
+          },
+          "outcomes": {
+            "y": 2
+          }
+        },
+        {
+          "case_id": "3",
+          "predictors": {
+            "x": 1
+          },
+          "outcomes": {
+            "y": 3
+          }
+        }
+      ],
+      "query": {
+        "predictor_id": "x",
+        "outcome_id": "y",
+        "min_records": 3
+      },
+      "expect": {
+        "status": "non_identifiable",
+        "r_is_none": true
+      }
+    },
+    {
+      "id": "ADV-030",
+      "category": "structural",
+      "type": "structural",
+      "description": "Canonical scientific graph contains no runtime weights.",
+      "check": "no_runtime_weights"
+    },
+    {
+      "id": "ADV-031",
+      "category": "structural",
+      "type": "structural",
+      "description": "All 28 unordered core pairs remain audited.",
+      "check": "pair_count",
+      "expect_value": 28
+    },
+    {
+      "id": "ADV-032",
+      "category": "structural",
+      "type": "structural",
+      "description": "R2 lifecycle counts remain accepted=84 provisional=12.",
+      "check": "node_lifecycle",
+      "expect_value": {
+        "accepted": 84,
+        "provisional": 12,
+        "candidate": 0
+      }
+    },
+    {
+      "id": "ADV-033",
+      "category": "structural",
+      "type": "structural",
+      "description": "R3 edge lifecycle remains 14 accepted + 8 provisional + 4 system.",
+      "check": "edge_lifecycle",
+      "expect_value": {
+        "accepted_edge": 14,
+        "provisional_edge": 8,
+        "system_edge": 4
+      }
+    },
+    {
+      "id": "ADV-034",
+      "category": "structural",
+      "type": "feedback_isolation",
+      "description": "Account-local feedback cannot mutate scientific snapshot."
+    }
+  ]
+}
