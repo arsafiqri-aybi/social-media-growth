@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "contract_id": "SMG-HPC-10X",
-  "revision": 21,
+  "revision": 22,
   "status": "IN_PROGRESS",
   "goal": "Upgrade the Human Psychological Core into an evidence-grounded, mechanistic, interconnected, context-sensitive, self-checking, auditable social-media human psychology reasoning system that satisfies all 10/10 quality dimensions without relying on arbitrary node counts.",
   "deliverable": "A validated multi-level psychological reasoning architecture spanning 8 core families, mechanism modules, neurons/micro-neurons, typed edges, empirical evidence, measurement mappings, executable reasoning, adversarial benchmarks, and CI-backed verification.",
@@ -256,7 +256,7 @@
     {
       "id": "O7",
       "name": "Benchmark/adversarial suite",
-      "state": "IN_PROGRESS"
+      "state": "PRESENT"
     },
     {
       "id": "O8",
@@ -265,22 +265,34 @@
     }
   ],
   "state_ref": "arsafiqri-aybi/social-media-growth@main",
-  "next_action": "Run the adversarial benchmark in CI. Treat failures as architecture/runtime bugs unless the benchmark expectation is itself invalid; never weaken causal, measurement, uncertainty, or lifecycle safeguards merely to make tests pass.",
+  "next_action": "Run FINAL_10_10_GATE. Verify all 20 gates against repository artifacts and CI. Do not convert bounded provisional/deferred modules or nodes into accepted claims merely to pass final audit.",
   "architecture_ref": "architecture/ontology.json@1.1.0",
   "research_program_ref": "research/program-10x.json@1.0.0",
   "research_progress": {
     "current_rounds": [
-      "BENCHMARK_AND_ADVERSARIAL_TESTING"
+      "FINAL_10_10_GATE"
     ],
-    "cycle": "BENCHMARK_BUILD_01",
-    "status": "ADVERSARIAL_SUITE_IMPLEMENTED_CI_PENDING",
-    "scenario_count": 34,
-    "categories": [
-      "measurement",
-      "reasoning",
-      "calibration",
-      "structural"
+    "cycle": "FINAL_AUDIT_PREP",
+    "status": "BENCHMARK_VALIDATED_MODULE_LIFECYCLE_EXPLICIT",
+    "benchmark": {
+      "status": "PRESENT",
+      "scenario_count": 34,
+      "ci_run_id": 37247131374
+    },
+    "module_lifecycle_counts": {
+      "accepted_container": 35,
+      "accepted_container_with_bounded_gaps": 5,
+      "bounded_provisional_container": 4,
+      "deferred_research_container": 1
+    },
+    "modules_without_accepted_child": [
+      "TR-M04",
+      "TR-M06",
+      "CON-M03",
+      "CON-M05",
+      "ST-M07"
     ],
-    "next": "Run CI. Fix any expectation/runtime discrepancy without weakening safeguards, then close O7 only after full benchmark pass."
+    "module_gap_policy": "bounded/deferred modules remain explicit noncritical gaps and cannot support strong conclusions until their child nodes pass acceptance",
+    "next": "Run final 20-gate audit with deterministic structural checks plus evidence-artifact verification."
   }
 }

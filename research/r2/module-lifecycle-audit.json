@@ -1,0 +1,748 @@
+{
+  "version": "1.0.0",
+  "counts": {
+    "accepted_container": 35,
+    "accepted_container_with_bounded_gaps": 5,
+    "bounded_provisional_container": 4,
+    "deferred_research_container": 1
+  },
+  "audit": [
+    {
+      "module_id": "ATT-M01",
+      "core": "attention",
+      "label": "Stimulus-driven capture & salience",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ATT-N01",
+        "ATT-N02",
+        "ATT-N03"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ATT-M02",
+      "core": "attention",
+      "label": "Goal-directed selection & control",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ATT-N04",
+        "ATT-N05",
+        "ATT-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ATT-M03",
+      "core": "attention",
+      "label": "Selection history & learned priority",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ATT-N07",
+        "ATT-N08"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ATT-M04",
+      "core": "attention",
+      "label": "Sustained attention & vigilance",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ATT-N09",
+        "ATT-N10",
+        "ATT-N11"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ATT-M05",
+      "core": "attention",
+      "label": "Suppression, disengagement & competition",
+      "status": "accepted_container_with_bounded_gaps",
+      "accepted_child_ids": [
+        "ATT-N13"
+      ],
+      "provisional_child_ids": [
+        "ATT-N12"
+      ],
+      "noncanonical_child_records": [
+        {
+          "id": "ATT-N14",
+          "status": "merged"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps."
+    },
+    {
+      "module_id": "CUR-M01",
+      "core": "curiosity",
+      "label": "Novelty & surprise appraisal",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "CUR-N01",
+        "CUR-N02"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "CUR-M02",
+      "core": "curiosity",
+      "label": "Uncertainty & knowledge gaps",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "CUR-N03",
+        "CUR-N04"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "CUR-M03",
+      "core": "curiosity",
+      "label": "Epistemic information value & reward anticipation",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "CUR-N05",
+        "CUR-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "CUR-M04",
+      "core": "curiosity",
+      "label": "Learning progress & competence",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "CUR-N07"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "CUR-N08",
+          "status": "merged"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "CUR-M05",
+      "core": "curiosity",
+      "label": "Exploration & information seeking",
+      "status": "accepted_container_with_bounded_gaps",
+      "accepted_child_ids": [
+        "CUR-N10"
+      ],
+      "provisional_child_ids": [
+        "CUR-N09"
+      ],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps."
+    },
+    {
+      "module_id": "CUR-M06",
+      "core": "curiosity",
+      "label": "Information avoidance, threat & cost",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "CUR-N11",
+        "CUR-N12",
+        "CUR-N13"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "VE-M01",
+      "core": "valuation_emotion",
+      "label": "Subjective valuation & utility",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "VE-N01",
+        "VE-N03"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "VE-N02",
+          "status": "moved"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "VE-M02",
+      "core": "valuation_emotion",
+      "label": "Outcome, reward & punishment valuation",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "VE-N04",
+        "VE-N05",
+        "VE-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "VE-M03",
+      "core": "valuation_emotion",
+      "label": "Cognitive appraisal dimensions",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "VE-N07",
+        "VE-N08",
+        "VE-N09",
+        "VE-N10"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "VE-M04",
+      "core": "valuation_emotion",
+      "label": "Dimensional affect: valence, arousal & activation",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "VE-N11",
+        "VE-N12"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "VE-N13",
+          "status": "merged"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "VE-M06",
+      "core": "valuation_emotion",
+      "label": "Discrete emotion / differentiated affect",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "VE-N16"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "VE-N14",
+          "status": "refine_l3"
+        },
+        {
+          "id": "VE-N15",
+          "status": "refine_l3"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "VE-M07",
+      "core": "valuation_emotion",
+      "label": "Motivational action tendencies",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "VE-N17",
+        "VE-N18",
+        "VE-N19"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ID-M01",
+      "core": "identity",
+      "label": "Self-concept & self-relevance",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ID-N01",
+        "ID-N02",
+        "ID-N03"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ID-M02",
+      "core": "identity",
+      "label": "Social categorization & group identification",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ID-N04",
+        "ID-N05",
+        "ID-N06",
+        "ID-N07"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ID-M03",
+      "core": "identity",
+      "label": "Norm salience & prototypicality",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ID-N08",
+        "ID-N09"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ID-M06",
+      "core": "identity",
+      "label": "Identity threat, defense & boundary maintenance",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ID-N10",
+        "ID-N11"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "ID-N12",
+          "status": "merged"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "TR-M01",
+      "core": "trust",
+      "label": "Trustworthiness, integrity & benevolence",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "TR-N01",
+        "TR-N02",
+        "TR-N03"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "TR-M02",
+      "core": "trust",
+      "label": "Expertise & competence",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "TR-N04",
+        "TR-N05"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "TR-M03",
+      "core": "trust",
+      "label": "Authenticity & genuineness",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "TR-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "TR-N07",
+          "status": "merged"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "TR-M04",
+      "core": "trust",
+      "label": "Consistency, reliability & track record",
+      "status": "bounded_provisional_container",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [
+        "TR-N09"
+      ],
+      "noncanonical_child_records": [
+        {
+          "id": "TR-N08",
+          "status": "moved"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "No child has passed node acceptance yet; provisional child evidence gaps remain explicit."
+    },
+    {
+      "module_id": "TR-M05",
+      "core": "trust",
+      "label": "Credibility cues & heuristic evaluation",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "TR-N10",
+        "TR-N11"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "TR-M06",
+      "core": "trust",
+      "label": "Verification, skepticism & trust calibration",
+      "status": "bounded_provisional_container",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [
+        "TR-N12",
+        "TR-N13",
+        "TR-N14"
+      ],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "No child has passed node acceptance yet; provisional child evidence gaps remain explicit."
+    },
+    {
+      "module_id": "CON-M01",
+      "core": "connection",
+      "label": "Parasocial interaction (episodic)",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "CON-N01"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "CON-N02",
+          "status": "refine_l3"
+        },
+        {
+          "id": "CON-N03",
+          "status": "refine_l3"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "CON-M02",
+      "core": "connection",
+      "label": "Parasocial relationship (enduring)",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "CON-N04",
+        "CON-N05",
+        "CON-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "CON-M03",
+      "core": "connection",
+      "label": "Familiarity & repeated exposure",
+      "status": "bounded_provisional_container",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [
+        "CON-N07"
+      ],
+      "noncanonical_child_records": [
+        {
+          "id": "CON-N08",
+          "status": "moved"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "No child has passed node acceptance yet; provisional child evidence gaps remain explicit."
+    },
+    {
+      "module_id": "CON-M04",
+      "core": "connection",
+      "label": "Perceived closeness & intimacy",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "CON-N10"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "CON-N09",
+          "status": "merged"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "CON-M05",
+      "core": "connection",
+      "label": "Affective attachment",
+      "status": "deferred_research_container",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "CON-N11",
+          "status": "deferred"
+        },
+        {
+          "id": "CON-N12",
+          "status": "deferred"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "No active canonical child; contained constructs are deferred/noncanonical by explicit closure decisions."
+    },
+    {
+      "module_id": "ST-M01",
+      "core": "social_transmission",
+      "label": "Sharing / forwarding behavior",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ST-N01",
+        "ST-N02"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ST-M02",
+      "core": "social_transmission",
+      "label": "Recommendation & word of mouth",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ST-N03",
+        "ST-N04"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ST-M03",
+      "core": "social_transmission",
+      "label": "Practical / information-value motives",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "ST-N05",
+        "ST-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "ST-M04",
+      "core": "social_transmission",
+      "label": "Identity signaling & impression-management motives",
+      "status": "accepted_container_with_bounded_gaps",
+      "accepted_child_ids": [
+        "ST-N07"
+      ],
+      "provisional_child_ids": [
+        "ST-N08"
+      ],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps."
+    },
+    {
+      "module_id": "ST-M05",
+      "core": "social_transmission",
+      "label": "Emotion regulation & affective-expression motives",
+      "status": "accepted_container_with_bounded_gaps",
+      "accepted_child_ids": [
+        "ST-N09"
+      ],
+      "provisional_child_ids": [
+        "ST-N10"
+      ],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps."
+    },
+    {
+      "module_id": "ST-M07",
+      "core": "social_transmission",
+      "label": "Privacy, reputational cost & inhibition",
+      "status": "bounded_provisional_container",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [
+        "ST-N11",
+        "ST-N12"
+      ],
+      "noncanonical_child_records": [
+        {
+          "id": "ST-N13",
+          "status": "moved"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "No child has passed node acceptance yet; provisional child evidence gaps remain explicit."
+    },
+    {
+      "module_id": "ST-M08",
+      "core": "social_transmission",
+      "label": "Social bonding & relationship-maintenance motives",
+      "status": "accepted_container_with_bounded_gaps",
+      "accepted_child_ids": [
+        "ST-N15"
+      ],
+      "provisional_child_ids": [
+        "ST-N14"
+      ],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps."
+    },
+    {
+      "module_id": "RH-M01",
+      "core": "reinforcement_habit",
+      "label": "Outcome/reward learning & value updating",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "RH-N01",
+        "RH-N02"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "RH-N03",
+          "status": "moved"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "RH-M03",
+      "core": "reinforcement_habit",
+      "label": "Context-response association",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "RH-N04",
+        "RH-N05"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "RH-M04",
+      "core": "reinforcement_habit",
+      "label": "Automaticity & habitual control",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "RH-N06",
+        "RH-N07"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "RH-N08",
+          "status": "derived"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "RH-M05",
+      "core": "reinforcement_habit",
+      "label": "Goal-directed control interface & arbitration",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "RH-N09",
+        "RH-N10"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "RH-N11",
+          "status": "contested_model"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "RH-M06",
+      "core": "reinforcement_habit",
+      "label": "Repetition, context stability & habit formation",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "RH-N12",
+        "RH-N13",
+        "RH-N14"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    },
+    {
+      "module_id": "RH-M07",
+      "core": "reinforcement_habit",
+      "label": "Habit disruption & context change",
+      "status": "accepted_container",
+      "accepted_child_ids": [
+        "RH-N15",
+        "RH-N16"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "RH-N17",
+          "status": "merged"
+        }
+      ],
+      "blocks_final_gate": false,
+      "reason": "Canonical accepted child coverage exists with no provisional child gap."
+    }
+  ]
+}

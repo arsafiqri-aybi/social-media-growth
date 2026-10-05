@@ -18,9 +18,17 @@
       "boundary_conditions": [
         "Do not equate perceptual salience with guaranteed capture."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ATT-N01",
+        "ATT-N02",
+        "ATT-N03"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ATT-M02",
@@ -39,9 +47,17 @@
       "boundary_conditions": [
         "Goal relevance is state/context dependent, not a stable audience trait."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ATT-N04",
+        "ATT-N05",
+        "ATT-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ATT-M03",
@@ -61,9 +77,16 @@
       "boundary_conditions": [
         "Traditional reward-capture effects are method-sensitive; magnitude cannot be universalized."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ATT-N07",
+        "ATT-N08"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ATT-M04",
@@ -82,9 +105,17 @@
       "boundary_conditions": [
         "Initial capture and sustained attention must remain distinct."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ATT-N09",
+        "ATT-N10",
+        "ATT-N11"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ATT-M05",
@@ -103,9 +134,22 @@
       "boundary_conditions": [
         "Needs direct module-level evidence before acceptance."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container_with_bounded_gaps",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps.",
+      "accepted_child_ids": [
+        "ATT-N13"
+      ],
+      "provisional_child_ids": [
+        "ATT-N12"
+      ],
+      "noncanonical_child_records": [
+        {
+          "id": "ATT-N14",
+          "status": "merged"
+        }
+      ]
     },
     {
       "id": "CUR-M01",
@@ -124,9 +168,16 @@
       "boundary_conditions": [
         "Novelty/surprise are neither necessary nor sufficient for curiosity."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "CUR-N01",
+        "CUR-N02"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "CUR-M02",
@@ -146,9 +197,16 @@
       "boundary_conditions": [
         "More uncertainty can increase seeking or avoidance depending on cost/threat."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "CUR-N03",
+        "CUR-N04"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "CUR-M03",
@@ -167,9 +225,16 @@
       "boundary_conditions": [
         "Must remain separable from general reward value."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "CUR-N05",
+        "CUR-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "CUR-M04",
@@ -188,9 +253,20 @@
       "boundary_conditions": [
         "Need direct evidence separating learning progress from competence/interest."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "CUR-N07"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "CUR-N08",
+          "status": "merged"
+        }
+      ]
     },
     {
       "id": "CUR-M05",
@@ -211,9 +287,17 @@
       "boundary_conditions": [
         "Observed seeking is not pure curiosity; utility and threat can also drive it."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container_with_bounded_gaps",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps.",
+      "accepted_child_ids": [
+        "CUR-N10"
+      ],
+      "provisional_child_ids": [
+        "CUR-N09"
+      ],
+      "noncanonical_child_records": []
     },
     {
       "id": "CUR-M06",
@@ -232,9 +316,17 @@
       "boundary_conditions": [
         "Avoidance is not simply the low end of curiosity."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "CUR-N11",
+        "CUR-N12",
+        "CUR-N13"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "VE-M01",
@@ -253,9 +345,21 @@
       "boundary_conditions": [
         "Subjective value is not interchangeable with affect."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "VE-N01",
+        "VE-N03"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "VE-N02",
+          "status": "moved"
+        }
+      ]
     },
     {
       "id": "VE-M02",
@@ -273,9 +377,17 @@
       "boundary_conditions": [
         "Must distinguish expected from experienced value and reward from affect."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "VE-N04",
+        "VE-N05",
+        "VE-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "VE-M03",
@@ -295,9 +407,18 @@
       "boundary_conditions": [
         "Appraisals are many-to-many with emotions."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "VE-N07",
+        "VE-N08",
+        "VE-N09",
+        "VE-N10"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "VE-M04",
@@ -316,9 +437,21 @@
       "boundary_conditions": [
         "Valence, arousal, and subjective value are distinct."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "VE-N11",
+        "VE-N12"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "VE-N13",
+          "status": "merged"
+        }
+      ]
     },
     {
       "id": "VE-M06",
@@ -337,9 +470,24 @@
       "boundary_conditions": [
         "Do not collapse all positive or negative emotions."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "VE-N16"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "VE-N14",
+          "status": "refine_l3"
+        },
+        {
+          "id": "VE-N15",
+          "status": "refine_l3"
+        }
+      ]
     },
     {
       "id": "VE-M07",
@@ -360,9 +508,17 @@
       "boundary_conditions": [
         "Action tendency is not identical to reported emotion."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "VE-N17",
+        "VE-N18",
+        "VE-N19"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ID-M01",
@@ -381,9 +537,17 @@
       "boundary_conditions": [
         "Self-relevance is not generic personal preference."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ID-N01",
+        "ID-N02",
+        "ID-N03"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ID-M02",
@@ -404,9 +568,18 @@
       "boundary_conditions": [
         "Identification is multidimensional; membership alone is insufficient."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ID-N04",
+        "ID-N05",
+        "ID-N06",
+        "ID-N07"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ID-M03",
@@ -426,9 +599,16 @@
       "boundary_conditions": [
         "Norm influence depends on salient identification/context."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ID-N08",
+        "ID-N09"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ID-M06",
@@ -448,9 +628,21 @@
       "boundary_conditions": [
         "Need direct evidence separating threat appraisal from downstream emotion."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ID-N10",
+        "ID-N11"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "ID-N12",
+          "status": "merged"
+        }
+      ]
     },
     {
       "id": "TR-M01",
@@ -471,9 +663,17 @@
       "boundary_conditions": [
         "Trustworthiness judgments are not factual accuracy."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "TR-N01",
+        "TR-N02",
+        "TR-N03"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "TR-M02",
@@ -493,9 +693,16 @@
       "boundary_conditions": [
         "Expertise is domain-specific and not equivalent to benevolence."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "TR-N04",
+        "TR-N05"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "TR-M03",
@@ -516,9 +723,20 @@
       "boundary_conditions": [
         "Authenticity is not equivalent to truthfulness or expertise."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "TR-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "TR-N07",
+          "status": "merged"
+        }
+      ]
     },
     {
       "id": "TR-M04",
@@ -536,9 +754,20 @@
       "boundary_conditions": [
         "Familiarity/repetition alone must not be treated as reliability."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "bounded_provisional_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "No child has passed node acceptance yet; provisional child evidence gaps remain explicit.",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [
+        "TR-N09"
+      ],
+      "noncanonical_child_records": [
+        {
+          "id": "TR-N08",
+          "status": "moved"
+        }
+      ]
     },
     {
       "id": "TR-M05",
@@ -559,9 +788,16 @@
       "boundary_conditions": [
         "Heuristic credibility can be miscalibrated."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "TR-N10",
+        "TR-N11"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "TR-M06",
@@ -581,9 +817,17 @@
       "boundary_conditions": [
         "Must separate healthy verification from generalized distrust."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "bounded_provisional_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "No child has passed node acceptance yet; provisional child evidence gaps remain explicit.",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [
+        "TR-N12",
+        "TR-N13",
+        "TR-N14"
+      ],
+      "noncanonical_child_records": []
     },
     {
       "id": "CON-M01",
@@ -603,9 +847,24 @@
       "boundary_conditions": [
         "PSI is not an enduring PSR."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "CON-N01"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "CON-N02",
+          "status": "refine_l3"
+        },
+        {
+          "id": "CON-N03",
+          "status": "refine_l3"
+        }
+      ]
     },
     {
       "id": "CON-M02",
@@ -627,9 +886,17 @@
       "boundary_conditions": [
         "PSR is multidimensional and not equivalent to real reciprocity."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "CON-N04",
+        "CON-N05",
+        "CON-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "CON-M03",
@@ -649,9 +916,20 @@
       "boundary_conditions": [
         "Familiarity does not imply trust, closeness, or positive attachment."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "bounded_provisional_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "No child has passed node acceptance yet; provisional child evidence gaps remain explicit.",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [
+        "CON-N07"
+      ],
+      "noncanonical_child_records": [
+        {
+          "id": "CON-N08",
+          "status": "moved"
+        }
+      ]
     },
     {
       "id": "CON-M04",
@@ -670,9 +948,20 @@
       "boundary_conditions": [
         "Closeness must be distinguished from familiarity and identification."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "CON-N10"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "CON-N09",
+          "status": "merged"
+        }
+      ]
     },
     {
       "id": "CON-M05",
@@ -690,9 +979,22 @@
       "boundary_conditions": [
         "Positive attachment is not assumed; dependency/distress boundaries require research."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "deferred_research_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "No active canonical child; contained constructs are deferred/noncanonical by explicit closure decisions.",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "CON-N11",
+          "status": "deferred"
+        },
+        {
+          "id": "CON-N12",
+          "status": "deferred"
+        }
+      ]
     },
     {
       "id": "ST-M01",
@@ -713,9 +1015,16 @@
       "boundary_conditions": [
         "Sharing intention is an imperfect proxy for behavior."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ST-N01",
+        "ST-N02"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ST-M02",
@@ -734,9 +1043,16 @@
       "boundary_conditions": [
         "Recommendation can differ from neutral forwarding."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ST-N03",
+        "ST-N04"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ST-M03",
@@ -755,9 +1071,16 @@
       "boundary_conditions": [
         "Motive cannot be inferred from share count alone."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "ST-N05",
+        "ST-N06"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "ST-M04",
@@ -778,9 +1101,17 @@
       "boundary_conditions": [
         "Upstream identity activation belongs to Identity, not this module."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container_with_bounded_gaps",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps.",
+      "accepted_child_ids": [
+        "ST-N07"
+      ],
+      "provisional_child_ids": [
+        "ST-N08"
+      ],
+      "noncanonical_child_records": []
     },
     {
       "id": "ST-M05",
@@ -800,9 +1131,17 @@
       "boundary_conditions": [
         "Incidental physiological arousal cannot be used as a universal cause."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container_with_bounded_gaps",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps.",
+      "accepted_child_ids": [
+        "ST-N09"
+      ],
+      "provisional_child_ids": [
+        "ST-N10"
+      ],
+      "noncanonical_child_records": []
     },
     {
       "id": "ST-M07",
@@ -823,9 +1162,21 @@
       "boundary_conditions": [
         "Cost can vary by audience and context."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "bounded_provisional_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "No child has passed node acceptance yet; provisional child evidence gaps remain explicit.",
+      "accepted_child_ids": [],
+      "provisional_child_ids": [
+        "ST-N11",
+        "ST-N12"
+      ],
+      "noncanonical_child_records": [
+        {
+          "id": "ST-N13",
+          "status": "moved"
+        }
+      ]
     },
     {
       "id": "ST-M08",
@@ -845,9 +1196,17 @@
       "boundary_conditions": [
         "Do not collapse into parasocial connection; this concerns sender-recipient function."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container_with_bounded_gaps",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "At least one canonical accepted child exists; remaining provisional children retain explicit evidence gaps.",
+      "accepted_child_ids": [
+        "ST-N15"
+      ],
+      "provisional_child_ids": [
+        "ST-N14"
+      ],
+      "noncanonical_child_records": []
     },
     {
       "id": "RH-M01",
@@ -866,9 +1225,21 @@
       "boundary_conditions": [
         "Model-free/value learning is not habit by definition."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "RH-N01",
+        "RH-N02"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "RH-N03",
+          "status": "moved"
+        }
+      ]
     },
     {
       "id": "RH-M03",
@@ -888,9 +1259,16 @@
       "boundary_conditions": [
         "Requires evidence of context-response structure, not return frequency alone."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "RH-N04",
+        "RH-N05"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "RH-M04",
@@ -912,9 +1290,21 @@
       "boundary_conditions": [
         "Automaticity is an important component but not the whole habit construct."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "RH-N06",
+        "RH-N07"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "RH-N08",
+          "status": "derived"
+        }
+      ]
     },
     {
       "id": "RH-M05",
@@ -934,9 +1324,21 @@
       "boundary_conditions": [
         "Goal-directed and habitual influences can coexist."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "RH-N09",
+        "RH-N10"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "RH-N11",
+          "status": "contested_model"
+        }
+      ]
     },
     {
       "id": "RH-M06",
@@ -956,9 +1358,17 @@
       "boundary_conditions": [
         "Repetition without stable context does not guarantee habit."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "RH-N12",
+        "RH-N13",
+        "RH-N14"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": []
     },
     {
       "id": "RH-M07",
@@ -979,9 +1389,21 @@
       "boundary_conditions": [
         "Need direct evidence on discontinuity and extinction mechanisms."
       ],
-      "status": "provisional",
-      "acceptance": "R2_CYCLE_01_DECOMPOSED_NOT_FINAL",
-      "version": "0.1.0"
+      "status": "accepted_container",
+      "acceptance": "R2_MODULE_LIFECYCLE_AUDIT_V1",
+      "version": "0.1.0",
+      "lifecycle_reason": "Canonical accepted child coverage exists with no provisional child gap.",
+      "accepted_child_ids": [
+        "RH-N15",
+        "RH-N16"
+      ],
+      "provisional_child_ids": [],
+      "noncanonical_child_records": [
+        {
+          "id": "RH-N17",
+          "status": "merged"
+        }
+      ]
     }
   ]
 }
