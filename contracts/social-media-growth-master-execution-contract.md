@@ -36,21 +36,21 @@ Status: COMPLETE v0.1
 Status: PROVISIONAL COMPLETE
 
 ### Phase 5 — Breadth-first operational-core maps
-Status: NEXT
+Status: **COMPLETE v0.1**
 
-Required minimum output for each core:
-- definition;
+All five operational cores now have minimum canonical coverage:
+- definitions;
 - boundaries;
-- candidate subsystems;
-- important mechanisms;
-- cross-core connections;
-- evidence landscape;
+- candidate subsystem maps;
+- mechanism families;
+- cross-core interfaces;
 - measurement routes;
 - failure modes;
+- evidence landscapes;
 - open questions.
 
 ### Phase 6 — Cross-core graph
-Status: PENDING
+Status: **INITIAL INTERFACE MAP COMPLETE; CLAIM-LEVEL AUDIT PENDING**
 
 ### Phase 7 — Targeted depth expansion
 Status: PENDING
@@ -69,11 +69,11 @@ Status: PENDING
 
 ## Scale policy
 
-Use breadth-first completion until all five operational cores have minimum canonical coverage.
+Use breadth-first completion until all five operational cores have minimum canonical coverage. This gate is now passed.
 
-Deep research is triggered by:
+Next depth work is driven by:
+- cross-core centrality;
 - architecture-critical uncertainty;
-- high-centrality mechanism;
 - conflicting evidence;
 - measurement ambiguity that blocks diagnosis;
 - failed benchmark;
@@ -91,7 +91,7 @@ Before increasing retrieval/reasoning/tool spend, diagnose whether the bottlenec
 - tool/environment failure;
 - verification weakness.
 
-Stop a research branch when additional retrieval is unlikely to change the architectural decision and remaining uncertainty is explicitly documented.
+Stop a research branch when additional retrieval is unlikely to change the decision and remaining uncertainty is explicit.
 
 ## Completion dimensions
 

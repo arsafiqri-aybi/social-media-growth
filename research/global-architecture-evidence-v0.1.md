@@ -2,15 +2,14 @@
 
 Date: 2026-10-05
 
-This registry supports the **global architecture decision**, not individual downstream mechanism claims.
+This registry supports the global architecture and breadth-first operational-core maps. It does not replace downstream claim-level evidence audits.
 
 ## Evidence classes
-
 - **Synthesis**: systematic review / meta-analysis / broad literature synthesis
 - **Platform**: official platform documentation
-- **Framework**: empirical/theoretical framework with bounded scope
+- **Framework**: bounded empirical/theoretical framework
 
-## Sources
+## Architecture sources
 
 ### E-GLOBAL-001 — Bartoloni et al. (2024)
 Type: Synthesis  
@@ -20,19 +19,8 @@ DOI: 10.1111/ijmr.12360
 URL: https://onlinelibrary.wiley.com/doi/full/10.1111/ijmr.12360  
 Coverage: 169 articles.
 
-Architecture relevance:
-- identifies social-media marketing as multifaceted;
-- recurring activities include content crafting, knowledge acquisition/management, customer relationship management, and measurement;
-- models inputs, contingency factors, behaviors, and outputs.
-
-Supports:
-- Communication & Content;
-- Relationship;
-- Learning & Adaptation;
-- Governance/context separation.
-
-Limits:
-firm/marketing perspective; not a complete creator-growth ontology.
+Relevance:
+content crafting, knowledge acquisition/management, customer relationship management, measurement, inputs, contingencies, and outcomes.
 
 ### E-GLOBAL-002 — Li, Larimo & Leonidou (2023)
 Type: Synthesis  
@@ -40,188 +28,179 @@ Title: *Social media in marketing research: Theoretical bases, methodological as
 Journal: Psychology & Marketing  
 DOI: 10.1002/mar.21746  
 URL: https://onlinelibrary.wiley.com/doi/full/10.1002/mar.21746  
-Coverage: 418 articles, 2009–2021.
+Coverage: 418 articles.
 
-Five organizing research areas:
-- promotion/selling;
-- communication/branding;
-- monitoring/intelligence;
-- customer relationship management/value co-creation;
-- general marketing/strategy.
-
-Architecture relevance:
-Converges with communication, relationship, learning/intelligence, value, and governance while showing that commercial outcomes should not automatically become universal causal cores.
+Organizing areas:
+promotion/selling; communication/branding; monitoring/intelligence; CRM/value co-creation; general marketing/strategy.
 
 ### E-GLOBAL-003 — Effing & Spil (2016)
 Type: Framework / systematic review + cases  
 Title: *The social strategy cone: Towards a framework for evaluating social media strategies*  
-Journal: International Journal of Information Management  
 DOI: 10.1016/j.ijinfomgt.2015.07.009  
 URL: https://www.sciencedirect.com/science/article/pii/S0268401215000778
 
-Key elements:
-- target audience;
-- channel choice;
-- goals;
-- resources;
-- policies;
-- monitoring;
-- content activities.
+Elements include target audience, channel choice, goals, resources, policies, monitoring, and content activities.
 
-Architecture relevance:
-Supports separation of Governance, Audience, Distribution/channel, Communication/Content, and Learning/Monitoring.
-
-Limits:
-organizational social-media strategy; older platform era.
-
-### E-GLOBAL-004 — Kumar et al. / customer engagement review (2022)
+### E-GLOBAL-004 — Customer engagement review (2022)
 Type: Synthesis  
 Title: *Customer engagement and social media: Revisiting the past to inform the future*  
 Journal: Journal of Business Research  
 DOI: 10.1016/j.jbusres.2022.04.068  
 URL: https://doi.org/10.1016/j.jbusres.2022.04.068
 
-Architecture relevance:
-Treats social-media engagement as a substantial antecedent/decision/outcome research domain rather than a mere property of content.
-
-Supports:
-Relationship & Retention as a distinct operational problem family.
+Relevance:
+supports engagement/relationship as a substantial antecedent-decision-outcome research domain.
 
 ### E-GLOBAL-005 — Social media brand community review (2021)
 Type: Synthesis  
 Title: *Consumer engagement in social media brand communities: A literature review*  
 URL: https://www.sciencedirect.com/science/article/pii/S026840122100150X
 
-Architecture relevance:
-Synthesizes consumer, community, relationship quality, content creation/consumption, trust, loyalty, value co-creation, and technology capabilities.
-
-Supports:
-Community as important but cross-cutting; strong overlap with Relationship, Communication, Distribution, and HPC.
+Relevance:
+consumer/community/relationship quality, content consumption/creation, trust, loyalty, value co-creation, technology capabilities.
 
 ### E-GLOBAL-006 — Han & Balabanis (2024)
 Type: Meta-analysis  
 Title: *Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations*  
-Journal: Psychology & Marketing  
 DOI: 10.1002/mar.21927  
 URL: https://onlinelibrary.wiley.com/doi/10.1002/mar.21927  
-Coverage: 53 studies, 250 effect sizes.
+Coverage: 53 studies; 250 effect sizes.
 
-Findings relevant to architecture:
-credibility, trustworthiness, expertise, parasocial interaction, homophily, congruity, and context all contribute to outcomes.
-
-Supports:
-HPC Trust/Connection/Identity grounding and Relationship & Retention.
+Relevance:
+credibility, trustworthiness, expertise, parasocial interaction, homophily, congruity, contextual variation.
 
 ### E-GLOBAL-007 — Influencer effectiveness meta-analysis (2025)
 Type: Meta-analysis  
 Title: *A meta-analysis of the effectiveness of social media influencers: Mechanisms and moderation*  
-Journal: Journal of the Academy of Marketing Science  
 DOI: 10.1007/s11747-025-01107-3  
 URL: https://doi.org/10.1007/s11747-025-01107-3  
-Coverage: 71 papers, 135 experimental studies, 571 effect sizes.
+Coverage: 71 papers; 135 experimental studies; 571 effect sizes.
 
-Architecture relevance:
-effects are mediated/moderated by influencer, message, product, platform, and follower characteristics.
-
-Supports:
-HPC foundation + contextuality + cross-core relations.
+Relevance:
+influencer, message, product, platform and follower characteristics moderate outcomes.
 
 ### E-GLOBAL-008 — Linguistic diffusion review (2025)
-Type: Systematic review  
+Type: Synthesis  
 Title: *Linguistic features influencing information diffusion in social networks: A systematic review*  
-Journal: Computers in Human Behavior Reports  
 DOI: 10.1016/j.chbr.2025.100626  
 URL: https://www.sciencedirect.com/science/article/pii/S2451958825000417  
 Coverage: 85 studies.
 
-Architecture relevance:
-information value, social-connection language, concrete/engaging language, homophily, and contagion/diffusion interact; context matters and results do not universally replicate.
+Relevance:
+information value, social-connection language, style, homophily/contagion distinction, strong context dependence.
 
-Supports:
-Communication ↔ HPC Social Transmission ↔ Distribution connection; explicit context modifiers.
-
-### E-GLOBAL-009 — Misirlis & Vlachopoulou (2018)
-Type: Mapping literature review  
+### E-GLOBAL-009 — Metrics and analytics review (2018)
+Type: Synthesis  
 Title: *Social media metrics and analytics in marketing – S3M*  
-Journal: International Journal of Information Management  
 DOI: 10.1016/j.ijinfomgt.2017.10.005  
 URL: https://www.sciencedirect.com/science/article/pii/S0268401216305291  
 Coverage: 52 articles.
 
-Architecture relevance:
-supports metrics/analytics as a distinct body of work requiring structured interpretation.
-
 ### E-GLOBAL-010 — Ascani & Ancillai (2026)
-Type: Systematic literature review  
+Type: Synthesis  
 Title: *Social media marketing and performance measurement: does it take two to tango?*  
-Journal: Review of Managerial Science  
 DOI: 10.1007/s11846-025-00891-0  
 URL: https://iris.univpm.it/handle/11566/343663
 
-Architecture relevance:
-measurement challenges are fragmented and require an integrative performance-measurement process.
+Relevance:
+performance measurement is fragmented and requires an integrated process.
 
-Supports:
-Learning & Adaptation cannot be reduced to raw analytics dashboards.
-
-### E-GLOBAL-011 — YouTube Recommendation System
+### E-GLOBAL-011 — YouTube recommendation system
 Type: Platform  
-Publisher: YouTube Help  
-URL: https://support.google.com/youtube/answer/16533387
+URL: https://support.google.com/youtube/answer/16533387  
+Retrieved: 2026-10-05
 
-Current documented goals:
-- help each viewer find videos they want to watch;
-- maximize long-term viewer satisfaction.
-
-The system uses personalization and content-performance signals.
-
-Architecture relevance:
-supports Distribution & Discovery as personalized matching/ranking rather than "algorithm pleasing."
-
-Freshness:
-Retrieved 2026-10-05; platform documentation is time-sensitive.
+Relevance:
+personalized recommendation; viewer preference and long-term satisfaction; audience/content-performance signals.
 
 ### E-GLOBAL-012 — YouTube content performance
 Type: Platform  
-Publisher: YouTube Help  
-URL: https://support.google.com/youtube/answer/16559650
+URL: https://support.google.com/youtube/answer/16559650  
+Retrieved: 2026-10-05
 
-Current signal buckets:
-- Appeal;
-- Engagement;
-- Satisfaction.
+Relevance:
+official operational buckets: Appeal, Engagement, Satisfaction.
 
-Architecture relevance:
-useful operational evidence that selection, continued consumption, and satisfaction should not be collapsed into one metric.
-
-Freshness:
-Retrieved 2026-10-05.
-
-### E-GLOBAL-013 — TikTok For You recommendation explanation
+### E-GLOBAL-013 — TikTok For You explainer
 Type: Platform  
-Publisher: TikTok Newsroom  
 URL: https://newsroom.tiktok.com/how-tiktok-recommends-videos-for-you?lang=en
 
-Signals described include:
-- user interactions;
-- video information;
-- device/account settings;
-- weighted indicators of predicted interest.
-
-Architecture relevance:
-supports Distribution & Discovery + Context representation.
+Relevance:
+user interaction, video information, settings, and weighted predicted-interest signals.
 
 Caution:
-The explainer is older and should not be treated as exhaustive current ranking documentation.
+older explainer; not exhaustive current ranking documentation.
 
-## Evidence synthesis
+## Breadth-first core sources
 
-Across the broadest sources, recurring nonpsychological problem families are:
-1. audience/value/target understanding;
-2. content/communication;
-3. channel/distribution/platform;
-4. relationship/engagement/community;
-5. monitoring/measurement/learning;
-with goals/resources/policy/strategy acting above them.
+### E-GLOBAL-014 — Ju, Chocarro & Martín Martín (2021)
+Type: Systematic review  
+Title: *Value creation in mobile social media: a systematic review and agenda for future research*  
+DOI: 10.1108/BJM-04-2021-0157  
+URL: https://doi.org/10.1108/BJM-04-2021-0157  
+Coverage: 53 articles.
 
-No reviewed source establishes "exactly five cores" as a scientific universal. The five-core model is therefore an engineering ontology justified by convergence, parsimony, and nonredundancy—not a claim of discovered natural law.
+Relevance:
+multiple value aspects, firm/customer value creation and co-creation; supports Audience & Value while showing value is multidimensional.
+
+### E-GLOBAL-015 — Customer brand co-creation review (2022)
+Type: Systematic review  
+Title: *Customer brand co-creation on social media: a systematic review*  
+DOI: 10.1108/MIP-04-2022-0161  
+URL: https://doi.org/10.1108/MIP-04-2022-0161  
+Coverage: 59 articles.
+
+Relevance:
+antecedents/consequences and customer participation; connects Audience/Value with Relationship.
+
+### E-GLOBAL-016 — Content characteristics review (2024)
+Type: Systematic review  
+Title: *The Effects Of Social Media Content Characteristics On Consumer Engagement*  
+URL: https://ideas.repec.org/a/ora/journl/v2y2024i2p373-383.html  
+Coverage: 89 studies.
+
+Relevance:
+content type/format/quality, emotional appeal and interactivity; supports Communication & Content while retaining heterogeneity.
+
+### E-GLOBAL-017 — Marketer-generated content review (2026)
+Type: Systematic review  
+Title: *Marketer-generated content in digital social touchpoints: A systematic literature review and research agenda*  
+Journal: Journal of Business Research  
+DOI: 10.1016/j.jbusres.2025.115883  
+URL: https://www.sciencedirect.com/science/article/pii/S0148296325007064
+
+Relevance:
+content value and vividness; supports content as multidimensional rather than a single engagement lever.
+
+### E-GLOBAL-018 — Aw & Fernando (2026)
+Type: Systematic review  
+Title: *Consumers’ parasocial interactions and relationships with online influencers: a systematic review*  
+DOI: 10.1108/JCM-02-2024-6611  
+URL: https://doi.org/10.1108/JCM-02-2024-6611  
+Coverage: 76 peer-reviewed articles.
+
+Relevance:
+source, message, medium, consumer antecedents; PSR/PSI consequences; platform affordances including interactivity/community; supports Relationship & Retention and Context.
+
+### E-GLOBAL-019 — Social CRM and loyalty review (2025)
+Type: Systematic review / meta-analytic component  
+Title: *A Systematic Literature Review of Social CRM’s Impact on Customer Loyalty*  
+DOI: 10.1080/15332667.2025.2557673  
+URL: https://www.tandfonline.com/doi/full/10.1080/15332667.2025.2557673
+
+Relevance:
+social listening, engagement, personalization, co-creation and loyalty; supports relationship and learning interfaces.
+
+## Synthesis decision
+
+No source establishes the five-core ontology as a natural scientific taxonomy.
+
+The current model is retained because broad reviews repeatedly converge on:
+- target/audience/value;
+- communication/content;
+- channel/platform/distribution;
+- engagement/relationship/community;
+- monitoring/measurement/learning;
+with goals/resources/policies/strategy above them.
+
+The architecture is therefore an evidence-informed engineering ontology whose validity must continue to be tested through subsystem nonredundancy, measurement quality, benchmark performance, and future contradictory evidence.

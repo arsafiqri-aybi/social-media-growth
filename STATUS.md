@@ -4,24 +4,39 @@
 
 Project: **Social Media Growth Intelligence System**
 
-Current global stage: **Master Architecture v0.1 — Provisional Lock**
+Current global stage: **Breadth Coverage v0.1 + Initial Cross-Core Interface Map**
 
-Decision:
+Architecture:
 - Governance is a top control layer.
 - Context / Environment is cross-cutting.
 - Human Psychological Core (HPC) is the accepted psychological foundation.
-- Five operational cores are accepted provisionally:
+- Five operational cores are provisionally locked:
   1. Audience & Value Intelligence
   2. Communication & Content Intelligence
   3. Distribution & Discovery Intelligence
   4. Relationship & Retention Intelligence
   5. Learning & Adaptation Intelligence
 
-Architecture status does **not** mean whole-project completion.
+### Global phase status
+
+- [x] Phase 0 — State recovery
+- [x] Phase 1 — Landscape research for architecture
+- [x] Phase 2 — Architecture falsification
+- [x] Phase 3 — Global ontology v0.1
+- [x] Phase 4 — Provisional architecture lock
+- [x] Phase 5 — Breadth-first minimum canonical mapping of all five cores
+- [~] Phase 6 — Cross-core graph: interface topology complete; claim-level edge audit pending
+- [ ] Phase 7 — Targeted mechanism depth
+- [ ] Phase 8 — Global measurement integration
+- [ ] Phase 9 — Integrated reasoning engine
+- [ ] Phase 10 — Global benchmarks/adversarial evaluation
+- [ ] Phase 11 — Prediction-vs-outcome learning
 
 See:
 - `architecture/master-architecture-review.md`
 - `architecture/social-media-growth-ontology-v0.1.md`
+- `architecture/operational-core-maps-v0.1.md`
+- `connections/global-cross-core-map-v0.1.md`
 - `audits/global-architecture-falsification-v0.1.md`
 - `research/global-architecture-evidence-v0.1.md`
 - `contracts/social-media-growth-master-execution-contract.md`
@@ -30,7 +45,7 @@ See:
 
 Authoritative HPC baseline: **v1**
 
-Final audit status:
+Final audit:
 **COMPLETE WITH BOUNDED NONCRITICAL GAPS**
 
 Canonical release state:
@@ -58,8 +73,8 @@ HPC completion is scoped to the Human Psychological Core. It does not imply syst
 - Returning behavior is not automatically habit.
 - Weak/provisional evidence remains visibly bounded.
 
-## Next stage
+## Next gate
 
-**Breadth-first minimum canonical mapping of all five operational cores.**
+Complete Phase 6 claim-level edge audit and promote only evidence-qualified global cross-core edges.
 
-Do not begin unconstrained neuron expansion before the five maps and their boundaries are complete.
+Do not start unconstrained neuron expansion.
