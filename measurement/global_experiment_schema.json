@@ -1,0 +1,38 @@
+{
+  "version": "0.1.0",
+  "required_fields": [
+    "experiment_id",
+    "hypothesis_id",
+    "intervention",
+    "assignment_unit",
+    "delivery_control"
+  ],
+  "delivery_control_values": [
+    "controlled",
+    "partially_controlled",
+    "platform_optimized",
+    "unknown"
+  ],
+  "assignment_unit_values": [
+    "user",
+    "account",
+    "content",
+    "time_window",
+    "geo",
+    "platform_campaign",
+    "other",
+    "unknown"
+  ],
+  "required_for_bounded_causal_claim": [
+    "assignment_unit",
+    "randomization_documented",
+    "delivery_control",
+    "audience_composition_checked"
+  ],
+  "rules": [
+    "A platform A/B label alone is insufficient for a causal claim.",
+    "If targeting/ranking/delivery can vary by condition, creative effects are potentially confounded.",
+    "Prediction and falsification criteria should be specified before outcome interpretation.",
+    "Account-local experimental evidence does not rewrite scientific evidence."
+  ]
+}

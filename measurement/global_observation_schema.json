@@ -1,0 +1,134 @@
+{
+  "version": "0.1.0",
+  "validity_classes": {
+    "M0": "direct_system_observation",
+    "M1": "derived_behavioral_metric",
+    "M2": "qualified_behavioral_proxy",
+    "M3": "validated_construct_measurement"
+  },
+  "observation_types": [
+    {
+      "id": "recommendation_eligibility",
+      "stage": "eligibility",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Eligibility is a platform/system state, not evidence of human response."
+      ]
+    },
+    {
+      "id": "impression",
+      "stage": "exposure",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Impression does not identify attention, interest, value, trust or satisfaction."
+      ]
+    },
+    {
+      "id": "view_start",
+      "stage": "appeal",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "A start/click is behavior conditional on exposure; it does not directly identify curiosity or attention."
+      ]
+    },
+    {
+      "id": "continuation_event",
+      "stage": "continuation",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Continuation has multiple explanations including format, intent, familiarity and audience fit."
+      ]
+    },
+    {
+      "id": "completion_event",
+      "stage": "completion",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Completion is not satisfaction."
+      ]
+    },
+    {
+      "id": "like",
+      "stage": "interaction",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Like is not a direct measure of trust, value or loyalty."
+      ]
+    },
+    {
+      "id": "comment",
+      "stage": "interaction",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Comment valence and motivation vary; comment is not connection by itself."
+      ]
+    },
+    {
+      "id": "save",
+      "stage": "interaction",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Save does not uniquely identify subjective utility."
+      ]
+    },
+    {
+      "id": "share",
+      "stage": "transmission_action",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Logged share does not identify a unique psychological transmission motive."
+      ]
+    },
+    {
+      "id": "follow",
+      "stage": "relationship_action",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Follow does not identify trust, loyalty or durable relationship quality."
+      ]
+    },
+    {
+      "id": "return_event",
+      "stage": "retention",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Return does not identify habit, loyalty or parasocial relationship."
+      ]
+    },
+    {
+      "id": "conversion",
+      "stage": "goal_action",
+      "validity_class": "M0",
+      "can_seed_latent": false,
+      "warnings": [
+        "Conversion is goal-relative and does not identify long-term value or loyalty."
+      ]
+    },
+    {
+      "id": "validated_construct_measurement",
+      "stage": "construct_measurement",
+      "validity_class": "M3",
+      "can_seed_latent": true,
+      "requirements": [
+        "instrument_id",
+        "target_construct",
+        "domain_match",
+        "population_match"
+      ],
+      "warnings": [
+        "Construct seeding is allowed only when instrument/domain/population requirements are documented; transport limits remain visible."
+      ]
+    }
+  ]
+}

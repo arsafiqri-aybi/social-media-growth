@@ -1,0 +1,159 @@
+{
+  "version": "0.1.0",
+  "proxies": [
+    {
+      "id": "selection_rate",
+      "validity_class": "M1",
+      "stage": "appeal",
+      "source_observations": [
+        "impression",
+        "view_start"
+      ],
+      "candidate_explanations": [
+        "packaging_or_message_fit",
+        "audience_composition",
+        "surface_placement",
+        "creator_familiarity",
+        "distribution_targeting"
+      ],
+      "latent_targets": [],
+      "warning": "Selection rate is not direct attention or curiosity."
+    },
+    {
+      "id": "continuation_rate",
+      "validity_class": "M1",
+      "stage": "continuation",
+      "source_observations": [
+        "view_start",
+        "continuation_event"
+      ],
+      "candidate_explanations": [
+        "content_structure",
+        "intent_match",
+        "format_duration",
+        "audience_fit",
+        "creator_familiarity"
+      ],
+      "latent_targets": [],
+      "warning": "Continuation does not uniquely identify engagement as a psychological state."
+    },
+    {
+      "id": "completion_rate",
+      "validity_class": "M1",
+      "stage": "completion",
+      "source_observations": [
+        "view_start",
+        "completion_event"
+      ],
+      "candidate_explanations": [
+        "duration",
+        "format",
+        "intent",
+        "content_structure",
+        "autoplay_or_platform_behavior"
+      ],
+      "latent_targets": [],
+      "warning": "Completion is not satisfaction."
+    },
+    {
+      "id": "share_rate",
+      "validity_class": "M2",
+      "stage": "transmission_action",
+      "source_observations": [
+        "impression",
+        "share"
+      ],
+      "candidate_explanations": [
+        "social_transmission_motive",
+        "utility",
+        "identity_expression",
+        "social_bonding",
+        "incentive",
+        "controversy",
+        "network_context"
+      ],
+      "latent_targets": [
+        "hpc:social_transmission"
+      ],
+      "warning": "Share can support a transmission hypothesis but cannot identify the motive without additional evidence."
+    },
+    {
+      "id": "follow_rate",
+      "validity_class": "M2",
+      "stage": "relationship_action",
+      "source_observations": [
+        "impression",
+        "follow"
+      ],
+      "candidate_explanations": [
+        "future_value_expectation",
+        "creator_interest",
+        "social_identity",
+        "trust_candidate",
+        "one_off_incentive"
+      ],
+      "latent_targets": [],
+      "warning": "Follow is not loyalty or trust."
+    },
+    {
+      "id": "return_rate",
+      "validity_class": "M2",
+      "stage": "retention",
+      "source_observations": [
+        "return_event"
+      ],
+      "candidate_explanations": [
+        "familiarity",
+        "series_structure",
+        "platform_rediscovery",
+        "repeated_need",
+        "relationship_candidate",
+        "habit_candidate"
+      ],
+      "latent_targets": [],
+      "warning": "Return can support recurrence hypotheses but not habit/loyalty/PSR directly."
+    },
+    {
+      "id": "satisfaction_survey",
+      "validity_class": "M2",
+      "stage": "satisfaction",
+      "source_observations": [],
+      "candidate_explanations": [
+        "subjective_satisfaction"
+      ],
+      "latent_targets": [],
+      "warning": "A platform-specific satisfaction survey is not automatically a validated psychological construct measure."
+    },
+    {
+      "id": "qualified_construct_score",
+      "validity_class": "M3",
+      "stage": "construct_measurement",
+      "source_observations": [
+        "validated_construct_measurement"
+      ],
+      "candidate_explanations": [],
+      "latent_targets": [
+        "explicit_target_only"
+      ],
+      "warning": "Allowed only with documented validated instrument and context match."
+    },
+    {
+      "id": "conversion_rate",
+      "validity_class": "M1",
+      "stage": "goal_action",
+      "source_observations": [
+        "conversion"
+      ],
+      "candidate_explanations": [
+        "audience_intent",
+        "offer_fit",
+        "message_fit",
+        "friction",
+        "distribution_mix",
+        "price_or_context"
+      ],
+      "latent_targets": [],
+      "warning": "Conversion is an outcome metric, not a universal growth-quality score."
+    }
+  ]
+}
