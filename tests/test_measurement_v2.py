@@ -47,6 +47,38 @@ class CanonicalMeasurementV2Tests(unittest.TestCase):
         })
         self.assertEqual(allowed.reasoning_seeds["TR-N03"]["basis"],"direct_measurement")
 
+    def test_credibility_survey_never_leaks_across_dimensions(self):
+        out=self.m.map({
+            "source_credibility_survey":{
+                "direction":"up",
+                "validated_instrument":True,
+                "domain_match":True,
+                "dimension":"trustworthiness",
+            }
+        })
+        self.assertIn("TR-N03",out.reasoning_seeds)
+        self.assertNotIn("TR-N04",out.reasoning_seeds)
+
+        missing_dim=self.m.map({
+            "source_credibility_survey":{
+                "direction":"up",
+                "validated_instrument":True,
+                "domain_match":True,
+            }
+        })
+        self.assertEqual(missing_dim.reasoning_seeds,{})
+
+    def test_validated_construct_decrease_can_supply_bounded_counterevidence(self):
+        out=self.m.map({
+            "source_credibility_survey":{
+                "direction":"down",
+                "validated_instrument":True,
+                "domain_match":True,
+                "dimension":"trustworthiness",
+            }
+        })
+        self.assertEqual(out.reasoning_seeds["TR-N03"]["direction"],"oppose")
+
     def test_profile_visit_enters_reasoner_as_proxy_hypothesis(self):
         out=self.m.map({"profile_visit_rate":{"value":0.05,"baseline":0.03}})
         self.assertEqual(out.reasoning_seeds["CUR-N10"]["basis"],"proxy_hypothesis")
@@ -70,6 +102,19 @@ class CanonicalMeasurementV2Tests(unittest.TestCase):
     def test_lower_share_rate_does_not_become_negative_latent_state(self):
         out=self.m.map({"share_rate":{"value":0.01,"baseline":0.03}})
         self.assertEqual(out.reasoning_seeds,{})
+
+    def test_missing_metric_never_becomes_negative_psychological_evidence(self):
+        out=self.m.map({"returning_viewer_rate":{"missing":True}})
+        self.assertEqual(out.reasoning_seeds,{})
+        self.assertTrue(any(e.observed_direction=="missing" for e in out.evidence))
+
+    def test_invalid_rate_is_rejected(self):
+        with self.assertRaises(ValueError):
+            self.m.map({"share_rate":{"value":1.2,"baseline":0.2}})
+
+    def test_negative_count_is_rejected(self):
+        with self.assertRaises(ValueError):
+            self.m.map({"social_feedback_count":{"value":-1}})
 
     def test_social_feedback_event_maps_to_system_event(self):
         out=self.m.map({"social_feedback_count":{"value":12}})

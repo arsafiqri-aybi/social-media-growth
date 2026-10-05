@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0-build02",
+  "status": "CI_PENDING",
+  "gates": [
+    {
+      "id": "MC-01",
+      "gate": "no metric=latent shortcut",
+      "expected": "PASS",
+      "evidence": "ambiguous platform proxies never auto-seed latent nodes"
+    },
+    {
+      "id": "MC-02",
+      "gate": "direct behavior fidelity",
+      "expected": "PASS",
+      "evidence": "share/recommend actions seed only matching observed behavior nodes"
+    },
+    {
+      "id": "MC-03",
+      "gate": "construct measurement validity",
+      "expected": "PASS",
+      "evidence": "latent survey seeding requires validated instrument, domain match, and explicit dimension"
+    },
+    {
+      "id": "MC-04",
+      "gate": "proxy uncertainty propagation",
+      "expected": "PASS",
+      "evidence": "qualified proxy enters as proxy_hypothesis, automatically capped by reasoning engine"
+    },
+    {
+      "id": "MC-05",
+      "gate": "missingness safety",
+      "expected": "PASS",
+      "evidence": "missing observations never become negative psychological evidence"
+    },
+    {
+      "id": "MC-06",
+      "gate": "value-domain validation",
+      "expected": "PASS",
+      "evidence": "rates/counts reject impossible/non-finite values"
+    },
+    {
+      "id": "MC-07",
+      "gate": "baseline semantics",
+      "expected": "PASS",
+      "evidence": "lower direct behavior rate does not become negative latent state"
+    },
+    {
+      "id": "MC-08",
+      "gate": "competing explanations",
+      "expected": "PASS",
+      "evidence": "motive/latent alternatives remain non-seeded candidate explanations"
+    },
+    {
+      "id": "MC-09",
+      "gate": "local calibration isolation",
+      "expected": "PASS",
+      "evidence": "calibration accepts only operational predictors/outcomes and cannot mutate scientific graph"
+    },
+    {
+      "id": "MC-10",
+      "gate": "calibration claim discipline",
+      "expected": "PASS",
+      "evidence": "Pearson association is descriptive only; latent and causal flags remain false"
+    }
+  ],
+  "closure_rule": "O6 may be PRESENT only after Build 02 CI success."
+}

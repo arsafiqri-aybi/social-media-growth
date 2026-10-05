@@ -28,7 +28,8 @@
         "up",
         "present"
       ],
-      "warning": "Observed sharing identifies transmission behavior, not motive, trust, identity signaling, or virality."
+      "warning": "Observed sharing identifies transmission behavior, not motive, trust, identity signaling, or virality.",
+      "value_domain": "rate_0_1"
     },
     {
       "id": "recommendation_action_rate",
@@ -49,7 +50,8 @@
         "up",
         "present"
       ],
-      "warning": "Recommendation action is observed; the psychological reason for recommending remains unresolved."
+      "warning": "Recommendation action is observed; the psychological reason for recommending remains unresolved.",
+      "value_domain": "rate_0_1"
     },
     {
       "id": "social_feedback_count",
@@ -66,7 +68,8 @@
         "present",
         "up"
       ],
-      "warning": "Feedback occurrence is an external event; its subjective reward value varies by person and context."
+      "warning": "Feedback occurrence is an external event; its subjective reward value varies by person and context.",
+      "value_domain": "count_nonnegative"
     },
     {
       "id": "profile_visit_rate",
@@ -87,7 +90,8 @@
         "up",
         "present"
       ],
-      "warning": "A profile visit is compatible with information seeking but can also reflect monitoring, controversy, navigation, or unrelated goals."
+      "warning": "A profile visit is compatible with information seeking but can also reflect monitoring, controversy, navigation, or unrelated goals.",
+      "value_domain": "rate_0_1"
     },
     {
       "id": "source_credibility_survey",
@@ -117,7 +121,8 @@
         "down",
         "absent"
       ],
-      "warning": "Perceived credibility is domain-specific and is not factual accuracy."
+      "warning": "Perceived credibility is domain-specific and is not factual accuracy.",
+      "value_domain": "score_declared_by_instrument"
     },
     {
       "id": "early_hold_rate",
@@ -131,7 +136,8 @@
         "CUR-N04"
       ],
       "seed_on": [],
-      "warning": "Hold can reflect salience, relevance, curiosity, autoplay, friction, format, or audience selection; it cannot identify a specific attention mechanism alone."
+      "warning": "Hold can reflect salience, relevance, curiosity, autoplay, friction, format, or audience selection; it cannot identify a specific attention mechanism alone.",
+      "value_domain": "rate_0_1"
     },
     {
       "id": "completion_rate",
@@ -144,7 +150,8 @@
         "VE-N01"
       ],
       "seed_on": [],
-      "warning": "Completion is multiply determined by length, pacing, prior selection, utility, curiosity, and platform behavior."
+      "warning": "Completion is multiply determined by length, pacing, prior selection, utility, curiosity, and platform behavior.",
+      "value_domain": "rate_0_1"
     },
     {
       "id": "save_rate",
@@ -156,7 +163,8 @@
         "CUR-N07"
       ],
       "seed_on": [],
-      "warning": "Saving may reflect utility, deferred consumption, collection, reminders, or platform-specific behavior; it is not a direct subjective-value measure."
+      "warning": "Saving may reflect utility, deferred consumption, collection, reminders, or platform-specific behavior; it is not a direct subjective-value measure.",
+      "value_domain": "rate_0_1"
     },
     {
       "id": "returning_viewer_rate",
@@ -169,7 +177,8 @@
         "TR-N03"
       ],
       "seed_on": [],
-      "warning": "Returning is an outcome and does not prove habit, trust, parasocial relationship, or reinforcement."
+      "warning": "Returning is an outcome and does not prove habit, trust, parasocial relationship, or reinforcement.",
+      "value_domain": "rate_0_1"
     },
     {
       "id": "repeat_creator_engagement",
@@ -182,7 +191,8 @@
         "TR-N03"
       ],
       "seed_on": [],
-      "warning": "Repeated engagement can reflect relationship, utility, controversy, monitoring, incentives, or habit; it does not diagnose any one construct."
+      "warning": "Repeated engagement can reflect relationship, utility, controversy, monitoring, incentives, or habit; it does not diagnose any one construct.",
+      "value_domain": "count_or_rate_nonnegative"
     },
     {
       "id": "identity_language_score",
@@ -195,7 +205,8 @@
         "ID-N08"
       ],
       "seed_on": [],
-      "warning": "Identity language does not establish identification strength, identity centrality, or active self-categorization without construct-valid coding and context."
+      "warning": "Identity language does not establish identification strength, identity centrality, or active self-categorization without construct-valid coding and context.",
+      "value_domain": "score_declared_by_instrument"
     }
   ]
 }

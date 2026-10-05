@@ -87,6 +87,20 @@ class CanonicalMeasurementMapper:
                     raise ValueError(f"Proxy {spec['id']} points to noncanonical node {tid}")
 
     @staticmethod
+    def _validate_value_domain(spec: Dict[str, Any], obs: Dict[str, Any]) -> None:
+        domain = spec.get("value_domain")
+        for key in ("value", "baseline"):
+            if key not in obs:
+                continue
+            value = float(obs[key])
+            if value != value or value in {float("inf"), float("-inf")}:
+                raise ValueError(f"{spec['id']} {key} must be finite")
+            if domain == "rate_0_1" and not 0.0 <= value <= 1.0:
+                raise ValueError(f"{spec['id']} {key} must be in [0,1]")
+            if domain in {"count_nonnegative", "count_or_rate_nonnegative"} and value < 0:
+                raise ValueError(f"{spec['id']} {key} must be non-negative")
+
+    @staticmethod
     def _observed_direction(obs: Dict[str, Any]) -> str:
         explicit = obs.get("direction")
         if explicit is not None:
@@ -150,6 +164,25 @@ class CanonicalMeasurementMapper:
                 raise ValueError(f"Unknown measurement proxy: {proxy_id}")
             obs = dict(observations[proxy_id])
             spec = self.specs[proxy_id]
+
+            if obs.get("missing") is True:
+                warning = spec["warning"]
+                warnings.append(f"{proxy_id}: missing observation; no reasoning seed created.")
+                evidence.append(MeasurementEvidence(
+                    proxy_id=proxy_id,
+                    target_id=None,
+                    validity_class=spec["validity_class"],
+                    observed_direction="missing",
+                    reasoning_basis=None,
+                    reasoning_direction=None,
+                    can_seed_reasoner=False,
+                    rationale="Missingness is preserved and never converted into negative psychological evidence.",
+                    warning=warning,
+                    metadata={"missing": True},
+                ))
+                continue
+
+            self._validate_value_domain(spec, obs)
             direction = self._observed_direction(obs)
             warning = spec["warning"]
             warnings.append(f"{proxy_id}: {warning}")
@@ -169,11 +202,17 @@ class CanonicalMeasurementMapper:
             allowed_negative = direction in set(spec.get("negative_seed_on", []))
             allowed = allowed_positive or allowed_negative
 
-            if spec["validity_class"] == "validated_construct_measure" and not requirements_met:
-                allowed = False
-                warnings.append(
-                    f"{proxy_id}: latent seeding blocked because validated_instrument/domain_match requirements were not satisfied."
-                )
+            if spec["validity_class"] == "validated_construct_measure":
+                if not requirements_met:
+                    allowed = False
+                    warnings.append(
+                        f"{proxy_id}: latent seeding blocked because validated_instrument/domain_match requirements were not satisfied."
+                    )
+                if any(t.get("dimension") for t in spec.get("direct_targets", [])) and not obs.get("dimension"):
+                    allowed = False
+                    warnings.append(
+                        f"{proxy_id}: latent seeding blocked because a construct dimension was not explicitly specified."
+                    )
 
             if not spec.get("direct_targets"):
                 evidence.append(MeasurementEvidence(
@@ -192,8 +231,9 @@ class CanonicalMeasurementMapper:
 
             for target in spec["direct_targets"]:
                 target_id = target["node_id"]
-                if target.get("dimension") and obs.get("dimension") not in {None, target["dimension"]}:
-                    continue
+                if target.get("dimension"):
+                    if obs.get("dimension") != target["dimension"]:
+                        continue
 
                 reasoning_direction = self._reasoning_direction(direction)
                 can_seed = bool(allowed and reasoning_direction)
