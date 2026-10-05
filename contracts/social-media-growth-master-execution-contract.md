@@ -1,6 +1,6 @@
 # Social Media Growth — Master Execution Contract v0.1
 
-Status: ACTIVE
+Status: **V0_1_FUNCTIONAL_PROGRAM_COMPLETE**
 
 ## Goal
 
@@ -8,13 +8,13 @@ Build the smallest sufficiently complete, evidence-grounded, operational intelli
 
 ## Protected constraints
 
-- Preserve the accepted HPC baseline unless material evidence requires migration.
-- Do not turn association into causation.
-- Do not equate platform metrics with latent psychology.
-- Do not invent effect sizes, platform weights, confidence probabilities, or universal thresholds.
-- Preserve negative evidence, contradictions, transport limits, and uncertainty.
-- Do not optimize for node/module count.
-- Keep scientific evidence separate from account-local calibration.
+All remain active:
+- preserve accepted HPC evidence boundaries;
+- do not turn association into causation;
+- do not equate platform metrics with latent psychology;
+- do not invent effect sizes, platform weights, confidence probabilities, or universal thresholds;
+- preserve negative evidence, contradictions, transport limits, and uncertainty;
+- keep scientific evidence separate from account-local calibration.
 
 ## Execution route
 
@@ -29,17 +29,25 @@ Build the smallest sufficiently complete, evidence-grounded, operational intelli
 - [x] Phase 8 — Global measurement integration v0.1
 - [x] Phase 9 — Integrated reasoning engine v0.1
 - [x] Phase 10 — Global adversarial benchmark v0.1
-- [~] Phase 11 — Prediction-vs-outcome learning infrastructure implemented; CI pending
+- [x] Phase 11 — Prediction-vs-outcome learning infrastructure v0.1
 
-## Completion semantics
+## Verification
 
-If Phase 11 CI passes, the **v0.1 architecture/runtime program** may be marked functionally complete.
+Relevant global CI checkpoints:
+- Phase 8: run 37330624134 — SUCCESS
+- Phase 9: run 37331369413 — SUCCESS
+- Phase 10: run 37331647349 — SUCCESS
+- Phase 11: run 37331930897 — SUCCESS
 
-Do not call the whole scientific project empirically validated.
+## Completion interpretation
 
-Remaining external validation classes must stay separate:
-- real account prospective prediction validation;
-- platform-specific calibration;
-- context/culture transport testing;
-- stronger evidence for provisional mechanisms;
-- longitudinal outcome datasets.
+The architecture/runtime program is complete for its declared v0.1 scope.
+
+The following are explicitly **not complete and not silently claimed**:
+- real-world prospective predictive validation;
+- universal causal validity;
+- platform-specific calibration across all platforms;
+- cross-cultural/context transport validation;
+- saturation of all provisional scientific mechanisms.
+
+Those are evidence-driven future workstreams rather than blockers to the v0.1 functional release.

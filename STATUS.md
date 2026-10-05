@@ -4,7 +4,9 @@
 
 Project: **Social Media Growth Intelligence System**
 
-Current global stage: **Phase 11 Prediction/Outcome Learning — Implemented, CI Pending**
+Current release state:
+
+**V0.1 FUNCTIONAL PROGRAM COMPLETE — EMPIRICAL VALIDATION FRONTIER OPEN**
 
 ### Global phase status
 
@@ -18,30 +20,58 @@ Current global stage: **Phase 11 Prediction/Outcome Learning — Implemented, CI
 - [x] Phase 7 — Targeted mechanism depth
 - [x] Phase 8 — Global measurement integration
 - [x] Phase 9 — Integrated global reasoning
-- [x] Phase 10 — Global adversarial benchmark — CI run 37331647349 SUCCESS
-- [~] Phase 11 — Prediction-vs-outcome learning
+- [x] Phase 10 — Global adversarial benchmark
+- [x] Phase 11 — Prediction-vs-outcome learning infrastructure
 
-## Phase 11 implementation
+### Architecture
 
-Artifacts:
-- `learning/prediction_schema.json`
-- `learning/prediction_outcome.py`
-- `learning/README.md`
-- `tests/test_prediction_outcome.py`
-- `audits/phase11-learning-audit-v0.1.md`
+- Governance — top control layer
+- Context / Environment — cross-cutting
+- Human Psychological Core — accepted psychological foundation
+- Five operational cores:
+  1. Audience & Value Intelligence
+  2. Communication & Content Intelligence
+  3. Distribution & Discovery Intelligence
+  4. Relationship & Retention Intelligence
+  5. Learning & Adaptation Intelligence
 
-Learning states:
-- supports prediction;
-- falsifies prediction;
-- inconclusive;
-- mixed local evidence retained explicitly.
+### Verification
 
-## Boundary
+- Phase 8 CI: 37330624134 — SUCCESS
+- Phase 9 CI: 37331369413 — SUCCESS
+- Phase 10 CI: 37331647349 — SUCCESS
+- Phase 11 CI: 37331930897 — SUCCESS
 
-Account-local outcomes cannot mutate the scientific graph.
+## Meaning of complete
 
-## Completion gate
+Complete:
+- v0.1 architecture;
+- ontology;
+- breadth coverage;
+- typed cross-core interfaces;
+- high-centrality mechanism packages;
+- global measurement guardrails;
+- integrated runtime;
+- adversarial benchmark suite;
+- prediction/outcome learning infrastructure.
 
-If full CI passes, mark the v0.1 **architecture + measurement + reasoning + adversarial benchmark + learning infrastructure** program complete.
+Not claimed complete:
+- universal predictive validity;
+- all scientific mechanism depth;
+- all platform calibration;
+- real-world prospective outcome validation;
+- cross-cultural transport validation.
 
-Real-world predictive validation remains a separate, data-dependent frontier.
+## Human Psychological Core
+
+Authoritative HPC baseline remains **v1 — COMPLETE WITH BOUNDED NONCRITICAL GAPS**.
+
+## Next frontier
+
+Use the system on real account observations and accumulate prospective prediction/outcome evidence.
+
+Do not expand ontology merely to make the project larger.
+
+See:
+- `audits/GLOBAL-V0.1-CLOSURE.md`
+- `contracts/social-media-growth-master-execution-contract.md`

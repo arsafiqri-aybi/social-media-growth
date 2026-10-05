@@ -1,8 +1,14 @@
 # Social Media Growth
 
-Research-grounded neural knowledge architecture and executable reasoning system for understanding, diagnosing, and improving social-media account growth.
+Research-grounded intelligence architecture and executable reasoning system for understanding, diagnosing, testing, and improving social-media account growth.
 
-## Current architecture
+## Release state
+
+**v0.1 Functional Program Complete**
+
+Real-world prospective predictive validation remains an explicit open frontier.
+
+## Architecture
 
 ```text
 GOVERNANCE
@@ -24,19 +30,31 @@ Distribution & Discovery
 Relationship & Retention
       ↕
 Learning & Adaptation
-
-all operational cores are many-to-many, not a linear funnel
+        │
+        ▼
+Measurement → Diagnosis → Intervention
+        ↓
+Prediction → Outcome → Account-local learning
 ```
 
-The five operational cores are currently **provisionally locked**, not claimed as a scientific natural law.
+The five operational cores are an evidence-informed engineering ontology, not a claim that science has proven exactly five universal natural categories.
 
-See `architecture/master-architecture-review.md`.
+## What the runtime protects
+
+- exposure ≠ attention
+- completion ≠ satisfaction
+- engagement ≠ trust
+- follow ≠ loyalty
+- return ≠ habit
+- repeated engagement ≠ parasocial relationship
+- share ≠ unique psychological motive
+- correlation ≠ causation
+- platform A/B label ≠ guaranteed randomized experiment
+- account-local outcomes do not rewrite scientific evidence
 
 ## Human Psychological Core
 
-The accepted HPC baseline models social-media psychology as a dynamic typed evidence graph.
-
-Eight core families:
+HPC v1 remains the accepted human-mechanism foundation:
 1. Attention
 2. Curiosity
 3. Valuation & Emotion
@@ -46,50 +64,26 @@ Eight core families:
 7. Social Transmission
 8. Reinforcement & Habit
 
-Canonical HPC state includes:
-- mechanism modules and L2 neurons;
-- evidence provenance;
-- contradiction and boundary handling;
-- measurement/proxy validity;
-- typed cross-core edges;
-- qualitative reasoning v2;
-- account-local feedback separation;
-- adversarial benchmarks.
+It includes mechanism decomposition, evidence provenance, contradiction handling, typed edges, measurement validity, canonical qualitative reasoning, and adversarial tests.
 
-HPC is a **foundation**, not the entire social-media-growth system.
+## Global v0.1 delivered
 
-## Scientific constraints
+- master architecture review and falsification;
+- global ontology;
+- five operational-core maps;
+- typed cross-core interface graph;
+- high-centrality mechanism registry;
+- global measurement schemas and classifier;
+- integrated global reasoning runtime;
+- 15-case global adversarial benchmark suite;
+- prediction/outcome learning store;
+- CI-verified implementation.
 
-This project is a transparent decision-support architecture, not a biological brain simulation.
+## Scientific boundary
 
-Important:
-- scientific evidence strength ≠ empirical effect size ≠ runtime propagation coefficient;
-- analytics are not direct mind-state measurements;
-- correlation is not causation;
-- account-specific outcomes do not rewrite the scientific base;
-- uncertainty and contradictory evidence remain visible;
-- platform-specific mechanisms are freshness-sensitive.
+The project is a transparent decision-support system, not a biological brain simulation and not a universally validated causal model.
 
-## Current execution stage
+Current next frontier:
+**real account prospective prediction → intervention → outcome evaluation.**
 
-Completed:
-- HPC accepted baseline
-- global state recovery
-- architecture landscape review
-- adversarial global architecture challenge
-- global ontology v0.1
-- provisional architecture lock
-
-Next:
-- breadth-first minimum canonical mapping for all five operational cores;
-- then cross-core graph, global measurement, integrated reasoning, and benchmarks.
-
-## Key files
-
-- `STATUS.md`
-- `architecture/master-architecture-review.md`
-- `architecture/social-media-growth-ontology-v0.1.md`
-- `audits/global-architecture-falsification-v0.1.md`
-- `research/global-architecture-evidence-v0.1.md`
-- `contracts/social-media-growth-master-execution-contract.md`
-- `audits/FINAL-10-10.md` — authoritative HPC final audit
+See `audits/GLOBAL-V0.1-CLOSURE.md` and `STATUS.md`.
