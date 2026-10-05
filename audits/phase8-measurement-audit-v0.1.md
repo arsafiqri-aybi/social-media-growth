@@ -1,8 +1,8 @@
 # Phase 8 — Global Measurement Integration v0.1
 
-Status: **IMPLEMENTED — CI VERIFICATION PENDING AT COMMIT TIME**
+Status: **COMPLETE**
 
-## Added
+## Implemented
 
 - machine-readable observation schema;
 - machine-readable proxy schema;
@@ -10,34 +10,36 @@ Status: **IMPLEMENTED — CI VERIFICATION PENDING AT COMMIT TIME**
 - executable global measurement classifier;
 - unit tests for anti-inference and experiment-identifiability rules.
 
-## Architectural separation
-
-The existing HPC measurement v2 remains canonical for HPC construct-specific mappings.
-
-The new global layer handles:
-- account/platform observations;
-- operational performance stages;
-- cross-core proxy ambiguity;
-- experiment design identifiability.
-
-It does not estimate latent psychological magnitudes.
-
-## Core invariants encoded
+## Scientific invariants encoded
 
 - impression cannot seed Attention;
 - completion cannot identify Satisfaction;
 - follow cannot identify Loyalty/Trust;
 - return cannot identify Habit;
-- proxy mappings always preserve alternative explanations;
+- proxy mappings preserve alternative explanations;
 - validated construct measurement requires instrument + target + domain + population metadata;
 - platform-optimized delivery blocks a clean causal claim by default;
-- a controlled, documented randomized design may pass a **design gate**, but that still does not guarantee substantive validity.
+- a controlled documented randomized design may pass a design gate, without automatically guaranteeing substantive validity.
 
-## Phase 8 gate
+## Verification
 
-The implementation is sufficient for Phase 9 only after CI passes.
+Initial implementation commit:
+`9d8c1165d5fd9f464f72275e3ce8d6cd53320353`
 
-Required verification:
-`python -m unittest discover -s tests -v`
+The first CI run exposed a Python module-name defect: `global.py` conflicted with the reserved keyword in normal import syntax. No scientific rule or existing HPC test failed.
 
-The push workflow already executes the full suite automatically.
+Fix commit:
+`04a7b88fac34a193c05fcccd9a876c80b24fae65`
+
+GitHub Actions:
+- workflow: **Test Reasoning Engine**
+- run: **37330624134**
+- conclusion: **SUCCESS**
+
+The full repository test workflow passed after the fix.
+
+## Decision
+
+**PHASE_8_COMPLETE**
+
+Phase 9 integrated reasoning may proceed.

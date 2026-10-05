@@ -4,7 +4,7 @@
 
 Project: **Social Media Growth Intelligence System**
 
-Current global stage: **Phase 8 Measurement Integration — Implementation Committed, CI Verification Required**
+Current global stage: **Phase 9 Integrated Reasoning — Implemented, CI Verification Pending**
 
 ### Global phase status
 
@@ -16,36 +16,38 @@ Current global stage: **Phase 8 Measurement Integration — Implementation Commi
 - [x] Phase 5 — Breadth-first core mapping
 - [x] Phase 6 — Cross-core graph
 - [x] Phase 7 — Targeted mechanism depth
-- [~] Phase 8 — Global measurement integration
-- [ ] Phase 9 — Integrated reasoning engine
+- [x] Phase 8 — Global measurement integration — GitHub Actions run 37330624134 SUCCESS
+- [~] Phase 9 — Integrated global reasoning runtime
 - [ ] Phase 10 — Global benchmarks/adversarial evaluation
 - [ ] Phase 11 — Prediction-vs-outcome learning
 
-## Phase 8 implementation
+## Phase 9 implementation
 
 Added:
-- global observation validity classes M0–M3;
-- content-performance stage separation;
-- global proxy ambiguity registry;
-- experiment identifiability schema;
-- executable `GlobalMeasurementSystem`;
-- unit tests.
+- `reasoning/global_runtime_schema.json`
+- `reasoning/global_rules_v0.1.json`
+- `reasoning/global_runtime.py`
+- `tests/test_global_runtime.py`
+- `examples/global_diagnostic_case.json`
+- `audits/phase9-reasoning-audit-v0.1.md`
 
-Scientific invariants:
-- exposure ≠ attention;
-- completion ≠ satisfaction;
-- engagement ≠ trust;
-- follow ≠ loyalty;
-- return ≠ habit;
-- repeated engagement ≠ PSR;
-- platform A/B label ≠ guaranteed causal experiment.
+The runtime produces:
+- bottleneck hypotheses;
+- competing explanations;
+- measurement warnings;
+- forbidden inferences;
+- next-test candidates;
+- experiment causal ceiling;
+- optional canonical HPC reasoning.
+
+It does not invent universal thresholds or convert raw platform metrics into latent psychology.
 
 ## Human Psychological Core
 
 Authoritative HPC baseline: **v1 — COMPLETE WITH BOUNDED NONCRITICAL GAPS**
 
-The new global layer wraps HPC and does not replace its accepted measurement/reasoning discipline.
+HPC remains an upstream scientific foundation. The global runtime calls its canonical reasoner only through explicit `hpc_case` inputs.
 
 ## Next gate
 
-Verify full CI after Phase 8 commit. If green, mark Phase 8 complete and begin Phase 9 integrated reasoning.
+Verify full CI for Phase 9. If green, begin Phase 10 adversarial/global benchmark suite.

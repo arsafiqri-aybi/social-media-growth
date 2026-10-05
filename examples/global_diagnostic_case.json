@@ -1,0 +1,31 @@
+{
+  "goal": {
+    "objective": "qualified_growth"
+  },
+  "context": {
+    "platform": "instagram",
+    "note": "Platform details remain freshness-sensitive."
+  },
+  "metric_states": {
+    "exposure": "up",
+    "likes": "up",
+    "conversion": "down",
+    "nonfollower_reach": "up",
+    "continuation": "down"
+  },
+  "observations": [
+    {
+      "type": "impression"
+    },
+    {
+      "type": "like"
+    },
+    {
+      "type": "conversion"
+    }
+  ],
+  "proxies": [
+    "continuation_rate",
+    "conversion_rate"
+  ]
+}

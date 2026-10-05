@@ -1,0 +1,70 @@
+{
+  "version": "0.1.0",
+  "name": "Social Media Growth Global Reasoning Runtime",
+  "input": {
+    "required": [
+      "goal",
+      "metric_states"
+    ],
+    "goal": {
+      "required": [
+        "objective"
+      ]
+    },
+    "metric_states": {
+      "allowed_keys": [
+        "eligibility",
+        "exposure",
+        "selection",
+        "continuation",
+        "completion",
+        "satisfaction",
+        "likes",
+        "comments",
+        "saves",
+        "shares",
+        "follows",
+        "return",
+        "conversion",
+        "nonfollower_reach",
+        "qualified_outcome"
+      ],
+      "allowed_states": [
+        "high",
+        "low",
+        "up",
+        "down",
+        "flat",
+        "present",
+        "absent",
+        "unknown"
+      ]
+    },
+    "optional": [
+      "context",
+      "observations",
+      "proxies",
+      "experiment",
+      "hpc_case"
+    ]
+  },
+  "principles": [
+    "Metric-state labels must come from account/context calibration; the runtime defines no universal numeric thresholds.",
+    "Raw platform observations do not automatically seed HPC latent constructs.",
+    "Operational pattern rules generate hypotheses, not causal conclusions.",
+    "Optional HPC reasoning is delegated to the existing canonical HPC reasoner with its own evidence and causal ceilings.",
+    "Account-local diagnosis never mutates scientific evidence."
+  ],
+  "output": [
+    "matched_rules",
+    "bottleneck_candidates",
+    "competing_explanations",
+    "warnings",
+    "forbidden_inferences",
+    "next_tests",
+    "measurement_trace",
+    "experiment_assessment",
+    "hpc_reasoning",
+    "causal_ceiling"
+  ]
+}

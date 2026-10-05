@@ -1,0 +1,355 @@
+{
+  "version": "0.1.0",
+  "status": "auditable_operational_hypothesis_rules",
+  "rules": [
+    {
+      "id": "GR-001",
+      "name": "High exposure, low selection",
+      "when": {
+        "exposure": "high",
+        "selection": "low"
+      },
+      "bottlenecks": [
+        {
+          "core": "audience_value",
+          "candidate": "relevance_fit",
+          "status": "hypothesis_only"
+        },
+        {
+          "core": "communication_content",
+          "candidate": "appeal_selection",
+          "status": "hypothesis_only"
+        }
+      ],
+      "competing_explanations": [
+        "audience_composition_mismatch",
+        "packaging_or_message_mismatch",
+        "surface_context",
+        "creator_familiarity"
+      ],
+      "warnings": [
+        "Distribution opportunity appears present; do not default to an algorithm-failure explanation.",
+        "Low selection does not directly identify low Attention or Curiosity."
+      ],
+      "forbidden_inferences": [
+        "algorithm_failure",
+        "low_attention",
+        "low_curiosity"
+      ],
+      "next_tests": [
+        "compare selection within stable audience/surface strata",
+        "test packaging/message while holding delivery as stable as feasible"
+      ]
+    },
+    {
+      "id": "GR-002",
+      "name": "High selection, low continuation",
+      "when": {
+        "selection": "high",
+        "continuation": "low"
+      },
+      "bottlenecks": [
+        {
+          "core": "communication_content",
+          "candidate": "expectation_delivery_or_structure",
+          "status": "hypothesis_only"
+        },
+        {
+          "core": "audience_value",
+          "candidate": "intent_or_value_mismatch_after_selection",
+          "status": "hypothesis_only"
+        }
+      ],
+      "competing_explanations": [
+        "opening_overpromises",
+        "content_structure",
+        "format_duration",
+        "audience_intent_mismatch",
+        "technical_consumption_friction"
+      ],
+      "warnings": [
+        "A strong hook can coexist with weak delivered value.",
+        "Do not interpret low continuation as a single psychological mechanism."
+      ],
+      "forbidden_inferences": [
+        "content_has_no_value",
+        "audience_has_no_interest"
+      ],
+      "next_tests": [
+        "inspect drop-off location and content transition",
+        "test expectation-delivery congruence under similar exposure"
+      ]
+    },
+    {
+      "id": "GR-003",
+      "name": "High completion, low return",
+      "when": {
+        "completion": "high",
+        "return": "low"
+      },
+      "bottlenecks": [
+        {
+          "core": "relationship_retention",
+          "candidate": "recurrence_or_relationship",
+          "status": "hypothesis_only"
+        },
+        {
+          "core": "audience_value",
+          "candidate": "one_off_value",
+          "status": "hypothesis_only"
+        }
+      ],
+      "competing_explanations": [
+        "one_off_information_need",
+        "weak_recurring_value",
+        "low_repeated_exposure_opportunity",
+        "weak_series_expectation",
+        "platform_rediscovery_gap"
+      ],
+      "warnings": [
+        "Completion does not equal satisfaction, and low return does not prove weak trust."
+      ],
+      "forbidden_inferences": [
+        "no_satisfaction",
+        "no_trust",
+        "no_habit"
+      ],
+      "next_tests": [
+        "measure repeat consumption by cohort",
+        "test recurring-series or future-value expectation without changing acquisition target"
+      ]
+    },
+    {
+      "id": "GR-004",
+      "name": "Reach and likes rise while conversion falls",
+      "when": {
+        "exposure": "up",
+        "likes": "up",
+        "conversion": "down"
+      },
+      "bottlenecks": [
+        {
+          "core": "learning_adaptation",
+          "candidate": "proxy_goal_misalignment",
+          "status": "hypothesis_only"
+        },
+        {
+          "core": "audience_value",
+          "candidate": "audience_composition_shift",
+          "status": "hypothesis_only"
+        }
+      ],
+      "competing_explanations": [
+        "broader_lower_intent_audience",
+        "message_offer_mismatch",
+        "conversion_friction",
+        "vanity_metric_shift"
+      ],
+      "warnings": [
+        "Improved engagement can coexist with worse Governance outcomes.",
+        "Aggregate changes may be compositional."
+      ],
+      "forbidden_inferences": [
+        "content_improved_overall",
+        "growth_improved_overall"
+      ],
+      "next_tests": [
+        "compare conversion within stable audience/source cohorts",
+        "inspect qualified-outcome rate by discovery source"
+      ]
+    },
+    {
+      "id": "GR-005",
+      "name": "Return rises",
+      "when": {
+        "return": "up"
+      },
+      "bottlenecks": [],
+      "competing_explanations": [
+        "familiarity",
+        "series_structure",
+        "repeated_topical_need",
+        "platform_rediscovery",
+        "relationship_candidate",
+        "habit_candidate"
+      ],
+      "warnings": [
+        "Rising return is recurrence evidence, not direct evidence of Habit, Loyalty, Trust, or PSR."
+      ],
+      "forbidden_inferences": [
+        "habit_established",
+        "loyalty_established",
+        "trust_established",
+        "parasocial_relationship_established"
+      ],
+      "next_tests": [
+        "separate voluntary/direct return from recommendation-driven rediscovery",
+        "use longitudinal or validated relationship measures if latent claims matter"
+      ]
+    },
+    {
+      "id": "GR-006",
+      "name": "Low exposure with eligibility uncertainty or weakness",
+      "when": {
+        "exposure": "low"
+      },
+      "bottlenecks": [
+        {
+          "core": "distribution_discovery",
+          "candidate": "eligibility_retrieval_or_ranking_opportunity",
+          "status": "hypothesis_only"
+        }
+      ],
+      "competing_explanations": [
+        "eligibility_constraint",
+        "limited_candidate_retrieval",
+        "weak_predicted_relevance",
+        "small_addressable_audience",
+        "competition_or_freshness"
+      ],
+      "warnings": [
+        "Low exposure should be diagnosed before using downstream engagement metrics as the primary explanation."
+      ],
+      "forbidden_inferences": [
+        "content_bad",
+        "audience_uninterested"
+      ],
+      "next_tests": [
+        "inspect eligibility and traffic-source/surface data",
+        "compare exposure against account-local baseline for similar content/context"
+      ]
+    },
+    {
+      "id": "GR-007",
+      "name": "Non-follower reach rises while continuation falls",
+      "when": {
+        "nonfollower_reach": "up",
+        "continuation": "down"
+      },
+      "bottlenecks": [
+        {
+          "core": "learning_adaptation",
+          "candidate": "audience_composition_confound",
+          "status": "hypothesis_only"
+        },
+        {
+          "core": "audience_value",
+          "candidate": "new_audience_fit",
+          "status": "hypothesis_only"
+        }
+      ],
+      "competing_explanations": [
+        "new_audience_lower_prior_familiarity",
+        "broader_topic_mismatch",
+        "surface_context_change",
+        "creative_change"
+      ],
+      "warnings": [
+        "Aggregate continuation can fall because the exposed population changed."
+      ],
+      "forbidden_inferences": [
+        "content_quality_declined"
+      ],
+      "next_tests": [
+        "stratify continuation by follower/non-follower and source",
+        "compare like-for-like audience cohorts"
+      ]
+    },
+    {
+      "id": "GR-008",
+      "name": "Shares rise with satisfaction unknown",
+      "when": {
+        "shares": "up",
+        "satisfaction": "unknown"
+      },
+      "bottlenecks": [],
+      "competing_explanations": [
+        "practical_utility",
+        "identity_expression",
+        "social_bonding",
+        "emotion",
+        "controversy",
+        "incentive",
+        "reputational_motive"
+      ],
+      "warnings": [
+        "Sharing is an action, not a unique motive and not proof of satisfaction."
+      ],
+      "forbidden_inferences": [
+        "audience_satisfied",
+        "social_transmission_motive_identified"
+      ],
+      "next_tests": [
+        "inspect qualitative share context where available",
+        "measure downstream satisfaction/return separately"
+      ]
+    },
+    {
+      "id": "GR-009",
+      "name": "Follows rise but return does not",
+      "when": {
+        "follows": "up",
+        "return": [
+          "flat",
+          "down",
+          "low"
+        ]
+      },
+      "bottlenecks": [
+        {
+          "core": "relationship_retention",
+          "candidate": "follow_to_recurrence_gap",
+          "status": "hypothesis_only"
+        }
+      ],
+      "competing_explanations": [
+        "one_off_follow_incentive",
+        "weak_recurring_value",
+        "insufficient_repeat_exposure",
+        "follow_intent_without_consumption"
+      ],
+      "warnings": [
+        "Follower acquisition is not equivalent to retained relationship."
+      ],
+      "forbidden_inferences": [
+        "loyalty_growth",
+        "trust_growth"
+      ],
+      "next_tests": [
+        "track new-follower cohorts into repeat consumption",
+        "compare acquisition source with later retention"
+      ]
+    },
+    {
+      "id": "GR-010",
+      "name": "Conversion high while return low",
+      "when": {
+        "conversion": "high",
+        "return": "low"
+      },
+      "bottlenecks": [
+        {
+          "core": "relationship_retention",
+          "candidate": "post_conversion_recurrence",
+          "status": "hypothesis_only"
+        }
+      ],
+      "competing_explanations": [
+        "transactional_one_off_value",
+        "post_conversion_need_ends",
+        "weak_relationship",
+        "insufficient_follow_up_distribution"
+      ],
+      "warnings": [
+        "Short-term Governance success may coexist with weak long-term retention; whether this is a problem depends on the objective."
+      ],
+      "forbidden_inferences": [
+        "account_growth_is_healthy",
+        "customer_loyalty_established"
+      ],
+      "next_tests": [
+        "evaluate cohort-level post-conversion return against the explicit Governance horizon"
+      ]
+    }
+  ]
+}

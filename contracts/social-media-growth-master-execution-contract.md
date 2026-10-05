@@ -26,27 +26,24 @@ Build the smallest sufficiently complete, evidence-grounded, operational intelli
 - [x] Phase 5 — Breadth-first operational-core maps
 - [x] Phase 6 — Cross-core graph v0.1
 - [x] Phase 7 — Targeted high-centrality mechanism depth v0.1
-- [~] Phase 8 — Global measurement integration implemented; CI verification required
-- [ ] Phase 9 — Integrated reasoning engine
+- [x] Phase 8 — Global measurement integration v0.1; CI verified
+- [~] Phase 9 — Integrated global reasoning v0.1 implemented; CI verification pending
 - [ ] Phase 10 — Global benchmarks / adversarial evaluation
 - [ ] Phase 11 — Prediction-vs-outcome learning
 
-## Phase 8 artifacts
+## Phase 9 design constraints
 
-- `measurement/global_observation_schema.json`
-- `measurement/global_proxy_schema.json`
-- `measurement/global_experiment_schema.json`
-- `measurement/global.py`
-- `tests/test_global_measurement.py`
-- `audits/phase8-measurement-audit-v0.1.md`
+- no universal metric thresholds;
+- no numeric scientific propagation weights;
+- operational pattern rules produce hypothesis-only bottlenecks;
+- raw platform observations cannot seed HPC;
+- optional HPC reasoning must pass through the canonical HPC reasoner;
+- causal language is capped by experiment design and scientific path status.
 
-## Phase 9 entry gate
+## Phase 10 entry gate
 
-Phase 9 may begin only when:
-- global measurement tests pass;
-- legacy HPC tests remain green;
-- no new layer automatically infers latent psychology from raw platform metrics.
-
-## Governor rule
-
-If CI fails, diagnose the failing property and repair only affected descendants. Do not re-plan the validated architecture unless failure reveals an ontology defect.
+Phase 10 may begin when:
+- Phase 9 tests pass;
+- existing HPC/measurement tests remain green;
+- deterministic diagnostic output is verified;
+- raw metrics remain unable to bypass measurement/HPC boundaries.
