@@ -26,24 +26,18 @@ Build the smallest sufficiently complete, evidence-grounded, operational intelli
 - [x] Phase 5 — Breadth-first operational-core maps
 - [x] Phase 6 — Cross-core graph v0.1
 - [x] Phase 7 — Targeted high-centrality mechanism depth v0.1
-- [x] Phase 8 — Global measurement integration v0.1; CI verified
-- [~] Phase 9 — Integrated global reasoning v0.1 implemented; CI verification pending
-- [ ] Phase 10 — Global benchmarks / adversarial evaluation
+- [x] Phase 8 — Global measurement integration v0.1
+- [x] Phase 9 — Integrated reasoning engine v0.1; CI verified
+- [~] Phase 10 — Global benchmarks / adversarial evaluation implemented; CI pending
 - [ ] Phase 11 — Prediction-vs-outcome learning
 
-## Phase 9 design constraints
+## Phase 10 limitation
 
-- no universal metric thresholds;
-- no numeric scientific propagation weights;
-- operational pattern rules produce hypothesis-only bottlenecks;
-- raw platform observations cannot seed HPC;
-- optional HPC reasoning must pass through the canonical HPC reasoner;
-- causal language is capped by experiment design and scientific path status.
+Passing synthetic/adversarial benchmarks demonstrates architecture/runtime behavior only.
 
-## Phase 10 entry gate
+It must not be reported as:
+- universal predictive validity;
+- causal validation of social-media growth;
+- proven real-world lift.
 
-Phase 10 may begin when:
-- Phase 9 tests pass;
-- existing HPC/measurement tests remain green;
-- deterministic diagnostic output is verified;
-- raw metrics remain unable to bypass measurement/HPC boundaries.
+Those require prospective account-level prediction/outcome evidence.

@@ -1,0 +1,460 @@
+{
+  "version": "0.1.0",
+  "purpose": "Adversarial global social-media-growth diagnostic benchmarks. These test reasoning behavior, not empirical predictive validity.",
+  "scenarios": [
+    {
+      "id": "GB-001",
+      "name": "High exposure but low selection",
+      "case": {
+        "goal": {
+          "objective": "qualified_growth"
+        },
+        "metric_states": {
+          "exposure": "high",
+          "selection": "low"
+        },
+        "observations": [
+          {
+            "type": "impression"
+          }
+        ],
+        "proxies": [
+          "selection_rate"
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-001"
+        ],
+        "cores": [
+          "audience_value",
+          "communication_content"
+        ],
+        "forbidden": [
+          "algorithm_failure",
+          "low_attention",
+          "low_curiosity"
+        ],
+        "causal_ceiling": "observational_diagnosis_only"
+      }
+    },
+    {
+      "id": "GB-002",
+      "name": "Hook wins, continuation fails",
+      "case": {
+        "goal": {
+          "objective": "consumption_quality"
+        },
+        "metric_states": {
+          "selection": "high",
+          "continuation": "low"
+        },
+        "proxies": [
+          "selection_rate",
+          "continuation_rate"
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-002"
+        ],
+        "cores": [
+          "communication_content",
+          "audience_value"
+        ],
+        "forbidden": [
+          "content_has_no_value",
+          "audience_has_no_interest"
+        ]
+      }
+    },
+    {
+      "id": "GB-003",
+      "name": "Completion without return",
+      "case": {
+        "goal": {
+          "objective": "retention"
+        },
+        "metric_states": {
+          "completion": "high",
+          "return": "low"
+        },
+        "proxies": [
+          "completion_rate",
+          "return_rate"
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-003"
+        ],
+        "cores": [
+          "relationship_retention",
+          "audience_value"
+        ],
+        "forbidden": [
+          "no_satisfaction",
+          "no_trust",
+          "no_habit"
+        ]
+      }
+    },
+    {
+      "id": "GB-004",
+      "name": "Vanity metrics rise while conversion falls",
+      "case": {
+        "goal": {
+          "objective": "qualified_conversion"
+        },
+        "metric_states": {
+          "exposure": "up",
+          "likes": "up",
+          "conversion": "down"
+        },
+        "observations": [
+          {
+            "type": "like"
+          },
+          {
+            "type": "conversion"
+          }
+        ],
+        "proxies": [
+          "conversion_rate"
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-004"
+        ],
+        "cores": [
+          "learning_adaptation",
+          "audience_value"
+        ],
+        "forbidden": [
+          "content_improved_overall",
+          "growth_improved_overall"
+        ]
+      }
+    },
+    {
+      "id": "GB-005",
+      "name": "Return increase must not become habit",
+      "case": {
+        "goal": {
+          "objective": "retention"
+        },
+        "metric_states": {
+          "return": "up"
+        },
+        "observations": [
+          {
+            "type": "return_event"
+          }
+        ],
+        "proxies": [
+          "return_rate"
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-005"
+        ],
+        "forbidden": [
+          "habit_established",
+          "loyalty_established",
+          "trust_established",
+          "parasocial_relationship_established"
+        ]
+      }
+    },
+    {
+      "id": "GB-006",
+      "name": "Low exposure should surface distribution first",
+      "case": {
+        "goal": {
+          "objective": "discovery"
+        },
+        "metric_states": {
+          "exposure": "low"
+        },
+        "observations": [
+          {
+            "type": "impression"
+          }
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-006"
+        ],
+        "cores": [
+          "distribution_discovery"
+        ],
+        "forbidden": [
+          "content_bad",
+          "audience_uninterested"
+        ]
+      }
+    },
+    {
+      "id": "GB-007",
+      "name": "New audience composition confounds aggregate continuation",
+      "case": {
+        "goal": {
+          "objective": "discovery_quality"
+        },
+        "metric_states": {
+          "nonfollower_reach": "up",
+          "continuation": "down"
+        },
+        "proxies": [
+          "continuation_rate"
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-007"
+        ],
+        "cores": [
+          "learning_adaptation",
+          "audience_value"
+        ],
+        "forbidden": [
+          "content_quality_declined"
+        ]
+      }
+    },
+    {
+      "id": "GB-008",
+      "name": "Shares do not prove satisfaction or motive",
+      "case": {
+        "goal": {
+          "objective": "social_transmission"
+        },
+        "metric_states": {
+          "shares": "up",
+          "satisfaction": "unknown"
+        },
+        "observations": [
+          {
+            "type": "share"
+          }
+        ],
+        "proxies": [
+          "share_rate"
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-008"
+        ],
+        "forbidden": [
+          "audience_satisfied",
+          "social_transmission_motive_identified"
+        ]
+      }
+    },
+    {
+      "id": "GB-009",
+      "name": "Follower acquisition without recurrence",
+      "case": {
+        "goal": {
+          "objective": "retained_followers"
+        },
+        "metric_states": {
+          "follows": "up",
+          "return": "flat"
+        },
+        "observations": [
+          {
+            "type": "follow"
+          }
+        ],
+        "proxies": [
+          "follow_rate",
+          "return_rate"
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-009"
+        ],
+        "cores": [
+          "relationship_retention"
+        ],
+        "forbidden": [
+          "loyalty_growth",
+          "trust_growth"
+        ]
+      }
+    },
+    {
+      "id": "GB-010",
+      "name": "Transaction succeeds but relationship may not",
+      "case": {
+        "goal": {
+          "objective": "long_term_customer_value"
+        },
+        "metric_states": {
+          "conversion": "high",
+          "return": "low"
+        },
+        "observations": [
+          {
+            "type": "conversion"
+          },
+          {
+            "type": "return_event"
+          }
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-010"
+        ],
+        "cores": [
+          "relationship_retention"
+        ],
+        "forbidden": [
+          "account_growth_is_healthy",
+          "customer_loyalty_established"
+        ]
+      }
+    },
+    {
+      "id": "GB-011",
+      "name": "Multiple simultaneous bottlenecks stay plural",
+      "case": {
+        "goal": {
+          "objective": "qualified_growth"
+        },
+        "metric_states": {
+          "exposure": "high",
+          "selection": "low",
+          "follows": "up",
+          "return": "down"
+        },
+        "proxies": [
+          "selection_rate",
+          "return_rate"
+        ]
+      },
+      "expect": {
+        "rules": [
+          "GR-001",
+          "GR-009"
+        ],
+        "cores": [
+          "audience_value",
+          "communication_content",
+          "relationship_retention"
+        ],
+        "forbidden": [
+          "algorithm_failure",
+          "loyalty_growth"
+        ]
+      }
+    },
+    {
+      "id": "GB-012",
+      "name": "Platform optimized test cannot claim creative causality",
+      "case": {
+        "goal": {
+          "objective": "creative_learning"
+        },
+        "metric_states": {
+          "selection": "high",
+          "continuation": "low"
+        },
+        "experiment": {
+          "experiment_id": "gb-exp-12",
+          "hypothesis_id": "creative-effect",
+          "intervention": "creative-a-vs-b",
+          "assignment_unit": "platform_campaign",
+          "delivery_control": "platform_optimized",
+          "randomization_documented": true,
+          "audience_composition_checked": false,
+          "platform_targeting_can_vary": true
+        }
+      },
+      "expect": {
+        "rules": [
+          "GR-002"
+        ],
+        "causal_ceiling": "confounded_or_noncausal_design"
+      }
+    },
+    {
+      "id": "GB-013",
+      "name": "Controlled randomized design only raises design ceiling",
+      "case": {
+        "goal": {
+          "objective": "message_learning"
+        },
+        "metric_states": {
+          "selection": "high",
+          "continuation": "low"
+        },
+        "experiment": {
+          "experiment_id": "gb-exp-13",
+          "hypothesis_id": "message-effect",
+          "intervention": "message-a-vs-b",
+          "assignment_unit": "user",
+          "delivery_control": "controlled",
+          "randomization_documented": true,
+          "audience_composition_checked": true,
+          "platform_targeting_can_vary": false
+        }
+      },
+      "expect": {
+        "rules": [
+          "GR-002"
+        ],
+        "causal_ceiling": "bounded_design_support_possible"
+      }
+    },
+    {
+      "id": "GB-014",
+      "name": "Canonical HPC integration works only with canonical seed",
+      "case": {
+        "goal": {
+          "objective": "trust_mechanism"
+        },
+        "metric_states": {},
+        "hpc_case": {
+          "seeds": {
+            "TR-N03": "validated_observation"
+          },
+          "targets": [
+            "CON-N04"
+          ],
+          "max_depth": 2
+        }
+      },
+      "expect": {
+        "hpc_targets": [
+          "CON-N04"
+        ]
+      }
+    },
+    {
+      "id": "GB-015",
+      "name": "Raw platform metric is rejected from HPC",
+      "case": {
+        "goal": {
+          "objective": "guardrail"
+        },
+        "metric_states": {
+          "shares": "up"
+        },
+        "hpc_case": {
+          "seeds": {
+            "share_rate": "structured_observation"
+          }
+        }
+      },
+      "expect_error": "ValueError"
+    }
+  ]
+}

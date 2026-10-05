@@ -1,78 +1,36 @@
 # Phase 9 — Integrated Global Reasoning v0.1
 
-Status: **IMPLEMENTED — CI VERIFICATION PENDING**
+Status: **COMPLETE**
 
-## Runtime design
+## Runtime
 
-The global runtime connects:
+Global reasoning now connects:
+Governance objective + calibrated metric states + Global Measurement System + auditable diagnostic rules + optional canonical HPC reasoning.
 
-```text
-Governance objective + Context
-          ↓
-calibrated qualitative metric states
-          ↓
-Global Measurement System
-          ↓
-auditable pattern rules
-          ↓
-bottleneck hypotheses + competing explanations
-          ↓
-causal ceiling + forbidden inferences
-          ↓
-next-test candidates
-          ↕
-optional Canonical HPC Reasoner
-```
+## Verification
 
-## Why qualitative states
+Implementation commit:
+`7bbb21e41288c24a05c8ae42669be0559bdd03eb`
 
-The runtime accepts labels such as `high`, `low`, `up`, `down`, and `flat` but **does not calculate them from universal thresholds**.
+GitHub Actions:
+- workflow: **Test Reasoning Engine**
+- run: **37331369413**
+- test step: **SUCCESS**
+- example reasoning case: **SUCCESS**
 
-Those labels must be supplied by account/context calibration, benchmark comparison, or another explicit measurement process.
+The full repository suite remained green.
 
-This prevents arbitrary rules such as:
-- 5% is always high;
-- 50% completion is always good;
-- a universal engagement-rate threshold indicates trust/value.
+## Preserved boundaries
 
-## HPC integration boundary
+- raw metrics cannot directly seed HPC;
+- diagnostic rules emit hypothesis-only bottlenecks;
+- qualitative high/low/up/down states require external/account-local calibration;
+- no universal metric thresholds were introduced;
+- experiment design controls the causal ceiling;
+- optional HPC reasoning preserves its canonical scientific graph and causal language rules.
 
-Raw platform metrics do not enter the HPC graph.
+## Decision
 
-Optional `hpc_case` input is sent to the existing `CanonicalReasoner`, which:
-- accepts only canonical nodes/connectors;
-- rejects raw platform proxy IDs;
-- preserves evidence/causal ceilings;
-- does not use scientific runtime weights.
+**PHASE_9_COMPLETE**
 
-Thus the global runtime can use the mature HPC graph without weakening its measurement boundaries.
-
-## Initial diagnostic rules
-
-Ten auditable operational rules cover:
-- high exposure + low selection;
-- high selection + low continuation;
-- high completion + low return;
-- reach/likes up + conversion down;
-- rising return;
-- low exposure;
-- non-follower reach up + continuation down;
-- shares up with satisfaction unknown;
-- follows up + weak return;
-- high conversion + low return.
-
-These rules create **hypotheses**, never direct causal conclusions.
-
-## Required CI gate
-
-The new test suite checks:
-- distribution is not automatically blamed when exposure is already high;
-- completion/return pattern does not become a Habit claim;
-- return growth preserves multiple competing explanations;
-- platform-optimized experiments cap causal claims;
-- optional HPC reasoning uses the canonical HPC runtime;
-- raw platform metrics are rejected from HPC;
-- deterministic output;
-- unsupported metric states are rejected.
-
-Phase 9 becomes complete only after the repository CI passes.
+Phase 10 adversarial/global benchmarking may proceed.

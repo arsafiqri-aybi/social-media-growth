@@ -4,7 +4,7 @@
 
 Project: **Social Media Growth Intelligence System**
 
-Current global stage: **Phase 9 Integrated Reasoning — Implemented, CI Verification Pending**
+Current global stage: **Phase 10 Global Adversarial Benchmark — Implemented, CI Pending**
 
 ### Global phase status
 
@@ -16,38 +16,33 @@ Current global stage: **Phase 9 Integrated Reasoning — Implemented, CI Verific
 - [x] Phase 5 — Breadth-first core mapping
 - [x] Phase 6 — Cross-core graph
 - [x] Phase 7 — Targeted mechanism depth
-- [x] Phase 8 — Global measurement integration — GitHub Actions run 37330624134 SUCCESS
-- [~] Phase 9 — Integrated global reasoning runtime
-- [ ] Phase 10 — Global benchmarks/adversarial evaluation
+- [x] Phase 8 — Global measurement integration — CI SUCCESS
+- [x] Phase 9 — Integrated global reasoning — CI run 37331369413 SUCCESS
+- [~] Phase 10 — Global benchmarks/adversarial evaluation
 - [ ] Phase 11 — Prediction-vs-outcome learning
 
-## Phase 9 implementation
+## Phase 10 implementation
 
-Added:
-- `reasoning/global_runtime_schema.json`
-- `reasoning/global_rules_v0.1.json`
-- `reasoning/global_runtime.py`
-- `tests/test_global_runtime.py`
-- `examples/global_diagnostic_case.json`
-- `audits/phase9-reasoning-audit-v0.1.md`
+Artifacts:
+- `benchmarks/global_adversarial_scenarios.json`
+- `benchmarks/global_adversarial.py`
+- `tests/test_global_adversarial.py`
+- `audits/phase10-global-benchmark-v0.1.md`
 
-The runtime produces:
-- bottleneck hypotheses;
-- competing explanations;
-- measurement warnings;
-- forbidden inferences;
-- next-test candidates;
-- experiment causal ceiling;
-- optional canonical HPC reasoning.
+15 adversarial scenarios test:
+- false algorithm blame;
+- latent-psychology overclaim;
+- audience-composition confounds;
+- vanity-metric optimization;
+- retention/relationship overclaim;
+- experimental confounding;
+- HPC boundary bypass;
+- multi-bottleneck reasoning.
 
-It does not invent universal thresholds or convert raw platform metrics into latent psychology.
+## Scientific boundary
 
-## Human Psychological Core
-
-Authoritative HPC baseline: **v1 — COMPLETE WITH BOUNDED NONCRITICAL GAPS**
-
-HPC remains an upstream scientific foundation. The global runtime calls its canonical reasoner only through explicit `hpc_case` inputs.
+Synthetic benchmark success is software/reasoning evidence, not empirical proof that the system predicts real account growth.
 
 ## Next gate
 
-Verify full CI for Phase 9. If green, begin Phase 10 adversarial/global benchmark suite.
+Pass repository CI for Phase 10, then implement the Phase 11 prediction/outcome record and learning loop while keeping scientific knowledge immutable to account-local results.
