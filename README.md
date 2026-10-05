@@ -1,31 +1,42 @@
 # Social Media Growth
 
-Research-grounded neural knowledge architecture and executable reasoning system for building and growing social-media accounts.
+Research-grounded neural knowledge architecture and executable reasoning system for understanding, diagnosing, and improving social-media account growth.
 
-## Current stage
-
-**Human Psychological Core — Reasoning System v0.2**
-
-The repository models social-media psychology as a **dynamic network**, not a linear funnel.
+## Current architecture
 
 ```text
-observations
-   ↓
-measurement proxies + ambiguity
-   ↓
-29 sub-neurons
-   ↕
-mechanism-level propagation
-   ↓
-8 core neurons
-   ↕
-evidence-weighted network reasoning
-   ↓
-dominant mechanisms + tensions + evidence warnings
+GOVERNANCE
+goals · constraints · resources · ethics
+        │
+        ▼
+CONTEXT / ENVIRONMENT  ↔  all layers
+        │
+        ▼
+HUMAN PSYCHOLOGICAL FOUNDATION (HPC)
+        │
+        ▼
+Audience & Value
+      ↕
+Communication & Content
+      ↕
+Distribution & Discovery
+      ↕
+Relationship & Retention
+      ↕
+Learning & Adaptation
+
+all operational cores are many-to-many, not a linear funnel
 ```
 
-## Eight core neurons
+The five operational cores are currently **provisionally locked**, not claimed as a scientific natural law.
 
+See `architecture/master-architecture-review.md`.
+
+## Human Psychological Core
+
+The accepted HPC baseline models social-media psychology as a dynamic typed evidence graph.
+
+Eight core families:
 1. Attention
 2. Curiosity
 3. Valuation & Emotion
@@ -35,58 +46,50 @@ dominant mechanisms + tensions + evidence warnings
 7. Social Transmission
 8. Reinforcement & Habit
 
-## What v0.2 adds
+Canonical HPC state includes:
+- mechanism modules and L2 neurons;
+- evidence provenance;
+- contradiction and boundary handling;
+- measurement/proxy validity;
+- typed cross-core edges;
+- qualitative reasoning v2;
+- account-local feedback separation;
+- adversarial benchmarks.
 
-- 29 mechanism-level sub-neurons
-- hierarchical sub-neuron → core reasoning
-- measurement/proxy layer for real account analytics
-- negative evidence handling
-- empirical evidence registry
-- published effect-size metadata where available
-- contradiction / boundary-condition registry
-- evidence warnings attached to active reasoning paths
-- 15 automated tests
+HPC is a **foundation**, not the entire social-media-growth system.
 
-## Run
+## Scientific constraints
 
-Core-only reasoning:
-
-```bash
-python -m engine.cli examples/case_identity_curiosity.json
-```
-
-Observation → sub-neuron → core reasoning:
-
-```bash
-python -m engine.hierarchical_cli examples/observed_case.json
-```
-
-Tests:
-
-```bash
-python -m unittest discover -s tests -v
-```
-
-## Scientific constraint
-
-This is a transparent decision-support reasoner, **not a biological brain simulation**.
+This project is a transparent decision-support architecture, not a biological brain simulation.
 
 Important:
-
-- architecture weights are not automatically empirical effect sizes;
+- scientific evidence strength ≠ empirical effect size ≠ runtime propagation coefficient;
 - analytics are not direct mind-state measurements;
-- correlation is not treated as causation;
-- uncertainty, heterogeneity, and contradictory evidence are retained;
-- weak/emerging edges are discounted rather than presented as fact.
+- correlation is not causation;
+- account-specific outcomes do not rewrite the scientific base;
+- uncertainty and contradictory evidence remain visible;
+- platform-specific mechanisms are freshness-sensitive.
 
-See:
+## Current execution stage
 
-- `research/evidence_registry.json`
-- `research/contradictions.json`
-- `research/effect-size-policy.md`
-- `docs/measurement-layer.md`
-- `docs/sub-neuron-layer.md`
+Completed:
+- HPC accepted baseline
+- global state recovery
+- architecture landscape review
+- adversarial global architecture challenge
+- global ontology v0.1
+- provisional architecture lock
 
-## CI
+Next:
+- breadth-first minimum canonical mapping for all five operational cores;
+- then cross-core graph, global measurement, integrated reasoning, and benchmarks.
 
-GitHub Actions runs the full unit-test suite and a reasoning example on pushes to `main` and on pull requests.
+## Key files
+
+- `STATUS.md`
+- `architecture/master-architecture-review.md`
+- `architecture/social-media-growth-ontology-v0.1.md`
+- `audits/global-architecture-falsification-v0.1.md`
+- `research/global-architecture-evidence-v0.1.md`
+- `contracts/social-media-growth-master-execution-contract.md`
+- `audits/FINAL-10-10.md` — authoritative HPC final audit

@@ -1,63 +1,65 @@
 # Status
 
+## Global project
+
+Project: **Social Media Growth Intelligence System**
+
+Current global stage: **Master Architecture v0.1 — Provisional Lock**
+
+Decision:
+- Governance is a top control layer.
+- Context / Environment is cross-cutting.
+- Human Psychological Core (HPC) is the accepted psychological foundation.
+- Five operational cores are accepted provisionally:
+  1. Audience & Value Intelligence
+  2. Communication & Content Intelligence
+  3. Distribution & Discovery Intelligence
+  4. Relationship & Retention Intelligence
+  5. Learning & Adaptation Intelligence
+
+Architecture status does **not** mean whole-project completion.
+
+See:
+- `architecture/master-architecture-review.md`
+- `architecture/social-media-growth-ontology-v0.1.md`
+- `audits/global-architecture-falsification-v0.1.md`
+- `research/global-architecture-evidence-v0.1.md`
+- `contracts/social-media-growth-master-execution-contract.md`
+
 ## Human Psychological Core
 
-Version: **Reasoning System v0.2**
+Authoritative HPC baseline: **v1**
 
-### Foundation
+Final audit status:
+**COMPLETE WITH BOUNDED NONCRITICAL GAPS**
 
-- [x] Eight candidate core neurons
-- [x] Research-grounded base knowledge
-- [x] Many-to-many typed connection model
-- [x] Feedback loops
-- [x] Evidence hierarchy
-- [x] Pop-psychology guardrails
+Canonical release state:
+- 8 HPC core families
+- 45 mechanism modules
+- 116 L2 records
+- 84 accepted canonical L2 neurons
+- 12 provisional L2 neurons with explicit evidence-sufficiency gaps
+- 0 unresolved candidate neurons
+- 26 R3 edge records
+- 28/28 unordered core-family pairs audited
+- 5 feedback-loop models
+- 34/34 adversarial scenarios passed
+- 0 unresolved critical connection gaps
+- 0 scientific runtime weights
 
-### Executable reasoning
+HPC completion is scoped to the Human Psychological Core. It does not imply system-level Social Media Growth saturation.
 
-- [x] Core graph reasoner
-- [x] Context-sensitive propagation
-- [x] Evidence-confidence discounting
-- [x] Support/inhibition accounting
-- [x] Conflict/tension reporting
-- [x] Audit trace
-- [x] Deterministic convergence
-- [x] CLI
+## Preserved scientific constraints
 
-### Scientific upgrade v0.2
+- Architecture/runtime weights are not automatically empirical effect sizes.
+- Platform metrics are operational observations/proxies, not direct psychological measurements.
+- Correlation is not treated as causation.
+- Account-local calibration does not rewrite scientific evidence.
+- Returning behavior is not automatically habit.
+- Weak/provisional evidence remains visibly bounded.
 
-- [x] 29 sub-neurons
-- [x] Intra/sub-neuron connection network
-- [x] Hierarchical sub-neuron -> core reasoning
-- [x] Empirical evidence registry
-- [x] Published effect-size metadata where appropriate
-- [x] Contradiction/boundary-condition registry
-- [x] Measurement proxy layer
-- [x] Negative-evidence handling
-- [x] Evidence warnings in active reasoning paths
-- [x] Effect-size calibration policy
+## Next stage
 
-### Verification
+**Breadth-first minimum canonical mapping of all five operational cores.**
 
-- [x] GitHub Actions CI installed
-- [x] Initial CI run succeeded
-- [x] v0.2 CI run succeeded
-- [x] 15 automated tests pass
-
-### Important limits preserved
-
-- Edge weights remain architecture coefficients unless a future calibration procedure justifies otherwise.
-- Pooled correlations are not copied into causal graph weights.
-- Platform metrics are operational proxies, not direct psychological measurements.
-- Returning behavior is not automatically classified as habit.
-- Emerging causal paths remain discounted.
-
-### Next research frontier
-
-- [ ] Validated psychometric/behavioral measurement models per sub-neuron
-- [ ] More evidence-backed inhibitory edges
-- [ ] Formal probabilistic/Bayesian uncertainty layer
-- [ ] Context-specific calibration by platform, content type, culture and audience
-- [ ] Benchmark corpus of real content/account scenarios
-- [ ] Prediction-vs-outcome evaluation
-- [ ] Only after core validation: content, brand, distribution, community and growth layers
+Do not begin unconstrained neuron expansion before the five maps and their boundaries are complete.
