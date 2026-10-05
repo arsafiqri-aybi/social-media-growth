@@ -1,7 +1,6 @@
 # Social Media Growth — Master Execution Contract v0.1
 
-Status: ACTIVE  
-Architecture dependency: PROVISIONAL_ARCHITECTURE_LOCKED_V0_1
+Status: ACTIVE
 
 ## Goal
 
@@ -19,92 +18,51 @@ Build the smallest sufficiently complete, evidence-grounded, operational intelli
 
 ## Execution route
 
-### Phase 0 — State recovery
-Status: COMPLETE
+- [x] Phase 0 — State recovery
+- [x] Phase 1 — Global landscape research
+- [x] Phase 2 — Adversarial architecture challenge
+- [x] Phase 3 — Master ontology v0.1
+- [x] Phase 4 — Provisional architecture lock
+- [x] Phase 5 — Breadth-first operational-core maps
+- [x] Phase 6 — Cross-core graph v0.1
+- [x] Phase 7 — Targeted high-centrality mechanism depth v0.1
+- [ ] Phase 8 — Global measurement integration
+- [ ] Phase 9 — Integrated reasoning engine
+- [ ] Phase 10 — Global benchmarks / adversarial evaluation
+- [ ] Phase 11 — Prediction-vs-outcome learning
 
-### Phase 1 — Global landscape research
-Status: COMPLETE FOR ARCHITECTURE DECISION
+## Phase 7 accepted packages
 
-### Phase 2 — Adversarial architecture challenge
-Status: COMPLETE v0.1
+1. Audience–Value Fit
+2. Message / Creative Response
+3. Exposure vs Human Response
+4. Trust / Relationship Accumulation
+5. Measurement / Experimental Learning
 
-### Phase 3 — Master ontology
-Status: COMPLETE v0.1
+## Phase 8 entry conditions
 
-### Phase 4 — Architecture lock
-Status: PROVISIONAL COMPLETE
+Satisfied:
+- operational core boundaries exist;
+- cross-core interfaces are typed;
+- high-centrality diagnostic ambiguities are decomposed;
+- measurement anti-inference rules are explicit;
+- no runtime numeric scientific weights have been introduced.
 
-### Phase 5 — Breadth-first operational-core maps
-Status: COMPLETE v0.1
+Required Phase 8 outputs:
+- machine-readable global observation schema;
+- global proxy / validity schema;
+- experiment metadata schema;
+- metric validity classifier contract;
+- competing-explanation mapping.
 
-### Phase 6 — Cross-core graph
-Status: **COMPLETE v0.1 WITH BOUNDED PROVISIONAL SCIENTIFIC EDGES**
+## Scale / Governor rule
 
-Artifacts:
-- `connections/global-cross-core-map-v0.1.md`
-- `connections/global-edge-registry-v0.1.json`
-- `audits/global-edge-audit-v0.1.md`
+Depth is expanded only when required by:
+- downstream reasoning;
+- measurement ambiguity;
+- benchmark failure;
+- evidence conflict;
+- platform freshness;
+- architecture re-plan trigger.
 
-### Phase 7 — Targeted depth expansion
-Status: **READY / NOT YET SATURATED**
-
-Priority mechanisms:
-- audience relevance / value fit;
-- message/creative selection and continuation;
-- exposure vs response separation;
-- trust/relationship accumulation;
-- proxy diagnosis / experimental learning.
-
-### Phase 8 — Global measurement system
-Status: PENDING
-
-### Phase 9 — Integrated reasoning engine
-Status: PENDING
-
-### Phase 10 — Benchmarks / adversarial evaluation
-Status: PENDING
-
-### Phase 11 — Prediction vs outcome learning
-Status: PENDING
-
-## Scale policy
-
-Depth work is triggered by:
-- cross-core centrality;
-- architecture-critical uncertainty;
-- conflicting evidence;
-- measurement ambiguity that blocks diagnosis;
-- failed benchmark;
-- downstream dependency.
-
-## Governor policy
-
-Before increasing retrieval/reasoning/tool spend, diagnose whether the bottleneck is:
-- missing information;
-- ambiguity;
-- stale platform information;
-- weak evidence;
-- ontology conflict;
-- reasoning defect;
-- tool/environment failure;
-- verification weakness.
-
-Stop a research branch when additional retrieval is unlikely to change the decision and remaining uncertainty is explicit.
-
-## Completion dimensions
-
-Track separately:
-- architecture;
-- evidence;
-- subsystem coverage;
-- mechanism coverage;
-- cross-core connections;
-- measurement;
-- reasoning;
-- benchmarks;
-- prediction validation;
-- platform calibration;
-- tests;
-- documentation.
-
-No single percentage may replace these dimensions.
+Research stops when further retrieval is unlikely to change the current decision and remaining uncertainty is explicit.

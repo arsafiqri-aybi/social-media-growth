@@ -1,0 +1,413 @@
+{
+  "version": "0.1.0",
+  "status": "phase7_minimum_high_centrality_depth_complete",
+  "note": "Reasoning units emerged from boundary/diagnostic needs; count is not a target.",
+  "packages": [
+    {
+      "id": "P7-AV",
+      "name": "Audience–Value Fit",
+      "core": "audience_value",
+      "purpose": "Represent who is being served, what value is hypothesized, and whether observed response is consistent with relevance without treating behavior as direct mind-state measurement.",
+      "units": [
+        {
+          "id": "P7-AV-01",
+          "name": "Audience-state hypothesis",
+          "kind": "reasoning_unit",
+          "status": "accepted_operational",
+          "definition": "A bounded, revisable representation of the target audience state, context, needs/goals and relevant heterogeneity.",
+          "evidence": [
+            "P7-E01",
+            "P7-E02"
+          ],
+          "warnings": [
+            "Not a direct psychological measurement.",
+            "Demographic labels alone are insufficient."
+          ]
+        },
+        {
+          "id": "P7-AV-02",
+          "name": "Segment heterogeneity",
+          "kind": "reasoning_unit",
+          "status": "accepted_operational",
+          "definition": "Material differences between audience groups that can change expected response, value, message fit, or distribution interpretation.",
+          "evidence": [
+            "P7-E02"
+          ],
+          "warnings": [
+            "A mathematically separated cluster is not automatically a meaningful market/audience segment."
+          ]
+        },
+        {
+          "id": "P7-AV-03",
+          "name": "Value hypothesis",
+          "kind": "reasoning_unit",
+          "status": "accepted_operational",
+          "definition": "A testable account-side proposition about what benefit, meaning, utility, identity relevance, entertainment, information, or other value an audience may perceive.",
+          "evidence": [
+            "P7-E01",
+            "P7-E03"
+          ],
+          "warnings": [
+            "Value is audience- and context-relative.",
+            "Observed likes do not directly identify perceived value."
+          ]
+        },
+        {
+          "id": "P7-AV-04",
+          "name": "Relevance fit",
+          "kind": "mechanism_candidate",
+          "status": "provisional_scientific",
+          "definition": "The degree to which a message/value proposition is applicable to a person's current goals, needs, social context, or interests, potentially changing processing and engagement.",
+          "evidence": [
+            "P7-E04"
+          ],
+          "warnings": [
+            "Advertising evidence may not transport universally to organic creator content.",
+            "Relevance must remain distinct from actual attention or satisfaction."
+          ]
+        },
+        {
+          "id": "P7-AV-05",
+          "name": "Audience-composition shift",
+          "kind": "measurement_context",
+          "status": "accepted_operational",
+          "definition": "A change in who receives or responds to content that can alter aggregate metrics without any underlying improvement or decline in the same individuals.",
+          "evidence": [
+            "P7-E05",
+            "P7-E09"
+          ],
+          "warnings": [
+            "Before/after metric changes may be compositional rather than causal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P7-CC",
+      "name": "Message / Creative Response",
+      "core": "communication_content",
+      "purpose": "Separate content response into distinct observable stages rather than collapsing all performance into engagement.",
+      "units": [
+        {
+          "id": "P7-CC-01",
+          "name": "Appeal / selection",
+          "kind": "observable_stage",
+          "status": "accepted_operational",
+          "definition": "Whether an exposed person chooses to begin consuming rather than ignore the content.",
+          "evidence": [
+            "P7-E05"
+          ],
+          "warnings": [
+            "Selection is conditional on exposure and audience composition.",
+            "It does not directly measure latent attention."
+          ]
+        },
+        {
+          "id": "P7-CC-02",
+          "name": "Continuation",
+          "kind": "observable_stage",
+          "status": "accepted_operational",
+          "definition": "Whether consumption continues after initial selection.",
+          "evidence": [
+            "P7-E05"
+          ],
+          "warnings": [
+            "Continuation can reflect format, duration, intent, prior familiarity, and platform context."
+          ]
+        },
+        {
+          "id": "P7-CC-03",
+          "name": "Satisfaction",
+          "kind": "outcome_hypothesis",
+          "status": "accepted_operational_bounded",
+          "definition": "Post-consumption positive evaluation inferred only through qualified direct/behavioral evidence, not from completion alone.",
+          "evidence": [
+            "P7-E05",
+            "P7-E06"
+          ],
+          "warnings": [
+            "Completion is not satisfaction.",
+            "Engagement behavior is heterogeneous."
+          ]
+        },
+        {
+          "id": "P7-CC-04",
+          "name": "Expectation–delivery congruence",
+          "kind": "mechanism_candidate",
+          "status": "provisional_scientific",
+          "definition": "Consistency between what packaging/framing promises and what the consumed content delivers.",
+          "evidence": [
+            "P7-E05",
+            "P7-E06"
+          ],
+          "warnings": [
+            "Specific causal pathways require stronger claim-level evidence."
+          ]
+        },
+        {
+          "id": "P7-CC-05",
+          "name": "Content-effect contextuality",
+          "kind": "moderator_rule",
+          "status": "accepted_scientific_bounded",
+          "definition": "The effect of content characteristics varies with sender, receiver, medium/platform, format and context; no single surface feature is universally optimal.",
+          "evidence": [
+            "P7-E06"
+          ],
+          "warnings": [
+            "Do not convert review averages or platform advice into universal rules."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P7-DD",
+      "name": "Exposure vs Human Response",
+      "core": "distribution_discovery",
+      "purpose": "Prevent recommendation-system opportunity from being confused with human psychological response.",
+      "units": [
+        {
+          "id": "P7-DD-01",
+          "name": "Recommendation eligibility",
+          "kind": "system_state",
+          "status": "accepted_system",
+          "definition": "Whether content is allowed/qualified to participate in a recommendation or discovery surface under current platform rules.",
+          "evidence": [
+            "P7-E07",
+            "P7-E10"
+          ],
+          "warnings": [
+            "Eligibility does not guarantee retrieval or exposure.",
+            "Rules are freshness-sensitive."
+          ]
+        },
+        {
+          "id": "P7-DD-02",
+          "name": "Retrieval / ranking opportunity",
+          "kind": "system_state",
+          "status": "accepted_system",
+          "definition": "Platform-side selection and ordering opportunity based on personalized predictions/signals.",
+          "evidence": [
+            "P7-E05",
+            "P7-E07",
+            "P7-E08",
+            "P7-E09"
+          ],
+          "warnings": [
+            "Do not infer exact ranking weights unless officially disclosed and current."
+          ]
+        },
+        {
+          "id": "P7-DD-03",
+          "name": "Exposure opportunity",
+          "kind": "observation",
+          "status": "accepted_system",
+          "definition": "A content impression/reach event creating the possibility of human processing.",
+          "evidence": [
+            "P7-E05",
+            "P7-E09"
+          ],
+          "warnings": [
+            "Impression/reach is not attention, interest, trust, value or satisfaction."
+          ]
+        },
+        {
+          "id": "P7-DD-04",
+          "name": "Exposure–response separation",
+          "kind": "reasoning_rule",
+          "status": "accepted",
+          "definition": "Every diagnosis must distinguish platform opportunity from downstream human selection, continuation, satisfaction and action.",
+          "evidence": [
+            "P7-E05",
+            "P7-E09"
+          ],
+          "warnings": [
+            "Low response can coexist with high distribution and vice versa."
+          ]
+        },
+        {
+          "id": "P7-DD-05",
+          "name": "Personalization feedback",
+          "kind": "system_feedback",
+          "status": "accepted_system_bounded",
+          "definition": "Observed interactions/history can become inputs to future content recommendations, changing subsequent exposure composition.",
+          "evidence": [
+            "P7-E07",
+            "P7-E08",
+            "P7-E09"
+          ],
+          "warnings": [
+            "This creates endogeneity: future audiences are partly shaped by prior behavior and platform models."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P7-RR",
+      "name": "Trust / Relationship Accumulation",
+      "core": "relationship_retention",
+      "purpose": "Represent longitudinal account-level relationship hypotheses without duplicating HPC latent constructs.",
+      "units": [
+        {
+          "id": "P7-RR-01",
+          "name": "Familiarity accumulation",
+          "kind": "longitudinal_state",
+          "status": "provisional_scientific",
+          "definition": "Repeated encounters can increase recognition/familiarity, potentially changing later evaluation or selection.",
+          "evidence": [
+            "P7-E11",
+            "P7-E12"
+          ],
+          "warnings": [
+            "Repeated exposure alone does not establish trust or relationship quality."
+          ]
+        },
+        {
+          "id": "P7-RR-02",
+          "name": "Credibility accumulation",
+          "kind": "longitudinal_state",
+          "status": "provisional_scientific",
+          "definition": "Repeated source/message evidence may update audience judgments of expertise, trustworthiness or credibility.",
+          "evidence": [
+            "P7-E11"
+          ],
+          "warnings": [
+            "Platform engagement is not a direct credibility measure."
+          ]
+        },
+        {
+          "id": "P7-RR-03",
+          "name": "Expectation consistency / violation",
+          "kind": "mechanism_candidate",
+          "status": "provisional_scientific",
+          "definition": "Repeated consistency or mismatch between expected and delivered creator/content behavior may shape future relationship evaluations.",
+          "evidence": [
+            "P7-E11",
+            "P7-E12"
+          ],
+          "warnings": [
+            "Requires construct-specific longitudinal evidence."
+          ]
+        },
+        {
+          "id": "P7-RR-04",
+          "name": "Parasocial relationship hypothesis",
+          "kind": "relationship_hypothesis",
+          "status": "accepted_construct_bounded",
+          "definition": "A one-sided perceived social relationship with an online figure that has distinct antecedents, moderators and outcomes.",
+          "evidence": [
+            "P7-E12"
+          ],
+          "warnings": [
+            "Repeated engagement or following does not prove PSR.",
+            "Validated instruments or strong multimethod evidence are preferred."
+          ]
+        },
+        {
+          "id": "P7-RR-05",
+          "name": "Relational outcome bundle",
+          "kind": "outcome_family",
+          "status": "accepted_operational",
+          "definition": "Observable return, participation, loyalty and advocacy outcomes that may be consistent with multiple underlying relationship mechanisms.",
+          "evidence": [
+            "P7-E11",
+            "P7-E12"
+          ],
+          "warnings": [
+            "Return is not habit; advocacy is not necessarily trust; loyalty requires longitudinal interpretation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P7-LA",
+      "name": "Measurement / Experimental Learning",
+      "core": "learning_adaptation",
+      "purpose": "Turn metrics into testable bounded learning rather than post-hoc stories.",
+      "units": [
+        {
+          "id": "P7-LA-01",
+          "name": "Observation validity gate",
+          "kind": "reasoning_rule",
+          "status": "accepted",
+          "definition": "Classify an input as direct observation, validated construct measure, qualified proxy or ambiguous proxy before inference.",
+          "evidence": [
+            "P7-E13",
+            "P7-E14"
+          ],
+          "warnings": [
+            "Ambiguous proxies cannot auto-seed latent states."
+          ]
+        },
+        {
+          "id": "P7-LA-02",
+          "name": "Competing explanation set",
+          "kind": "reasoning_rule",
+          "status": "accepted",
+          "definition": "For each material metric change, preserve plausible alternatives involving audience composition, distribution, content, context and relationship state.",
+          "evidence": [
+            "P7-E13",
+            "P7-E14"
+          ],
+          "warnings": [
+            "A single plausible story is not diagnosis."
+          ]
+        },
+        {
+          "id": "P7-LA-03",
+          "name": "Intervention identifiability",
+          "kind": "reasoning_rule",
+          "status": "accepted",
+          "definition": "Determine whether an intervention actually isolates the changed variable sufficiently to support the intended inference.",
+          "evidence": [
+            "P7-E14"
+          ],
+          "warnings": [
+            "Platform ad/A-B systems may change targeting/delivery, confounding creative effects."
+          ]
+        },
+        {
+          "id": "P7-LA-04",
+          "name": "Prediction + falsification record",
+          "kind": "learning_object",
+          "status": "accepted",
+          "definition": "Before action, specify expected observable outcomes and what result would count against the hypothesis.",
+          "evidence": [
+            "P7-E13"
+          ],
+          "warnings": [
+            "Avoid moving success criteria after results are observed."
+          ]
+        },
+        {
+          "id": "P7-LA-05",
+          "name": "Account-local belief update",
+          "kind": "learning_rule",
+          "status": "accepted",
+          "definition": "Update operational hypotheses from repeated account-specific evidence while keeping scientific evidence versioned separately.",
+          "evidence": [
+            "P7-E13"
+          ],
+          "warnings": [
+            "One account outcome cannot promote a scientific mechanism to established."
+          ]
+        },
+        {
+          "id": "P7-LA-06",
+          "name": "Freshness / transport gate",
+          "kind": "reasoning_rule",
+          "status": "accepted",
+          "definition": "Check whether evidence and platform assumptions transport to the current platform, audience, format and time.",
+          "evidence": [
+            "P7-E06",
+            "P7-E07",
+            "P7-E08",
+            "P7-E09"
+          ],
+          "warnings": [
+            "Platform mechanics and audience states are nonstationary."
+          ]
+        }
+      ]
+    }
+  ]
+}
