@@ -4,7 +4,7 @@
 
 Project: **Social Media Growth Intelligence System**
 
-Current global stage: **Phase 10 Global Adversarial Benchmark — Implemented, CI Pending**
+Current global stage: **Phase 11 Prediction/Outcome Learning — Implemented, CI Pending**
 
 ### Global phase status
 
@@ -16,33 +16,32 @@ Current global stage: **Phase 10 Global Adversarial Benchmark — Implemented, C
 - [x] Phase 5 — Breadth-first core mapping
 - [x] Phase 6 — Cross-core graph
 - [x] Phase 7 — Targeted mechanism depth
-- [x] Phase 8 — Global measurement integration — CI SUCCESS
-- [x] Phase 9 — Integrated global reasoning — CI run 37331369413 SUCCESS
-- [~] Phase 10 — Global benchmarks/adversarial evaluation
-- [ ] Phase 11 — Prediction-vs-outcome learning
+- [x] Phase 8 — Global measurement integration
+- [x] Phase 9 — Integrated global reasoning
+- [x] Phase 10 — Global adversarial benchmark — CI run 37331647349 SUCCESS
+- [~] Phase 11 — Prediction-vs-outcome learning
 
-## Phase 10 implementation
+## Phase 11 implementation
 
 Artifacts:
-- `benchmarks/global_adversarial_scenarios.json`
-- `benchmarks/global_adversarial.py`
-- `tests/test_global_adversarial.py`
-- `audits/phase10-global-benchmark-v0.1.md`
+- `learning/prediction_schema.json`
+- `learning/prediction_outcome.py`
+- `learning/README.md`
+- `tests/test_prediction_outcome.py`
+- `audits/phase11-learning-audit-v0.1.md`
 
-15 adversarial scenarios test:
-- false algorithm blame;
-- latent-psychology overclaim;
-- audience-composition confounds;
-- vanity-metric optimization;
-- retention/relationship overclaim;
-- experimental confounding;
-- HPC boundary bypass;
-- multi-bottleneck reasoning.
+Learning states:
+- supports prediction;
+- falsifies prediction;
+- inconclusive;
+- mixed local evidence retained explicitly.
 
-## Scientific boundary
+## Boundary
 
-Synthetic benchmark success is software/reasoning evidence, not empirical proof that the system predicts real account growth.
+Account-local outcomes cannot mutate the scientific graph.
 
-## Next gate
+## Completion gate
 
-Pass repository CI for Phase 10, then implement the Phase 11 prediction/outcome record and learning loop while keeping scientific knowledge immutable to account-local results.
+If full CI passes, mark the v0.1 **architecture + measurement + reasoning + adversarial benchmark + learning infrastructure** program complete.
+
+Real-world predictive validation remains a separate, data-dependent frontier.

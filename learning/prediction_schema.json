@@ -1,0 +1,42 @@
+{
+  "version": "0.1.0",
+  "purpose": "Precommitted account-local prediction and outcome learning without mutation of scientific evidence.",
+  "prediction_required": [
+    "prediction_id",
+    "account_id",
+    "hypothesis_id",
+    "intervention",
+    "expected_metric_states",
+    "falsification_metric_states"
+  ],
+  "allowed_metric_states": [
+    "high",
+    "low",
+    "up",
+    "down",
+    "flat",
+    "present",
+    "absent",
+    "unknown"
+  ],
+  "rules": [
+    "Prediction must exist before an outcome can be evaluated.",
+    "Expected and falsification conditions may not require the same metric to have the same state.",
+    "Outcome evaluation is account-local operational evidence only.",
+    "No outcome record may mutate scientific node/edge lifecycle or evidence status.",
+    "Inconclusive outcomes remain explicit rather than being forced into support/falsification.",
+    "Metric-state labels require account/context calibration; this layer defines no universal thresholds."
+  ],
+  "evaluation_status": [
+    "supports_prediction",
+    "falsifies_prediction",
+    "inconclusive"
+  ],
+  "local_belief_status": [
+    "no_outcomes",
+    "local_support_pattern",
+    "local_falsification_pattern",
+    "mixed_local_evidence",
+    "inconclusive_local_evidence"
+  ]
+}

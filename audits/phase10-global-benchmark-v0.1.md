@@ -1,46 +1,30 @@
 # Phase 10 — Global Adversarial Benchmark v0.1
 
-Status: **IMPLEMENTED — CI VERIFICATION PENDING**
+Status: **COMPLETE**
 
-## Purpose
+## Verification
 
-Test whether the integrated runtime preserves the architecture under realistic failure patterns.
+Implementation commit:
+`43efa076a9c15cd31b445268cfb14ce413576184`
 
-This benchmark tests:
-- diagnostic behavior;
-- anti-inference rules;
-- multi-bottleneck preservation;
-- experiment causal ceilings;
-- HPC boundary integrity.
+GitHub Actions:
+- workflow: **Test Reasoning Engine**
+- run: **37331647349**
+- conclusion: **SUCCESS**
 
-It does **not** establish real-world predictive validity.
+The benchmark suite includes 15 adversarial scenarios spanning false algorithm blame, psychology overclaim, audience-composition confounding, vanity metrics, retention, experimental confounding, HPC boundary bypass, and multi-bottleneck reasoning.
 
-## Scenario classes
+## Interpretation
 
-The initial suite covers:
-1. exposure success but appeal failure;
-2. strong appeal but continuation failure;
-3. completion without retention;
-4. vanity metric improvement with goal deterioration;
-5. return growth without Habit inference;
-6. distribution scarcity;
-7. audience-composition confounding;
-8. sharing without motive/satisfaction overclaim;
-9. follow growth without retained relationship;
-10. short-term conversion without long-term return;
-11. simultaneous bottlenecks;
-12. platform-optimized experimental confounding;
-13. controlled randomized design ceiling;
-14. valid canonical HPC integration;
-15. rejection of raw metric → HPC bypass.
+PASS means the runtime behaved as designed on the declared synthetic/adversarial cases.
 
-## Pass criterion
+It does **not** mean:
+- real-world predictive validity;
+- proven causal lift;
+- universal platform transfer.
 
-Every scenario must:
-- return the required diagnostic rule(s);
-- preserve required competing/bottleneck core(s);
-- expose forbidden overclaims;
-- respect causal ceilings;
-- reject illegal HPC inputs.
+## Decision
 
-Phase 10 closes only after the full GitHub Actions suite passes.
+**PHASE_10_COMPLETE**
+
+Phase 11 account-local prediction/outcome infrastructure may proceed.

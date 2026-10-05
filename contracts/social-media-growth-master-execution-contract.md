@@ -27,17 +27,19 @@ Build the smallest sufficiently complete, evidence-grounded, operational intelli
 - [x] Phase 6 — Cross-core graph v0.1
 - [x] Phase 7 — Targeted high-centrality mechanism depth v0.1
 - [x] Phase 8 — Global measurement integration v0.1
-- [x] Phase 9 — Integrated reasoning engine v0.1; CI verified
-- [~] Phase 10 — Global benchmarks / adversarial evaluation implemented; CI pending
-- [ ] Phase 11 — Prediction-vs-outcome learning
+- [x] Phase 9 — Integrated reasoning engine v0.1
+- [x] Phase 10 — Global adversarial benchmark v0.1
+- [~] Phase 11 — Prediction-vs-outcome learning infrastructure implemented; CI pending
 
-## Phase 10 limitation
+## Completion semantics
 
-Passing synthetic/adversarial benchmarks demonstrates architecture/runtime behavior only.
+If Phase 11 CI passes, the **v0.1 architecture/runtime program** may be marked functionally complete.
 
-It must not be reported as:
-- universal predictive validity;
-- causal validation of social-media growth;
-- proven real-world lift.
+Do not call the whole scientific project empirically validated.
 
-Those require prospective account-level prediction/outcome evidence.
+Remaining external validation classes must stay separate:
+- real account prospective prediction validation;
+- platform-specific calibration;
+- context/culture transport testing;
+- stronger evidence for provisional mechanisms;
+- longitudinal outcome datasets.
