@@ -15,7 +15,6 @@ Build the smallest sufficiently complete, evidence-grounded, operational intelli
 - Do not invent effect sizes, platform weights, confidence probabilities, or universal thresholds.
 - Preserve negative evidence, contradictions, transport limits, and uncertainty.
 - Do not optimize for node/module count.
-- Do not deep-build one new operational core while the others lack minimum coverage.
 - Keep scientific evidence separate from account-local calibration.
 
 ## Execution route
@@ -36,24 +35,25 @@ Status: COMPLETE v0.1
 Status: PROVISIONAL COMPLETE
 
 ### Phase 5 — Breadth-first operational-core maps
-Status: **COMPLETE v0.1**
-
-All five operational cores now have minimum canonical coverage:
-- definitions;
-- boundaries;
-- candidate subsystem maps;
-- mechanism families;
-- cross-core interfaces;
-- measurement routes;
-- failure modes;
-- evidence landscapes;
-- open questions.
+Status: COMPLETE v0.1
 
 ### Phase 6 — Cross-core graph
-Status: **INITIAL INTERFACE MAP COMPLETE; CLAIM-LEVEL AUDIT PENDING**
+Status: **COMPLETE v0.1 WITH BOUNDED PROVISIONAL SCIENTIFIC EDGES**
+
+Artifacts:
+- `connections/global-cross-core-map-v0.1.md`
+- `connections/global-edge-registry-v0.1.json`
+- `audits/global-edge-audit-v0.1.md`
 
 ### Phase 7 — Targeted depth expansion
-Status: PENDING
+Status: **READY / NOT YET SATURATED**
+
+Priority mechanisms:
+- audience relevance / value fit;
+- message/creative selection and continuation;
+- exposure vs response separation;
+- trust/relationship accumulation;
+- proxy diagnosis / experimental learning.
 
 ### Phase 8 — Global measurement system
 Status: PENDING
@@ -69,9 +69,7 @@ Status: PENDING
 
 ## Scale policy
 
-Use breadth-first completion until all five operational cores have minimum canonical coverage. This gate is now passed.
-
-Next depth work is driven by:
+Depth work is triggered by:
 - cross-core centrality;
 - architecture-critical uncertainty;
 - conflicting evidence;

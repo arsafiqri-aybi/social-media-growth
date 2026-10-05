@@ -1,0 +1,370 @@
+{
+  "version": "0.1.0",
+  "status": "phase6_pass_with_bounded_provisional_scientific_edges",
+  "rules": [
+    "No numeric propagation weights are assigned by default.",
+    "System edges express opportunity, constraint, retrieval, exposure, or control semantics and do not imply latent psychological change.",
+    "Operational edges express designed information/control flow and are not scientific causal claims.",
+    "Scientific edges require evidence-qualified causal/associational status and remain provisional when evidence is not claim-specific.",
+    "Account-local outcomes cannot promote a scientific edge."
+  ],
+  "edges": [
+    {
+      "id": "GX-001",
+      "source": "smg:G0:governance",
+      "target": "smg:G2:*",
+      "relation": "constrains",
+      "class": "system",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-003",
+        "E-GLOBAL-001"
+      ],
+      "note": "Objectives, resources and policies bound operational choices."
+    },
+    {
+      "id": "GX-002",
+      "source": "smg:context:platform",
+      "target": "smg:G2:distribution_discovery",
+      "relation": "moderates",
+      "class": "system",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-011",
+        "E-GLOBAL-013"
+      ],
+      "note": "Platform affordances and ranking systems determine available distribution pathways."
+    },
+    {
+      "id": "GX-003",
+      "source": "smg:context:culture",
+      "target": "smg:G2:audience_value",
+      "relation": "moderates",
+      "class": "scientific",
+      "status": "provisional",
+      "evidence": [
+        "E-GLOBAL-006",
+        "E-GLOBAL-007"
+      ],
+      "note": "Contextual moderation supported broadly; claim-level mechanisms require local evidence."
+    },
+    {
+      "id": "GX-004",
+      "source": "smg:G2:audience_value",
+      "target": "smg:G2:communication_content",
+      "relation": "selects",
+      "class": "operational",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-003",
+        "E-GLOBAL-001",
+        "E-GLOBAL-002"
+      ],
+      "note": "Audience/value hypotheses constrain message/content choices."
+    },
+    {
+      "id": "GX-005",
+      "source": "smg:G2:audience_value",
+      "target": "smg:G2:distribution_discovery",
+      "relation": "selects",
+      "class": "operational",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-003",
+        "E-GLOBAL-011",
+        "E-GLOBAL-013"
+      ],
+      "note": "Audience definition informs channel/surface/discovery targeting; actual platform matching remains platform-dependent."
+    },
+    {
+      "id": "GX-006",
+      "source": "smg:G2:communication_content",
+      "target": "smg:G2:distribution_discovery",
+      "relation": "enters_candidate_system",
+      "class": "system",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-011",
+        "E-GLOBAL-013"
+      ],
+      "note": "Content objects become eligible candidates subject to platform-specific rules."
+    },
+    {
+      "id": "GX-007",
+      "source": "smg:G2:distribution_discovery",
+      "target": "smg:event:content_exposure",
+      "relation": "system_exposure",
+      "class": "system",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-011",
+        "E-GLOBAL-013"
+      ],
+      "note": "Distribution creates exposure opportunity; exposure is not attention."
+    },
+    {
+      "id": "GX-008",
+      "source": "smg:G2:communication_content",
+      "target": "hpc:L0:attention_curiosity",
+      "relation": "influences_candidate",
+      "class": "scientific",
+      "status": "provisional",
+      "evidence": [
+        "E-GLOBAL-016",
+        "E-GLOBAL-017"
+      ],
+      "note": "Content characteristics relate to engagement/selection, but direct mapping to specific HPC constructs needs claim-level audit."
+    },
+    {
+      "id": "GX-009",
+      "source": "smg:G2:communication_content:source_message_cues",
+      "target": "hpc:L0:trust_valuation",
+      "relation": "influences_candidate",
+      "class": "scientific",
+      "status": "provisional",
+      "evidence": [
+        "E-GLOBAL-006",
+        "E-GLOBAL-007"
+      ],
+      "note": "Credibility/message/source effects are supported, but exact path depends on construct and context."
+    },
+    {
+      "id": "GX-010",
+      "source": "hpc:*",
+      "target": "smg:observation:behavior",
+      "relation": "may_manifest_as",
+      "class": "measurement",
+      "status": "provisional",
+      "evidence": [],
+      "note": "Behavior can be consistent with multiple latent mechanisms; no one-to-one inference."
+    },
+    {
+      "id": "GX-011",
+      "source": "hpc:L0:social_transmission",
+      "target": "smg:G2:distribution_discovery:human_diffusion",
+      "relation": "enables",
+      "class": "scientific",
+      "status": "provisional",
+      "evidence": [
+        "E-GLOBAL-008"
+      ],
+      "note": "Transmission motives/actions can create diffusion, but homophily and contagion must be distinguished."
+    },
+    {
+      "id": "GX-012",
+      "source": "smg:observation:logged_share_repost",
+      "target": "smg:G2:distribution_discovery",
+      "relation": "creates_distribution_opportunity",
+      "class": "system",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-008"
+      ],
+      "note": "Logged transmission creates potential additional reach; downstream exposure/attention is separate."
+    },
+    {
+      "id": "GX-013",
+      "source": "smg:event:repeated_encounter",
+      "target": "smg:G2:relationship_retention",
+      "relation": "updates_candidate",
+      "class": "scientific",
+      "status": "provisional",
+      "evidence": [
+        "E-GLOBAL-018",
+        "E-GLOBAL-004"
+      ],
+      "note": "Repeated encounter may contribute to relationship state, but repetition alone does not establish trust, PSR or habit."
+    },
+    {
+      "id": "GX-014",
+      "source": "smg:G2:relationship_retention:history",
+      "target": "smg:future_response",
+      "relation": "moderates",
+      "class": "scientific",
+      "status": "provisional",
+      "evidence": [
+        "E-GLOBAL-004",
+        "E-GLOBAL-018"
+      ],
+      "note": "Longitudinal relational state is expected to condition future response; requires construct-specific evidence."
+    },
+    {
+      "id": "GX-015",
+      "source": "smg:observation:user_history_follow",
+      "target": "smg:G2:distribution_discovery",
+      "relation": "conditions_personalization",
+      "class": "system",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-011",
+        "E-GLOBAL-013"
+      ],
+      "note": "Official platform explanations identify history/interactions as personalization signals."
+    },
+    {
+      "id": "GX-016",
+      "source": "smg:observation:*",
+      "target": "smg:G2:learning_adaptation",
+      "relation": "measures_inputs",
+      "class": "operational",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-009",
+        "E-GLOBAL-010"
+      ],
+      "note": "Observations enter learning only through validity/ambiguity checks."
+    },
+    {
+      "id": "GX-017",
+      "source": "smg:G2:learning_adaptation",
+      "target": "smg:G2:audience_value",
+      "relation": "updates",
+      "class": "operational",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-001",
+        "E-GLOBAL-002"
+      ],
+      "note": "Account-local evidence updates audience/value hypotheses, not scientific truth."
+    },
+    {
+      "id": "GX-018",
+      "source": "smg:G2:learning_adaptation",
+      "target": "smg:G2:communication_content",
+      "relation": "updates",
+      "class": "operational",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-001",
+        "E-GLOBAL-010"
+      ],
+      "note": "Diagnosis/experiments may change content strategy."
+    },
+    {
+      "id": "GX-019",
+      "source": "smg:G2:learning_adaptation",
+      "target": "smg:G2:distribution_discovery",
+      "relation": "updates",
+      "class": "operational",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-010",
+        "E-GLOBAL-011"
+      ],
+      "note": "Observed distribution outcomes can update platform tactics while respecting freshness."
+    },
+    {
+      "id": "GX-020",
+      "source": "smg:G2:learning_adaptation",
+      "target": "smg:G2:relationship_retention",
+      "relation": "updates",
+      "class": "operational",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-004",
+        "E-GLOBAL-010"
+      ],
+      "note": "Retention/relationship interventions may be revised from longitudinal outcomes."
+    },
+    {
+      "id": "GX-021",
+      "source": "smg:prediction_error",
+      "target": "smg:account_local_belief",
+      "relation": "updates",
+      "class": "learning",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-010"
+      ],
+      "note": "Prediction error updates account-local operational belief; scientific evidence remains separately versioned."
+    },
+    {
+      "id": "GX-022",
+      "source": "smg:community:participation",
+      "target": "smg:G2:relationship_retention",
+      "relation": "supports_candidate",
+      "class": "scientific",
+      "status": "provisional",
+      "evidence": [
+        "E-GLOBAL-005",
+        "E-GLOBAL-019"
+      ],
+      "note": "Community participation relates to engagement/loyalty but mechanism/causality vary."
+    },
+    {
+      "id": "GX-023",
+      "source": "smg:community:network_state",
+      "target": "smg:G2:distribution_discovery",
+      "relation": "enables_moderates",
+      "class": "scientific",
+      "status": "provisional",
+      "evidence": [
+        "E-GLOBAL-005",
+        "E-GLOBAL-008"
+      ],
+      "note": "Network structure can shape diffusion; individual and group levels must remain separate."
+    },
+    {
+      "id": "GX-024",
+      "source": "smg:audience_composition",
+      "target": "smg:G2:learning_adaptation:metric_interpretation",
+      "relation": "conditions",
+      "class": "measurement",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-010"
+      ],
+      "note": "Metric comparisons must account for changing composition/exposure contexts."
+    },
+    {
+      "id": "GX-025",
+      "source": "smg:context:platform_policy_eligibility",
+      "target": "smg:G2:distribution_discovery",
+      "relation": "constrains",
+      "class": "system",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-011"
+      ],
+      "note": "Eligibility/surface rules constrain exposure; details are freshness-sensitive."
+    },
+    {
+      "id": "GX-026",
+      "source": "smg:G0:resources_constraints",
+      "target": "smg:G2:communication_content:execution",
+      "relation": "constrains",
+      "class": "system",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-003"
+      ],
+      "note": "Resources constrain content execution capacity."
+    },
+    {
+      "id": "GX-027",
+      "source": "smg:G2:communication_content:portfolio_consistency",
+      "target": "smg:G2:relationship_retention:expectation_familiarity",
+      "relation": "updates_candidate",
+      "class": "scientific",
+      "status": "provisional",
+      "evidence": [
+        "E-GLOBAL-004",
+        "E-GLOBAL-018"
+      ],
+      "note": "Plausible relational pathway; requires claim-level evidence before canonical causal promotion."
+    },
+    {
+      "id": "GX-028",
+      "source": "smg:G2:relationship_retention:observations",
+      "target": "smg:G2:learning_adaptation",
+      "relation": "feeds_measurement",
+      "class": "measurement",
+      "status": "accepted",
+      "evidence": [
+        "E-GLOBAL-009",
+        "E-GLOBAL-010"
+      ],
+      "note": "Observed retention/relationship proxies require ambiguity warnings."
+    }
+  ]
+}

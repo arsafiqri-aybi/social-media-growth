@@ -4,7 +4,7 @@
 
 Project: **Social Media Growth Intelligence System**
 
-Current global stage: **Breadth Coverage v0.1 + Initial Cross-Core Interface Map**
+Current global stage: **Cross-Core Graph v0.1 Complete; Targeted Depth Ready**
 
 Architecture:
 - Governance is a top control layer.
@@ -25,19 +25,21 @@ Architecture:
 - [x] Phase 3 — Global ontology v0.1
 - [x] Phase 4 — Provisional architecture lock
 - [x] Phase 5 — Breadth-first minimum canonical mapping of all five cores
-- [~] Phase 6 — Cross-core graph: interface topology complete; claim-level edge audit pending
+- [x] Phase 6 — Cross-core graph v0.1; scientific edge uncertainty preserved
 - [ ] Phase 7 — Targeted mechanism depth
 - [ ] Phase 8 — Global measurement integration
 - [ ] Phase 9 — Integrated reasoning engine
 - [ ] Phase 10 — Global benchmarks/adversarial evaluation
 - [ ] Phase 11 — Prediction-vs-outcome learning
 
-See:
+Key global artifacts:
 - `architecture/master-architecture-review.md`
 - `architecture/social-media-growth-ontology-v0.1.md`
 - `architecture/operational-core-maps-v0.1.md`
 - `connections/global-cross-core-map-v0.1.md`
+- `connections/global-edge-registry-v0.1.json`
 - `audits/global-architecture-falsification-v0.1.md`
+- `audits/global-edge-audit-v0.1.md`
 - `research/global-architecture-evidence-v0.1.md`
 - `contracts/social-media-growth-master-execution-contract.md`
 
@@ -62,19 +64,15 @@ Canonical release state:
 - 0 unresolved critical connection gaps
 - 0 scientific runtime weights
 
-HPC completion is scoped to the Human Psychological Core. It does not imply system-level Social Media Growth saturation.
-
 ## Preserved scientific constraints
 
 - Architecture/runtime weights are not automatically empirical effect sizes.
-- Platform metrics are operational observations/proxies, not direct psychological measurements.
-- Correlation is not treated as causation.
+- Platform metrics are observations/proxies, not direct psychological measurements.
+- Correlation is not causation.
 - Account-local calibration does not rewrite scientific evidence.
 - Returning behavior is not automatically habit.
 - Weak/provisional evidence remains visibly bounded.
 
 ## Next gate
 
-Complete Phase 6 claim-level edge audit and promote only evidence-qualified global cross-core edges.
-
-Do not start unconstrained neuron expansion.
+Phase 7 targeted depth, beginning with high-centrality mechanisms. Depth remains evidence-driven, not count-driven.
